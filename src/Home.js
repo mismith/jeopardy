@@ -33,6 +33,7 @@ class Home extends Component {
               // there's a spot free, let's join!
               const playerName = prompt(`What's your name?`);
               const playerRef = gameRef.child('buzzers').push({
+                active: true,
                 name: playerName,
               });
               playerRef.then(() => {

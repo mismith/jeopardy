@@ -6,14 +6,17 @@ class Player extends Component {
   render() {
     return (
       <div className="Player">
-        <div>{this.props.player.name}</div>
-        <div>${this.props.player.dollars || 0}</div>
+        <div className="name">{this.props.name}</div>
+        <div className="dollars">${this.props.dollars}</div>
       </div>
     );
   }
 }
 Player.defaultProps = {
-  player: null,
+  active: false,
+  name: 'Player Name',
+  dollars: 0,
+
   minPlayers: 2,
   maxPlayers: 3,
 };

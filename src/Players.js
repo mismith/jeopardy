@@ -6,10 +6,21 @@ import './Players.css';
 
 class Players extends Component {
   render() {
+    let seats = [];
+    if (this.props.players) {
+      Object.keys(this.props.players).forEach(playerId => {
+        const seat = this.props.players[playerId];
+        if (seat.active) seats.push(seat);
+      });
+    }
+    while(seats.length < this.props.maxPlayers) {
+      seats.push({});
+    };
+
     return (
       <div className="Players">
-      {this.props.players && Object.keys(this.props.players).map(playerId =>
-        <Player key={playerId} player={this.props.players[playerId]} />
+      {seats.map((seat, i) =>
+        <Player key={i} name={seat.name} dollars={seat.dollars} />
       )}
       </div>
     );
