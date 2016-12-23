@@ -16,7 +16,6 @@ export default {
 		context.firebaseRefs[name].on('value', snapshot => {
 			context.setState({
 				[name]: snapshot.val(),
-				[`${name}Loaded`]: true,
 			});
 		});
 	},

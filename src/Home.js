@@ -6,58 +6,148 @@ import firebase from './utils/firebase';
 //import './Home.css';
 
 class Home extends Component {
-  newGame() {
-    const boardId = prompt('Which board do you want to play?');
-    const gameId = Math.random().toString(36).substr(2,5).toUpperCase();
-    firebase.database().ref(`/games/${gameId}`).set({
-      boardId,
-      createdAt: new Date().toISOString(),
-      active: true,
-    }).then(() => {
-      browserHistory.push(`/game/${gameId}`);
+  state = {
+    user: undefined,
+  }
+
+  login() {
+    return firebase.auth().signInWithRedirect(new firebase.auth.FacebookAuthProvider());
+  }
+  logout() {
+    return firebase.auth().signOut();
+  }
+
+  hostGame() {
+    if (!this.state.user || !this.state.user.uid) throw new Error('You must be logged in first');
+
+    const gamesRef = firebase.database().ref(`games`);
+    gamesRef.once('value', snapshot => {
+      // check if there are any existing games
+      const games = snapshot.val();
+      if (games) {
+        // there are existing games, so let's check if user is already hosting any of those
+        const hostedGameIds = Object.keys(games).filter(gameId => {
+          return snapshot.child(gameId).child(`userId`).val() === this.state.user.uid;
+        });
+        if (hostedGameIds.length) {
+          // they are hosting at least one game, so let's re-join one
+          // @TODO: let user pick one, or be able to create a new one
+          console.log('hostedGameIds', hostedGameIds);
+          const selectedGameIndex = Math.floor(Math.random()*hostedGameIds.length); 
+          const hostedGameId = hostedGameIds[selectedGameIndex]; 
+
+          // redirect
+          return browserHistory.push(`/game/${hostedGameId}`);
+        } else {
+          // they aren't hosting any games, so let's create a new one by falling back to below
+        }
+      }
+
+      // let's host a new game
+      const gameRef = firebase.database().ref(`games`).push({
+        joinCode: Math.random().toString(36).substr(2,5).toUpperCase(),
+        userId: this.state.user.uid,
+        createdAt: new Date().toISOString(),
+      })
+      gameRef.then(() => {
+        browserHistory.push(`/game/${gameRef.key}`);
+      });
     });
   }
   joinGame() {
-    const gameId = prompt('Enter the Game ID on the screen:');
-    if (gameId) {
-      // check if it matches a currently running game
-      const gameRef = firebase.database().ref(`/games/${gameId}`);
-      gameRef.once('value').then(snapshot => {
-        if (snapshot.val()) {
-          if (snapshot.child('active').val()) {
-            // game is active, let's see if we can join
-            // check that the game is accepting new players
-            const players = snapshot.child('buzzers').val() || {},
-                  numPlayers = Object.keys(players).length;
-            if (numPlayers < this.props.maxPlayers) {
-              // there's a spot free, let's join!
-              const playerName = prompt(`What's your name?`);
-              const playerRef = gameRef.child('buzzers').push({
-                active: true,
-                name: playerName,
+    if (!this.state.user || !this.state.user.uid) throw new Error('You must be logged in first');
+    
+    const gamesRef = firebase.database().ref(`games`);
+    gamesRef.once('value', snapshot => {
+      // check if there are any existing games
+      const games = snapshot.val();
+      if (games) {
+        const joinCode = prompt('Enter the on-screen Join Code:');
+        // check that it's a valid Join Code
+        if (/^[a-z0-9]+$/ig.test(joinCode)) {
+          // search to see if it matches any games
+          const gameId = Object.keys(games).find(gameId => {
+            return games[gameId].joinCode === joinCode;
+          });
+          if (gameId) {
+            // the join code matches, let's try joining
+            const playersRef = firebase.database().ref(`games:players/${gameId}`);
+            playersRef.once('value')
+              .then(snapshot => {
+                const players = snapshot.val() || {},
+                      numPlayers = Object.keys(players).length;
+
+                // determine if this user already had a spot
+                let userPlayerId;
+                Object.keys(players).forEach(playerId => {
+                  if(players[playerId].userId === this.state.user.uid) {
+                    userPlayerId = playerId;
+                  }
+                });
+                if (userPlayerId) {
+                  // user was already playing, so let's re-join
+                  browserHistory.push(`/game/${gameId}/buzzer/${userPlayerId}`);
+                } else {
+                  // they havn't played yet, so let's see if they can join
+                  if (numPlayers < this.props.maxPlayers) {
+                    // there's a free spot, so let's join!
+                    const playerRef = playersRef.push({
+                      userId: this.state.user.uid,
+                    });
+                    playerRef.then(() => {
+                      // redirect
+                      browserHistory.push(`/game/${gameId}/buzzer/${playerRef.key}`);
+                    });
+                  } else {
+                    throw new Error(`That game has no room left`);
+                  }
+                }
               });
-              playerRef.then(() => {
-                browserHistory.push(`/game/${gameId}/buzzer/${playerRef.key}`);
-              });
-            } else {
-              throw new Error(`That game has no room left`);
-            }
           } else {
-            throw new Error(`That game isn't active right now`);
+            throw new Error(`That Join Code doesn't match any game`);
           }
         } else {
-          throw new Error(`That Game ID doesn't exist`);
+          throw new Error(`Please enter a valid Join Code`);
         }
-      });
-    } else {
-      throw new Error(`You need to enter a Game ID`);
-    }
+      } else {
+        throw new Error(`There aren't any games to join`);
+      }
+    });
   }
+
+  componentWillMount() {
+    firebase.auth().onAuthStateChanged(user => {
+      this.setState({
+        user,
+      });
+      if (user) {
+        firebase.database().ref(`users/${user.uid}`).update(user.providerData[0]);
+      }
+    });
+  }
+
   render() {
     return (
       <div className="Home">
-        <button onClick={this.newGame.bind(this)}>New Game</button>
-        <button onClick={this.joinGame.bind(this)}>Join Game</button>
+      {this.state.user === undefined &&
+        <div>
+          Loading…
+        </div>
+      }
+      {this.state.user === null &&
+        <div>
+          <button onClick={this.login.bind(this)}>Login with Facebook</button>
+        </div>
+      }
+      {this.state.user &&
+        <div>
+          <button onClick={this.hostGame.bind(this)}>Host Game</button>
+          <button onClick={this.joinGame.bind(this)}>Join Game</button>
+
+          <br />
+          <button onClick={this.logout.bind(this)}>Logout</button>
+        </div>
+      }
       </div>
     );
   }

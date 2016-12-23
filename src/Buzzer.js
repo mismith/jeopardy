@@ -3,33 +3,47 @@ import React, { Component } from 'react';
 import {browserHistory} from 'react-router';
 import firebase from './utils/firebase';
 
+import UserInfo from './UserInfo';
+
 //import './Buzzer.css';
 
 class Buzzer extends Component {
   state = {
-    buzzer: undefined,
+    player: undefined,
+    user:   undefined,
   }
 
   componentWillMount() {
-    firebase.sync(this, 'buzzer', `games/${this.props.params.gameId}/buzzers/${this.props.params.buzzerId}`);
+    firebase.sync(this, 'player', `games:players/${this.props.params.gameId}/${this.props.params.playerId}`);
+    this.firebaseRefs.player.once('value')
+      .then(snapshot => {
+        const userId = snapshot.child('userId').val();
+        if (userId) {
+          firebase.sync(this, 'user', `users/${userId}`);
+        }
+      });
   }
   componentWillUnmount() {
-    firebase.unsync(this, 'buzzer');
+    firebase.unsync(this, 'player');
+    firebase.unsync(this, 'user');
   }
 
   buzzIn() {
-    this.firebaseRefs.buzzer.child('buzzes').push(firebase.database.ServerValue.TIMESTAMP);
+    this.firebaseRefs.player.child('buzzes').push(firebase.database.ServerValue.TIMESTAMP);
   }
   leaveGame() {
-    this.firebaseRefs.buzzer.remove().then(() => {
-      browserHistory.push(`/`);
-    });
+    this.firebaseRefs.player.remove()
+      .then(() => {
+        browserHistory.push(`/`);
+      });
   }
 
   render() {
     return (
       <div className="Buzzer">
-        {this.state.buzzer && this.state.buzzer.name}
+      {this.state.user &&
+        <UserInfo user={this.state.user} />
+      }
         <button onClick={this.buzzIn.bind(this)}>Buzz In</button>
         <button onClick={this.leaveGame.bind(this)}>Leave Game</button>
       </div>

@@ -3,34 +3,37 @@ import React, { Component } from 'react';
 import firebase from './utils/firebase';
 
 import Board from './Board';
-import Players from './Players';
+import Scores from './Scores';
 
-import './Display.css';
+import './Host.css';
 
-class Display extends Component {
+class Host extends Component {
   state = {
-    isStarted: false,
-    buzzers: null,
+    game:    undefined,
+    players: undefined,
+    status:  0,
   }
 
   componentWillMount() {
-    firebase.sync(this, 'buzzers', `games/${this.props.params.gameId}/buzzers`);
+    firebase.sync(this, 'game', `games/${this.props.params.gameId}`);
+    firebase.sync(this, 'players', `games:players/${this.props.params.gameId}`);
   }
   componentWillUnmount() {
-    firebase.unsync(this, 'buzzers');
+    firebase.unsync(this, 'game');
+    firebase.unsync(this, 'players');
   }
 
   numPlayers() {
-    return this.state.buzzers ? Object.keys(this.state.buzzers).length : 0;
+    return this.state.players ? Object.keys(this.state.players).length : 0;
   }
 
   render() {
     return (
-      <div className="Display">
-      {!this.state.isStarted &&
+      <div className="Host">
+      {!this.state.status && this.state.game &&
         <div>
           <div>
-            Join Game ID: <input defaultValue={this.props.params.gameId} readOnly />
+            Join Code: <input defaultValue={this.state.game.joinCode} readOnly />
           </div>
           <div>
           {this.numPlayers() < this.props.minPlayers &&
@@ -45,21 +48,23 @@ class Display extends Component {
           }
           </div>
           <div>
-            <button onClick={e=>this.setState({isStarted: true})} disabled={this.numPlayers() < 2}>Start Game</button>
+            <button onClick={e=>this.setState({status: 1})} disabled={this.numPlayers() < 2}>Start Game</button>
           </div>
         </div>
       }
-      {this.state.isStarted &&
+      {this.state.status > 0 &&
         <Board />
       }
-        <Players players={this.state.buzzers} />
+      {this.state.players &&
+        <Scores players={this.state.players} />
+      }
       </div>
     );
   }
 }
-Display.defaultProps = {
+Host.defaultProps = {
   minPlayers: 2,
   maxPlayers: 3,
 };
 
-export default Display;
+export default Host;
