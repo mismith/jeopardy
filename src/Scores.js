@@ -15,7 +15,7 @@ class Scores extends Component {
     while(players.length < this.props.maxPlayers) {
       players.push(null);
     };
-
+    
     return (
       <div className="Scores">
       {players.map((player, i) =>

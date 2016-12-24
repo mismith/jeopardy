@@ -9,11 +9,13 @@ import UserInfo from './UserInfo';
 
 class Buzzer extends Component {
   state = {
+    game:   undefined,
     player: undefined,
     user:   undefined,
   }
 
   componentWillMount() {
+    firebase.sync(this, 'game', `games/${this.props.params.gameId}`);
     firebase.sync(this, 'player', `games:players/${this.props.params.gameId}/${this.props.params.playerId}`);
     this.firebaseRefs.player.once('value')
       .then(snapshot => {
@@ -24,18 +26,22 @@ class Buzzer extends Component {
       });
   }
   componentWillUnmount() {
-    firebase.unsync(this, 'player');
-    firebase.unsync(this, 'user');
+    firebase.unsync(this, 'game', 'player', 'user');
   }
 
   buzzIn() {
-    this.firebaseRefs.player.child('buzzes').push(firebase.database.ServerValue.TIMESTAMP);
+    this.firebaseRefs.game.child('buzzes').push({
+      playerId: this.props.params.playerId,
+      timestamp: firebase.database.ServerValue.TIMESTAMP,
+    });
   }
-  leaveGame() {
-    this.firebaseRefs.player.remove()
-      .then(() => {
-        browserHistory.push(`/`);
-      });
+  leaveGame(e) {
+    if (e.shiftKey || confirm(`Are you sure?`)) {
+      this.firebaseRefs.player.remove()
+        .then(() => {
+          browserHistory.push(`/`);
+        });
+    }
   }
 
   render() {
@@ -44,8 +50,12 @@ class Buzzer extends Component {
       {this.state.user &&
         <UserInfo user={this.state.user} />
       }
+      {this.state.game &&
         <button onClick={this.buzzIn.bind(this)}>Buzz In</button>
+      }
+      {this.state.player &&
         <button onClick={this.leaveGame.bind(this)}>Leave Game</button>
+      }
       </div>
     );
   }

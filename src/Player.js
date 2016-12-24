@@ -10,14 +10,22 @@ class Player extends Component {
   state = {
     user: undefined,
   }
-  componentWillMount() {
-    if (this.props.player && this.props.player.userId) {
-      firebase.sync(this, 'user', `users/${this.props.player.userId}`);
+
+  bindUser(props = this.props) {
+    if (props.player && props.player.userId) {
+      firebase.sync(this, 'user', `users/${props.player.userId}`);
     } else {
       this.setState({
         user: null,
       });
     }
+  }
+
+  componentWillMount() {
+    this.bindUser();
+  }
+  componentWillReceiveProps(nextProps) {
+    this.bindUser(nextProps);
   }
   componentWillUnmount() {
     firebase.unsync(this, 'user');
@@ -39,7 +47,7 @@ class Player extends Component {
       {this.state.user &&
         <div>
           <UserInfo user={this.state.user} />
-        {this.props.player.dollars &&
+        {this.props.player && this.props.player.dollars &&
           <div className="dollars">${this.props.player.dollars}</div>
         }
         </div>

@@ -26,8 +26,8 @@ class Cell extends Component {
 }
 
 class Board extends Component {
-  componentWillMount() {
-    const rows = [
+  state = {
+    rows: [
       {
         "show_number": 1,
         "round": 1,
@@ -460,11 +460,12 @@ class Board extends Component {
         "answer": "Martin Luther King Day",
         "air_date": "1984-09-10"
       }
-    ];
-
+    ],
+  }
+  parseRows(props = this.props) {
     let categories = [],
         values     = [];
-    rows.filter(item => item.round === 1).forEach(item => {
+    this.state.rows.filter(item => item.round === props.round).forEach(item => {
       if (!categories.includes(item.category)) {
         categories.push(item.category);
       }
@@ -485,11 +486,20 @@ class Board extends Component {
     //console.log(states);
 
     this.setState({
-      rows,
       categories,
       values,
       states,
     });
+  }
+
+  componentWillMount() {
+    this.parseRows();
+  }
+  componentWillReceiveProps(nextProps) {
+    // only update on round change
+    if (nextProps.round !== this.props.round) {
+      this.parseRows(nextProps);
+    }
   }
   
   toggleState(category, value, to = undefined) {
@@ -528,5 +538,8 @@ class Board extends Component {
     );
   }
 }
+Board.defaultProps = {
+  round: 1,
+};
 
 export default Board;

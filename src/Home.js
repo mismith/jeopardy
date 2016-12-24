@@ -62,8 +62,9 @@ class Home extends Component {
       // check if there are any existing games
       const games = snapshot.val();
       if (games) {
-        const joinCode = prompt('Enter the on-screen Join Code:');
-        // check that it's a valid Join Code
+        // auto-pick the first game if there's only one to pick from
+        const joinCode = Object.keys(games).length === 1 ? games[Object.keys(games)[0]].joinCode : prompt('Enter the on-screen Join Code:');
+        // otherwise, check that the user input code is valid
         if (/^[a-z0-9]+$/ig.test(joinCode)) {
           // search to see if it matches any games
           const gameId = Object.keys(games).find(gameId => {
