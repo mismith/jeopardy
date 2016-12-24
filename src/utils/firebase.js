@@ -11,19 +11,23 @@ export default {
 	...firebase,
 
 	sync(context, name, ...path) {
-		context.firebaseRefs = context.firebaseRefs || {};
-		context.firebaseRefs[name] = firebase.database().ref(path.join('/'));
-		context.firebaseRefs[name].on('value', snapshot => {
+		this.unsync(context, name);
+
+		context.firebaseRefs    = context.firebaseRefs || {};
+		context.firebaseUnbinds = context.firebaseUnbinds || {};
+		context.firebaseRefs[name]    = firebase.database().ref(path.join('/'));
+		context.firebaseUnbinds[name] = snapshot => {
 			context.setState({
 				[name]: snapshot.val(),
 			});
-		});
+		};
+		context.firebaseRefs[name].on('value', context.firebaseUnbinds[name]);
 	},
 	unsync(context, ...names) {
-		if (context.firebaseRefs) {
+		if (context.firebaseRefs && context.firebaseUnbinds) {
 			names.forEach(name => {
-				if (context.firebaseRefs[name]) {
-					// @TODO: unbind
+				if (context.firebaseRefs[name] && context.firebaseUnbinds[name]) {
+					context.firebaseRefs[name].off('value', context.firebaseUnbinds[name]);
 				}
 			});
 		}
