@@ -4,7 +4,7 @@ import {browserHistory} from 'react-router';
 import firebase from './utils/firebase';
 
 import Board from './Board';
-import Scores from './Scores';
+import Player from './Player';
 
 import './Host.css';
 
@@ -39,6 +39,18 @@ class Host extends Component {
   }
 
   render() {
+    let players = [];
+    if (this.state.players) {
+      Object.keys(this.state.players).forEach(playerId => {
+        let player = this.state.players[playerId];
+        player.$id = playerId;
+        players.push(player);
+      });
+    }
+    while(players.length < this.props.maxPlayers) {
+      players.push(null);
+    };
+
     return (
       <div className="Host">
       {this.state.game === undefined &&
@@ -74,7 +86,11 @@ class Host extends Component {
         }
         </div>
       }
-        <Scores players={this.state.players} />
+        <div className="Players">
+        {players.map((player, i) =>
+          <Player key={i} player={player} />
+        )}
+        </div>
       </div>
     );
   }
