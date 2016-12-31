@@ -88,7 +88,9 @@ class Host extends Component {
       }
         <div className="Players">
         {players.map((player, i) =>
-          <Player key={i} player={player} />
+          <Player key={i} player={player}>
+            <button>Remove player</button>
+          </Player>
         )}
         </div>
       </div>
