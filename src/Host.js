@@ -26,6 +26,23 @@ class Host extends Component {
   numPlayers() {
     return this.state.players ? Object.keys(this.state.players).length : 0;
   }
+  getPlayers() {
+    let players = [];
+    if (this.state.players) {
+      Object.keys(this.state.players).forEach(playerId => {
+        let player = this.state.players[playerId];
+        player.$id = playerId;
+        players.push(player);
+      });
+    }
+    while(players.length < this.props.maxPlayers) {
+      players.push(null);
+    };
+    return players;
+  }
+  removePlayer(playerId) {
+    this.firebaseRefs.players.child(playerId).remove();
+  }
   advanceGame() {
     this.firebaseRefs.game.child('round').set((this.state.game.round || 0) + 1);
   }
@@ -39,18 +56,6 @@ class Host extends Component {
   }
 
   render() {
-    let players = [];
-    if (this.state.players) {
-      Object.keys(this.state.players).forEach(playerId => {
-        let player = this.state.players[playerId];
-        player.$id = playerId;
-        players.push(player);
-      });
-    }
-    while(players.length < this.props.maxPlayers) {
-      players.push(null);
-    };
-
     return (
       <div className="Host">
       {this.state.game === undefined &&
@@ -87,9 +92,11 @@ class Host extends Component {
         </div>
       }
         <div className="Players">
-        {players.map((player, i) =>
+        {this.getPlayers().map((player, i) =>
           <Player key={i} player={player}>
-            <button>Remove player</button>
+          {player &&
+            <button onClick={e=>this.removePlayer(player.$id)}>Remove Player</button>
+          }
           </Player>
         )}
         </div>
