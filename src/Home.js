@@ -7,7 +7,7 @@ import firebase from './utils/firebase';
 
 class Home extends Component {
   state = {
-    user: undefined,
+    me: undefined,
   }
 
   login() {
@@ -18,20 +18,20 @@ class Home extends Component {
   }
 
   hostGame() {
-    if (!this.state.user || !this.state.user.uid) throw new Error('You must be logged in first');
+    if (!this.state.me || !this.state.me.uid) throw new Error('You must be logged in first');
 
     const gamesRef = firebase.database().ref(`games`);
     gamesRef.once('value', snapshot => {
       // check if there are any existing games
       const games = snapshot.val();
       if (games) {
-        // there are existing games, so let's check if user is already hosting any of those
+        // there are existing games, so let's check if I am already hosting any of those
         const hostedGameIds = Object.keys(games).filter(gameId => {
-          return snapshot.child(gameId).child(`userId`).val() === this.state.user.uid;
+          return snapshot.child(gameId).child(`userId`).val() === this.state.me.uid;
         });
         if (hostedGameIds.length) {
           // they are hosting at least one game, so let's re-join one
-          // @TODO: let user pick one, or be able to create a new one
+          // @TODO: let me pick one, or be able to create a new one
           console.log('hostedGameIds', hostedGameIds);
           const selectedGameIndex = Math.floor(Math.random()*hostedGameIds.length); 
           const hostedGameId = hostedGameIds[selectedGameIndex]; 
@@ -46,7 +46,7 @@ class Home extends Component {
       // let's host a new game
       const gameRef = firebase.database().ref(`games`).push({
         joinCode: Math.random().toString(36).substr(2,5).toUpperCase(),
-        userId: this.state.user.uid,
+        userId: this.state.me.uid,
         createdAt: new Date().toISOString(),
       })
       gameRef.then(() => {
@@ -55,7 +55,7 @@ class Home extends Component {
     });
   }
   joinGame() {
-    if (!this.state.user || !this.state.user.uid) throw new Error('You must be logged in first');
+    if (!this.state.me || !this.state.me.uid) throw new Error('You must be logged in first');
     
     const gamesRef = firebase.database().ref(`games`);
     gamesRef.once('value', snapshot => {
@@ -64,7 +64,7 @@ class Home extends Component {
       if (games) {
         // auto-pick the first game if there's only one to pick from
         const joinCode = Object.keys(games).length === 1 ? games[Object.keys(games)[0]].joinCode : prompt('Enter the on-screen Join Code:');
-        // otherwise, check that the user input code is valid
+        // otherwise, check that my input code is valid
         if (/^[a-z0-9]+$/ig.test(joinCode)) {
           // search to see if it matches any games
           const gameId = Object.keys(games).find(gameId => {
@@ -78,10 +78,10 @@ class Home extends Component {
                 const players = snapshot.val() || {},
                       numPlayers = Object.keys(players).length;
 
-                // determine if this user already had a spot
+                // determine if I already had a spot
                 let userPlayerId;
                 Object.keys(players).forEach(playerId => {
-                  if(players[playerId].userId === this.state.user.uid) {
+                  if(players[playerId].userId === this.state.me.uid) {
                     userPlayerId = playerId;
                   }
                 });
@@ -93,7 +93,7 @@ class Home extends Component {
                   if (numPlayers < this.props.maxPlayers) {
                     // there's a free spot, so let's join!
                     const playerRef = playersRef.push({
-                      userId: this.state.user.uid,
+                      userId: this.state.me.uid,
                     });
                     playerRef.then(() => {
                       // redirect
@@ -117,12 +117,12 @@ class Home extends Component {
   }
 
   componentWillMount() {
-    firebase.auth().onAuthStateChanged(user => {
+    firebase.auth().onAuthStateChanged(me => {
       this.setState({
-        user,
+        me,
       });
-      if (user) {
-        firebase.database().ref(`users/${user.uid}`).update(user.providerData[0]);
+      if (me) {
+        firebase.database().ref(`users/${me.uid}`).update(me.providerData[0]);
       }
     });
   }
@@ -130,17 +130,17 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-      {this.state.user === undefined &&
+      {this.state.me === undefined &&
         <div>
           Loading…
         </div>
       }
-      {this.state.user === null &&
+      {this.state.me === null &&
         <div>
           <button onClick={this.login.bind(this)}>Login with Facebook</button>
         </div>
       }
-      {this.state.user &&
+      {this.state.me &&
         <div>
           <button onClick={this.hostGame.bind(this)}>Host Game</button>
           <button onClick={this.joinGame.bind(this)}>Join Game</button>
