@@ -5,24 +5,28 @@ import './Board.css';
 class Cell extends Component {
   render() {
     const cell = this.props.data || {},
-          state = this.props.state || 0;
+          status = this.props.status || 0;
     return (
       <div className="Cell">
       {!cell.value &&
         <div className="empty"></div>
       }
-      {cell.value && state === 0 &&
+      {cell.value && status === 0 &&
         <div className="value">{cell.value}</div>
       }
-      {cell.value && state === 1 &&
+      {cell.value && status === 1 &&
         <div className="clue">{cell.clue}</div>
       }
-      {cell.value && state === 2 &&
+      {cell.value && status === 2 &&
         <div className="answer">{cell.answer}</div>
       }
       </div>
     );
   }
+}
+Cell.defaultProps = {
+  cell:    undefined,
+  status:  0,
 }
 
 class Board extends Component {
@@ -475,20 +479,20 @@ class Board extends Component {
     });
     //console.log(categories, values);
 
-    let states = {};
+    let statuses = {};
     categories.forEach(category => {
-      states[category] = {};
+      statuses[category] = {};
 
       values.forEach(value => {
-        states[category][value] = 0;
+        statuses[category][value] = 0;
       });
     });
-    //console.log(states);
+    //console.log(statuses);
 
     this.setState({
       categories,
       values,
-      states,
+      statuses,
     });
   }
 
@@ -502,18 +506,27 @@ class Board extends Component {
     }
   }
   
-  toggleState(category, value, to = undefined) {
-    let states = {...this.state.states};
-    states[category][value] = to === undefined ? states[category][value] + 1 : to;
+  toggleStatus(category, value, to = undefined) {
+    let statuses = {...this.state.statuses};
+    const cell = this.state.rows.find(cell => cell.category === category && cell.value === value);
 
-    this.setState({
-      states,
-    });
+    if (cell && statuses[category][value] < 3) {
+      statuses[category][value] = to === undefined ? statuses[category][value] + 1 : to;
+
+      this.setState({
+        statuses,
+      });
+
+      this.props.onPick(cell, statuses[category][value]);
+    } else {
+      // ignore
+    }
   }
 
   render() {
+    const {round, onPick, className, ...props} = this.props;
     return (
-      <div className="Board">
+      <div className={`Board ${className}`} {...props}>
         <table width="100%" height="100%">
           <thead>
             <tr>
@@ -526,8 +539,8 @@ class Board extends Component {
           {this.state.values.map(value =>
             <tr key={value}>
             {this.state.categories.map(category => 
-              <td key={category} onClick={e=>this.toggleState(category, value)}>
-                <Cell data={this.state.rows.find(item => item.category === category && item.value === value)} state={this.state.states[category][value]} />
+              <td key={category} onClick={e=>this.toggleStatus(category, value)}>
+                <Cell data={this.state.rows.find(item => item.category === category && item.value === value)} status={this.state.statuses[category][value]} />
               </td>
             )}
             </tr>
@@ -540,6 +553,7 @@ class Board extends Component {
 }
 Board.defaultProps = {
   round: 1,
+  onPick: () => {},
 };
 
 export default Board;
