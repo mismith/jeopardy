@@ -154,7 +154,7 @@ class Home extends Component {
   }
 }
 Home.defaultProps = {
-  minPlayers: 2,
+  minPlayers: 1,
   maxPlayers: 3,
 };
 

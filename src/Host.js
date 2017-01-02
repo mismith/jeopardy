@@ -105,7 +105,7 @@ class Host extends Component {
   }
 }
 Host.defaultProps = {
-  minPlayers: 2,
+  minPlayers: 1,
   maxPlayers: 3,
 };
 
