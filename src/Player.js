@@ -52,6 +52,13 @@ class Player extends Component {
         }
         </div>
       }
+      {this.props.player &&
+        <div>
+        {!this.props.player.connections &&
+          <div><em>Disconnected</em></div>
+        }
+        </div>
+      }
       {this.props.children}
       </div>
     );

@@ -16,17 +16,24 @@ class Buzzer extends Component {
 
   componentWillMount() {
     firebase.sync(this, 'game', `games/${this.props.params.gameId}`);
-    firebase.sync(this, 'player', `games:players/${this.props.params.gameId}/${this.props.params.playerId}`);
-    this.firebaseRefs.player.once('value')
-      .then(snapshot => {
-        const userId = snapshot.child('userId').val();
+    firebase.sync(this, 'player', `games:players/${this.props.params.gameId}/${this.props.params.playerId}`)
+      .once('value', snap => {
+        const userId = snap.child('userId').val();
         if (userId) {
           firebase.sync(this, 'user', `users/${userId}`);
         }
       });
+    firebase.sync(this, 'connected', `.info/connected`)
+      .on('value', snap => {
+        if (snap.val() === true) {
+          this.firebaseRefs.connection = this.firebaseRefs.player.child('connections').push(true);
+          this.firebaseRefs.connection.onDisconnect().remove();
+        }
+      });
   }
   componentWillUnmount() {
-    firebase.unsync(this, 'game', 'player', 'user');
+    if (this.firebaseRefs.connection) this.firebaseRefs.connection.remove();
+    firebase.unsync(this, 'game', 'player', 'user', 'connected');
   }
 
   buzzIn() {
@@ -56,6 +63,7 @@ class Buzzer extends Component {
       {this.state.player &&
         <button onClick={this.leaveGame.bind(this)}>Leave Game</button>
       }
+      {this.props.children}
       </div>
     );
   }

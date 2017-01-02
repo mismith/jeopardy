@@ -19,14 +19,13 @@ class Host extends Component {
     firebase.sync(this, 'players', `games:players/${this.props.params.gameId}`);
   }
   componentWillUnmount() {
-    firebase.unsync(this, 'game');
-    firebase.unsync(this, 'players');
+    firebase.unsync(this, 'game', 'players');
   }
 
   numPlayers() {
     return this.state.players ? Object.keys(this.state.players).length : 0;
   }
-  getPlayers() {
+  getPlayerSeats() {
     let players = [];
     if (this.state.players) {
       Object.keys(this.state.players).forEach(playerId => {
@@ -42,6 +41,9 @@ class Host extends Component {
   }
   removePlayer(playerId) {
     this.firebaseRefs.players.child(playerId).remove();
+  }
+  regressGame() {
+    this.firebaseRefs.game.child('round').set(this.state.game.round - 1);
   }
   advanceGame() {
     this.firebaseRefs.game.child('round').set((this.state.game.round || 0) + 1);
@@ -82,8 +84,11 @@ class Host extends Component {
             }
             </div>
             <div>
+            {this.state.game.round > 0 &&
+              <button onClick={this.regressGame.bind(this)}>Previous Round</button>
+            }
               <button onClick={this.advanceGame.bind(this)} disabled={this.numPlayers() < this.props.minPlayers}>{this.state.game.round ? 'Next Round' : 'Start Game'}</button>
-              <button onClick={this.cancelGame.bind(this)}>Cancel Game</button>
+              <button onClick={this.cancelGame.bind(this)}>Delete Game</button>
             </div>
           </div>
         {this.state.game.round > 0 &&
@@ -92,7 +97,7 @@ class Host extends Component {
         </div>
       }
         <div className="Players">
-        {this.getPlayers().map((player, i) =>
+        {this.getPlayerSeats().map((player, i) =>
           <Player key={i} player={player}>
           {player &&
             <button onClick={e=>this.removePlayer(player.$id)}>Remove Player</button>

@@ -22,6 +22,8 @@ export default {
 			});
 		};
 		context.firebaseRefs[name].on('value', context.firebaseUnbinds[name]);
+
+		return context.firebaseRefs[name];
 	},
 	unsync(context, ...names) {
 		if (context.firebaseRefs && context.firebaseUnbinds) {
