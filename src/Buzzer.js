@@ -9,6 +9,7 @@ import UserInfo from './UserInfo';
 
 class Buzzer extends Component {
   state = {
+    answer: '',
     game:   undefined,
     player: undefined,
     user:   undefined,
@@ -51,6 +52,12 @@ class Buzzer extends Component {
     }
   }
 
+  handleResponse(e) {
+    e.preventDefault();
+    
+    this.firebaseRefs.game.child('currentCell/currentResponse/answer').set(this.state.answer);
+  }
+
   render() {
     return (
       <div className="Buzzer">
@@ -63,6 +70,12 @@ class Buzzer extends Component {
       {this.state.game &&
         <div>
           <button onClick={this.buzzIn.bind(this)} disabled={!this.state.game.currentCell}>Buzz In</button>
+        {this.state.game.currentCell && this.state.game.currentCell.currentResponse && this.state.game.currentCell.currentResponse.playerId === this.props.params.playerId &&
+          <form onSubmit={this.handleResponse.bind(this)}>
+            <input onChange={e=>this.setState({answer: e.currentTarget.value || ''})} placeholder="What is..." autoFocus></input>
+            <button type="submit">Submit</button>
+          </form>
+        }
         </div>
       }
       {this.props.children}

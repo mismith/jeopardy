@@ -16,10 +16,11 @@ class Host extends Component {
 
   componentWillMount() {
     firebase.sync(this, 'game', `games/${this.props.params.gameId}`);
+    firebase.sync(this, 'currentCell', `games/${this.props.params.gameId}/currentCell`);
     firebase.sync(this, 'players', `games:players/${this.props.params.gameId}`);
   }
   componentWillUnmount() {
-    firebase.unsync(this, 'game', 'players');
+    firebase.unsync(this, 'game', 'currentCell', 'players');
   }
 
   numPlayers() {
@@ -56,35 +57,35 @@ class Host extends Component {
         });
     }
   }
-
   pickCell(cell) {
-    const currentCellRef = this.firebaseRefs.game.child('currentCell');
-
     // buzzing enabled (but they will be penalized if they buzz now)
-    currentCellRef.set(cell);
+    this.firebaseRefs.currentCell.set(cell);
 
     setTimeout(() => {
       // start allowing/accepting buzzes
-      currentCellRef.child('buzzesAt').set(firebase.database.ServerValue.TIMESTAMP);
+      this.firebaseRefs.currentCell.child('buzzesAt').set(firebase.database.ServerValue.TIMESTAMP);
 
       cell.$timeout = setTimeout(() => {
-        currentCellRef.child('expired').set(true, () => {
-          this.finalizeCell(cell);
-        });
+        this.firebaseRefs.currentCell.child('expired').set(true)
+          .then(() => this.finalizeCell(cell));
       }, 5000);
     }, 1000 + Math.random()*2000); // simulate reading the clue
 
     // track buzzes
-    currentCellRef.child('buzzes').on('child_added', snap => {
+    this.firebaseRefs.currentCell.child('buzzes').on('child_added', snap => {
       const buzz = snap.val();
-      currentCellRef.once('value')
+      this.firebaseRefs.currentCell.once('value')
         .then(snap => snap.val())
-        .then(cell => {
-          if (!cell.currentAttempt && cell.buzzesAt && buzz.buzzedAt >= cell.buzzesAt) {
-            // legit buzz, begin attempt
-            currentCellRef.child('currentAttempt').set(buzz);
-            console.log('hit');
-            return;
+        .then(currentCell => {
+          if (!currentCell.currentResponse && currentCell.buzzesAt && buzz.buzzedAt >= currentCell.buzzesAt) {
+            // legit buzz, begin response
+            const currentResponseRef = this.firebaseRefs.currentCell.child('currentResponse');
+            return currentResponseRef.set(buzz)
+              .then(() => currentResponseRef.child('answer').once('value'))
+              .then(snap => snap.val() || '')
+              .then(answer => {
+                // @TODO: check answer
+              });
           }
           // buzz wasn't good (e.g. too early)
           // @TODO: penalize the player
@@ -94,18 +95,17 @@ class Host extends Component {
   finalizeCell(cell) {
     if (cell.$timeout) clearTimeout(cell.$timeout);
 
-    const currentCellRef = this.firebaseRefs.game.child('currentCell');
-    currentCellRef.once('value')
-      .then(snap => {
+    this.firebaseRefs.currentCell.once('value')
+      .then(snap => snap.val())
+      .then(cell => {
         // move to archived list
-        this.firebaseRefs.game.child('usedCells').push(snap.val(), () => {
-          currentCellRef.remove();
-        });
-      });
+        return this.firebaseRefs.game.child('usedCells').push(cell);
+      })
+      .then(() => this.firebaseRefs.currentCell.remove());
   }
 
   handlePick(cell, status) {
-    console.log(cell, status);
+    //console.log(cell, status);
     switch(status) {
       case 1:
         this.pickCell(cell);
@@ -154,7 +154,7 @@ class Host extends Component {
       }
         <div className="Players">
         {this.getPlayerSeats().map((player, i) =>
-          <Player key={i} player={player}>
+          <Player key={i} player={player} className={player && this.state.game && this.state.game.currentCell && this.state.game.currentCell.currentResponse && this.state.game.currentCell.currentResponse.playerId === player.$id && 'isResponding'}>
           {player &&
             <button onClick={e=>this.removePlayer(player.$id)}>Remove Player</button>
           }

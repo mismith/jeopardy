@@ -4,5 +4,10 @@
 }
 .Players {
   display: flex;
-  justify-content: space-around;
+}
+.Player {
+	width: 33.333%
+}
+.Player.isResponding {
+	background-color: green;
 }
