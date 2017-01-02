@@ -40,3 +40,7 @@
 .Cell .answer {
   background-color: var(--color-success);
 }
+
+.Board.canBuzz .Cell .clue {
+  background-color: hotpink;
+}

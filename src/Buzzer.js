@@ -37,9 +37,9 @@ class Buzzer extends Component {
   }
 
   buzzIn() {
-    this.firebaseRefs.game.child('buzzes').push({
+    this.firebaseRefs.game.child('currentCell/buzzes').push({
       playerId: this.props.params.playerId,
-      timestamp: firebase.database.ServerValue.TIMESTAMP,
+      buzzedAt: firebase.database.ServerValue.TIMESTAMP,
     });
   }
   leaveGame(e) {
@@ -57,11 +57,13 @@ class Buzzer extends Component {
       {this.state.user &&
         <UserInfo user={this.state.user} />
       }
-      {this.state.game &&
-        <button onClick={this.buzzIn.bind(this)}>Buzz In</button>
-      }
       {this.state.player &&
         <button onClick={this.leaveGame.bind(this)}>Leave Game</button>
+      }
+      {this.state.game &&
+        <div>
+          <button onClick={this.buzzIn.bind(this)} disabled={!this.state.game.currentCell}>Buzz In</button>
+        </div>
       }
       {this.props.children}
       </div>

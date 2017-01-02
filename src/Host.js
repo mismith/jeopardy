@@ -57,6 +57,62 @@ class Host extends Component {
     }
   }
 
+  pickCell(cell) {
+    const currentCellRef = this.firebaseRefs.game.child('currentCell');
+
+    // buzzing enabled (but they will be penalized if they buzz now)
+    currentCellRef.set(cell);
+
+    setTimeout(() => {
+      // start allowing/accepting buzzes
+      currentCellRef.child('buzzesAt').set(firebase.database.ServerValue.TIMESTAMP);
+
+      cell.$timeout = setTimeout(() => {
+        currentCellRef.child('expired').set(true, () => {
+          this.finalizeCell(cell);
+        });
+      }, 5000);
+    }, 1000 + Math.random()*2000); // simulate reading the clue
+
+    // track buzzes
+    currentCellRef.child('buzzes').on('child_added', snap => {
+      const buzz = snap.val();
+      currentCellRef.once('value')
+        .then(snap => snap.val())
+        .then(cell => {
+          if (!cell.currentAttempt && cell.buzzesAt && buzz.buzzedAt >= cell.buzzesAt) {
+            // legit buzz, begin attempt
+            currentCellRef.child('currentAttempt').set(buzz);
+            console.log('hit');
+            return;
+          }
+          // buzz wasn't good (e.g. too early)
+          // @TODO: penalize the player
+        });
+    });
+  }
+  finalizeCell(cell) {
+    if (cell.$timeout) clearTimeout(cell.$timeout);
+
+    const currentCellRef = this.firebaseRefs.game.child('currentCell');
+    currentCellRef.once('value')
+      .then(snap => {
+        // move to archived list
+        this.firebaseRefs.game.child('usedCells').push(snap.val(), () => {
+          currentCellRef.remove();
+        });
+      });
+  }
+
+  handlePick(cell, status) {
+    console.log(cell, status);
+    switch(status) {
+      case 1:
+        this.pickCell(cell);
+        break;
+    }
+  }
+
   render() {
     return (
       <div className="Host">
@@ -92,7 +148,7 @@ class Host extends Component {
             </div>
           </div>
         {this.state.game.round > 0 &&
-          <Board round={this.state.game.round} />
+          <Board round={this.state.game.round} onPick={this.handlePick.bind(this)} className={this.state.game.currentCell && this.state.game.currentCell.buzzesAt && 'canBuzz'} />
         }
         </div>
       }
