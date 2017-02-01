@@ -1,0 +1,568 @@
+{
+  "number": 4643,
+  "date": "2004-11-10",
+  "comments": "2004 College Championship quarterfinal game 1.",
+  "contestants": [
+    {
+      "name": "Casey Retterer",
+      "occupation": "a sophomore at the University of Maryland",
+      "origin": "Olney, Maryland"
+    },
+    {
+      "name": "Amory Jendrek",
+      "occupation": "a freshman at Davidson College",
+      "origin": "Knoxville, Tennessee"
+    },
+    {
+      "name": "Kermin Fleming",
+      "occupation": "a junior at Carnegie Mellon University",
+      "origin": "Lexington, Kentucky"
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "REPORTING FROM THE WHITE HOUSE"
+        },
+        {
+          "name": "VIDEO GAMES"
+        },
+        {
+          "name": "IT’S A MONARCHY"
+        },
+        {
+          "name": "THEY DO GOOD WORK"
+        },
+        {
+          "name": "COLLEGES & UNIVERSITIES"
+        },
+        {
+          "name": "\"Y\"? BECAUSE WE LIKE YOU!"
+        }
+      ],
+      "clues": [
+        {
+          "question": "(Cheryl of the Clue Crew reports from the White House.)  One year ago he represented Michigan's 5th District.  Today, August 9th 1974, he enters the Oval Office as President",
+          "answer": "Gerald Ford",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "A back-stabbing friend tries to keep you from going pro in the underground game named for this skateboarder",
+          "answer": "Tony Hawk",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "China,Japan,South Korea",
+          "answer": "Japan",
+          "value": 200,
+          "order": 8,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "In 2004 Pitt alumna Wangari Maathai became the first woman from this continent to win the Nobel Peace Prize",
+          "answer": "Africa",
+          "value": 200,
+          "order": 19,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Oberlin, home to an underground railroad stop & one of the first U.S. colleges with black students, is in this state",
+          "answer": "Ohio",
+          "value": 200,
+          "order": 22,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "An audible attempt to get someone's attention, or a chocolate drink endorsed by Yogi Berra",
+          "answer": "Yoo-hoo",
+          "value": 200,
+          "order": 28,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Aug. 22, 1996: Pres. Clinton's signature reforms this system that sent federal cash grants directly to poor families",
+          "answer": "welfare",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "After his release from maximum security, Tommy Vercetti tries to take over Vice City in this game",
+          "answer": "Grand Theft Auto: Vice City",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Iran,Iraq,Saudi Arabia",
+          "answer": "Saudi Arabia",
+          "value": 400,
+          "order": 9,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "The Louisville-based factory named for these tries to make them come true for very ill children",
+          "answer": "dreams",
+          "value": 400,
+          "order": 20,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "The bestseller \"The Rule of Four\" was co-written by a graduate of this New Jersey school, also the book's setting",
+          "answer": "Princeton",
+          "value": 400,
+          "order": 23,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "This web site started out as \"Jerry's Guide to the World Wide Web\"",
+          "answer": "Yahoo!",
+          "value": 400,
+          "order": 30,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "Our lead story for Jan. 21, 1961: this man, brother of the President, was sworn in as Attorney General",
+          "answer": "Robert Kennedy",
+          "value": 600,
+          "order": 12,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Attain the crown of Grand Champion after completing over 30 levels of this epic first person bot shooter",
+          "answer": "Unreal Tournament",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Vietnam,Laos,Cambodia",
+          "answer": "Cambodia",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "It's the small independent state that's headquarters to the aid group Caritas Internationalis",
+          "answer": "the Vatican",
+          "value": 600,
+          "order": 21,
+          "dd": 600,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "The James A. Baker III Institute for Public Policy is on the campus of this Houston University",
+          "answer": "Rice",
+          "value": 600,
+          "order": 25,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "The slogan \"let your fingers do the walking\" was created for the this directory",
+          "answer": "the Yellow Pages",
+          "value": 600,
+          "order": 29,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "(Cheryl of the Clue Crew reports from the White House.)  June 13, 1967 is a historic day as President Johnson appointed this great-grandson of a slave to the Supreme Court",
+          "answer": "Thurgood Marshall",
+          "value": 800,
+          "order": 16,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "A Ford Escort can race a VW Beetle in this \"A-spec\" PlayStation racing game with over 150 cars",
+          "answer": "Gran Turismo",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "France,Italy,Belgium",
+          "answer": "Belgium",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "It's not just doctors--there are now groups called teachers, builders & clowns \"without\" these",
+          "answer": "borders",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "This private Christian university overlooks the Pacific Ocean in Malibu, California",
+          "answer": "Pepperdine",
+          "value": 800,
+          "order": 26,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "It's not how a rapper gets your attention, it's a Naval Petty Officer",
+          "answer": "yeoman",
+          "value": 800,
+          "order": 17,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "History was made today, September 17, 1978, when P.M. Begin & Pres. Sadat signed these accords at the White House",
+          "answer": "the Camp David Accords",
+          "value": 1000,
+          "order": 18,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Spell-casters & adventurers do battle in the land of Norrath in this online role-playing game",
+          "answer": "Everquest",
+          "value": 1000,
+          "order": 5,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Malaysia,Singapore,The Philippines",
+          "answer": "Malaysia",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Charles Dole helped create the Army's 10th Mountain Division & this \"National\" winter rescue organization",
+          "answer": "the National Ski Patrol",
+          "value": 1000,
+          "order": 10,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "Founded in 1836 by the Methodist church, this Atlanta university is located along the Clifton Corridor",
+          "answer": "Emory",
+          "value": 1000,
+          "order": 27,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "Sana is the capital of this Middle Eastern country",
+          "answer": "Yemen",
+          "value": 1000,
+          "order": 11,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "WEIRD HISTORY"
+        },
+        {
+          "name": "FILMS OF THE 21st CENTURY"
+        },
+        {
+          "name": "DA OLOGY SHOW"
+        },
+        {
+          "name": "TRASH TALKIN'"
+        },
+        {
+          "name": "TRAVEL"
+        },
+        {
+          "name": "BY TWAIN"
+        }
+      ],
+      "clues": [
+        {
+          "question": "To fool the Nazis before an attack on this large island near Italy, the Allies planted a dead man with false papers",
+          "answer": "Sicily",
+          "value": 400,
+          "order": 4,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "In a 2003 film he played \"Master and Commander\" Captain Jack Aubrey",
+          "answer": "Russell Crowe",
+          "value": 400,
+          "order": 8,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "\"Human Variation\" is a course in this department at NYU",
+          "answer": "anthropology",
+          "value": 400,
+          "order": 17,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "This synonym for trash can also mean a group of puppies",
+          "answer": "a litter",
+          "value": 400,
+          "order": 19,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "If you can tear yourself away from the beach in Puerto Rico, visit the Museum of Art & History in this capital city",
+          "answer": "San Juan",
+          "value": 400,
+          "order": 14,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Prior to this novel's publication, its whitewash scene appeared in the Philadelphia Sunday Republic",
+          "answer": "Tom Sawyer",
+          "value": 400,
+          "order": 7,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "In the first of several marriages, this English king married his sister-in-law in 1509",
+          "answer": "Henry VIII",
+          "value": 800,
+          "order": 11,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "It might come back to you that this Civil War movie was based on a novel by Charles Frazier",
+          "answer": "Cold Mountain",
+          "value": 800,
+          "order": 9,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "The regional study of objects like the one shown here",
+          "answer": "egyptology",
+          "value": 800,
+          "order": 21,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "In the 1970s Woodsy Owl said, \"Give a hoot! Don't\" do this",
+          "answer": "pollute",
+          "value": 800,
+          "order": 23,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "Yum! Ant cakes & spicy locusts have been on the menu at the annual insect tastings in this Quebec city's Insectarium",
+          "answer": "Montreal",
+          "value": 800,
+          "order": 20,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "It's the title locale of the story Twain originally called \"Jim Smiley and his Jumping Frog\"",
+          "answer": "Calaveras County",
+          "value": 2200,
+          "order": 6,
+          "dd": 2200,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "Clyde Tombaugh, who discovered this planet, made his telescope out of a cream separator & parts of an old Buick",
+          "answer": "Pluto",
+          "value": 1200,
+          "order": 15,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Sofia Coppola won an Oscar for her screenplay & a nomination for directing this 2003 film",
+          "answer": "Lost in Translation",
+          "value": 1200,
+          "order": 12,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "8-letter opposite of demonology",
+          "answer": "theology",
+          "value": 1200,
+          "order": 27,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "This term for detritus or trash is a French word that means \"fragments\" or \"pieces\"",
+          "answer": "debris",
+          "value": 1200,
+          "order": 29,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "One of London's most fun attractions is the exhibition that opened inside this bridge in the 1990s",
+          "answer": "Tower Bridge",
+          "value": 1200,
+          "order": 25,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Travel letters Twain wrote during a tour of Europe were collected in his book called these \"Abroad\"",
+          "answer": "Innocents",
+          "value": 1200,
+          "order": 5,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "During the Battle of the Marne in this war, 6,000 French soldiers were rushed to the front lines in taxicabs",
+          "answer": "the First World War",
+          "value": 1600,
+          "order": 2,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Satine, a courtesan, & Christian, a poet, pair off in this musical set at a French nightclub",
+          "answer": "Moulin Rouge!",
+          "value": 1600,
+          "order": 13,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "Subjects of this branch of zoology are seen here",
+          "answer": "herpetology",
+          "value": 1600,
+          "order": 22,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "This word for trash may come from the word \"rubble\"",
+          "answer": "rubbish",
+          "value": 1600,
+          "order": 24,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "The Peer Gynt ski area has been called this country's best place for cross-country skiing",
+          "answer": "Norway",
+          "value": 5,
+          "order": 28,
+          "dd": 5,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "In the first part of this 1883 memoir, Twain recalled his days as a riverboat pilot",
+          "answer": "Life on the Mississippi",
+          "value": 1600,
+          "order": 16,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "An 1881 autopsy on this assassinated president proved he died from infection from his doctors' efforts, not the bullets",
+          "answer": "(James) Garfield",
+          "value": 2000,
+          "order": 1,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Keisha-Castle Hughes played a young Maori girl destined to be her tribe's leader in this critically acclaimed film",
+          "answer": "Whale Rider",
+          "value": 2000,
+          "order": 3,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "The this of this is: from the Greek for \"true sense of a word\"",
+          "answer": "etymology",
+          "value": 2000,
+          "order": 18,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Pronounced one way, it means to decline; pronounced another way, it's trash",
+          "answer": "refuse",
+          "value": 2000,
+          "order": 10,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "(Sofia of the Clue Crew in Venice, Italy.)  I'm here in Venice on this beautiful square which Napoleon called \"The Drawing Room of Europe\"",
+          "answer": "St. Mark's Square",
+          "value": 2000,
+          "order": 30,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "It's the humorous nickname of the lawyer who solves the murder of York Driscoll, Dawson Landing's chief citizen",
+          "answer": "Pudd'n'head Wilson",
+          "value": 2000,
+          "order": 26,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "WORLD FLAGS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Never directly seen in the Northern Hemisphere, it's featured on the flags of 5 of the world's countries",
+          "answer": "the Southern Cross"
+        }
+      ]
+    }
+  ]
+}

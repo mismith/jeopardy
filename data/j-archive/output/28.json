@@ -1,0 +1,566 @@
+{
+  "number": 4623,
+  "date": "2004-10-13",
+  "comments": "Ken Jennings game 56.",
+  "contestants": [
+    {
+      "name": "Larry Bellinger",
+      "occupation": "a journalist",
+      "origin": "Washington, D.C."
+    },
+    {
+      "name": "Marielle Poss",
+      "occupation": "a senior production controller",
+      "origin": "Brooklyn, New York"
+    },
+    {
+      "name": "Ken Jennings",
+      "occupation": "a software engineer",
+      "origin": "Salt Lake City, Utah",
+      "streak": 55,
+      "winnings": 1878100
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "THE TOOTH OF THE MATTER"
+        },
+        {
+          "name": "4X4",
+          "comments": "(Alex: The clues refer to combining two 4-letter words into an 8-letter response.)"
+        },
+        {
+          "name": "DUMB CRIMINALS"
+        },
+        {
+          "name": "LYRICS FROM MUSICALS",
+          "comments": "(Alex: We want you to name the musical in...)"
+        },
+        {
+          "name": "BYE BYE BIRDIE"
+        },
+        {
+          "name": "WE LOVE YOU CONRAD"
+        }
+      ],
+      "clues": [
+        {
+          "question": "What?  Him worry?",
+          "answer": "Alfred E. Neuman",
+          "value": 200,
+          "order": 26,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Take an archaic version of a second person pronoun & add beach grains to make this number",
+          "answer": "thousand",
+          "value": 200,
+          "order": 21,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "A woman altered the numbers on one of these to win $20; dumb move, it was already a $5,000 winner",
+          "answer": "a lottery ticket",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "\"Bet your bottom dollar that tomorrow there'll be sun\"",
+          "answer": "Annie",
+          "value": 200,
+          "order": 11,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Pigs were among the creatures that killed off this bird on Mauritius in the 1600s",
+          "answer": "the dodo",
+          "value": 200,
+          "order": 4,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "In a Joseph Conrad work, Marlow heads into the Congo & finds the \"Heart of\" this",
+          "answer": "Darkness",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "You'd be smiling like this man if you had helped build another house for Habitat for Humanity",
+          "answer": "Jimmy Carter",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "Take being actively engaged & add the physical structure of a person to make a meddlesome person",
+          "answer": "busybody",
+          "value": 400,
+          "order": 22,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "A vending machine thief had a hard time claiming innocence after paying $400 bail in this currency with Washington on it",
+          "answer": "quarters",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "\"Give 'em the old razzle dazzle, razzle dazzle 'em\"",
+          "answer": "Chicago",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "The Puerto Rican plain one is endangered; the passenger one has already passed on",
+          "answer": "a pigeon",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "This novel was adapted into the film seen here\"You must let me free the lifeboats.\"\"Why so you can abandon us?\"\"You believe that?\"",
+          "answer": "Lord Jim",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "Even the teeth of this politician seem to have muscles",
+          "answer": "Governor Schwarzenegger",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Take the opposite of front & add someone who has been legally placed under a court's care to make reverse",
+          "answer": "backward",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "A Georgia woman was surprised to find they don't take $1 million bills at this chain co-founded by Sam Walton in 1962",
+          "answer": "Wal-Mart",
+          "value": 600,
+          "order": 18,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "\"I dreamed I met a Galilean, a most amazing man\"",
+          "answer": "Jesus Christ Superstar",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "This city's Bishop Museum has a princess' pa'u (skirt) made from feathers of the extinct mamo & 'o'o",
+          "answer": "Honolulu",
+          "value": 600,
+          "order": 8,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "The young Conrad apparently attempted suicide, though he claimed the wound came in one of these confrontations",
+          "answer": "a duel",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "answer": "Alfred E. Neuman",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Take a partly ground husk of wheat & add a serving plate to do this, like waving a sword",
+          "answer": "brandish",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "A counterfeiter found out the hard way they don't take $16 bills in this city, Kansas' most populous",
+          "answer": "Wichita",
+          "value": 800,
+          "order": 19,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "\"A lady doesn't wander all over the room and blow on some other guy's dice\"",
+          "answer": "Guys and Dolls",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "The last known Mariana mallard died in 1981 at this San Diego adventure park",
+          "answer": "Sea World",
+          "value": 800,
+          "order": 9,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "In a 1903 work, this title type of storm hits the Nan-Shan on its way to China",
+          "answer": "a typhoon",
+          "value": 800,
+          "order": 5,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "answer": "Alfred E. Neuman",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Take a group & add a large wild cat to make a cluster of nerve cells",
+          "answer": "ganglion",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Robert Ligon got 15 months for repacking these as \"low fat\" when each had 530 calories--as Homer says, Mmm, these",
+          "answer": "donuts",
+          "value": 1000,
+          "order": 20,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "\"That carriage ride--You walked me home--You lost a glove--I lost a comb\"",
+          "answer": "Gigi",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "Like the ostrich, which it resembled, the 10-foot moa of this country defended itself by kicking",
+          "answer": "New Zealand",
+          "value": 1000,
+          "order": 10,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "Joseph Conrad was introduced to English at age 8 when his dad was translating Shakespeare into this language",
+          "answer": "Polish",
+          "value": 1600,
+          "order": 6,
+          "dd": 1600,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "THE AMERICAN REVOLUTION"
+        },
+        {
+          "name": "____ AND ____"
+        },
+        {
+          "name": "small state capitals"
+        },
+        {
+          "name": "LIVIN' IN THE '80s"
+        },
+        {
+          "name": "4-LETTER MUSICAL INSTRUMENTS"
+        },
+        {
+          "name": "WHAT DO YOU \"C\"?"
+        }
+      ],
+      "clues": [
+        {
+          "question": "16 months before his ride from Charlestown to Lexington, he participated in the Boston Tea Party",
+          "answer": "Paul Revere",
+          "value": 400,
+          "order": 6,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Fans of \"CI\" & \"SVU\" know they're both spin-offs from this TV drama",
+          "answer": "Law & Order",
+          "value": 400,
+          "order": 26,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "This capital was once known as Frank's Ford after Stephen Ford who was killed by Indians nearby in 1780",
+          "answer": "Frankfort",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "This brand of artificial sweetener was introduced in a gumball in 1981",
+          "answer": "NutraSweet",
+          "value": 400,
+          "order": 11,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "It can be steel, conga or bongo",
+          "answer": "a drum",
+          "value": 400,
+          "order": 21,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "(Sarah of the Clue Crew strolls through one of the terminals at O'Hare Airport in Chicago.)  It's the large passage along which airport gates are located, like here at O'Hare",
+          "answer": "the concourse",
+          "value": 400,
+          "order": 16,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "During a 6-week cruise in 1776, this American naval commander captured 8 British ships & sank 8 others",
+          "answer": "John Paul Jones",
+          "value": 800,
+          "order": 7,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "James Taylor was just 22 when he first hit the charts in 1970 with this pop classic",
+          "answer": "\"Fire And Rain\"",
+          "value": 800,
+          "order": 27,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "The Johnson Victrola Museum in this Delaware capital tells the history of the Victor Talking Machine Company",
+          "answer": "Dover",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "This \"big\" movie of 1983 featured Kevin Costner... as a corpse!",
+          "answer": "The Big Chill",
+          "value": 800,
+          "order": 12,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "It's sounded by the strokes of a clapper",
+          "answer": "a bell",
+          "value": 800,
+          "order": 22,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "One-word term for the small stall seen here",
+          "answer": "confessional",
+          "value": 800,
+          "order": 17,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "In late 1774, he declared, \"The die is now cast; the colonies must either submit or triumph\"",
+          "answer": "King George III",
+          "value": 1200,
+          "order": 8,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "It's TV Guide's weekly section of praises & putdowns",
+          "answer": "\"Cheers and Jeers\"",
+          "value": 1200,
+          "order": 28,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Named for a French city, this smallest state capital commands the main pass through the Green Mountains",
+          "answer": "Montpelier (Vermont)",
+          "value": 1200,
+          "order": 3,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "In 1984 he threw \"The Pass\" against the University of Miami to help Boston College win on the final play of the game",
+          "answer": "Doug Flutie",
+          "value": 1200,
+          "order": 13,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "In the South, a \"mouth\" one of these is a harmonica",
+          "answer": "a harp",
+          "value": 1200,
+          "order": 23,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "(Cheryl of the Clue Crew points to a diagram.)  In geometry, it's a segment that joins two points on a circle",
+          "answer": "a chord",
+          "value": 1200,
+          "order": 18,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "3 days before his surrender at Yorktown, a storm prevented this British general's escape across the York River",
+          "answer": "Cornwallis",
+          "value": 1600,
+          "order": 9,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "In 1956 Audrey Hepburn played Natasha Rostov in a nearly 3 1/2 hour film version of this book",
+          "answer": "War and Peace",
+          "value": 1600,
+          "order": 29,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "This capital lies about halfway between the North Dakota & Nebraska borders",
+          "answer": "Pierre (South Dakota)",
+          "value": 4000,
+          "order": 4,
+          "dd": 4000,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "In 1982 he began a 16-year run as Chancellor of West Germany",
+          "answer": "Helmut Kohl",
+          "value": 1600,
+          "order": 14,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "The English horn, or cor anglais, is an alto form of this double-reed instrument",
+          "answer": "an oboe",
+          "value": 1600,
+          "order": 24,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "According to the poem inscribed on it, the type of statue seen here",
+          "answer": "a colossus",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Not one shot was fired when Ethan Allen & Benedict Arnold seized this New York Fort on May 10, 1775",
+          "answer": "Ticonderoga",
+          "value": 2000,
+          "order": 10,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "This 1985 miniseries focused on 2 families, the Mains & the Hazards, in the years leading up to the Civil War",
+          "answer": "North and South",
+          "value": 2000,
+          "order": 30,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "The Missouri River lies about 10 miles to the east of this capital, the continental divide about 10 miles west",
+          "answer": "Helena (Montana)",
+          "value": 2000,
+          "order": 5,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "In 1986 she published her \"Mayflower Madam\" memoir",
+          "answer": "(Sidney Biddle) Barrows",
+          "value": 2000,
+          "order": 15,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "When it has circular coiling, call it a helicon",
+          "answer": "a tuba",
+          "value": 6000,
+          "order": 25,
+          "dd": 6000,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "This luminous constellation has a daughter, Andromeda, placed near her in the heavens",
+          "answer": "Cassiopeia",
+          "value": 2000,
+          "order": 20,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "1920s TRANSPORTATION"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Last name of the Chicago cab fleet operator who started the \"Drive-Ur-Self\" rental system",
+          "answer": "Hertz"
+        }
+      ]
+    }
+  ]
+}

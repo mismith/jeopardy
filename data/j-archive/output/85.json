@@ -1,0 +1,558 @@
+{
+  "number": 733,
+  "date": "1987-11-11",
+  "comments": "1987 Tournament of Champions quarterfinal game 3.",
+  "contestants": [
+    {
+      "name": "Jonathan Fellows",
+      "occupation": "a legislative assistant originally",
+      "origin": "Bellevue, Washington"
+    },
+    {
+      "name": "Keith Bell",
+      "occupation": "a personnel specialist",
+      "origin": "Alexandria, Virginia"
+    },
+    {
+      "name": "Eugene Finerman",
+      "occupation": "a writer",
+      "origin": "Chicago, Illinois"
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "THE BIBLE"
+        },
+        {
+          "name": "SCANDALS"
+        },
+        {
+          "name": "GIRLS IN SONG"
+        },
+        {
+          "name": "PALINDROMES"
+        },
+        {
+          "name": "PARKS"
+        },
+        {
+          "name": "RECREATION"
+        }
+      ],
+      "clues": [
+        {
+          "question": "It's referred to in the New Testament as the Scriptures",
+          "answer": "the Torah (or the Pentateuch)",
+          "value": 100,
+          "order": 8,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "She's doing commercials for No Excuses sportswear following her fling with Gary Hart",
+          "answer": "Donna Rice",
+          "value": 100,
+          "order": 1,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "In various songs, she was a hit for Jimmy Clanton, Shocking Blue, Bananarama & Frankie Avalon",
+          "answer": "Venus",
+          "value": 100,
+          "order": 17,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Possibly from cuckoo, it's an eccentric or zany person",
+          "answer": "Kook",
+          "value": 100,
+          "order": 19,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "This country's Kruger National Park is its most popular tourist attraction",
+          "answer": "South Africa",
+          "value": 100,
+          "order": 2,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "\"Wiping out\" her opposition, Joyce Hoffman of the U.S. became the first person to win two world titles in this sport",
+          "answer": "surfing",
+          "value": 100,
+          "order": 10,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "God said this man, childless at the time, would have as many descendants as the number of stars in heaven",
+          "answer": "Abraham",
+          "value": 200,
+          "order": 9,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "The office of Baseball Commisioner was established in 1920 due to this 1919 event",
+          "answer": "Black Sox Scandal",
+          "value": 200,
+          "order": 4,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Two of four girls' names mentioned in titles of Elton John Top 10 hits",
+          "answer": "(2 of) Bennie, Jeannie, Lucy & Nikita",
+          "value": 200,
+          "order": 18,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Words that complete the palindromic phrase \"Niagara o' roar\"",
+          "answer": "roar again",
+          "value": 200,
+          "order": 24,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "This city's Forest Park was the site of the 1904 Louisiana Purchase exposition",
+          "answer": "St. Louis",
+          "value": 200,
+          "order": 3,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "It's the only martial art that's an Olympic event",
+          "answer": "judo",
+          "value": 200,
+          "order": 11,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "Joseph was sold to the Ishmaelites for this price: two-thirds of what Judas got for betraying Jesus",
+          "answer": "20 pieces of silver",
+          "value": 300,
+          "order": 12,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "This fugitive financier said, \"I want my own !#^%* country!\"",
+          "answer": "Robert Vesco",
+          "value": 300,
+          "order": 5,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "answer": "the Torah (or the Pentateuch)",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "The only specific time of day that's a palindrome as a word",
+          "answer": "noon",
+          "value": 300,
+          "order": 25,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "Administered by the National Park System, Wilson's Creek; Kennesaw Mountain; and Petersburg are these",
+          "answer": "battlefields",
+          "value": 300,
+          "order": 14,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Bones in this joint are the most likely to get broken in a fall while roller-skating",
+          "answer": "the wrist",
+          "value": 300,
+          "order": 13,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "It takes 13 verses in Exodus 26 to tell how to make the curtains for this tent that held the Holy Ark",
+          "answer": "the tabernacle",
+          "value": 400,
+          "order": 15,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "His private secretary was linked to the Whiskey Ring, one of many scandals during his administration",
+          "answer": "Ulysses S. Grant",
+          "value": 400,
+          "order": 6,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "answer": "the Torah (or the Pentateuch)",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "It's usually classified into two general types: pulse and continuous wave",
+          "answer": "radar",
+          "value": 400,
+          "order": 26,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "The Channel Islands, a famed breeding place for sea lions, are this state's only offshore national park",
+          "answer": "California",
+          "value": 400,
+          "order": 20,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "Though pool tables may vary in size, all have length in this proportionto width",
+          "answer": "2 to 1",
+          "value": 400,
+          "order": 22,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Greek for \"hidden books\", Lutherans view these as non-canonical, but useful works",
+          "answer": "apocrypha",
+          "value": 500,
+          "order": 16,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Though the financial scheme known as the \"Mississippi Bubble\"burst in 1720, it led tothe settlement of this city",
+          "answer": "New Orleans",
+          "value": 500,
+          "order": 7,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "answer": "the Torah (or the Pentateuch)",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "It's generally held to be true and is often referred to as a basic",
+          "answer": "tenet",
+          "value": 500,
+          "order": 27,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "One of two large parks on the edge of Paris; each a bois with its own zoo & horse-racing track",
+          "answer": "Bois de Bologne (or Bois de Vincenne)",
+          "value": 500,
+          "order": 21,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "Soccer was forbidden in 14th century England for taking practice time away from this military skill",
+          "answer": "archery",
+          "value": 500,
+          "order": 23,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "18TH CENTURY AMERICA"
+        },
+        {
+          "name": "CHEMISTRY"
+        },
+        {
+          "name": "LITERATURE"
+        },
+        {
+          "name": "HIGHER EDUCATION"
+        },
+        {
+          "name": "THE SOVIET UNION"
+        },
+        {
+          "name": "PROVERBS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "It revealed a population of almost four million when first taken in 1790",
+          "answer": "the first US census",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "You can get wheels for your MG made of this element with the symbol Mg",
+          "answer": "magnesium",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "In titles, animal associated with both Volpone and Reynard",
+          "answer": "fox",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "It's claimed over $100 million worth of these currently go unclaimed",
+          "answer": "scholarships",
+          "value": 200,
+          "order": 20,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Only one-half of the Soviet people are of this nationality",
+          "answer": "Russian",
+          "value": 200,
+          "order": 11,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Though your dentist might have it on in the background, \"it helps not the toothache\"",
+          "answer": "Muzak (or music or elevator music)",
+          "value": 200,
+          "order": 28,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "This act of 1765 taxed legal documents, almanacs, newspapers, dice, and playing cards",
+          "answer": "the Stamp Act",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "Term for charcoal turned on to trap gases",
+          "answer": "activated charcoal",
+          "value": 400,
+          "order": 22,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Malcolm Lowery's \"Under the Volcano\" is set mainly in this country",
+          "answer": "Mexico",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "These two New England schools have competed in football since 1875 and in boat races since 1852",
+          "answer": "Harvard and Yale",
+          "value": 400,
+          "order": 21,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "This lake contains one-fifth of the Earth's non-frozen fresh water and about four-fifths of the USSR's",
+          "answer": "Lake Baikal (the deepest)",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Line in Matthew 7:7 which follows \"Ask and it shall be given you\"",
+          "answer": "Seek and ye shall find",
+          "value": 400,
+          "order": 29,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "By its intended opening day, May 14, 1787, only the delegations from Virginia and Pennsylvania had arrived in full",
+          "answer": "the Constitutional Convention",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Natural color of chlorine gas",
+          "answer": "greenish-yellow",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Granddaughter of the author of \"Trilby\", she wrote \"Rebecca\"",
+          "answer": "Daphne DuMaurier",
+          "value": 600,
+          "order": 8,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "US military service academy located in Connecticut",
+          "answer": "US Coast Guard Academy",
+          "value": 600,
+          "order": 27,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "The Soviet Union's most important holiday, Revolution Day, is observed on the seventh of this month",
+          "answer": "November",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Type of \"grease that gives the best polish\"",
+          "answer": "elbow grease",
+          "value": 600,
+          "order": 30,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "The threat of Spain led to the charter of this colony, the last of the thirteen to be organized",
+          "answer": "Georgia",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Smog is produced from the action of this on chemicals in the air",
+          "answer": "sunlight",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "One contributor to \"Knickerbocker\" magazine was this author, who used Knickerbocker as a pseudonym",
+          "answer": "Washington Irving",
+          "value": 800,
+          "order": 9,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "In 1923, the University of Delaware became the first to institute this junior year program",
+          "answer": "a year abroad",
+          "value": 800,
+          "order": 26,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "It's said Stalin induced Norway to expel this man in 1936 by buying its entire herring catch",
+          "answer": "Leon Trotsky",
+          "value": 2500,
+          "order": 14,
+          "dd": 2500,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "\"He that has many of these\" finds that some of them will cool",
+          "answer": "irons in the fire",
+          "value": 2300,
+          "order": 25,
+          "dd": 2300,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "On November 20, 1789, New Jersey became the first state to ratify this",
+          "answer": "the Bill of Rights",
+          "value": 1000,
+          "order": 5,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "The ideal gas law combines Charles's law with the law of this 17th century Anglo-Irish scientist",
+          "answer": "Robert Boyle",
+          "value": 1000,
+          "order": 17,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "English poet who wrote \"Endymion\",\"Hyperion\", and its unfinished revision, \"The Fall of Hyperion\"",
+          "answer": "John Keats",
+          "value": 1000,
+          "order": 10,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Texas city whose junior college is famed for its Rangerette drill and dance team",
+          "answer": "Kilgore",
+          "value": 1000,
+          "order": 18,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "While Gorbachev is head of the Communist Party, this man, the President, is considered head of state",
+          "answer": "Andrei Gromyko",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "\"As evidence of skill, a good archer is not known by his arrows\" but by this",
+          "answer": "his aim",
+          "value": 1000,
+          "order": 19,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "PRESIDENTS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "This consonant begins the last names of five presidents, more than any other letter",
+          "answer": "H"
+        }
+      ]
+    }
+  ]
+}

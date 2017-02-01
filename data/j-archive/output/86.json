@@ -1,0 +1,553 @@
+{
+  "number": 3075,
+  "date": "1998-01-02",
+  "contestants": [
+    {
+      "name": "Cathy Shambaugh",
+      "occupation": "a sixth grade teacher",
+      "origin": "Berea, Ohio"
+    },
+    {
+      "name": "Eric Swanson",
+      "occupation": "a data coordinator",
+      "origin": "Washington, D.C."
+    },
+    {
+      "name": "Bill Unterborn",
+      "occupation": "a visual merchandiser",
+      "origin": "Palmyra, New York",
+      "streak": 1,
+      "winnings": 13199
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "ANIMALS"
+        },
+        {
+          "name": "LANGUAGES"
+        },
+        {
+          "name": "WHEN-THEY-WERE-YOUNG FILMS"
+        },
+        {
+          "name": "WE'RE LISBON BOUND"
+        },
+        {
+          "name": "WHAT'S TO EAT?"
+        },
+        {
+          "name": "SINONYMS",
+          "comments": "(Alex: Notice the spelling.)"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Among bears, this is the best swimmer",
+          "answer": "Polar bear",
+          "value": 100,
+          "order": 7,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "The Roman Catholic church translates all of its principal documents into this dead language",
+          "answer": "Latin",
+          "value": 100,
+          "order": 1,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Steven Spielberg produced a 1985 film about this Conan Doyle detective's first case",
+          "answer": "Sherlock Holmes",
+          "value": 100,
+          "order": 8,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Unlike what we witnessed in Spain's arenas, we'll see these beasts wrestled into submission, but left alive",
+          "answer": "Bulls",
+          "value": 100,
+          "order": 26,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "The lox that you put on a bagel is a smoked variety of this fish",
+          "answer": "Salmon",
+          "value": 100,
+          "order": 13,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "\"Sow\" these & you may be sinning or just planting",
+          "answer": "Wild oats",
+          "value": 100,
+          "order": 16,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "The jackrabbit isn't really a rabbit but one of these relatives",
+          "answer": "Hare",
+          "value": 200,
+          "order": 6,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "This official language of Liechtenstein is spoken by about 120 million people worldwide",
+          "answer": "German",
+          "value": 200,
+          "order": 2,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Henry Fonda played him \"Young\" & Raymond Massey played him young & \"In Illinois\"",
+          "answer": "Abraham Lincoln",
+          "value": 200,
+          "order": 9,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "We'll visit the Chiado, an area famous for this activity, but our budget may restrict us to the window type",
+          "answer": "Shopping",
+          "value": 200,
+          "order": 27,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "The name of these Asian dumplings sounds like you'll never get them out of the pan",
+          "answer": "Pot stickers",
+          "value": 200,
+          "order": 14,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "A bad habit that can have a grip on you, the police have a squad to fight it",
+          "answer": "Vice",
+          "value": 200,
+          "order": 17,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "Like this similarly named mammal, the aardwolf eats mainly termites",
+          "answer": "Aardvark",
+          "value": 300,
+          "order": 10,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "About 3/4 of the people of Singapore speak this Asian language",
+          "answer": "Chinese",
+          "value": 300,
+          "order": 3,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "In a 1972 film Simon Ward played this prime minister from ages 19 to 26",
+          "answer": "Winston Churchill",
+          "value": 300,
+          "order": 18,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "answer": "Polar bear",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "It's the Irish-sounding name for a diced potato dish fried with onions & peppers",
+          "answer": "Potatoes O'Brien",
+          "value": 300,
+          "order": 15,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "From a word meaning \"uneven\", you may find \"a den of\" one",
+          "answer": "iniquity",
+          "value": 300,
+          "order": 21,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "The Viceroy type of this insect is protected by its resemblance to the bad-tasting Monarch",
+          "answer": "Butterfly",
+          "value": 400,
+          "order": 11,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "In Belgium the Flemings speak Dutch & the Walloons speak this language",
+          "answer": "French",
+          "value": 400,
+          "order": 4,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "In a 1991 TNT miniseries Julia Ormond played this woman before her empress years",
+          "answer": "Catherine the Great",
+          "value": 400,
+          "order": 19,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "answer": "Polar bear",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Fresh broccoli & zucchini are often featured in this pasta dish served in \"spring\" or any time",
+          "answer": "Pasta Primavera",
+          "value": 400,
+          "order": 22,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "If you're doing this you're sinning; if you \"Ain't\", you're a musical",
+          "answer": "Misbehavin'",
+          "value": 400,
+          "order": 24,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "There are 3 species of bluebird but over 20 of these birds, including grackles",
+          "answer": "Blackbirds",
+          "value": 500,
+          "order": 12,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "The language of this small Balkan country has 2 main dialects:  Gheg & Tosk",
+          "answer": "Albania",
+          "value": 500,
+          "order": 5,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "1993 film seen here about a group of young kids that banded together:",
+          "answer": "Backbeat",
+          "value": 600,
+          "order": 20,
+          "dd": 600,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "answer": "Polar bear",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "We salute you if you know port-salut is a type of this",
+          "answer": "Cheese",
+          "value": 500,
+          "order": 23,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "It can mean to sin or to sneak onto another's land, & you may be shot for doing it",
+          "answer": "Trespassing",
+          "value": 500,
+          "order": 25,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "HIE WE TO YON RENAISSANCE FAIRE",
+          "comments": "(Alex: Sounds like a fun category!)"
+        },
+        {
+          "name": "NOVEL VOCABULARY"
+        },
+        {
+          "name": "YOUNG STARS"
+        },
+        {
+          "name": "ANCIENT HISTORY"
+        },
+        {
+          "name": "TRACK"
+        },
+        {
+          "name": "\"FIELD\""
+        }
+      ],
+      "clues": [
+        {
+          "question": "Among well-beloved faire fare be the leg of this fowl, also much favored in giving thanks",
+          "answer": "Turkey",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Emily Bronte said this title word is a \"Provincial adjective, descriptive of....atmospheric tumult\"",
+          "answer": "Wuthering",
+          "value": 200,
+          "order": 26,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Ariana Richards & Joseph Mazzello were the youngsters in this 1993 dinosaur spectacular",
+          "answer": "Jurassic Park",
+          "value": 200,
+          "order": 11,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Around 2600 B.C. Pharaoh Djoser was entombed in a step one, the first large stone structure",
+          "answer": "Pyramid",
+          "value": 200,
+          "order": 2,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "The \"anchor\" for this type of event is no dead weight; he's usually the team's fastest runner",
+          "answer": "Relay race",
+          "value": 200,
+          "order": 21,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "\"Let me take you down, 'cause I'm going to\" this place; \"Nothing is real and nothing to get hung about\"",
+          "answer": "Strawberry Fields",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "There be dancing about this beribboned shaft every faire day, not merely once in the year",
+          "answer": "Maypole",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "answer": "Turkey",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Jason James Richter played Jesse, the 12-year-old who helped \"free\" this title movie character",
+          "answer": "Willy",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Tien, a version of this divine abode, became part of Chinese religion around 1000 B.C.",
+          "answer": "Heaven",
+          "value": 400,
+          "order": 3,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "This track star's authorized hats & T-shirts sold in Europe & Asia proclaim him to be \"King Carl\"",
+          "answer": "Carl Lewis",
+          "value": 400,
+          "order": 22,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Binoculars",
+          "answer": "Field glasses",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "Honest knights do battle both in the joust & upon a giant board for this olde game",
+          "answer": "Chess",
+          "value": 600,
+          "order": 8,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "answer": "Turkey",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "He plays the title boy in ABC's \"Boy Meets World\"",
+          "answer": "Ben Savage",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "About 20,000 years ago, hunters crossed what's now this strait to become North American Indians",
+          "answer": "Bering Strait",
+          "value": 600,
+          "order": 4,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "This 3,000-meter event consists of 28 3-foot-high hurdles & 7 12-foot-long water jumps",
+          "answer": "steeplechase",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Military title shared by Horatio Kitchener, Erwin Rommel & Bernard Montgomery",
+          "answer": "Field marshall",
+          "value": 600,
+          "order": 18,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "Thinking themselves the elect, these fellows you see go about denouncing the faire's pleasures:",
+          "answer": "Puritans",
+          "value": 1000,
+          "order": 9,
+          "dd": 1000,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "answer": "Turkey",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "She got \"Greedy\" playing \"Jumanji\" during an \"Interview With The Vampire\"",
+          "answer": "Kirsten Dunst",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "From 500 to 300 B.C. these Roman common citizens won political rights from the Patricians",
+          "answer": "Plebeians",
+          "value": 800,
+          "order": 5,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "On August 16, 1995 this country's Haile Gebrselassie set the world record in the 5,000-meter run at 12:44:39",
+          "answer": "Ethiopia",
+          "value": 1000,
+          "order": 24,
+          "dd": 1000,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "1963 film in which Sidney Poitier played a handyman who builds a chapel for 5 German-speaking nuns",
+          "answer": "Lilies Of The Field",
+          "value": 800,
+          "order": 19,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "The folk who love & work at faires may well belong to the SCA, being the Society for Creative this",
+          "answer": "Anachronism",
+          "value": 1000,
+          "order": 10,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Epitasis, a word found in \"Tristram Shandy\", is the part of a play in which this \"thickens\"",
+          "answer": "The plot",
+          "value": 1000,
+          "order": 27,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "On Nickelodeon Irene Ng stars in \"The Mystery Files Of\" this teen detective",
+          "answer": "Shelby Woo",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "In the Bible Uriah was a member of these people who conquered Babylon around 1595 B.C.",
+          "answer": "Hittites",
+          "value": 1000,
+          "order": 6,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "On June 1, 1997 Donovan Bailey defeated this sprinter in a special 150-meter match race to win $1.5 million",
+          "answer": "Michael Johnson",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "With the infamous 30 pieces of silver, the chief priests bought this \"To bury strangers in\"",
+          "answer": "Potter's Field",
+          "value": 1000,
+          "order": 20,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "IN THE NEWS 1997"
+        }
+      ],
+      "clues": [
+        {
+          "question": "50 years after a famous incident, this city got a new flag, seen here, featuring a mysterious dot in the sky:",
+          "answer": "Roswell, New Mexico"
+        }
+      ]
+    }
+  ]
+}

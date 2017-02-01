@@ -1,0 +1,566 @@
+{
+  "number": 3076,
+  "date": "1998-01-05",
+  "contestants": [
+    {
+      "name": "Michelle Martinez",
+      "occupation": "a sports agate clerk",
+      "origin": "Chalmette, Louisiana"
+    },
+    {
+      "name": "Adam Brower",
+      "occupation": "a graphic artist",
+      "origin": "Chicago, Illinois"
+    },
+    {
+      "name": "Bill Unterborn",
+      "occupation": "a visual merchandiser",
+      "origin": "Palmyra, New York",
+      "streak": 2,
+      "winnings": 21399
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "A GIRL'S BEST FRIEND"
+        },
+        {
+          "name": "\"NEW\" GEOGRAPHY"
+        },
+        {
+          "name": "FILL IN THE BLANK"
+        },
+        {
+          "name": "DEATH SENTENCES"
+        },
+        {
+          "name": "CELEBRITIES IN THE SLAMMER"
+        },
+        {
+          "name": "A LITTLE \"R\" & \"R\""
+        }
+      ],
+      "clues": [
+        {
+          "question": "Modern synthetic diamonds were first produced in 1954 by compressing this element under extreme pressure",
+          "answer": "carbon",
+          "value": 100,
+          "order": 20,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "This U.S. city was formerly known as New Amsterdam",
+          "answer": "New York City",
+          "value": 100,
+          "order": 1,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "House____Horse____Tsetse____",
+          "answer": "fly",
+          "value": 100,
+          "order": 9,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "It was in a letter to Jean-Baptiste Leroy that he wrote nothing is \"Certain except death & taxes\"",
+          "answer": "Benjamin Franklin",
+          "value": 100,
+          "order": 14,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "In 1987, before Madonna straightened him out, he served time for assault & reckless driving",
+          "answer": "Sean Penn",
+          "value": 100,
+          "order": 2,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Dale Evans might enjoy this nonalcoholic cocktail of cola & grenadine",
+          "answer": "Roy Rogers",
+          "value": 100,
+          "order": 22,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "1971 James Bond film in which Jill St. John played Tiffany Case",
+          "answer": "Diamonds Are Forever",
+          "value": 200,
+          "order": 27,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "It's the \"Land of Enchantment\"",
+          "answer": "New Mexico",
+          "value": 200,
+          "order": 7,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Lemon____Rain____Cough____",
+          "answer": "drop",
+          "value": 200,
+          "order": 10,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Filmmaker who said, \"It's not that I'm afraid to die.  I just don't want to be there when it happens\"",
+          "answer": "Woody Allen",
+          "value": 200,
+          "order": 15,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "In 1990 this ballplayer was \"hustled\" away to prison for failure to report income from gambling",
+          "answer": "Pete Rose",
+          "value": 200,
+          "order": 3,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "While attending Eureka College, this future president served as a reporter for the Pegasus, the school paper",
+          "answer": "Ronald Reagan",
+          "value": 200,
+          "order": 23,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "It's equal to 200 milligrams",
+          "answer": "one carat",
+          "value": 300,
+          "order": 28,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Alphabetically, it's the last \"New\" entry in Merriam Webster's \"Geographical Dictionary\"",
+          "answer": "New Zealand",
+          "value": 300,
+          "order": 8,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Saddle____Sleeping____Punching____",
+          "answer": "bag",
+          "value": 300,
+          "order": 11,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "In a June 1897 issue of the New York Journal he quipped, \"The report of my death was an exaggeration\"",
+          "answer": "Mark Twain",
+          "value": 300,
+          "order": 16,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "In the 1960s this future \"Love Story\" star served 51 days for assault",
+          "answer": "Ryan O'Neal",
+          "value": 300,
+          "order": 4,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "This cavalry unit left its horses in Florida when it went to fight in Cuba",
+          "answer": "Rough Riders",
+          "value": 300,
+          "order": 24,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "Mae West's reply to the comment \"Goodness, what beautiful diamonds!\"",
+          "answer": "\"Goodness has nothing to do with it\"",
+          "value": 400,
+          "order": 29,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Over 1/3 of the residents of this former whaling port of Mass. are of Portuguese ancestry",
+          "answer": "New Bedford",
+          "value": 400,
+          "order": 18,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "Presidential____Rat____Drag____",
+          "answer": "race",
+          "value": 400,
+          "order": 12,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "He was quoted by Plato as saying, \"No evil can happen to a good man, either in life or after death\"",
+          "answer": "Socrates",
+          "value": 400,
+          "order": 17,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "Charged with bigamy with Carlo Ponti, she later served time in Italy for tax evasion",
+          "answer": "Sophia Loren",
+          "value": 400,
+          "order": 5,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "A play area for very young children, or a franchised children's show begun in 1953",
+          "answer": "Romper Room",
+          "value": 400,
+          "order": 25,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Where you might find a diamond pendant on a woman, or the tendency of diamonds to split among lines",
+          "answer": "cleavage",
+          "value": 500,
+          "order": 30,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "The name of this Virginia city near where the Monitor met the Merrimac sounds like a local daily",
+          "answer": "Newport News",
+          "value": 500,
+          "order": 19,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Fountain____Bull____Pig____",
+          "answer": "pen",
+          "value": 500,
+          "order": 13,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Emily Dickinson wrote, \"Because I could not stop for death he kindly\" did this",
+          "answer": "stopped for me",
+          "value": 500,
+          "order": 21,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "This \"Gift Of The Magi\" author served 3 years in an Ohio prison for embezzlement",
+          "answer": "O. Henry (William Sydney Porter)",
+          "value": 500,
+          "order": 6,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "In 1962 Nat King Cole sang the following to this title female:",
+          "answer": "\"Ramblin' Rose\"",
+          "value": 1000,
+          "order": 26,
+          "dd": 1000,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "PROVERBS"
+        },
+        {
+          "name": "TRAVEL & TOURISM"
+        },
+        {
+          "name": "FICTIONAL CHARACTERS"
+        },
+        {
+          "name": "YOUR OLD ALBUMS"
+        },
+        {
+          "name": "THE WAR OF 1812"
+        },
+        {
+          "name": "\"G\" WHIZ!"
+        }
+      ],
+      "clues": [
+        {
+          "question": "It completes the proverb \"One man's meat is...\"",
+          "answer": "another man's poison",
+          "value": 200,
+          "order": 22,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "The Hilton Hotel in this Hungarian capital was built around 13th century ruins",
+          "answer": "Budapest",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "As this Stephen Crane novel opens, Henry Fleming looks forward to proving himself in battle",
+          "answer": "The Red Badge of Courage",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "His first Top 40 album was 1970's \"Sweet Baby James\"",
+          "answer": "James Taylor",
+          "value": 200,
+          "order": 11,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "By the dawn's early light of Sept. 14, 1814, the U.S. flag was still flying over this Baltimore fort",
+          "answer": "Fort McHenry",
+          "value": 200,
+          "order": 17,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "The only one of Snow White's dwarfs who fits the category",
+          "answer": "Grumpy",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "It precedes \"weep and you weep alone\"",
+          "answer": "\"Laugh and the world laughs with you\"",
+          "value": 400,
+          "order": 23,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "If you scream for ice cream, you'll want to tour this duo's factory in Waterbury, Vermont",
+          "answer": "Ben & Jerry",
+          "value": 400,
+          "order": 18,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "This Alice Walker novel tells Celie's story through letters she writes to God & her sister",
+          "answer": "The Color Purple",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "\"Born to Run\" only took the Boss to No. 3 on the album chart; this 1984 \"Born\" album took him to No. 1",
+          "answer": "Born in the U.S.A.",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "On June 1, 1812 this president asked Congress for a declaration of war against Great Britain",
+          "answer": "James Madison",
+          "value": 400,
+          "order": 24,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "A piece of sand or of common sense",
+          "answer": "grain",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "It's said that \"everything has\" one, & \"all good things must come to\" one",
+          "answer": "an end",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Crow Haven Corner, a witchcraft shop, is owned by the daughter of this city's official witch",
+          "answer": "Salem, Massachusetts",
+          "value": 600,
+          "order": 19,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "A literary critic & a poet are rescued at sea by ruthless Capt. Larsen in this Jack London classic",
+          "answer": "The Sea Wolf",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "His 1985 album \"No Jacket Required\" produced the No. 1 hits \"One More Night\" & \"Sussudio\"",
+          "answer": "Phil Collins",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "Shot was seen bouncing off the sides of this American frigate during its battle with the Guerriere",
+          "answer": "USS Constitution (\"Old Ironsides\")",
+          "value": 1300,
+          "order": 25,
+          "dd": 1300,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "In a familiar phrase, you do it to your loins to prepare for action",
+          "answer": "gird",
+          "value": 600,
+          "order": 8,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "answer": "another man's poison",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "This country on Hispaniola has rich deposits of amber; you can shop for it in Puerto Plata on the Amber Coast",
+          "answer": "Dominican Republic",
+          "value": 800,
+          "order": 20,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "In this novel, Carson McCullers' first, townspeople confide in John Singer, a deaf-mute",
+          "answer": "The Heart Is a Lonely Hunter",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "This 1973 Pink Floyd album has sold over 20 million copies",
+          "answer": "The Dark Side of the Moon",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "Most of the ships in Commodore Perry's fleet were built & equipped at this port",
+          "answer": "Erie, Pennsylvania",
+          "value": 800,
+          "order": 26,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "Nokomis kept her wigwam \"By the shores of\" this",
+          "answer": "Gitchee Gumee",
+          "value": 800,
+          "order": 9,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "This proverb about taking a spill is attributed to heavyweight boxer Robert Fitzsimmons",
+          "answer": "\"The bigger they are, the harder they fall\"",
+          "value": 1400,
+          "order": 29,
+          "dd": 1400,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Queen Mary's Dollhouse, on display in this castle, has real running water & real wine in its wine cellar",
+          "answer": "Windsor Castle",
+          "value": 1000,
+          "order": 21,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Harvey Birch runs sneaky errands for George Washington in this James Fenimore Cooper novel",
+          "answer": "The Spy",
+          "value": 1000,
+          "order": 5,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "He went solo to record albums like \"All Things Must Pass\" & \"Dark Horse\"",
+          "answer": "George Harrison",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "Negotiators for the U.S. in Ghent included John Quincy Adams & this Speaker of the House from Kentucky",
+          "answer": "Henry Clay",
+          "value": 1000,
+          "order": 27,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "Avarice, as in the title of an Erich Von Stroheim film",
+          "answer": "greed",
+          "value": 1000,
+          "order": 10,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "U.S. PRESIDENTS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "2 of the 5 presidents buried west of the Mississippi River",
+          "answer": "(2 of) Eisenhower, Hoover, Lyndon Johnson, Nixon & Truman"
+        }
+      ]
+    }
+  ]
+}

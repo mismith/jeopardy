@@ -1,0 +1,568 @@
+{
+  "number": 735,
+  "date": "1987-11-13",
+  "comments": "1987 Tournament of Champions quarterfinal game 5.\nAll Jeopardy! Round categories begin with an \"A\" and all Double Jeopardy! Round categories begin with a \"T\" as a tribute to Alex Trebek.",
+  "contestants": [
+    {
+      "name": "Roger Storm",
+      "occupation": "a teacher",
+      "origin": "Fairview Park, Ohio"
+    },
+    {
+      "name": "Doug Molitor",
+      "occupation": "a writer",
+      "origin": "Brentwood, California"
+    },
+    {
+      "name": "John Ryan",
+      "occupation": "an economist",
+      "origin": "Santa Barbara, California"
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "ANIMALS"
+        },
+        {
+          "name": "ARTS AND CRAFTS"
+        },
+        {
+          "name": "ADVERTISING"
+        },
+        {
+          "name": "AMERICAN MOUNTAINS"
+        },
+        {
+          "name": "AUTO SHOP"
+        },
+        {
+          "name": "\"APRIL\"  SONGS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "A mosquito's hum is actually the sound made by these",
+          "answer": "its wings",
+          "value": 100,
+          "order": 6,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "From Greek \"kola\", or glue, its a picture made by gluing various objects onto a surface",
+          "answer": "a collage",
+          "value": 100,
+          "order": 13,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Over the years, this company has described its products as \"Mm! Mm! Good!\"",
+          "answer": "Campbell's Soup",
+          "value": 100,
+          "order": 12,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "While there are green mountains in Vermont, there are white mountains in this neighboring state",
+          "answer": "New Hampshire",
+          "value": 100,
+          "order": 1,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "What the \"U\" in U-joint stands for",
+          "answer": "universal",
+          "value": 100,
+          "order": 25,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "A 1957 No. 1 song says, \"It's for the very young\"",
+          "answer": "\"April Love\"",
+          "value": 100,
+          "order": 7,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Though its name means \"Flemish cowherd\", a bouvier des flandres is a breed of this",
+          "answer": "dog",
+          "value": 200,
+          "order": 2,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "To fire clay, you don't give it a pink slip, but put it in this",
+          "answer": "kiln",
+          "value": 200,
+          "order": 14,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "This Coca-Cola song promoting \"The Real Thing\", was turned into a Top 20 hit",
+          "answer": "\"I'd Like To Teach The World To Sing\"",
+          "value": 200,
+          "order": 29,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "1931 completion of the Bagnell Dam created a beautiful lake in these Missouri mountains",
+          "answer": "the Ozarks",
+          "value": 200,
+          "order": 17,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "Of very hot, very cold, or rainy, the weather condition in which vapor lock usually occurs",
+          "answer": "very hot",
+          "value": 200,
+          "order": 26,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Bing Crosby said, \"It is the song of the immortal Jolson\"",
+          "answer": "\"April Showers\"",
+          "value": 200,
+          "order": 8,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "The only African bird of prey with terrestrial habits; it can't type or take dictation",
+          "answer": "the secretarybird",
+          "value": 300,
+          "order": 3,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Process in which you bind a piece of clothing, so that only certain parts of the article absorb color",
+          "answer": "tie-dye",
+          "value": 300,
+          "order": 15,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "In his first commercials ever, George C. Scott became spokesman for this car",
+          "answer": "Renault",
+          "value": 300,
+          "order": 16,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "Until the Soviets completed a bigger one in 1974, the world's largest telescope was here",
+          "answer": "Mt. Palomar",
+          "value": 300,
+          "order": 18,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "MacPherson struts are not dance steps, but types of these",
+          "answer": "shock absorbers",
+          "value": 300,
+          "order": 27,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "The title of this song might describe a European spring vacation:",
+          "answer": "\"April In Portugal\"",
+          "value": 500,
+          "order": 9,
+          "dd": 500,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "The number of toes on the foot of a hippopotamus; especially the ones in Disney's \"Fantasia\"",
+          "answer": "four",
+          "value": 400,
+          "order": 4,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Twining, coiling, and weaving are the three basic methods of making these",
+          "answer": "baskets",
+          "value": 400,
+          "order": 24,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "On television, the Heinz entry always lost this contest",
+          "answer": "the ketchup pouring contest",
+          "value": 400,
+          "order": 22,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "The continuation of California's Sierra Nevada into Washington and Oregon is called this",
+          "answer": "the Cascades",
+          "value": 400,
+          "order": 19,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "Part that is capped after putting in points and a condenser",
+          "answer": "the distributor",
+          "value": 400,
+          "order": 28,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "Title song of the 1969 movie starring Jack Lemmon and Catherine Denueve",
+          "answer": "\"The April Fools\"",
+          "value": 400,
+          "order": 10,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Types of this aquatic creature include chimney, sheep's wool, and common bath",
+          "answer": "the sponge",
+          "value": 500,
+          "order": 5,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "From Latin \"to close\", this process closes off colored enamels from each other with thin metal strips",
+          "answer": "cloisonné",
+          "value": 500,
+          "order": 23,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Slogan created in 1921 when a pal of an R.J. Reynolds adman ran out of cigarettes on a golf course",
+          "answer": "\"I'd walk a mile for a Camel\"",
+          "value": 500,
+          "order": 21,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "In the Washington Irving story, Rip Van Winkle fell asleep in these mountains",
+          "answer": "the Catskills",
+          "value": 500,
+          "order": 20,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "It changes exhaust hydrocarbons and carbon monoxide into carbon dioxide and water",
+          "answer": "a catalytic converter",
+          "value": 500,
+          "order": 30,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "1973 hit by Three Dog Night that could be the result of  blowing up the month",
+          "answer": "\"Pieces Of April\"",
+          "value": 500,
+          "order": 11,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "TRAVEL AND TOURISM"
+        },
+        {
+          "name": "TWAIN"
+        },
+        {
+          "name": "THE TROJAN WAR"
+        },
+        {
+          "name": "TAXES"
+        },
+        {
+          "name": "TEXAS"
+        },
+        {
+          "name": "TOUGH DISNEY"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Visiting the New York transit exhibit in Brooklyn, you can pay the admission fee with one of these",
+          "answer": "a subway token",
+          "value": 200,
+          "order": 19,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Twain said, \"The art of frying\" this fowl \"cannot be learned north of the line of Mason and Dixon\"",
+          "answer": "chicken",
+          "value": 200,
+          "order": 17,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "In \"The Iliad\", he's described as a huge, slow-witted warrior, not a foaming cleanser",
+          "answer": "Ajax",
+          "value": 200,
+          "order": 10,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "It was in 1943 that the Federal Government began having this done to workers' paychecks",
+          "answer": "withholding",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "When the United States became a nation in 1776, Texas was ruled by this country",
+          "answer": "Spain",
+          "value": 200,
+          "order": 5,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Both Disneyland and Walt Disney World's Magic Kingdom are located in counties with this name",
+          "answer": "Orange County",
+          "value": 200,
+          "order": 3,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "The Boston Tea Party ship and museum allows visitors to engage in this unique activity",
+          "answer": "throwing tea overboard",
+          "value": 400,
+          "order": 20,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "Character who refers to \"The Adventures of Tom Sawyer\" in the first line of his book",
+          "answer": "Huckleberry Finn",
+          "value": 400,
+          "order": 18,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Menolaus, husband of Helen, was king of this city, later the historic rival of Athens",
+          "answer": "Sparta",
+          "value": 400,
+          "order": 13,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "The IRS estimates that for fiscal 1987, this will happen to one of every 68 tax returns",
+          "answer": "auditing",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "It's said the line between the East and the West lies between these two large neighboring cities",
+          "answer": "Dallas and Fort Worth",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Technical reason the third Mickey Mouse cartoon, \"Steamboat Willie\", was released first on November 18, 1928",
+          "answer": "because it had sound",
+          "value": 1000,
+          "order": 6,
+          "dd": 1000,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "This city's World's Fair held in 1967 is perpetuated each summer under the title \"Man and His World\"",
+          "answer": "Montreal",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "On their first date, Twain took his future wife to a reading given by this English author in 1867",
+          "answer": "Charles Dickens",
+          "value": 600,
+          "order": 21,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Some say it was this wandering warrior from Ithaca who suggested the Trojan Horse",
+          "answer": "Odysseus",
+          "value": 600,
+          "order": 14,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "At 7 1/2%, Connecticut has the highest statewide tax of this kind",
+          "answer": "sales tax",
+          "value": 600,
+          "order": 4,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "The largest lake entirely in Texas is named for this long-time Speaker of the House",
+          "answer": "Sam Rayburn",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "For \"Pinocchio\", he was painted with 27 colors; for the \"Mickey Mouse Club\", they used only nine",
+          "answer": "Jiminy Cricket",
+          "value": 600,
+          "order": 7,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "Located three miles outside town, it's Hodgenville, Kentucky's most famous tourist attraction",
+          "answer": "Lincoln's birthplace",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "His actual middle name",
+          "answer": "Langhorne",
+          "value": 800,
+          "order": 22,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "He killed Hector, then Paris killed him",
+          "answer": "Achilles",
+          "value": 800,
+          "order": 15,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "The Tax Foundation says that in 1930, it was February 13th, but in 1987, it was May 4th",
+          "answer": "Tax Freedom Day",
+          "value": 1000,
+          "order": 11,
+          "dd": 1000,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "Each year from 1932 to 1986, up to 100,000 attended this annual event sponsored by the Texas Department of Corrections",
+          "answer": "Texas Prison Rodeo",
+          "value": 800,
+          "order": 29,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "According to the 1953 cartoon, these four sounds are \"where the music comes from\"",
+          "answer": "a toot, a whistle, a plunk, and a boom",
+          "value": 800,
+          "order": 8,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "You can visit the infamous Andersonville Civil War prison, a national historic site, in this state",
+          "answer": "Georgia",
+          "value": 1000,
+          "order": 26,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "According to the title, it's what Twain was following in his last travel book",
+          "answer": "the equator",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Virgil says this man escaped the fall of Troy along with a few followers and later founded Rome",
+          "answer": "Aeneas",
+          "value": 1000,
+          "order": 16,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Chief Justice John Marshall said \"The power to tax involves the power to\" do this",
+          "answer": "destroy",
+          "value": 1000,
+          "order": 12,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "A national seashore covers much of this 100-mile long island named for Father Nicholas Valle, a Spanish priest",
+          "answer": "Padre Island",
+          "value": 1000,
+          "order": 30,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "The title character of this 1961 live-action hit was named Ned Brainard",
+          "answer": "The Absent-Minded Professor",
+          "value": 1000,
+          "order": 9,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "THE CABINET"
+        }
+      ],
+      "clues": [
+        {
+          "question": "One of two Cabinet department heads who have held their position for the entire Reagan administration thus far",
+          "answer": "Caspar Weinberger or Samuel Pierce of HUD"
+        }
+      ]
+    }
+  ]
+}

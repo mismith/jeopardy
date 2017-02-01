@@ -1,0 +1,569 @@
+{
+  "number": 4673,
+  "date": "2004-12-22",
+  "contestants": [
+    {
+      "name": "David Camp",
+      "occupation": "a student",
+      "origin": "Charlottesville, Virginia"
+    },
+    {
+      "name": "Hugh Price",
+      "occupation": "an engineer",
+      "origin": "Chevy Chase, Maryland"
+    },
+    {
+      "name": "Dale Masel",
+      "occupation": "a professor",
+      "origin": "Lancaster, Ohio",
+      "streak": 1,
+      "winnings": 10350
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "NATIONAL FORESTS"
+        },
+        {
+          "name": "1970s POP MUSIC"
+        },
+        {
+          "name": "C IS FOR..."
+        },
+        {
+          "name": "I'VE GOT THE POWER"
+        },
+        {
+          "name": "WORLD OF COLOR"
+        },
+        {
+          "name": "\"N\"TICE ME!"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Established in 1897, Black Hills National Forest is home to Wind Cave National Park & this national memorial",
+          "answer": "Mount Rushmore",
+          "value": 200,
+          "order": 22,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "This 1971 Temptations hit was subtitled \"Running Away With Me\"",
+          "answer": "\"Just My Imagination\"",
+          "value": 200,
+          "order": 19,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Capuchin, one of these tropical forest dwellers",
+          "answer": "a monkey",
+          "value": 200,
+          "order": 11,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "By imposing a military dictatorship on France in 1799, he became one of the most powerful men in the world",
+          "answer": "Napoleon",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "It's the color in the name of a bear, a berry & a bird",
+          "answer": "black",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Opened in 1829, the Welland Canal was built to circumvent these falls on the Canada-U.S. border",
+          "answer": "Niagara Falls",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "In 1950 this animal that became the symbol of forest fire prevention was found in New Mexico's Lincoln National Forest",
+          "answer": "Smokey the Bear",
+          "value": 400,
+          "order": 23,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "In February 1975 this Scottish sextet's album \"AWB\" topped the charts",
+          "answer": "Average White Band",
+          "value": 400,
+          "order": 24,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Candlemas, celebrating the infant Jesus being taken to this place in Jerusalem",
+          "answer": "the temple",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "As leader of the Baath party, he became dictator of a Middle Eastern country in 1979; in 2003 he was deposed",
+          "answer": "Saddam Hussein",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "It's the color as well as the translucent material in the picture seen here",
+          "answer": "amber",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "The name of this 12th century landmark seen here might ring a bell",
+          "answer": "(the Cathedral of) Notre Dame",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "A replica of the 1st Spanish mission in Eastern Texas stands in the natl. forest named for this \"King of the Wild Frontier\"",
+          "answer": "Davy Crockett",
+          "value": 600,
+          "order": 25,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "In 1976 this \"wild\" group topped both the Hot 100 & R&B charts with \"Play That Funky Music\"",
+          "answer": "Wild Cherry",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Connolly, Maureen, one of the great players in this sport",
+          "answer": "tennis",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "In 1279 Kublai Khan founded the Yuan Dynasty, putting all of this Asian country under foreign rule for the first time",
+          "answer": "China",
+          "value": 600,
+          "order": 8,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "Color of the mutant form of the brown rat that's used for medical experiments",
+          "answer": "white",
+          "value": 600,
+          "order": 18,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "When you land at Indira Gandhi International Airport, you're in this city",
+          "answer": "New Delhi",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "Trees in this state's Tongass National Forest include western hemlock, cedar, & sitka spruce",
+          "answer": "Alaska",
+          "value": 800,
+          "order": 26,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Michael McDonald co-wrote this band's hit \"What A Fool Believes\" with Kenny Loggins",
+          "answer": "The Doobie Brothers",
+          "value": 800,
+          "order": 29,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "The Colossus of Rhodes, a gigantic statue of this god whose name is Greek for sun",
+          "answer": "Helios",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "The name of this man, seen here, is now synonymous with ruthless power",
+          "answer": "Stalin",
+          "value": 800,
+          "order": 9,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "Azurite, an ore of copper, is this color",
+          "answer": "blue",
+          "value": 800,
+          "order": 20,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "An instrumental figure in ending school segregation, Roy Wilkins headed this organization for over 20 years",
+          "answer": "the NAACP",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Sequoia & Tahoe National Forests lie in this mountain range",
+          "answer": "the Sierra Nevada",
+          "value": 1000,
+          "order": 27,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "This 1973 Carpenters hit begins, \"When I was young I'd listen to the radio...\"",
+          "answer": "\"Yesterday Once More\"",
+          "value": 1000,
+          "order": 30,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Cellulose, a carbohydrate that makes up this part of a plant's cell",
+          "answer": "the cell walls",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "In 1922, after his Fascisti marched on the capital, he became Italy's P.M. & most powerful politician",
+          "answer": "Mussolini",
+          "value": 1000,
+          "order": 10,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "It's the vivid color named for the showy flowers seen here",
+          "answer": "fuchsia",
+          "value": 1000,
+          "order": 21,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "As many as 300,000 may have died in the Japanese takeover of this city in December 1937",
+          "answer": "Nanking",
+          "value": 1200,
+          "order": 5,
+          "dd": 1200,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "PHYSICS"
+        },
+        {
+          "name": "SOUNDS LIKE A SIMPSONS CHARACTER"
+        },
+        {
+          "name": "SHHHH!"
+        },
+        {
+          "name": "THE 12"
+        },
+        {
+          "name": "DAYS"
+        },
+        {
+          "name": "OF CHRISTMAS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Fasten your seatbelts!  CERN's LHC in Geneva stands for \"large hadron\" one of these",
+          "answer": "a collider",
+          "value": 400,
+          "order": 6,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "First name of the cousin of Goober who was regularly on the receiving end of Sgt. Carter's tirades",
+          "answer": "Gomer",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "This is the 3-letter word when you're told not to reveal something",
+          "answer": "mum",
+          "value": 400,
+          "order": 26,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Robert Frost described one of these as \"twelve persons chosen to decide who has the better lawyer\"",
+          "answer": "a jury",
+          "value": 400,
+          "order": 21,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "U.S. Presidential elections are held on this day of the week",
+          "answer": "Tuesday",
+          "value": 400,
+          "order": 16,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "On Christmas Day, 1541 his Sistine Chapel painting of \"The Last Judgment\" was unveiled to the public",
+          "answer": "Michelangelo",
+          "value": 400,
+          "order": 11,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Without this German's constant introduced in 1900, we probably wouldn't have quantum physics",
+          "answer": "Planck",
+          "value": 800,
+          "order": 7,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "One of Texas A&M's athletes, or a playing marble",
+          "answer": "an aggie",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Add these 2 letters to \"steal\" to get a secretive quality thieves need",
+          "answer": "T-H",
+          "value": 800,
+          "order": 27,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Suetonius' book \"The Twelve\" of these, including Julius & Augustus, remains a key source after 1900 years",
+          "answer": "Caesars",
+          "value": 800,
+          "order": 22,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "In Esperanto this day is lundo",
+          "answer": "Monday",
+          "value": 800,
+          "order": 17,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "In the song \"The Twelve Days of Christmas\", it's the second day's gift",
+          "answer": "two turtle doves",
+          "value": 800,
+          "order": 12,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "The Michelson interferometer was invented to show light moves thru this medium & found it didn't exist",
+          "answer": "ether",
+          "value": 1200,
+          "order": 8,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "It's either a credit card company or an endorsement on a passport allowing entry",
+          "answer": "visa",
+          "value": 1200,
+          "order": 3,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "A strategy for concealing an unethical act; the Watergate one was famous",
+          "answer": "a cover-up",
+          "value": 1200,
+          "order": 28,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "Twelve Oaks is the name of this family's plantation in \"Gone with the Wind\"",
+          "answer": "the Wilkes",
+          "value": 1200,
+          "order": 23,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "Lisa Loring played this creepy girl on TV in the '60s",
+          "answer": "Wednesday (Addams)",
+          "value": 1200,
+          "order": 18,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "This conflict officially ended in 1814 on Christmas Eve with the signing of the Treaty of Ghent in Belgium",
+          "answer": "The War of 1812",
+          "value": 1200,
+          "order": 13,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "The equation for its speed is velocity equals frequency times length",
+          "answer": "a wave",
+          "value": 1600,
+          "order": 9,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Part of a Shakespearean comedy title, its synonyms are fuss, bustle & bother",
+          "answer": "ado",
+          "value": 2000,
+          "order": 4,
+          "dd": 2000,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "That folder of top-secret info must be stamped FYEO, short for this",
+          "answer": "For Your Eyes Only",
+          "value": 1600,
+          "order": 29,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Gaea & Uranus created this group of 12 gods later overthrown by Zeus",
+          "answer": "the Titans",
+          "value": 1600,
+          "order": 24,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "It's the Sabbath to a Seventh-day Adventist",
+          "answer": "Saturday",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "It's the city where Charlemagne spent Christmas Day, 800",
+          "answer": "Rome",
+          "value": 1600,
+          "order": 14,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "In 1822 Joseph Fourier published his theory on how this form of energy flows in solid bodies",
+          "answer": "heat",
+          "value": 2000,
+          "order": 10,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "No clowning on this job where you're responsible for administering the funds of, say, a philanthropy",
+          "answer": "trustee",
+          "value": 2000,
+          "order": 5,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "To move about in a furtive manner; it's also a term for a group of foxes",
+          "answer": "skulk",
+          "value": 2000,
+          "order": 30,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "The 12-tone system of musical composition was created by this Austrian composer",
+          "answer": "(Arnold) Schoenberg ",
+          "value": 2000,
+          "order": 25,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "According to tradition, Jesus had his Last Supper on this day of the week",
+          "answer": "Thursday",
+          "value": 2000,
+          "order": 20,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "Vasco da Gama gave this future South African province its name when he discovered it on Christmas Day, 1497",
+          "answer": "Natal",
+          "value": 4000,
+          "order": 15,
+          "dd": 4000,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "19th CENTURY SPEECHES"
+        }
+      ],
+      "clues": [
+        {
+          "question": "At Harvard, this writer proposed that we work 1 day & leave 6 free for the \"sublime revelations of nature\"",
+          "answer": "Henry David Thoreau"
+        }
+      ]
+    }
+  ]
+}

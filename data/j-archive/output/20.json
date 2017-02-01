@@ -1,0 +1,570 @@
+{
+  "number": 4615,
+  "date": "2004-10-01",
+  "comments": "2004 Tournament of Champions final game 2.",
+  "contestants": [
+    {
+      "name": "Russ Schumacher",
+      "occupation": "a graduate student",
+      "origin": "Fort Collins, Colorado (subtotal of $9,600)"
+    },
+    {
+      "name": "Tom Walsh",
+      "occupation": "a writer",
+      "origin": "Washington, D.C. (subtotal of $19,700)"
+    },
+    {
+      "name": "Arthur Gandolfi",
+      "occupation": "a commercial real estate executive",
+      "origin": "Pleasantville, New York (subtotal of $0)"
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "SCIENCE & TECHNOLOGY"
+        },
+        {
+          "name": "ANAGRAMMED WEST WING STARS",
+          "comments": "(Alex: You must give us the first and the last name of the stars.)"
+        },
+        {
+          "name": "BIRD-BRAINED BALLETS"
+        },
+        {
+          "name": "AMERICANS IN PARIS"
+        },
+        {
+          "name": "ENGLISH LIT"
+        },
+        {
+          "name": "TAKE IN ORDER!",
+          "comments": "(Alex: You must take all of the clues in this category in order, from top to bottom.)"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Social insects, termites live in groups of a few hundred to several million called these",
+          "answer": "colonies",
+          "value": 200,
+          "order": 11,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Hail to the chief:ART MEN SHINE",
+          "answer": "Martin Sheen",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "One of these large birds is featured in \"Les Maries de la Tour Eiffel\" (reminds me of \"Fantasia\")",
+          "answer": "ostriches",
+          "value": 200,
+          "order": 21,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "The avant-garde author of \"Three Lives\", her home was a salon for emerging artists such as Picasso & Braque",
+          "answer": "(Gertrude) Stein",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Published in 1976, her last Miss Marple case, \"Sleeping Murder\", was actually written during WWII",
+          "answer": "(Agatha) Christie",
+          "value": 200,
+          "order": 26,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Add this letter to \"S\" for the Internet domain name of Napoleon's last home",
+          "answer": "H",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Dioxide of this element, symbol Cr, is used to make recording tape for cassettes",
+          "answer": "chromium",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "She \"presses\" on:SOLE JAIL NANNY",
+          "answer": "Allison Janney",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "The \"Bluebird Pas de Deux\" is performed at Princess Aurora's wedding in this fairy tale ballet",
+          "answer": "Sleeping Beauty",
+          "value": 400,
+          "order": 22,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "While in Paris, poet & critic Ezra Pound helped little-known talent T.S. Eliot edit this 1922 poem",
+          "answer": "\"The Waste Land\"",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "She introduced Mr. & Mrs. Dalloway in her first novel, \"The Voyage Out\"",
+          "answer": "Virginia Woolf",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Now add this letter to get H. Rider Haggard's novel about an African sorceress",
+          "answer": "E",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "The Cassini spacecraft is scheduled to study this planet & send a probe to the surface of its moon Titan",
+          "answer": "Saturn",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "We're still \"laugh-in\" at her:O MY ILL LINT",
+          "answer": "Lily Tomlin",
+          "value": 600,
+          "order": 8,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Gelsey Kirkland starred in the 1972 version of \"The Song of\" this nocturnal bird",
+          "answer": "a nightingale",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "This \"Fanfare for the Common Man\" composer sold his first work while studying with Nadia Boulanger in Paris",
+          "answer": "(Aaron) Copland",
+          "value": 600,
+          "order": 18,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "Chapters in this novel include \"Wickfield and Heep\" & \"Mr. Micawber's Gauntlet\"",
+          "answer": "David Copperfield",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Next add this letter for a ballpark opened April 17, 1964",
+          "answer": "A",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "The name of this pivoted frame for the combustion chamber & nozzle of a rocket sounds like Macy's one-time rival",
+          "answer": "a gimbal",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Quite a \"lady\":DANCING CART HONKS",
+          "answer": "Stockard Channing",
+          "value": 800,
+          "order": 9,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "Tamara Karsavina won the role of this title bird in a 1910 ballet because Anna Pavlova didn't like the music",
+          "answer": "the Firebird",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Alexander Calder made one of his first wire sculptures in the image of this expatriate singer/dancer",
+          "answer": "Josephine Baker",
+          "value": 1000,
+          "order": 19,
+          "dd": 1000,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "Published in 1590, \"The Legend of the Red Cross Knight\" is the first of 6 books in this poetic epic",
+          "answer": "The Faerie Queene",
+          "value": 800,
+          "order": 29,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "Then add this letter to get a type of stress affecting solids or a change in the wind speed",
+          "answer": "R",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "This biologist first gained acclaim for writing in1937 with her article \"Undersea\" in the Atlantic Monthly",
+          "answer": "Rachel Carson",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "He's Toby Z:HARD CHIC RIFFS",
+          "answer": "Richard Schiff",
+          "value": 1000,
+          "order": 10,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Created for Anna Pavlova, this famous ballet solo is a lot shorter than \"Swan Lake\"",
+          "answer": "\"The Dying Swan\"",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "During his self-exile, he voiced the strife of black Americans in books like 1961's \"Nobody Knows My Name\"",
+          "answer": "James Baldwin",
+          "value": 1000,
+          "order": 20,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "She's the heroine of the long-banned 18th century novel \"Memoirs of a Woman of Pleasure\"",
+          "answer": "Fanny Hill",
+          "value": 1000,
+          "order": 30,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "(Sofia of the Clue Crew wears a warm, woolly coat.)  Finally add these four letters to get the type of coat I'm wearing",
+          "answer": "L-I-N-G",
+          "value": 1000,
+          "order": 5,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "CALCULUS"
+        },
+        {
+          "name": "CHART TOPPERS"
+        },
+        {
+          "name": "GEOGRAPHY"
+        },
+        {
+          "name": "BLOGS"
+        },
+        {
+          "name": "FIVE EASY PEACES"
+        },
+        {
+          "name": "WORD ORIGINS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "\"Vive la\" this, for which Augustin Cauchy introduced the delta symbol in the 19th century",
+          "answer": "difference",
+          "value": 400,
+          "order": 21,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "This Debby Boone hit was No. 1 on the Top 40 chart for 10 weeks, longer than any other song of the 1970s",
+          "answer": "\"You Light Up My Life\"",
+          "value": 400,
+          "order": 22,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Buffalo & Cleveland are major ports on this Great Lake",
+          "answer": "Erie",
+          "value": 400,
+          "order": 6,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "The word blog evolved as a shortened form of this",
+          "answer": "web log",
+          "value": 400,
+          "order": 16,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Alexander II signed the Peace of York in 1237, establishing a permanent boundary between these 2 countries",
+          "answer": "England and Scotland",
+          "value": 400,
+          "order": 11,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Whether it's a problem in the eye or a waterfall, it's from the Greek for \"to dash down\"",
+          "answer": "cataract",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "(Cheryl of the Clue Crew points to a blackboard.)  By finding the value of the right side of the equation, we'll do this to the function",
+          "answer": "integrate it",
+          "value": 800,
+          "order": 27,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "His No. 1 R&B hits include \"Papa Don't Take No Mess Part 1\"",
+          "answer": "James Brown",
+          "value": 800,
+          "order": 23,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "This Atlantic \"sea\" is named for the seaweed that can be seen there",
+          "answer": "the Sargasso Sea",
+          "value": 800,
+          "order": 7,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Lawyer Lawrence Lessig started blogging after being thrown off the anti-trust case against this software giant",
+          "answer": "Microsoft",
+          "value": 800,
+          "order": 17,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "The Peace of this mountain range agreed to by Louis XIV & Philip IV ended the 1600s Franco-Spanish War",
+          "answer": "the Pyrenees",
+          "value": 800,
+          "order": 12,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "From the Italian for \"bench\", it's a sumptuous feast given in someone's honor",
+          "answer": "banquet",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "On a graph, the derivative of a function is this, which all lines except vertical ones have",
+          "answer": "a slope",
+          "value": 1200,
+          "order": 28,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Her 1996 hit \"Because You Loved Me\" topped the adult contemporary charts for an amazing 19 weeks",
+          "answer": "Celine Dion",
+          "value": 1200,
+          "order": 24,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "One of the 2 South American countries trying to claim Graham Land, part of the British Antarctic territory",
+          "answer": "Argentina (or Chile)",
+          "value": 3000,
+          "order": 8,
+          "dd": 3000,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "The Lycos blog posted a link to a job listing for an entertainment liaison in this newest Cabinet department",
+          "answer": "Homeland Security",
+          "value": 1200,
+          "order": 18,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "After John II's 1356 defeat at the Battle of Poitiers, the Peace of Bretigny was signed, ending the 1st phase of this",
+          "answer": "the Hundred Years' War",
+          "value": 1200,
+          "order": 13,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "This large, triangular sail used on some racing yachts is said to derive its name from a yacht called the Sphinx",
+          "answer": "a spinnaker",
+          "value": 1200,
+          "order": 3,
+          "dd": 1200,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "Often symbolized L, it's the value approached by a function as its variable approaches a given value",
+          "answer": "a limit",
+          "value": 1600,
+          "order": 29,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "In 1995 she had 2 songs debut at the top of the charts; one was a duet with Boyz II Men",
+          "answer": "Mariah Carey",
+          "value": 1600,
+          "order": 25,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "In 1951 Portugal allowed NATO to establish an airbase on the island of Terceira in this archipelago",
+          "answer": "Azores",
+          "value": 1600,
+          "order": 9,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "blogforamerica.com was started to raise money for & awareness of his presidential campaign",
+          "answer": "(Howard) Dean",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "The Peace of Utrecht ended this war & recognized the legitimacy of Louis XIV's grandson as King of Spain",
+          "answer": "the War of the Spanish Succession",
+          "value": 1600,
+          "order": 14,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "This Protestant group was named for its founders' strict & orderly approach to life & the Scriptures",
+          "answer": "Methodists",
+          "value": 1600,
+          "order": 4,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Related to the word \"increase\", it's a small change in a variable representing distance or time",
+          "answer": "increment",
+          "value": 2000,
+          "order": 30,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "He wrote Bread's only No. 1 hit, \"Make It With You\", as well as the title track to the 1977 film \"The Goodbye Girl\"",
+          "answer": "David Gates",
+          "value": 2000,
+          "order": 26,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "It's the capital & chief seaport of Trinidad & Tobago",
+          "answer": "Port-of-Spain",
+          "value": 2000,
+          "order": 10,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "This notorious comedienne seen here blogs about such things as her potty mouth and the end of the world",
+          "answer": "Margaret Cho",
+          "value": 2000,
+          "order": 20,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "Negotations in a Duchy in what is now Western Germany led to the naming of this 1648 peace",
+          "answer": "Westphalia",
+          "value": 2000,
+          "order": 15,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "From the Latin word lampreda we get lamprey, as well as the name of this mollusk",
+          "answer": "limpet",
+          "value": 2000,
+          "order": 5,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "AMERICANISMS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Around 1900 Monroe Rosenfeld remarked that the music heard along NYC's 28th Street sounded like this",
+          "answer": "tin pans"
+        }
+      ]
+    }
+  ]
+}

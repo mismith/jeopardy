@@ -1,0 +1,560 @@
+{
+  "number": 4629,
+  "date": "2004-10-21",
+  "comments": "2004-B Kids Week game 4.",
+  "contestants": [
+    {
+      "name": "Alex Nutman",
+      "occupation": "a 12-year-old seventh grader",
+      "origin": "Chevy Chase, Maryland"
+    },
+    {
+      "name": "Edward Lee",
+      "occupation": "a 12-year-old seventh grader",
+      "origin": "Sacramento, California"
+    },
+    {
+      "name": "Lorna Johnson",
+      "occupation": "a 12-year-old seventh grader",
+      "origin": "Willowbrook, Illinois"
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "GOING TO THE DOCTOR"
+        },
+        {
+          "name": "CHORES"
+        },
+        {
+          "name": "BRUSSELS SPROUTS"
+        },
+        {
+          "name": "HOMEWORK"
+        },
+        {
+          "name": "BEDTIME"
+        },
+        {
+          "name": "\"NO\" FUN",
+          "comments": "(Alex: Each correct response will start with those two letters.)"
+        }
+      ],
+      "clues": [
+        {
+          "question": "If eggs give you hives, doc will do a skin test to see if you have one of these, an abnormal reaction to something",
+          "answer": "an allergy",
+          "value": 200,
+          "order": 4,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "The Disney movie about this hero includes his labor of defeating the monstrous Hydra",
+          "answer": "Hercules",
+          "value": 200,
+          "order": 10,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "French-speaking kids learn that Brussels is the capital of Belgique; we call the country this",
+          "answer": "Belgium",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "For starters you can read the first entry, dated June 14, 1942, in this girl's diary",
+          "answer": "Anne Frank",
+          "value": 200,
+          "order": 11,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "The 2 sizes of beds that sound like you have to be royalty to sleep on them",
+          "answer": "king and queen",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Spitzbergen is an island in this Scandinavian country",
+          "answer": "Norway",
+          "value": 200,
+          "order": 24,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "You'll wear a lead apron when the doctor uses this imaging technique developed in the 1890s to check for a broken foot",
+          "answer": "an X-ray",
+          "value": 400,
+          "order": 5,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "In \"The Santa Clause 2\", Santa has to find one of these quick or he won't be Santa anymore",
+          "answer": "a wife",
+          "value": 400,
+          "order": 16,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "We imagine that a popular pet for Brussels kids is the Brussels griffon, one of these",
+          "answer": "a dog",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Continue working on your math problems & give us this square root of 121",
+          "answer": "11",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "From the Latin for \"cushion\", this warm bed covering is made of 2 layers of fabric with a layer between them",
+          "answer": "a quilt",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "In 1988 the United Nations' peacekeeping forces were awarded this important prize",
+          "answer": "Nobel Prize",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "Your optometrist may use drops to dilate this circular opening in the center of the iris",
+          "answer": "the pupil",
+          "value": 600,
+          "order": 7,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "It's into the bowels of this fiery mountain that Frodo must cast the ring to destroy it",
+          "answer": "Mount Doom",
+          "value": 600,
+          "order": 19,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Manneken-Pis, a statue in Brussels of a little boy, is part of one of these watery sights in the city center",
+          "answer": "fountains",
+          "value": 600,
+          "order": 18,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "For science, classify rocks according to their 3 main types: metamorphic, sedimentary & this",
+          "answer": "igneous",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "This baby bed with a 4-letter name often has high barred sides to keep the baby from falling out",
+          "answer": "a crib",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "answer": "an allergy",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "It might feel like your arm is going to explode when that rubber cuff is inflated, but the doc is just measuring this",
+          "answer": "blood pressure",
+          "value": 800,
+          "order": 8,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Harry Potter accomplishes the task of breathing underwater with the help of this weed",
+          "answer": "gillyweed",
+          "value": 800,
+          "order": 20,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "Kids can eat with their hands at Leon, a restaurant specializing in this seafood that rhymes with \"Brussels\"",
+          "answer": "mussels",
+          "value": 800,
+          "order": 22,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Write one of these 3-line, 17-syllable Japanese poems; any subject",
+          "answer": "a haiku",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "If you stay overnight at a B&B, in the morning you'll know that it stands for \"bed &\" this",
+          "answer": "breakfast",
+          "value": 800,
+          "order": 25,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "2-word Latin name of an Eastern Canadian province",
+          "answer": "Nova Scotia",
+          "value": 500,
+          "order": 28,
+          "dd": 500,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Otitis media & otitis externa are common infections of this body part; doc may prescribe drops or antibiotics for it",
+          "answer": "your ears",
+          "value": 1000,
+          "order": 9,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "God's many commands to him include one in Numbers 26 to count all 600,000 men of Israel",
+          "answer": "Moses",
+          "value": 1000,
+          "order": 21,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "They might need a drummer boy when this battle that sealed Napoleon's fate is re-enacted near Brussels every 5 years",
+          "answer": "Waterloo",
+          "value": 1000,
+          "order": 23,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "For week's end, brush up on your Spanish & translate \"Gracias a Dios es viernes\" for us",
+          "answer": "Thank God it's Friday",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "If you're spending the night in the famous Lincoln bedroom, you're sleeping in this mansion",
+          "answer": "the White House",
+          "value": 1000,
+          "order": 26,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "answer": "an allergy",
+          "row": 1,
+          "col": 1
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "HISTORY"
+        },
+        {
+          "name": "CELEBRITIES"
+        },
+        {
+          "name": "U.S. STAMPS"
+        },
+        {
+          "name": "ELECTION TIME"
+        },
+        {
+          "name": "KIDS IN THE 1960s"
+        },
+        {
+          "name": "ANATOMICAL HOMONYMS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "During the 1930s America went through a period of hardship and poverty known as the \"Great\" this",
+          "answer": "Depression",
+          "value": 400,
+          "order": 26,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "This 18-year-old Disney Channel star shared an apartment in Los Angeles with Lindsay Lohan; \"That's so\" her",
+          "answer": "Raven",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Well doggone it, in 2001, this beloved character appeared on the stamp seen here",
+          "answer": "Snoopy",
+          "value": 400,
+          "order": 10,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "The 9 judges on this body in Alabama, unlike the one in Washington, D.C., run for election",
+          "answer": "the Supreme Court",
+          "value": 400,
+          "order": 5,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "...heard him say on Aug. 28, 1963, \"Even though we face the difficulties of... tomorrow, I still have a dream\"",
+          "answer": "Martin Luther King, Jr.",
+          "value": 400,
+          "order": 20,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "It's the singular pronoun of your visual organ",
+          "answer": "I/eye",
+          "value": 400,
+          "order": 16,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "In 1368 the Ming dynasty didn't just take over this country, they urned it",
+          "answer": "China",
+          "value": 800,
+          "order": 27,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "This Canterbury native became a household name after playing Legolas in \"The Lord of the Rings\" trilogy",
+          "answer": "Orlando Bloom",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "A 2004 stamp celebrated the 200th anniversary of this pair's expedition across the U.S.",
+          "answer": "Lewis and Clark",
+          "value": 800,
+          "order": 12,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Many polling places are at this type of establishment you know well; Al Gore voted at one in 2000",
+          "answer": "a school",
+          "value": 800,
+          "order": 6,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "...went hoarse screaming at the TV on Feb. 9, 1964 when this band played \"She Loves You\" on \"Ed Sullivan\"",
+          "answer": "The Beatles",
+          "value": 800,
+          "order": 21,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "It's the male deer that pounds in your chest",
+          "answer": "hart/heart",
+          "value": 800,
+          "order": 17,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "This country won the battle of Stalingrad, August 1942-February 1943",
+          "answer": "Russia",
+          "value": 1200,
+          "order": 28,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "This young star was Michael Caine & Robert Duvall's grandnephew in \"Secondhand Lions\"",
+          "answer": "Haley Joel Osment",
+          "value": 1200,
+          "order": 3,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "This naval hero appeared on a 1979 stamp along with the motto \"I have not yet begun to fight\"",
+          "answer": "John Paul Jones",
+          "value": 1200,
+          "order": 13,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "John F. Kennedy and Richard Nixon are seen here during one of these in 1960, the first year they were held",
+          "answer": "(presidential) debate",
+          "value": 1200,
+          "order": 7,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "...read about the first 7 U.S. astronauts in this '60s NASA program named for the messenger of the Roman gods",
+          "answer": "Mercury",
+          "value": 1200,
+          "order": 22,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "It's the large rabbit that grows out of your head",
+          "answer": "hare/hair",
+          "value": 1200,
+          "order": 18,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "In the 1460s this South American people took the Chimu empire; within 100 years they were subdued by the Spanish",
+          "answer": "the Incas",
+          "value": 3200,
+          "order": 29,
+          "dd": 3200,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "The first name of this \"Even Stevens\" co-star rhymes with \"Hiya\"",
+          "answer": "Shia (LaBeouf)",
+          "value": 1600,
+          "order": 4,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "Part of the \"Celebrate the Century\" series, the stamp seen here honored the first observance of this in the 1970s",
+          "answer": "Earth Day",
+          "value": 1400,
+          "order": 14,
+          "dd": 1400,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "34 of them will be elected in 2004, as others, including Orrin Hatch and Dianne Feinstein, put their feet up and watch",
+          "answer": "senators",
+          "value": 1600,
+          "order": 8,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "...learned in 1966 of the creation of this African-American cultural festival that's celebrated from Dec. 26-Jan. 1",
+          "answer": "Kwanzaa",
+          "value": 1600,
+          "order": 23,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "It grasps how you smell",
+          "answer": "knows/nose",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "answer": "Depression",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "This 16-year-old girl from Texas was golden in women's all-around gymnastics at the 2004 Olympics",
+          "answer": "Carly Patterson",
+          "value": 2000,
+          "order": 11,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "On my honor, this girl scout leader was honored on a 3-cent stamp in 1948",
+          "answer": "Juliette Gordon Low",
+          "value": 2000,
+          "order": 15,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "A Californian moving to Poland can apply to become a permanent this type of voter",
+          "answer": "an absentee voter",
+          "value": 2000,
+          "order": 9,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "...discussed the 1964 political ramifications of the Labour party's Harold Wilson becoming this nation's PM (sure!)",
+          "answer": "England",
+          "value": 2000,
+          "order": 24,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "It's the extraordinary achievement of the terminal parts of your legs",
+          "answer": "feat/feet",
+          "value": 2000,
+          "order": 25,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "THE EARLY 20th CENTURY"
+        }
+      ],
+      "clues": [
+        {
+          "question": "On April 11, 1912, from a pier in Queenstown, Ireland, Francis Browne took one of the last known photos of this",
+          "answer": "the Titanic"
+        }
+      ]
+    }
+  ]
+}

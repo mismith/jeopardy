@@ -1,0 +1,560 @@
+{
+  "number": 4671,
+  "date": "2004-12-20",
+  "contestants": [
+    {
+      "name": "Lyle Brenner",
+      "occupation": "a college professor",
+      "origin": "Gainesville, Florida"
+    },
+    {
+      "name": "Michael Kalk",
+      "occupation": "a retired programmer",
+      "origin": "Austin, Texas"
+    },
+    {
+      "name": "Grayson Holmes",
+      "occupation": "a legal assistant",
+      "origin": "Washington, D.C.",
+      "streak": 2,
+      "winnings": 44411
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "FRANK LLOYD WRIGHT"
+        },
+        {
+          "name": "WORLD ATHLETES"
+        },
+        {
+          "name": "BEHOLD THE POWER OF CHEESE"
+        },
+        {
+          "name": "LET'S GO TO THE PARK"
+        },
+        {
+          "name": "STOCK ANSWERS"
+        },
+        {
+          "name": "POINTS OF \"LIGHT\""
+        }
+      ],
+      "clues": [
+        {
+          "question": "(Sarah of the Clue Crew stands by a table with architectural drawings on it in the Frank Lloyd Wright home in Oak Park.)  A colleague said Wright maneuvered his T-square with beautiful dexterity in this activity for which this room is named",
+          "answer": "drafting",
+          "value": 200,
+          "order": 11,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "This team's Ichiro Suzuki was named 2001 American League Rookie of the Year & MVP",
+          "answer": "Seattle Mariners",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "\"On top of spaghetti, all covered with cheese, I lost my poor meatball, when\" this happened",
+          "answer": "somebody sneezed",
+          "value": 200,
+          "order": 21,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Exuma Cays land & sea park lies just south of Nassau in this country in the West Indies",
+          "answer": "the Bahamas",
+          "value": 200,
+          "order": 26,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "In October 1999 Fortune Magazine reported that this auction website's stock value had soared to $18 billion",
+          "answer": "eBay",
+          "value": 200,
+          "order": 5,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Pennsylvania must be all aglow with this state insect, also called a firefly",
+          "answer": "a lightning bug",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "The Taliesin West Center is located in Arizona; Taliesin is in this Midwest state where Wright was born",
+          "answer": "Wisconsin",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "In 2003 this Fijian-born golfer displaced Tiger Woods as No. 1",
+          "answer": "Vijay Singh",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Things concocted in 1915 include Corning's Pyrex & this company's processed cheese",
+          "answer": "Kraft",
+          "value": 400,
+          "order": 22,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "This 4,000-acre Los Angeles park is named for a mining tycoon, not for film director D.W.",
+          "answer": "Griffith Park",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "The Hang Seng Index is a measure of this city's stock exchange",
+          "answer": "Hong Kong",
+          "value": 400,
+          "order": 6,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "It's 186,000 miles per second",
+          "answer": "the speed of light",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "(Cheryl of the Clue Crew stands in front of Wright's Robie House in Chicago, IL.)  Wright's Robie House is from this school of architecture whose horizontal lines imitate Midwestern terrain",
+          "answer": "the Prairie School",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "In 2004 this British-born heavyweight champ retired with a career record of 41 wins, 2 losses & 1 tie",
+          "answer": "Lennox Lewis",
+          "value": 600,
+          "order": 18,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Bearing the name of a Belgian province, it's a cheese with a really strong aroma",
+          "answer": "Limburger",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "This Philadelphia national historical park contains the site of Benjamin Franklin's home",
+          "answer": "Independence Park",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "BGG is the stock symbol of this big name in small gas engines",
+          "answer": "Briggs & Stratton",
+          "value": 600,
+          "order": 7,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "In 1879 the government officially named Ida Lewis of Rhode Island to this lonely job",
+          "answer": "lighthouse keeper",
+          "value": 1000,
+          "order": 3,
+          "dd": 1000,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "Wright's interiors show his aim to eliminate what he called \"the room as\" this 3-letter word",
+          "answer": "a box",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Nicknamed \"The Rocket\" in 1945 he became the first player in NHL history to score 50 goals in a season",
+          "answer": "(Maurice) Richard",
+          "value": 800,
+          "order": 19,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "It's wonderful to do this to cheese, reducing it to fragments by rubbing it against an abrasive surface",
+          "answer": "grating",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Whipsnade Park is the country branch of this great urban zoo",
+          "answer": "the London Zoo",
+          "value": 800,
+          "order": 29,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "2-word term for an automatic trading halt during selling frenzies, or for an electrical safety device",
+          "answer": "a circuit breaker",
+          "value": 800,
+          "order": 8,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "This Tennyson poem contains the line, \"Theirs not to reason why, theirs but to do and die\"",
+          "answer": "\"The Charge of the Light Brigade\"",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "(Cheryl of the Clue Crew stands outside the Robie House in Chicago, IL with a view featuring a broad roof overhang.)  Steel beams let Wright build a daring example of this type of roof that extends beyond its supporting wall",
+          "answer": "a cantilever",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "In 2004 this Siberian-born 17-year-old defeated Serena Williams to take the women's title at Wimbledon",
+          "answer": "(Maria) Sharapova",
+          "value": 1000,
+          "order": 20,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Salata is the dense processed form of this \"recooked\" Italian cheese",
+          "answer": "ricotta",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "The USA's largest military park is Chickamauga & Chattanooga, which covers over 9,000 acres in these 2 states",
+          "answer": "Tennessee & Georgia",
+          "value": 1000,
+          "order": 30,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "In 1958 this \"I Love Lucy\" production company went public & its stock rose from $10 to $29 a share",
+          "answer": "Desilu",
+          "value": 1000,
+          "order": 9,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "Popular through the Middle East, this candy is called rahat loukoum (\"rest for the throat\")",
+          "answer": "Turkish delight",
+          "value": 1000,
+          "order": 10,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "ANCIENT TIMES"
+        },
+        {
+          "name": "YOURS FOR A SONG"
+        },
+        {
+          "name": "FICTIONAL CHARACTERS"
+        },
+        {
+          "name": "STICK OUT YOUR MOTHER TONGUE"
+        },
+        {
+          "name": "COMMON BONDS"
+        },
+        {
+          "name": "OH \"HOLY\" NIGHT"
+        }
+      ],
+      "clues": [
+        {
+          "question": "This \"Apostle to the Gentiles\" was a special guest at the Council of Jerusalem around 49 A.D.",
+          "answer": "Paul",
+          "value": 400,
+          "order": 11,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Bing Crosby (with the Andrews Sisters) & Bruce Springsteen have recorded popular versions of this favorite",
+          "answer": "\"Santa Claus Is Coming To Town\"",
+          "value": 400,
+          "order": 6,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Major Major Major is a major character in this book",
+          "answer": "Catch-22",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "This language with 175 million speakers developed in the ancient Galician region in northwest Spain",
+          "answer": "Portuguese",
+          "value": 400,
+          "order": 16,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Giant pandas; the movie \"Citizen Kane\"; a clear-cut issue",
+          "answer": "things that are black and white",
+          "value": 400,
+          "order": 21,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Parsifal sought it",
+          "answer": "the Holy Grail",
+          "value": 400,
+          "order": 26,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Aristotle said this man's \"Oedipus Rex\" was the greatest play ever; lucky it was one of his few to survive in full",
+          "answer": "Sophocles",
+          "value": 800,
+          "order": 12,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "\"Suds\" lovers might know this song's original title was \"Unrequited Love\"",
+          "answer": "\"The Beer Barrel Polka\" (\"Roll Out The Barrel\" also accepted)",
+          "value": 800,
+          "order": 7,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Floral first name of Henry James' Miller & F. Scott Fitzgerald's Buchanan",
+          "answer": "Daisy",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "\"The Barber of Seville\" premiered in this language February 20, 1816",
+          "answer": "Italian",
+          "value": 800,
+          "order": 17,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "A bride's rock;the core of a pencil;briquets",
+          "answer": "things that are made from carbon",
+          "value": 800,
+          "order": 22,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "It's another name for the Eucharist ceremony",
+          "answer": "Holy Communion",
+          "value": 800,
+          "order": 27,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "This ancient city was also known as Ilium",
+          "answer": "Troy",
+          "value": 2500,
+          "order": 13,
+          "dd": 2500,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Classic song heard here that Sir Isaac Newton might have liked ",
+          "answer": "\"Don't Sit Under The Apple Tree\"",
+          "value": 1200,
+          "order": 8,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Benjamin Suddlechop & Sweeney Todd operated barber shops on this street",
+          "answer": "Fleet (Street)",
+          "value": 1200,
+          "order": 3,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "\"Ransack\" comes from rannsaka, in the language called \"Old\" this, also a group known for ransacking",
+          "answer": "Norse",
+          "value": 1200,
+          "order": 18,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "\"The queen\";\"the brave\";\"for thee\"",
+          "answer": "last words of national anthems",
+          "value": 1200,
+          "order": 23,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "answer": "Paul",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "The name of this Central American people who predated the Mayans means \"The Rubber People\"",
+          "answer": "the Olmecs",
+          "value": 1600,
+          "order": 14,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "It's the patriotic march heard here",
+          "answer": "\"The Liberty Bell March\"",
+          "value": 1600,
+          "order": 9,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "This title James Hilton character taught classics at Brookfield School",
+          "answer": "Mr. Chips",
+          "value": 1600,
+          "order": 4,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "The dialects of Dutch spoken in Belgium are usually called this language",
+          "answer": "Flemish",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "David's stone;hash;a hammock",
+          "answer": "things that are slung",
+          "value": 2800,
+          "order": 24,
+          "dd": 2800,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "answer": "Paul",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Cicero dubbed this man the \"Father of History\"",
+          "answer": "Herodotus",
+          "value": 2000,
+          "order": 15,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "The title of the following is an alternation of a French word meaning this",
+          "answer": "wake up",
+          "value": 2000,
+          "order": 10,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Zenobia Pierce is the wife & cousin of this Edith Wharton title character",
+          "answer": "Ethan Frome",
+          "value": 2000,
+          "order": 5,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Part of the Baltic group is Lettish, which is also called this",
+          "answer": "Latvian",
+          "value": 2000,
+          "order": 20,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "A dagger;South America;a rambling speaker (at last)",
+          "answer": "things that come to a point",
+          "value": 2000,
+          "order": 25,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "answer": "Paul",
+          "row": 1,
+          "col": 1
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "THE ACADEMY AWARDS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Last names of the 2 famous families in which 3 generations have won Oscars",
+          "answer": "Huston and Coppola"
+        }
+      ]
+    }
+  ]
+}

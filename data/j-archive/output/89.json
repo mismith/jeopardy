@@ -1,0 +1,570 @@
+{
+  "number": 4676,
+  "date": "2004-12-27",
+  "comments": "Aaron Thompson game 3.",
+  "contestants": [
+    {
+      "name": "David Gibbs",
+      "occupation": "an editor and graduate student",
+      "origin": "Los Angeles, California"
+    },
+    {
+      "name": "Christian Mastrodonato",
+      "occupation": "an artist",
+      "origin": "San Francisco, California"
+    },
+    {
+      "name": "Aaron Thompson",
+      "occupation": "an executive assistant",
+      "origin": "Washington, D.C.",
+      "streak": 2,
+      "winnings": 45100
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "HEALTH CARE"
+        },
+        {
+          "name": "TIMES SQUARE AT 100"
+        },
+        {
+          "name": "TRANSPORTATION"
+        },
+        {
+          "name": "NOT A STATE CAPITAL"
+        },
+        {
+          "name": "FROM SOUP TO NUTS"
+        },
+        {
+          "name": "\"SEA\" DUTY"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Often $10, it's what patients in HMOs shell out with every visit to the doctor",
+          "answer": "a copay",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "(Jimmy of the Clue Crew reports from Times Square.)  In 1904, Oscar Hammerstein I brought Times Square this new entertainment form, with dancing girls and comedy teams",
+          "answer": "Vaudeville",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "In 1783 Benjamin Franklin saw the first piloted flight of this type of transport while in Paris",
+          "answer": "a hot air balloon",
+          "value": 200,
+          "order": 26,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Baltimore, Baton Rouge, Springfield",
+          "answer": "Baltimore",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Some people refer to chicken soup as the \"Jewish\" kind of this antibiotic",
+          "answer": "penicillin",
+          "value": 200,
+          "order": 21,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "To get these is to gain the ability to walk around on a moving ship",
+          "answer": "sea legs",
+          "value": 200,
+          "order": 11,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "California workers' comp includes up to 24 visits to this professional for spinal adjustment",
+          "answer": "a chiropractor",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "(Sarah of the Clue Crew reads from Broadway.)  Fittingly, O. J. Gude, who designed many Times Square electric signs, coined this term for Broadway",
+          "answer": "The Great White Way",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "If you're wearing silks, you're on a horse; if you \"hit the silk\", you're strapped into one of these",
+          "answer": "a parachute",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Salem, Omaha, Providence",
+          "answer": "Omaha",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "About the size of a marble & named for an oyster product, they garnish Gibson cocktails",
+          "answer": "a pearl onion",
+          "value": 400,
+          "order": 22,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Aquatic critter of the genus Hippocampus",
+          "answer": "seahorse",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "In 2004 this person who once tried to fix the system wrote an article called \"Now can we talk about health care?\"",
+          "answer": "Hillary Clinton",
+          "value": 600,
+          "order": 18,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "(Cheryl of the Clue Crew reports from Times Square.)  On the night of August 14th of this year, an estimated 2 million people spontaneously celebrated in Times Square",
+          "answer": "1945",
+          "value": 600,
+          "order": 8,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "The name of this New York-Boston train combines \"acceleration\" & \"excellence\"",
+          "answer": "the Acela",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "Trenton, Concord, Boulder",
+          "answer": "Boulder",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "Named for its resemblance to a cheerleading accessory, the pom pom is a white type of this fungus",
+          "answer": "a mushroom",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Hardtack",
+          "answer": "sea biscuit",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "43 million people is the figure you usually hear bandied about",
+          "answer": "Number of uninsured Americans (Americans who don't have health insurance)",
+          "value": 800,
+          "order": 19,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "(Cheryl of the Clue Crew reports Times Square.)  In 1907, risky fireworks were replaced for New Year's Eve with this, covered with 125-watt bulbs",
+          "answer": "the (New Year's Eve dropping) ball",
+          "value": 800,
+          "order": 9,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "The 3 broad classes of operational aviation are general, military, & this type of civil aviation",
+          "answer": "commercial",
+          "value": 2400,
+          "order": 29,
+          "dd": 2400,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Columbus, Philadelphia, Hartford",
+          "answer": "Philadelphia",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "A tasty dish is chicken marinated in yogurt & spices & cooked in this Indian oven",
+          "answer": "tandoori oven ",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "U.S. Navy construction battalion",
+          "answer": "the Seabees",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "A 2001 government report warned of a shortage of these people, of whom 40% will soon be over age 50",
+          "answer": "Nurses",
+          "value": 1000,
+          "order": 20,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "(Jimmy of the Clue Crew reads from Times Square.)  In 1904, Times Square got its name from the newspaper and this owner ushered in 1905 with a big party",
+          "answer": "Adolph Ochs",
+          "value": 1000,
+          "order": 10,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "In railroading, maglev is short for this",
+          "answer": "magnetic levitation",
+          "value": 1000,
+          "order": 30,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Olympia, Detroit, Madison",
+          "answer": "Detroit",
+          "value": 1000,
+          "order": 5,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "California leads the nation in the production of the English, or Persian, type of this nut",
+          "answer": "the walnut",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "In \"The Tempest\", Ariel sings of this type of substantial transformation",
+          "answer": "a sea-change",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "SCIENCE"
+        },
+        {
+          "name": "MAX-IMUM OVERDRIVE"
+        },
+        {
+          "name": "TITLE CHARACTERS"
+        },
+        {
+          "name": "PORTRAIT OF A MILITARY MAN"
+        },
+        {
+          "name": "WILL YOU STILL NEED \"ME\""
+        },
+        {
+          "name": "WHEN I'M 64"
+        }
+      ],
+      "clues": [
+        {
+          "question": "It's that line off in the distance where the sky meets the land or the sea",
+          "answer": "the horizon",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Silent film stars were all aflutter when the first false eyelashes were created by this makeup master",
+          "answer": "Max Factor",
+          "value": 400,
+          "order": 26,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "A nameless monster is often erroneously called this, the last name of his creator Victor",
+          "answer": "Frankenstein",
+          "value": 400,
+          "order": 2,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "\"Sandy\" was probably not a nickname of this British World War I hero",
+          "answer": "Lawrence (of Arabia)",
+          "value": 400,
+          "order": 7,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "You'll find them in albondigas soup",
+          "answer": "meatballs",
+          "value": 400,
+          "order": 21,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "In all 64 minutes of this 1941 Disney classic, the high-flying title character never speaks",
+          "answer": "Dumbo",
+          "value": 400,
+          "order": 12,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "What makes Rigel the brightest star in this constellation is that it's really 3 stars (& they're not in the belt)",
+          "answer": "Orion",
+          "value": 800,
+          "order": 15,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "Also known as Agent 86, he's the greatest spy in TV history! (Would you believe... second greatest?)",
+          "answer": "Maxwell Smart",
+          "value": 800,
+          "order": 27,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "In a 1726 Swift novel, this character saw \"a human creature not six inches high\"",
+          "answer": "Gulliver",
+          "value": 800,
+          "order": 3,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "This German's military fame arises mostly from his successes in North Africa",
+          "answer": "(Erwin) Rommel",
+          "value": 800,
+          "order": 8,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "The science of climate & weather",
+          "answer": "meteorology",
+          "value": 800,
+          "order": 22,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "This city that had a disastrous fire in 64 A.D. employed a corps of pumpers called siphonarii",
+          "answer": "Rome",
+          "value": 800,
+          "order": 13,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "In the 1970s it was found that when CFCs break down, this is the main 1 of the 3 elements in them that harms the ozone",
+          "answer": "chlorine",
+          "value": 1200,
+          "order": 16,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Man von Mayerling is the tense Teutonic butler to a faded star in this classic 1950 film",
+          "answer": "Sunset Boulevard",
+          "value": 1200,
+          "order": 28,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Jane Austen described this title 20-year-old as \"handsome, clever, and rich\"",
+          "answer": "Emma",
+          "value": 1200,
+          "order": 4,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "Long-time opposer of Spanish rule in the Americas seen here",
+          "answer": "(Simón) Bolívar",
+          "value": 1200,
+          "order": 9,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "It flows into the South China Sea",
+          "answer": "Mekong River",
+          "value": 1200,
+          "order": 23,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "At 64 miles wide, this Hawaiian site is the world's largest active volcano",
+          "answer": "Mauna Loa",
+          "value": 1200,
+          "order": 14,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "Amoebas use temporary extensions called these to move or to surround & engulf food",
+          "answer": "pseudopods",
+          "value": 1600,
+          "order": 17,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Woe is me! He played Wojo on \"Barney Miller\"",
+          "answer": "Max Gail",
+          "value": 1600,
+          "order": 29,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "A self-sacrificing daughter named Amy is the title character of this Dickens novel",
+          "answer": "Little Dorrit",
+          "value": 2400,
+          "order": 5,
+          "dd": 2400,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "His infamy began on December 7th, 1941",
+          "answer": "(Isoroku) Yamamoto",
+          "value": 1600,
+          "order": 10,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "In \"Hamlet\", it completes the line \"The lady doth protest too much...\"",
+          "answer": "methinks",
+          "value": 1600,
+          "order": 24,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "It's the more popular & timely name for \"Opus 64 No. 1\", heard here",
+          "answer": "\"The Minute Waltz\" (by Frédéric Chopin)",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "This amino acid is the sodium salt of glutamic acid",
+          "answer": "monosodium glutamate (or MSG)",
+          "value": 2200,
+          "order": 18,
+          "dd": 2200,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "The \"colorful\" title of this George Peppard-Ursula Andress flm refers to a German medal",
+          "answer": "The Blue Max",
+          "value": 2000,
+          "order": 30,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Sort of a Russian Don Juan, this Pushkin character spurns Tatyana's love, only to try to win her back later",
+          "answer": "Eugene Onegin",
+          "value": 2000,
+          "order": 6,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "You might say this German military leader of World War I was full of hot air",
+          "answer": "(Paul von) Hindenburg",
+          "value": 2000,
+          "order": 11,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "Reagan's attorney general",
+          "answer": "(Edwin) Meese",
+          "value": 2000,
+          "order": 25,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "64 symbolic hexagrams make up this divinatory Chinese system",
+          "answer": "I Ching",
+          "value": 2000,
+          "order": 20,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "BODIES OF WATER"
+        }
+      ],
+      "clues": [
+        {
+          "question": "This sea that extends about 1,200 miles was referred to in ancient times as the Erythraean Sea",
+          "answer": "the Red Sea"
+        }
+      ]
+    }
+  ]
+}

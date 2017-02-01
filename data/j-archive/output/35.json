@@ -1,0 +1,539 @@
+{
+  "number": 4630,
+  "date": "2004-10-22",
+  "comments": "2004-B Kids Week game 5.",
+  "contestants": [
+    {
+      "name": "Patrick Zakem",
+      "occupation": "an 11-year-old sixth grader",
+      "origin": "Louisville, Kentucky"
+    },
+    {
+      "name": "Theodora Messalas",
+      "occupation": "an 11-year-old sixth grader",
+      "origin": "Brooklyn, New York"
+    },
+    {
+      "name": "Ross Gardiner",
+      "occupation": "an 11-year-old sixth grader",
+      "origin": "La Plata, Maryland"
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "STATE CAPITALS"
+        },
+        {
+          "name": "RATED PG"
+        },
+        {
+          "name": "MOVIE MUNCHABLES"
+        },
+        {
+          "name": "BUNNIES IN BOOKS"
+        },
+        {
+          "name": "CRAYOLA COLORS"
+        },
+        {
+          "name": "WHEEL OF JEOPARDY!"
+        }
+      ],
+      "clues": [
+        {
+          "question": "This Nevada capital was founded by Abraham Curry, who named it for a famous frontier scout",
+          "answer": "Carson City",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Lindsay Curtis & Jamie Lee Lohan--wait, switch those last names--starred in this 2003 remake",
+          "answer": "Freaky Friday",
+          "value": 200,
+          "order": 4,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Some theaters offer the Bavarian Brothers brand of this soft snack that's \"seriously twisted\"",
+          "answer": "a pretzel",
+          "value": 200,
+          "order": 14,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "In \"The Tale of Rabbit and Coyote\", rabbit escapes to this heavenly body, which makes the coyote howl at it",
+          "answer": "the moon",
+          "value": 200,
+          "order": 11,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Screamin & Caribbean are 2 of our favorite shades of this (okay, we like the Forest shade, too)",
+          "answer": "green",
+          "value": 200,
+          "order": 23,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "It's Apple's killer music combinationI _ _ __ N _I _ _ N _ S",
+          "answer": "iPod and iTunes",
+          "value": 200,
+          "order": 12,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "More than half of all U.S. coins are made at the mint in this \"Mile High City\"",
+          "answer": "Denver",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "\"Save the world.  Get the girl.  Pass math\" was a tagline for this 2003 Frankie Muniz pic",
+          "answer": "Agent Cody Banks",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "It's the rhyming name of the movie treats seen here",
+          "answer": "Reese's Pieces",
+          "value": 400,
+          "order": 15,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "(LeVar Burton of Reading Rainbow delivers the clue.)  In \"The Bionic Bunny Show\", the Bionic Bunny twitches his nose and wiggles these to summon his bionic strength",
+          "answer": "his ears",
+          "value": 400,
+          "order": 19,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "Some birdbrain at Crayola came up with a color called Pink this bird",
+          "answer": "Flamingo",
+          "value": 400,
+          "order": 24,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "For Brittany Snow they include liberty & equalityA _ _ R _ _ A N_ R _ A M S",
+          "answer": "American Dreams",
+          "value": 400,
+          "order": 13,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "This state capital was founded by John Sutter, Jr. a year after gold was discovered on his father's sawmill",
+          "answer": "Sacramento",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "The 4 main food groups where Will Ferrell comes from in this film are candy, candy canes, candy corn & syrup",
+          "answer": "Elf",
+          "value": 600,
+          "order": 8,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Made by the same company, these candies are just like Mike and Ike but they're cinnamon-flavored",
+          "answer": "Hot Tamales",
+          "value": 600,
+          "order": 16,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "answer": "Carson City",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "What a \"joy\" when this nut debuted as a Crayola color in 1998",
+          "answer": "Almond",
+          "value": 600,
+          "order": 25,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Tale about someone who rises from neglect to success__ I _ _ E _ E _ _ __ T _ _ Y",
+          "answer": "a Cinderella story",
+          "value": 600,
+          "order": 20,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "The 20-foot tall statue that stands in this capital's City Hall Plaza was a gift from the citizens of Genoa, Italy",
+          "answer": "Columbus (Ohio)",
+          "value": 1000,
+          "order": 5,
+          "dd": 1000,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "In 2002 Freddie Prinze Jr. went to the dogs in this film",
+          "answer": "Scooby-Doo",
+          "value": 800,
+          "order": 9,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "Too bad the theater's so dark; you can't see these \"everlasting\" Willie Wonka jawbreakers change color",
+          "answer": "Gobstoppers",
+          "value": 800,
+          "order": 17,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "answer": "Carson City",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "In 2003 Crayola celebrated its 100th birthday by adding some new colors, including \"Mango\" this (hey, that rhymes)",
+          "answer": "Tango",
+          "value": 800,
+          "order": 26,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "Before dueling in this game, you must greet your opponent with a friendly handshake_ _ - _ I - O _",
+          "answer": "Yu-Gi-Oh",
+          "value": 800,
+          "order": 21,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Peter Stuyvesant gave it the name Beverwyck in 1652; 12 years later it was given its present name",
+          "answer": "Albany (New York)",
+          "value": 1000,
+          "order": 6,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Kingdom of Far Far Away…  Hello!  Larry King voices an ugly stepsister in this sequel",
+          "answer": "Shrek 2",
+          "value": 1000,
+          "order": 10,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Be sure to pick up a box of these, \"the original malted milk balls\"",
+          "answer": "Whoppers",
+          "value": 1000,
+          "order": 18,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "answer": "Carson City",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "answer": "Carson City",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "It's when a group wants you to conform so you'll be acceptedP _ _ RP R _ _ _ U R _",
+          "answer": "peer pressure",
+          "value": 1000,
+          "order": 22,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "GENERAL SCIENCE"
+        },
+        {
+          "name": "SINGERS"
+        },
+        {
+          "name": "HOW DO YOU..."
+        },
+        {
+          "name": "AMERICAN HEROES"
+        },
+        {
+          "name": "THE HISTORY OF DISNEYLAND"
+        },
+        {
+          "name": "THE WORLD OF WORDS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "-40 is the only reading on these 2 temperature scales where the temperature is the same",
+          "answer": "Celsius and Fahrenheit",
+          "value": 400,
+          "order": 16,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "She called her first real pop-rock album \"Metamorphosis\" because \"change is a very important and natural thing\"",
+          "answer": "Hilary Duff",
+          "value": 400,
+          "order": 5,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Put shirt on horizontal stick, stuff with straw; put pands on attached vertical piece, stuff; attach head",
+          "answer": "make a scarecrow",
+          "value": 400,
+          "order": 19,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "The birthday of this top Confederate general is celebrated as Confederate Heroes Day",
+          "answer": "Robert E. Lee",
+          "value": 400,
+          "order": 9,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Since 1956, kids have played on the Disneyland island named for this kid created by Mark Twain",
+          "answer": "Tom Sawyer",
+          "value": 400,
+          "order": 4,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Myrige, an old English word for \"pheasant\", evolved into this adjective that precedes Christmas",
+          "answer": "merry",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "When hit by electrons, a phosphor gives off electromagnetic energy in this form",
+          "answer": "light",
+          "value": 800,
+          "order": 17,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "His solo hit \"Blowin' Me Up (With Her Love)\" was featured on the \"Drumline\" soundtrack",
+          "answer": "JC Chasez",
+          "value": 800,
+          "order": 6,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Die, become covered with mud, wait thousands of years & petrify",
+          "answer": "become a fossil",
+          "value": 800,
+          "order": 20,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "This first lady saved one of the White House's paintings of George Washington during the War of 1812",
+          "answer": "Dolley Madison",
+          "value": 800,
+          "order": 10,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "This man, who co-hosted the grand opening of Disneyland, later became the President of the United States",
+          "answer": "Ronald Reagan",
+          "value": 800,
+          "order": 14,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "This word for a nonrigid airship may be derived from the word \"limp\"",
+          "answer": "blimp",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "Dry ice is made by compressing and cooling this gas",
+          "answer": "carbon dioxide",
+          "value": 1200,
+          "order": 18,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "This one-named singer had hits with \"Foolish\", \"Always On Time\" & \"What's Luv?\"",
+          "answer": "Ashanti",
+          "value": 1200,
+          "order": 7,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "(Jimmy of the Clue Crew snaps some rubber bands around a familiar piece of sports gear.)  Lather it with lanolin, put a ball in the pocket, and wrap it with rubber bands for 48 hours",
+          "answer": "wear in (or break in) a (baseball) glove (or mitt)",
+          "value": 1200,
+          "order": 21,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "He's the famous German-American physicist who came up with the nuclear equation E = mc²",
+          "answer": "Albert Einstein",
+          "value": 1200,
+          "order": 11,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "You'll feel \"dopey\" if you don't know that a musical about this heroine premiered at Disneyland in 2004",
+          "answer": "Snow White",
+          "value": 1200,
+          "order": 15,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "This \"metallic\" word precedes calf, gate, & retriever",
+          "answer": "golden",
+          "value": 1200,
+          "order": 3,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "answer": "Celsius and Fahrenheit",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "I know you can name this hip-hop hero who had the hit song \"I Can\"",
+          "answer": "Nas",
+          "value": 1600,
+          "order": 8,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "From bottom to top, then from bottom to top again, then into triangles starting at the end with the stripes",
+          "answer": "fold an American flag",
+          "value": 1600,
+          "order": 22,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Sign in please if you know this Massachusetts man was chosen President of the 2nd Continental Congress",
+          "answer": "John Hancock",
+          "value": 1600,
+          "order": 12,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "Neuschwanstein Castle inspired the design of this heroine's castle in a 1959 film and at Disneyland",
+          "answer": "Sleeping Beauty",
+          "value": 1600,
+          "order": 25,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "answer": "Celsius and Fahrenheit",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "answer": "Celsius and Fahrenheit",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Shad Gregory Moss is the real name of this teen rapper who's been \"Unleashed\"",
+          "answer": "Lil' Bow Wow",
+          "value": 2000,
+          "order": 24,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "(Cheryl of the Clue Crew reads and demonstrates on Jimmy.)  To perform this 2-word procedure to relieve choking, place your thumb on the person's upper abdomen and thrust inward",
+          "answer": "the Heimlich maneuver",
+          "value": 2000,
+          "order": 23,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "In 1932 she took off in a plane from Newfoundland, Canada & landed about 15 hours later in Ireland",
+          "answer": "Amelia Earhart",
+          "value": 2000,
+          "order": 13,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "answer": "Celsius and Fahrenheit",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "answer": "Celsius and Fahrenheit",
+          "row": 1,
+          "col": 1
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "THE OLYMPICS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "This sport that's also known as whiff-whaff & flim-flam has been an Olympic sport since 1988",
+          "answer": "table tennis (or ping pong)"
+        }
+      ]
+    }
+  ]
+}

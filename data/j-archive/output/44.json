@@ -1,0 +1,568 @@
+{
+  "number": 4639,
+  "date": "2004-11-05",
+  "comments": "Ken Jennings game 67.",
+  "contestants": [
+    {
+      "name": "Elizabeth Costello",
+      "occupation": "an attorney and media sales rep originally",
+      "origin": "Mahopac, New York"
+    },
+    {
+      "name": "John Murray",
+      "occupation": "an aspiring playwright",
+      "origin": "Jersey City, New Jersey"
+    },
+    {
+      "name": "Ken Jennings",
+      "occupation": "a software engineer",
+      "origin": "Salt Lake City, Utah",
+      "streak": 66,
+      "winnings": 2247000
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "CREAM"
+        },
+        {
+          "name": "SUNSHINE"
+        },
+        {
+          "name": "OF YOUR \"LOVE\""
+        },
+        {
+          "name": "STRANGE BREW"
+        },
+        {
+          "name": "CROSSROADS"
+        },
+        {
+          "name": "TALES OF BRAVE ULYSSES"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Your basic all-American baked potato often comes with this \"cream\" & chives",
+          "answer": "sour",
+          "value": 200,
+          "order": 26,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Of 8, 18 or 28, the approximate time it takes in minutes for the Sun's rays to reach the Earth",
+          "answer": "8",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "With Eric Clapton on lead guitar, Derek & the Dominos released the hit album \"Layla & Other Assorted\" these",
+          "answer": "Love Songs",
+          "value": 200,
+          "order": 9,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "On an episode of this show, Samantha gives Darrin a potion she says will fill him with confidence",
+          "answer": "Bewitched",
+          "value": 200,
+          "order": 21,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "This state capital is \"the Crossroads of the Pacific\"",
+          "answer": "Honolulu",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Ulysses is the Latin name of Odysseus, the Greek hero that this poet portrayed in \"The Odyssey\"",
+          "answer": "Homer",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "One type is made with chocolate & cream; another with damp soil, mostly by children",
+          "answer": "a mud pie",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "Green plants use the Sun's rays to turn water & this gas into carbohydrates",
+          "answer": "carbon dioxide",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "A small sofa for 2 people",
+          "answer": "a loveseat",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "The \"Macbeth\" witches' brew contains an entire toad but only the toe of this fellow amphibian",
+          "answer": "a frog",
+          "value": 400,
+          "order": 22,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "This Neb. city on the Missouri River calls itself \"the Crossroads of the Nation\" & \"the Gateway to the West\"",
+          "answer": "Omaha",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Ulysses devised this trick to induce the soldiers of Troy to open the city gates",
+          "answer": "the Trojan horse",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "Captain Parker's in Yarmouth is a 2-time winner of Boston Harborfest's competition in this creamy soup",
+          "answer": "clam chowder",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "UVA, UVB & UVC are the 3 types of this radiation contained in sunshine",
+          "answer": "ultraviolet",
+          "value": 600,
+          "order": 8,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Small green African avian of the genus agapornis",
+          "answer": "a lovebird",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "On a 2001 season opener, Willow had to brew up a potion to bring this heroine back from the dead",
+          "answer": "Buffy the Vampire Slayer",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "This \"Prairie State\" calls itself \"the Heart of the Nation\", \"the Hub of the Nation\" & \"the Crossroads of America\"",
+          "answer": "Illinois",
+          "value": 600,
+          "order": 18,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Ulysses was bound to his ship's mast to avoid the lure of the sounds of these demons, half women, half birds",
+          "answer": "the sirens",
+          "value": 1000,
+          "order": 3,
+          "dd": 1000,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "This Kraft Foods dessert topping comes in an extra creamy version",
+          "answer": "Cool Whip",
+          "value": 800,
+          "order": 29,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "The energy we call sunshine is initially generated by the Sun's fusion of hydrogen into this",
+          "answer": "helium",
+          "value": 800,
+          "order": 10,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "This N.Y. region was declared a disaster area due to toxic waste",
+          "answer": "Love Canal",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Harry Potter's potions professor, he's as loathsome as his shrinking solution",
+          "answer": "Snape",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "Sioux Falls in this state calls itself \"the Crossroads of the Nation\"",
+          "answer": "South Dakota",
+          "value": 800,
+          "order": 19,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "In the Strait of Messina, Ulysses lost 6 of his men to the sea monster Scylla while avoiding this whirlpool",
+          "answer": "Charybdis",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Teutonic name for a mousse made with whipped cream & set in a towering mold",
+          "answer": "Bavarian cream",
+          "value": 1000,
+          "order": 30,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "The radiation that becomes our sunshine leaves the Sun's surface at this \"sphere\", the visible surface of the sun",
+          "answer": "the photosphere",
+          "value": 1000,
+          "order": 11,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "His literary output includes \"The Thing on the Doorstep\" & \"The Dunwich Horror\"",
+          "answer": "H.P. Lovecraft",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Film in which a magic potion keeps Meryl Streep & Goldie Hawn alive after they're both murdered",
+          "answer": "Death Becomes Her",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "This Midwestern capital city has a great \"track\" record as \"the Crossroads of  America\", also the motto of its state",
+          "answer": "Indianapolis",
+          "value": 1000,
+          "order": 20,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "Ulysses spent a year on the island of Aeaea in the company of this witch who turned men into pigs",
+          "answer": "Circe",
+          "value": 1000,
+          "order": 5,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "LEFT TO MY OWN DEVICES",
+          "comments": "(Alex: That's dangerous.)"
+        },
+        {
+          "name": "EVENTS IN THE OLYMPIC DECATHLON"
+        },
+        {
+          "name": "WASHINGTON'S NATIONAL CATHEDRAL"
+        },
+        {
+          "name": "IT'S ALL GREEK TO ME"
+        },
+        {
+          "name": "AWARDS & HONORS"
+        },
+        {
+          "name": "LETTER PERFECT"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Jacob Schick came up with this device while mining way up north where hot water was scarce",
+          "answer": "an electric razor",
+          "value": 400,
+          "order": 26,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "It's the running event that includes a series of obstacles",
+          "answer": "the hurdles",
+          "value": 400,
+          "order": 16,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "(Cheryl of the Clue Crew reports from the National Cathedral in Washington, D.C.)  In 1968 he gave his last Sunday sermon from the Canterbury pulpit; a memorial service for him was held here 5 days later",
+          "answer": "Dr. King",
+          "value": 400,
+          "order": 21,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Before you \"coin\" one of these, know it's from the Greek for \"to speak\"",
+          "answer": "a phrase",
+          "value": 400,
+          "order": 11,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "This \"Arthur\" star must have been a perfect \"10\"--the Queen made him a Commander of the British Empire in 2001",
+          "answer": "Dudley Moore",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Crossword puzzle competitors save time by using the lower-case version of this most common English letter",
+          "answer": "E",
+          "value": 400,
+          "order": 2,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "This wireless handheld brand lets you access e-mail on the go & also makes a great pie filling",
+          "answer": "a BlackBerry",
+          "value": 800,
+          "order": 27,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "It's the throwing event that uses the heaviest item",
+          "answer": "the shotput",
+          "value": 800,
+          "order": 17,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "The National Cathedral's official name is the Cathedral Church of St. Peter & him",
+          "answer": "St. Paul",
+          "value": 800,
+          "order": 22,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "From the Greek for \"flow\", this type of arthritis is characterized by painful swelling of the joints",
+          "answer": "rheumatoid",
+          "value": 800,
+          "order": 12,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "(Hi. I'm Gretchen Carlson of the CBS Saturday Early Show.)  As a journalist I've been honored with  3 of these awards named for this TV legend, George Burns' famous partner",
+          "answer": "Gracie Allen",
+          "value": 800,
+          "order": 7,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "In Roman numerals, if you get a hit every time up, you're said to be batting this",
+          "answer": "M",
+          "value": 800,
+          "order": 3,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "A device you can use to spiff up clothes, or the type of trunk where they got all their wrinkles",
+          "answer": "a steamer",
+          "value": 1200,
+          "order": 28,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "It's the shortest of the running events",
+          "answer": "100 meters",
+          "value": 1200,
+          "order": 18,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Over 150 people are interred at the Cathedral, including this woman who lost her hearing and her sight at age 1 1/2",
+          "answer": "Helen Keller",
+          "value": 1200,
+          "order": 23,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "This word is from the Greek for \"wanderer\"; the fact that the Earth was one wasn't figured out till later",
+          "answer": "planet",
+          "value": 1200,
+          "order": 13,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "When this man won the Peace Prize, the Nobel chairman didn't expect \"gratitude from the Polish authorities\"",
+          "answer": "Lech Walesa",
+          "value": 5200,
+          "order": 8,
+          "dd": 5200,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Alphabetically, the first letter that stands alone as the symbol of a chemical element",
+          "answer": "B",
+          "value": 1200,
+          "order": 4,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "Iraq administrator Paul Bremner's line \"You cannot wand a million people\" referred to a hand-held one",
+          "answer": "a metal detector",
+          "value": 1600,
+          "order": 29,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "The 2 events with \"jump\" in their names",
+          "answer": "long jump & high jump",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "This Episcopal minister, ex-Missouri senator & U.N. Ambassador led the Reagan funeral service June 11, 2004",
+          "answer": "John Danforth",
+          "value": 1600,
+          "order": 24,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "From the Greek for \"to strike on one side\", it's paralysis of both legs due to a spinal cord injury",
+          "answer": "paraplegia",
+          "value": 4000,
+          "order": 14,
+          "dd": 4000,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "In 1953 the Lenin Peace Prize went to this Chilean poet and diplomat",
+          "answer": "Pablo Neruda",
+          "value": 1600,
+          "order": 9,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "A clever basketball coach is said to be good with these two letters",
+          "answer": "X's & O's",
+          "value": 1600,
+          "order": 5,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "answer": "an electric razor",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "The 2 events in which you use a long rod",
+          "answer": "the pole vault & the javelin",
+          "value": 2000,
+          "order": 20,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "The only president buried in Washington, D.C., his tomb was dedicated in 1956, the centennial of his birth",
+          "answer": "Woodrow Wilson",
+          "value": 2000,
+          "order": 25,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "From the Greek for \"tongue\", it's the opening in the larynx where consonants stop",
+          "answer": "the glottis",
+          "value": 2000,
+          "order": 15,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "In 2004, Zaha Hadid became the first woman to receive this prize, often called architecture's highest honor",
+          "answer": "the Pritzker",
+          "value": 2000,
+          "order": 10,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "To reverse direction in a car, hang a U-turn or this type of turn, also called a 3-point turn",
+          "answer": "K-turn",
+          "value": 2000,
+          "order": 6,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "LITERATURE"
+        }
+      ],
+      "clues": [
+        {
+          "question": "In early drafts, the heroine of this novel was named Pansy & her family home was called Fontenoy Hall",
+          "answer": "Gone with the Wind"
+        }
+      ]
+    }
+  ]
+}

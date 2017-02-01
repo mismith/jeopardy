@@ -1,0 +1,569 @@
+{
+  "number": 4666,
+  "date": "2004-12-13",
+  "contestants": [
+    {
+      "name": "David Davalos",
+      "occupation": "a playwright",
+      "origin": "New York, New York"
+    },
+    {
+      "name": "Snow Tempest",
+      "occupation": "a writer",
+      "origin": "Los Angeles, California"
+    },
+    {
+      "name": "Robert Bowsher",
+      "occupation": "a software engineer",
+      "origin": "Hilliard, Ohio",
+      "streak": 1,
+      "winnings": 6399
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "JOURNALISM"
+        },
+        {
+          "name": "PEOPLE ON THE MAP"
+        },
+        {
+          "name": "THE LIBERTY BELL"
+        },
+        {
+          "name": "DON WE NOW OUR GUY APPAREL"
+        },
+        {
+          "name": "PRESIDENTIAL MIDDLE NAMES"
+        },
+        {
+          "name": "RHYME TIME"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Screamer & banner are synonyms for one type of this",
+          "answer": "headline",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "He wrote the songs \"There's No Business Like Show Business\" & \"White Christmas\"",
+          "answer": "Irving Berlin",
+          "value": 200,
+          "order": 7,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "This part of the bell is 3 feet, 2 inches long",
+          "answer": "the clapper",
+          "value": 200,
+          "order": 18,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "The 2 numbers on a man's dress shirt, 16/34 for example, are usually measurments of these 2 things",
+          "answer": "neck size and sleeve length",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Howard",
+          "answer": "Taft",
+          "value": 200,
+          "order": 22,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "One-word name of a portable dwelling of native Americans, especially on the great plains",
+          "answer": "teepee",
+          "value": 200,
+          "order": 3,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "(I'm Aaron Brown of CNN.)  This 5-letter word is slang for an exclusive news story acquired before one's competitors",
+          "answer": "a scoop",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "This Los Angeles Lakers star with 3 championship rings speaks fluent Italian",
+          "answer": "Kobe Bryant",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "The quote on the bell, \"proclaim liberty throughout all the land\", comes from this third book of the Bible",
+          "answer": "Leviticus",
+          "value": 400,
+          "order": 24,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Bunny Austin shocked the tennis world when he wore these competing at Forest Hills in 1932",
+          "answer": "shorts",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "Ulysses (originally)",
+          "answer": "Ulysses S. Grant",
+          "value": 400,
+          "order": 23,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "The title of this Dr. Seuss book is evident from the illustration seen here",
+          "answer": "Hop on Pop",
+          "value": 400,
+          "order": 8,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "It's the area assigned to a reporter for regular coverage; policemen walk them, too",
+          "answer": "a beat",
+          "value": 600,
+          "order": 4,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "He was nominated for an Emmy for his role as Buddy Sorrell on \"The Dick Van Dyke Show\"",
+          "answer": "Morey Amsterdam",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "From 1948 through 1963 this U.S. coin depicted the Liberty Bell on its reverse side",
+          "answer": "the half-dollar",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "The name of this wide sash popular in men's formal wear comes from the Urdu for \"waistband\"",
+          "answer": "cummerbund",
+          "value": 600,
+          "order": 19,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "Gamaliel",
+          "answer": "Warren Harding",
+          "value": 600,
+          "order": 25,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Varieties of this brand of seasoned coating mix from Kraft include Tangy Honey Glaze & Original Pork",
+          "answer": "Shake 'n Bake",
+          "value": 600,
+          "order": 9,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "(Hi, I'm Bob Woodward.)  A popular expression says that \"a good reporter never reveals\" this, & I'll be the first to agree",
+          "answer": "the sources",
+          "value": 800,
+          "order": 5,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Among the many larger-than-life characters he created are Captain Wolf Larsen & Buck the sled dog",
+          "answer": "Jack London",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "On the inscription, \"Pennsylvania\" is misspelled, omitting this letter",
+          "answer": "N",
+          "value": 800,
+          "order": 29,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Popular as a fabric for men's pants, this ribbed fabric's name may derive from the French for \"cloth of the king\"",
+          "answer": "corduroy",
+          "value": 800,
+          "order": 20,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "Knox",
+          "answer": "(James K.) Polk",
+          "value": 800,
+          "order": 26,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "To tell someone to relax, you can use the slang phrase \"take a\" this rhyming pharmaceutical term",
+          "answer": "a chill pill",
+          "value": 800,
+          "order": 10,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "It's the term for the first paragraph in a news story; a feature may have a delayed or indirect one",
+          "answer": "the lead",
+          "value": 1000,
+          "order": 6,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "This British-born actor has starred in \"Cabaret\", Logan's Run\" & \"Austin Powers\"",
+          "answer": "Michael York",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "In 1893 the Liberty Bell was on exhibit at the Columbian Exposition in this city",
+          "answer": "Chicago",
+          "value": 1000,
+          "order": 30,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "(Hi, I'm Tucker Carlsen of CNN's Crossfire.)  Among the many influential men to wear bow ties is this great Spanish poet & author of \"The House of Bernarda Alba\"",
+          "answer": "(Federico García) Lorca",
+          "value": 1000,
+          "order": 21,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "Rudolph",
+          "answer": "Gerald Ford",
+          "value": 2400,
+          "order": 27,
+          "dd": 2400,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "At many Starbucks you can surf the Internet cordless with this type of rhyming computer network card",
+          "answer": "Wi-Fi",
+          "value": 1000,
+          "order": 11,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "THE OSCARS"
+        },
+        {
+          "name": "MAYBE YOU HAVE TO BE A NUCLEAR PHYSICIST"
+        },
+        {
+          "name": "THE VEGETABLE GARDEN"
+        },
+        {
+          "name": "I CAN SEE YOUR HOUSE FROM HERE!"
+        },
+        {
+          "name": "18th CENTURY QUOTES"
+        },
+        {
+          "name": "WHERE DO YOU GET \"OFF\"?"
+        }
+      ],
+      "clues": [
+        {
+          "question": "After winning Best Supporting Actress for \"Kramer vs. Kramer\", she left her statuette in the ladies' room",
+          "answer": "Meryl Streep",
+          "value": 400,
+          "order": 16,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "An atom of this No. 2 element has an alpha particle as its nucleus",
+          "answer": "helium",
+          "value": 400,
+          "order": 3,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Slicing ones are harvested when they're about 7 inches long, pickling ones at 1 1/2 to 3 inches",
+          "answer": "cucumbers",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "From Venezuela's Mount Avila, you can see the presidential palace in this city",
+          "answer": "Caracas",
+          "value": 400,
+          "order": 30,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "On Nov. 10, 1770 Voltaire wrote, \"If God did not exist, it would be necessary to\" do this",
+          "answer": "invent him",
+          "value": 400,
+          "order": 11,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "In this film, Lou Gossett Jr. drills Richard Gere & Debra Winger thrills Richard Gere",
+          "answer": "An Officer and a Gentleman",
+          "value": 400,
+          "order": 21,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Timothy Hutton won a 1980 Oscar for Best Supporting Actor for this film directed by Robert Redford",
+          "answer": "Ordinary People",
+          "value": 800,
+          "order": 17,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "(Cheryl of the Clue Crew stands at a blackboard.)  In the familiar atomic symbol, the dots represent these little guys",
+          "answer": "electrons",
+          "value": 800,
+          "order": 4,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "This type of bean is said to be foolproof for gardeners, which makes sense as its name means something easy",
+          "answer": "snap bean",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "From Grouse Mountain, you'll B.C.-ing a panorama of this big city on a peninsula",
+          "answer": "Vancouver",
+          "value": 800,
+          "order": 29,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "In this pamphlet Thomas Paine said, government \"is but a necessary evil; in its worst state, an intolerable one\"",
+          "answer": "Common Sense",
+          "value": 800,
+          "order": 12,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "In fiscal 2000 over a billion dollars was wagered at New York City's OTB outlets, OTB standing for this",
+          "answer": "off-track betting",
+          "value": 800,
+          "order": 22,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "Paddy Chayefsky won an Oscar for his very first screenplay--this 1955 Ernest Borgnine film",
+          "answer": "Marty",
+          "value": 1200,
+          "order": 18,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Pions are a type of these \"rays\" from outer space that enter the Earth's atmosphere",
+          "answer": "cosmic rays",
+          "value": 1200,
+          "order": 6,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Long-day onions form this, the rounded, edible part, during long summer days in the northern U.S.",
+          "answer": "the bulb",
+          "value": 1200,
+          "order": 5,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "\"Vulcan\", the U.S.A.'s largest cast-iron statue, is seen here, looking down on this Southern city",
+          "answer": "Birmingham, Alabama",
+          "value": 3000,
+          "order": 26,
+          "dd": 3000,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "In this work Adam Smith wrote, \"Consumption is the sole end and purpose of all production\"",
+          "answer": "The Wealth of Nations",
+          "value": 1200,
+          "order": 13,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Inked impressions are transferred onto paper from another surface in this printing method",
+          "answer": "offset printing",
+          "value": 1200,
+          "order": 23,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "The rumor that her acceptance speech for \"Mrs. Miniver\" ran over an hour is untrue; actually it was about 7 minutes",
+          "answer": "Greer Garson",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "In the center of stars, the hot version of this process is going on; a cold version is still a dream",
+          "answer": "fusion",
+          "value": 1600,
+          "order": 7,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "Insulated from cold, carrots, parsnips & other veggies classified as these have a long growing season",
+          "answer": "root vegetables",
+          "value": 1600,
+          "order": 9,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "The Chapel of the Ascension is on this mount that overlooks Jerusalem's old city",
+          "answer": "the Mount of Olives",
+          "value": 1600,
+          "order": 28,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "When asked whether we had a republic or a monarchy, Ben Franklin gave this 7-word reply",
+          "answer": "A republic, if you can keep it",
+          "value": 1600,
+          "order": 14,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "It describes an investment based in a foreign country so its owner laughs at the IRS",
+          "answer": "offshore",
+          "value": 1600,
+          "order": 24,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Her 2 acting Oscars for \"The Sin of Madelon Claudet\" & \"Airport\" were 39 years apart",
+          "answer": "Helen Hayes",
+          "value": 1800,
+          "order": 20,
+          "dd": 1800,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "This type of agreement must be adhered to; this type of energy is required to keep a nucleus together",
+          "answer": "binding",
+          "value": 2000,
+          "order": 8,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "There's nothing like a vine-ripened one of these, perhaps the vineripe variety",
+          "answer": "a tomato",
+          "value": 2000,
+          "order": 10,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "The view of Rio seen here is from this mountain",
+          "answer": "Corcovado",
+          "value": 2000,
+          "order": 27,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "When this Prussian king died on August 17, 1786, his last words were \"I am tired of ruling over slaves\"",
+          "answer": "Frederick the Great",
+          "value": 2000,
+          "order": 15,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "Something expected to happen soon is \"in\" this",
+          "answer": "the offing",
+          "value": 2000,
+          "order": 25,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "BUSINESS HISTORY"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Last names of the 2 men, both engineers, who met & formed a partnership at England's Midland Hotel in May 1904",
+          "answer": "Rolls and Royce"
+        }
+      ]
+    }
+  ]
+}

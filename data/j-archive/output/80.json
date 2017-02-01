@@ -1,0 +1,550 @@
+{
+  "number": 3073,
+  "date": "1997-12-31",
+  "comments": "Included \"Bonus\" category in the Double Jeopardy! Round.",
+  "contestants": [
+    {
+      "name": "Nancy Moeller",
+      "occupation": "a homemaker",
+      "origin": "Atlanta, Georgia"
+    },
+    {
+      "name": "Brent Winter",
+      "occupation": "a fashion editor",
+      "origin": "Atlanta, Georgia"
+    },
+    {
+      "name": "Janine Menhennet",
+      "occupation": "a homemaker",
+      "origin": "Pasadena, California",
+      "streak": 2,
+      "winnings": 23400
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "HAPPY NEW YEAR!"
+        },
+        {
+          "name": "FAMOUS WOMEN"
+        },
+        {
+          "name": "\"V\"OCABULARY"
+        },
+        {
+          "name": "BOWL GAME NAMES"
+        },
+        {
+          "name": "A MAGNUM OF CHAMPAGNE",
+          "comments": "(Alex: To celebrate, with some...)"
+        },
+        {
+          "name": "NOISEMAKERS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "In 1998 November 1 is a Sunday; therefore, this date will be election day for Congress",
+          "answer": "November 3 (the 1st Tuesday after the 1st Monday)",
+          "value": 100,
+          "order": 16,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Seen on talk shows with her furry friends, she's goodwill ambassador for the San Diego Zoo",
+          "answer": "Joan Embery",
+          "value": 100,
+          "order": 7,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "For the record, it's what old phonograph records are made of",
+          "answer": "Vinyl",
+          "value": 100,
+          "order": 2,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "The eyes of Texas have been on this Dallas \"boll\" game since 1937",
+          "answer": "Cotton Bowl",
+          "value": 100,
+          "order": 21,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "A man who lived to be 969, or a champagne bottle that holds 8 times as much as the standard size",
+          "answer": "Methuselah",
+          "value": 100,
+          "order": 1,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "A common method of torture involves running fingernails across this classroom aid",
+          "answer": "Chalkboard/blackboard",
+          "value": 100,
+          "order": 12,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Some believe 1998 signals the end of the world because 1998 is 3 times this number",
+          "answer": "666",
+          "value": 200,
+          "order": 17,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "In 1997 Sister Nirmala succeeded this Nobel Prize winner as head of the Missionaries of Charity",
+          "answer": "Mother Teresa",
+          "value": 200,
+          "order": 8,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "He speaks for a \"dummy\"",
+          "answer": "Ventriliquist",
+          "value": 200,
+          "order": 3,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "It wasn't until 1984, after a 33-year wait, that Florida's Miami returned to this home bowl game",
+          "answer": "Orange Bowl",
+          "value": 200,
+          "order": 22,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "Lerner & Loewe wrote \"The Night They Invented Champagne\" for this movie musical set in Gay Paree",
+          "answer": "Gigi",
+          "value": 200,
+          "order": 13,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "In a proverb, this noisemaker \"Gets the grease\"",
+          "answer": "Squeaky Wheel",
+          "value": 200,
+          "order": 26,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "May 14, 1998 marks the 50th anniversary of this nation's independence; Mazel Tov!",
+          "answer": "Israel",
+          "value": 300,
+          "order": 18,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "In 1984 she reached a \"Turning Point\" when she became \"60 Minutes\"' first female correspondent",
+          "answer": "Diane Sawyer",
+          "value": 300,
+          "order": 9,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "A peeping Tom",
+          "answer": "Voyeur",
+          "value": 300,
+          "order": 4,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "Jacksonville's bowl, we're glad they didn't call it the Croc Pot",
+          "answer": "Gator Bowl",
+          "value": 300,
+          "order": 23,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "The glass shaped like & named for this flower is perfect for serving champagne",
+          "answer": "Tulip",
+          "value": 300,
+          "order": 14,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "This film hero's yell was created by combining the sounds of a dog, a hyena, a camel, a violin string & a soprano",
+          "answer": "Tarzan",
+          "value": 300,
+          "order": 27,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "This ex-president turns 74 on October 1, 1998",
+          "answer": "Jimmy Carter",
+          "value": 400,
+          "order": 19,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Among the women to serve in this post are Antonia Novello & Joycelyn Elders",
+          "answer": "Surgeon General",
+          "value": 400,
+          "order": 10,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "It's the proper term for a person who makes or sells wine",
+          "answer": "Vintner",
+          "value": 400,
+          "order": 5,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "In 1942 Oregon State & Duke duked it out in this bowl's temporary WWII home in Durham, N.C.",
+          "answer": "the Rose Bowl",
+          "value": 1000,
+          "order": 24,
+          "dd": 1000,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "Of brut, demi-sec or doux, the term that denotes the sweetest champagne",
+          "answer": "Doux  (50% sugar)",
+          "value": 400,
+          "order": 15,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "It cuts down car noise by giving exhaust gases a place to expand gradually",
+          "answer": "Muffler",
+          "value": 400,
+          "order": 28,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "1998 marks the centennial of this U.S. war",
+          "answer": "Spanish-American War",
+          "value": 500,
+          "order": 20,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "\"I Left My Heart In San Francisco\" is something she might sing since leaving city hall for Capitol Hill",
+          "answer": "Dianne Feinstein",
+          "value": 500,
+          "order": 11,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "It's a room in the church where the clergy put on their robes",
+          "answer": "Vestry",
+          "value": 500,
+          "order": 6,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "LSU clung on in 1968 to win this Atlanta bowl's first championship",
+          "answer": "Peach Bowl",
+          "value": 500,
+          "order": 25,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "answer": "November 3 (the 1st Tuesday after the 1st Monday)",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "On this Scottish instrument, the melody is played on the chanter while the other tubes drone out single notes",
+          "answer": "Bagpipes",
+          "value": 500,
+          "order": 29,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "ISLANDS"
+        },
+        {
+          "name": "BONUS TV",
+          "comments": "(Alex: There are 2 correct responses.  If you select and respond correctly to one of the clues, you'll earn that amount; you can then elect to try for the 2nd half of it, in which case, you would double your score if you're right, but if you're wrong, you lose it all.)"
+        },
+        {
+          "name": "NEWS STORIES OF 1997"
+        },
+        {
+          "name": "1998 CALENDARS"
+        },
+        {
+          "name": "BOOKS BY THEIR COVERS"
+        },
+        {
+          "name": "COMMON BONDS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Ostrov, as in Ostrov Bering, near Kamchatka, means \"island\" in this language",
+          "answer": "Russian",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "He's the character who regularly worked with Sam Malone behind the bar at \"Cheers\"",
+          "answer": "Coach & Woody",
+          "value": 200,
+          "order": 7,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Dodger Wilton Guerrero was thrown out of a game June 1, 1997 for having this in his bat",
+          "answer": "Cork",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "\"Colors of the Sea\" features underwater photos with text from the society named for this Calypso skipper",
+          "answer": "Jacques Cousteau",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "On the cover of \"Walk On the Wild Side\", this NBA star's name is much larger than co-author Michael Silver's",
+          "answer": "Dennis Rodman",
+          "value": 200,
+          "order": 17,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Boo Boo, A glum investor,The Big Dipper's constellation",
+          "answer": "Bears",
+          "value": 200,
+          "order": 23,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Isabela is the largest island in this Ecuadoran group whose Spanish name honors Columbus",
+          "answer": "Galapagos Islands",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "While \"The Mary Tyler Moore Show\" was still in production, this sitcom was spun off from it",
+          "answer": "Rhoda & Phyllis",
+          "value": 400,
+          "order": 8,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "The Post Office wouldn't confirm reports that it's printing stamps with this letter, indicating a rate increase",
+          "answer": "H",
+          "value": 400,
+          "order": 9,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "A calendar of these insults includes \"Your mother is so dumb, she sold the car for gas money\"",
+          "answer": "Snaps",
+          "value": 400,
+          "order": 18,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "Jerry Lewis appears in & out of clown makeup on this biography with the same name as his 1983 film",
+          "answer": "The King Of Comedy",
+          "value": 400,
+          "order": 20,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "A place setting, A baseball diamond,The Earth's crust",
+          "answer": "Things made of/with plates",
+          "value": 400,
+          "order": 24,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "These people, the inhabitants of Greece's largest island, are known for their pride & independence",
+          "answer": "Cretans",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "In 1982 Heather Locklear was a regular on this series",
+          "answer": "Dynasty & T.J. Hooker",
+          "value": 600,
+          "order": 11,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "The body of this accused murderer whose case inspired \"The Fugitive\" was exhumed for testing",
+          "answer": "Sam Sheppard",
+          "value": 600,
+          "order": 10,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "For 1998 Landmark singled out this latest \"Singled Out\" star for her own calendar",
+          "answer": "Carmen Electra",
+          "value": 600,
+          "order": 19,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "Next to Ed McBain's name on \"Nocturne\" is the phrase \"A Novel Of\" this \"Precinct\"",
+          "answer": "87th",
+          "value": 600,
+          "order": 21,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "answer": "Russian",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "California's Santa Catalina Island, like the U.K.'s Guernsey, belongs to a group called this",
+          "answer": "Channel Islands",
+          "value": 1500,
+          "order": 4,
+          "dd": 1500,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "This person sang \"The Love Boat\" theme",
+          "answer": "Jack Jones & Dionne Warwick",
+          "value": 800,
+          "order": 12,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "Rose Will Monroe, the model for this WWII poster girl, passed away in 1997",
+          "answer": "\"Rosie The Riveter\"",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "answer": "Russian",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "This preacher dresses casually or formally on different dustcovers for his 1997 book \"Just As I Am\"",
+          "answer": "Billy Graham",
+          "value": 800,
+          "order": 22,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "answer": "Russian",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "The Windward Passage separates Haiti from this large Caribbean island to the northeast",
+          "answer": "Cuba",
+          "value": 1000,
+          "order": 5,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Daytime serial history includes the NBC California-set soap with the initials \"S.B.\"",
+          "answer": "Santa Barbara & Sunset Beach",
+          "value": 2000,
+          "order": 13,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "This au pair's crime was reduced to manslaughter Nov. 10, 1997 & she was released on time served",
+          "answer": "Louise Woodward",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "answer": "Russian",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "answer": "Russian",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "answer": "Russian",
+          "row": 1,
+          "col": 1
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "U.S. GOVERNMENT"
+        }
+      ],
+      "clues": [
+        {
+          "question": "In Spanish this agency is known as \"La Migra\"",
+          "answer": "the Immigration and Naturalization Service"
+        }
+      ]
+    }
+  ]
+}

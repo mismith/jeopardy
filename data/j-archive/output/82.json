@@ -1,0 +1,571 @@
+{
+  "number": 4674,
+  "date": "2004-12-23",
+  "comments": "Aaron Thompson game 1.",
+  "contestants": [
+    {
+      "name": "Jessica Ayers",
+      "occupation": "a tutor originally",
+      "origin": "Walnut Ridge, Arkansas"
+    },
+    {
+      "name": "Aaron Thompson",
+      "occupation": "an executive assistant",
+      "origin": "Washington, D.C."
+    },
+    {
+      "name": "Hugh Price",
+      "occupation": "an engineer",
+      "origin": "Chevy Chase, Maryland",
+      "streak": 1,
+      "winnings": 10000
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "'TWAS THE NIGHT BEFORE CHRISTMAS"
+        },
+        {
+          "name": "BABY PICTURES"
+        },
+        {
+          "name": "PRESIDENTIAL PUZZLES"
+        },
+        {
+          "name": "SKI YOU LATER"
+        },
+        {
+          "name": "ALTERED STATES",
+          "comments": "(Alex: Each correct response will be a state.)"
+        },
+        {
+          "name": "STUPID ANSWERS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "The poem refers to these as coursers, calling them by name",
+          "answer": "reindeer",
+          "value": 200,
+          "order": 26,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Mrs. Woodhouse has a devil of a time with her pregnancy in this 1968 scarefest",
+          "answer": "Rosemary's Baby",
+          "value": 200,
+          "order": 21,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Next in line:J.B., A.L.,...",
+          "answer": "A.J.",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Cross-country skiing falls under this discipline whose name refers to the people or culture of Scandinavia",
+          "answer": "Nordic skiing",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "OLD FAIR",
+          "answer": "Florida",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "In 2001 this fruit became the official blue berry of North Carolina",
+          "answer": "blueberry",
+          "value": 200,
+          "order": 7,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Though generally known as \"'Twas the Night Before Christmas\", this is the poem's proper title",
+          "answer": "\"A Visit from Saint Nicholas\"",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "Fatherhood is thrust upon bachelors Tom Selleck, Ted Danson & Steve Guttenberg in this comedy",
+          "answer": "Three Men and a Baby",
+          "value": 400,
+          "order": 22,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "After George Washington left office in 1797, we didn't get another George in office until this year",
+          "answer": "1989",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "This winter sport, likely developed from European military skiing competitions, was introduced to the Olympics in 1960",
+          "answer": "Biathlon",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "A FRAIL ICON",
+          "answer": "California",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Oddly, this piece of furniture was never built for the throne room at Neuschwanstein Castle",
+          "answer": "the throne",
+          "value": 400,
+          "order": 8,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "St. Nick \"had a broad face and a little round belly that shook, when he laughed, like\" this",
+          "answer": "a bowl full of jelly",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Hugh Grant is less than thrilled when he finds out that girlfriend Julianne Moore is pregnant in this comedy",
+          "answer": "Nine Months",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "1 of the 2 presidents who have a Jr. in their names; they served consecutively in the 20th century",
+          "answer": "(1 of) Ford or Carter",
+          "value": 600,
+          "order": 18,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "As in the geometric term, your skis should not converge while making this type of turn",
+          "answer": "parallel",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "NO OGRE",
+          "answer": "Oregon",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "This Las Vegas hotel ceased to be a landmark when it was demolished on November 7, 1995",
+          "answer": "The Landmark",
+          "value": 600,
+          "order": 9,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "The poem calls St. Nick \"chubby and plump\" & \"a right jolly old\" one of these",
+          "answer": "an elf",
+          "value": 800,
+          "order": 29,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Spencer Tracy has to deal with pregnant daughter Elizabeth Taylor & then a crying grandson in this classic sequel",
+          "answer": "Father's Little Dividend",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "He's the last person who had more than one person as vice president",
+          "answer": "Nixon",
+          "value": 800,
+          "order": 19,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Gates mark the zigzap course of this kind of ski race whose name comes from words meaning \"sloping\"  & \"track\"",
+          "answer": "slalom",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "SAW NOTHING",
+          "answer": "Washington",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "One side of Willemstad, Curacao is called Punda & the other side is Otrabanda, which means this",
+          "answer": "other side",
+          "value": 800,
+          "order": 10,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "It's the sound the poem's narrator heard \"out on the lawn\" that caused him to spring out of bed",
+          "answer": "a clatter",
+          "value": 1000,
+          "order": 30,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Super Yuppie Diane Keaton inherits a baby from a distant relative in this flick",
+          "answer": "Baby Boom",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "He was the first sitting president who could have sung \"The Star Spangled Banner\"",
+          "answer": "Madison",
+          "value": 1600,
+          "order": 20,
+          "dd": 1600,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "The most direct route down the slope is called this \"line\", which might worry an unsteady skier",
+          "answer": "the fall line",
+          "value": 1000,
+          "order": 5,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "EAR BANKS",
+          "answer": "Nebraska",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "There are a number of Chanel fragrances, including this one that immortalizes her birthday, August 19",
+          "answer": "Chanel No. 19",
+          "value": 1000,
+          "order": 11,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "DESERTS"
+        },
+        {
+          "name": "BY GEORGE, IT'S GEORGE!"
+        },
+        {
+          "name": "THE BARNES COLLECTION"
+        },
+        {
+          "name": "ORGANIZATIONS"
+        },
+        {
+          "name": "\"GO\" FOR IT"
+        },
+        {
+          "name": "SAVING THE BEST FOR LAST"
+        }
+      ],
+      "clues": [
+        {
+          "question": "This continent's Gibson Desert was named for Alfred Gibson, who was lost searching for water in the 1800s",
+          "answer": "Australia",
+          "value": 400,
+          "order": 11,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "With hits like \"All My Ex's Live in Texas\" & \"Blue Clear Sky\", he's \"Pure Country\"",
+          "answer": "George Strait",
+          "value": 400,
+          "order": 6,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "(Alex reads the clue from the Barnes Collection.)  Rosy cheeks are a signature of this French artist, Dr. Barnes' favorite; there are over 180 of his works in the Barnes collection",
+          "answer": "(Pierre-Auguste) Renoir",
+          "value": 400,
+          "order": 24,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "The Ellery Queen Award is bestowed by the MWA, which stands for this",
+          "answer": "the Mystery Writers of America",
+          "value": 400,
+          "order": 21,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "To move these sports items is to change the rules or conditions after a project has already started",
+          "answer": "the goalposts",
+          "value": 400,
+          "order": 16,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Of the signs of the Zodiac, it's alphabetically last",
+          "answer": "Virgo",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Towns in this desert include Barstow & Needles, California",
+          "answer": "the Mojave Desert",
+          "value": 800,
+          "order": 12,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "This record producer was known as the \"Fifth Beatle\"",
+          "answer": "George Martin",
+          "value": 800,
+          "order": 7,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "(Alex reads the clue from the Barnes Collection.)Talk about an eye for value!  Dr. Barnes once refused to sell for $6,000 the watercolor by this artist that he had acquired for $10",
+          "answer": "(Pablo) Picasso",
+          "value": 800,
+          "order": 25,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "This naturalist helped found the Sierra Club in 1892 & served as its first president",
+          "answer": "John Muir",
+          "value": 800,
+          "order": 22,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "Home to Volvo, it's the second-most populous city in Sweden",
+          "answer": "Gothenburg",
+          "value": 800,
+          "order": 17,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "On April 1 of this year, Five Forks crossroads became the site of the last important battle of the Civil War",
+          "answer": "1865",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "Mongolia's Altai & Hangayn Nuruu Mountains form the northern border of this desert",
+          "answer": "the Gobi Desert",
+          "value": 1200,
+          "order": 13,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "In his 1963 inaugural address this governor called for \"Segregation forever!\"",
+          "answer": "George Wallace",
+          "value": 1200,
+          "order": 8,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "(Alex reads the clue from the Barnes Collection.)  Early on, Dr. Barnes recognized the influence of African art on European artists, like this Italian whose work is featured here",
+          "answer": "(Amedeo) Modigliani",
+          "value": 1200,
+          "order": 28,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "In 1904 the Irish National Theatre Society established this Dublin repertory company",
+          "answer": "the Abbey Theatre",
+          "value": 1200,
+          "order": 23,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "It's the Hebrew word for calvary",
+          "answer": "golgotha",
+          "value": 1200,
+          "order": 18,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "In July 1889 this fighter knocked out Jack Kilrain in the last bare-knuckled championship boxing match",
+          "answer": "(John L.) Sullivan",
+          "value": 1200,
+          "order": 3,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "This desert of southwest Arizona shares its name & area with an adjoining Mexican state",
+          "answer": "the Sonoran Desert",
+          "value": 1600,
+          "order": 14,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "He was the head coach of the Los Angeles Rams 1966-1970 & of the Washington Redskins 1971-77",
+          "answer": "George Allen",
+          "value": 1600,
+          "order": 9,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "(Alex reads the clue from the Barnes Collection.)  There are treasures everywhere here at the Barnes, even in a stairwell: \"Joy of Life,\" a Matisse masterpiece, was said to be the inspiration for this wild art movement",
+          "answer": "Fauvism",
+          "value": 1600,
+          "order": 29,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "In 1863 biologist Louis Agassiz & physicist Joseph Henry were charter members of this \"National\" body",
+          "answer": "the National Academy of Sciences",
+          "value": 1600,
+          "order": 26,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "1921 Heidelberg University graduate seen here",
+          "answer": "Joseph Goebbels",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "\"Water\" was the first word learned by Helen Keller & the last word spoken by this 18th U.S. President",
+          "answer": "(Ulysses S.) Grant",
+          "value": 1600,
+          "order": 4,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "The city of Beersheba is called the capital of this desert region",
+          "answer": "the Negev",
+          "value": 6000,
+          "order": 15,
+          "dd": 6000,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "In 1990 a color remake was produced of this director's 1968 B&W Zombie classic \"Night of the Living Dead\"",
+          "answer": "George Romero",
+          "value": 2000,
+          "order": 10,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "(Alex reads the clue from the Barnes Collection.)  In the Barnes collections, there are 46 Picassos, 59 Matisses and 69 works by this artist, whose famous \"Card Players\" is seen here",
+          "answer": "Paul Cézanne",
+          "value": 2000,
+          "order": 30,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "In 1914 composer Victor Herbert co-founded this 5-letter association to collect fees from music users",
+          "answer": "A.S.C.A.P.",
+          "value": 3000,
+          "order": 27,
+          "dd": 3000,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "Small spiny-finned fish whose pelvic fins form a sucker",
+          "answer": "the goby",
+          "value": 2000,
+          "order": 20,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "The last time this general assembly of the colony of Virginia met was June 24, 1775",
+          "answer": "The House of Burgesses",
+          "value": 2000,
+          "order": 5,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "AUTHORS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "He publicly objected to the name of a 2004 documentary for infringing on the title of one of his books",
+          "answer": "Ray Bradbury"
+        }
+      ]
+    }
+  ]
+}

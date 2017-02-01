@@ -1,0 +1,571 @@
+{
+  "number": 4655,
+  "date": "2004-11-26",
+  "comments": "Ken Jennings game 73.",
+  "contestants": [
+    {
+      "name": "Sanda Kurtz",
+      "occupation": "a price protection manager",
+      "origin": "Miami Beach, Florida"
+    },
+    {
+      "name": "Andrew Smith",
+      "occupation": "an online high school teacher",
+      "origin": "Lake Elizabeth, California"
+    },
+    {
+      "name": "Ken Jennings",
+      "occupation": "a software engineer",
+      "origin": "Salt Lake City, Utah",
+      "streak": 72,
+      "winnings": 2460100
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "THE 50 STATES"
+        },
+        {
+          "name": "I'M NOT A DOCTOR, BUT I PLAY ONE ON TV",
+          "comments": "(Alex: You have to name the actor.)"
+        },
+        {
+          "name": "AWARDS"
+        },
+        {
+          "name": "NAME THE DECADE"
+        },
+        {
+          "name": "FRAIDY CAT"
+        },
+        {
+          "name": "CROSSWORD CLUES \"D\""
+        }
+      ],
+      "clues": [
+        {
+          "question": "It follows Miami in the name of Florida's most populous county",
+          "answer": "Dade",
+          "value": 200,
+          "order": 2,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Dr. Benjamin Franklin Pierce",
+          "answer": "Alan Alda",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Michael Collins, Buzz Aldrin & this man were the first astronauts to receive the Presidential Medal of Freedom",
+          "answer": "Neil Armstrong",
+          "value": 200,
+          "order": 21,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Ford Motors goes public, Dr. Seuss pens \"The Cat in the Hat\" & Ronald Reagan weds wife No. 2",
+          "answer": "the 1950s",
+          "value": 200,
+          "order": 22,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Suriphobia, fear of these, may set a housewife screaming while standing on a kitchen chair",
+          "answer": "mice",
+          "value": 200,
+          "order": 7,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Bram Stoker novel you can \"count\" on(7)",
+          "answer": "Dracula",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "As you might expect, its state domestic animal is the dairy cow",
+          "answer": "Wisconsin",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "Dr. Michaela Quinn",
+          "answer": "Jane Seymour",
+          "value": 400,
+          "order": 3,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "In 1912 the Int'l Committee of the Red Cross created a medal for nursing named for this 19th century British woman",
+          "answer": "Florence Nightingale",
+          "value": 400,
+          "order": 23,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "(Al Franken reads.)  Chernobyl, Iran-Contra & Flock of Seagulls haircuts weren't exactly what I had in mind when I named this decade after me...\"Al Franken\"",
+          "answer": "the 1980s",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "Gallophobia is not a fear of wine, but a fear of this country that produces a lot of wine",
+          "answer": "France",
+          "value": 400,
+          "order": 8,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Samson's locks-smith(7)",
+          "answer": "Delilah",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "The westernmost town in the lower 48 states is La Push in this state",
+          "answer": "Washington",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Dr. Doogie Howser",
+          "answer": "Neil Patrick Harris",
+          "value": 600,
+          "order": 4,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "The Thailand edition of this CBS series won a 2003 People's Choice Award for best reality program",
+          "answer": "Survivor",
+          "value": 600,
+          "order": 24,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "This decade sees a congressional \"compromise\", the first Lincoln-Douglas debate & the death of Kierkegaard",
+          "answer": "1850s",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "\"Erythrophobia is the fear of doing this\", he said, showing some embarrassment",
+          "answer": "blushing",
+          "value": 600,
+          "order": 9,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Greek gelt(8)",
+          "answer": "drachmas",
+          "value": 600,
+          "order": 18,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "The highest temperature ever recorded in this state was 117 degrees on July 5, 1985 in St. George",
+          "answer": "Utah",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Dr. Leonard \"Bones\" McCoy",
+          "answer": "DeForest Kelley",
+          "value": 800,
+          "order": 5,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "The Hugo & Nebula awards are presented to writers in this genre",
+          "answer": "science fiction",
+          "value": 800,
+          "order": 25,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Edison invents the phonograph, U.S. Grant is re-elected & Bizet writes \"Carmen\"",
+          "answer": "1870s",
+          "value": 800,
+          "order": 29,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "Hey dude, surfers aren't cymophobic; they don't fear these, man",
+          "answer": "waves",
+          "value": 800,
+          "order": 10,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "Perry Mason's Street(5)",
+          "answer": "Della",
+          "value": 800,
+          "order": 19,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "This state's Kennebec River meets with its main tributary, the Androscoggin, northeast of Brunswick",
+          "answer": "Maine",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Dr. Joe Gannon",
+          "answer": "Chad Everett",
+          "value": 1000,
+          "order": 6,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "In 1965 this U.N. Secretary-General from Asia became the first to win the Nehru Award for Int'l Understanding",
+          "answer": "U Thant",
+          "value": 1000,
+          "order": 26,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Pre-\"The West Wing\", the real Josiah Bartlett governs N.H., John Paul Jones gives up the fight & the Jay Treaty is inked",
+          "answer": "1790s",
+          "value": 1000,
+          "order": 30,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "A person with ornithophobia & apiphobia may avoid a talk on this subject feared by erotophobics",
+          "answer": "the birds and the bees (or sex)",
+          "value": 2000,
+          "order": 11,
+          "dd": 2000,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "\"American Tragedian\" Theodore(7)",
+          "answer": "Dreiser",
+          "value": 1000,
+          "order": 20,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "ART HISTORY"
+        },
+        {
+          "name": "& JOAN RIVERS RUNS THROUGH IT"
+        },
+        {
+          "name": "SHAKESPEARE'S SMALL PARTS"
+        },
+        {
+          "name": "COMMON BONDS"
+        },
+        {
+          "name": "THE \"K\" TEAM"
+        },
+        {
+          "name": "MUSICAL IDIOMS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "6th century B.C. Greece must have been a happy place, as this facial expression is characteristic of its sculpture",
+          "answer": "a smile",
+          "value": 400,
+          "order": 8,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Since 1986 when Joan left \"The Tonight Show\", this host has reportedly said \"No\" when asked \"Can we talk?\"",
+          "answer": "Johnny Carson",
+          "value": 400,
+          "order": 26,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Nym, a minor character, is a follower of this stout fellow in \"The Merry Wives of Windsor\"",
+          "answer": "Falstaff",
+          "value": 400,
+          "order": 2,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Scope,Lavoris,Listerine",
+          "answer": "brands of mouthwash",
+          "value": 400,
+          "order": 13,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "He also said, \"Ask not what America will do for you, but what together we can do for the freedom of man\"",
+          "answer": "John F. Kennedy",
+          "value": 400,
+          "order": 18,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "It's the action heard here; someone talking in fantasies is said to be doing it",
+          "answer": "whistling \"Dixie\"",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Carlo Carlone's team painted these, originally an Italian term, on palace & church walls across Europe",
+          "answer": "frescoes",
+          "value": 800,
+          "order": 9,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "Ms. R was Miss Piggy's coworker (we can only imagine the office dish) when the Muppets took this title place in '84",
+          "answer": "Manhattan",
+          "value": 800,
+          "order": 27,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "During his brief time on stage, Curtis, this man's aged servant, does get to say \"Shrew\"",
+          "answer": "Petruchio",
+          "value": 800,
+          "order": 4,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Coral,krait,moccasin",
+          "answer": "snakes",
+          "value": 800,
+          "order": 14,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "On Oct. 6, 1951, this magnate died in Battle Creek, Michigan",
+          "answer": "Kellogg",
+          "value": 800,
+          "order": 19,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "To \"pay\" him is to bear the consequences of your action",
+          "answer": "the piper",
+          "value": 2000,
+          "order": 3,
+          "dd": 2000,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "The frolicsome painting seen here dates from this century",
+          "answer": "the 18th",
+          "value": 1200,
+          "order": 10,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Joan voiced Julie, Bruce Willis' new baby sister, in this 1989 comedy",
+          "answer": "Look Who's Talking",
+          "value": 1200,
+          "order": 28,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Those portraying a Norwegian captain in this play don't have to worry about memorizing a lot of lines",
+          "answer": "Hamlet",
+          "value": 1200,
+          "order": 5,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "Quicksilver Messenger Service,Hues Corporation,Big Brother and the Holding Company",
+          "answer": "rock bands",
+          "value": 1200,
+          "order": 15,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "On August 10, 1996 Bob Dole picked this man to be his running mate",
+          "answer": "Jack Kemp",
+          "value": 1200,
+          "order": 20,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "This expression for what's being done here is found in Psalm 9\"You are magnificent, you're marvelous, you're triumphant, and you're grand...\"",
+          "answer": "singing his praises",
+          "value": 1200,
+          "order": 23,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "The analytic type of this style broke the world into fragments; the synthetic type put it together",
+          "answer": "Cubism",
+          "value": 9800,
+          "order": 11,
+          "dd": 9800,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Joan gave a robotic performance as Dot Matrix in this Mel Brooks \"Star Wars\" spoof",
+          "answer": "Spaceballs",
+          "value": 1600,
+          "order": 29,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "In this fairy tale, Snug doesn't get the lion's share of lines, but he does get the lion's lines",
+          "answer": "A Midsummer Night's Dream",
+          "value": 1600,
+          "order": 6,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Movies,prospective employees,back doors",
+          "answer": "things that are screened",
+          "value": 1600,
+          "order": 16,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "This playwright's \"Man Who Came to Dinner\" character Sheridan Whiteside was such a plum role he even played it himself",
+          "answer": "George S. Kaufman",
+          "value": 1600,
+          "order": 21,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "This 2-word phrase can mean a counterfeit bill or, when you \"strike\" it, a mistake in tone",
+          "answer": "a false note",
+          "value": 1600,
+          "order": 24,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Georges de la Tour mastered candlelight in the type of painting called this, also a musical term",
+          "answer": "Nocturne",
+          "value": 2000,
+          "order": 12,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Joan narrated The Electric Co.'s \"Adventures of Letterman\" starring him, though it wasn't in Wonka Vision",
+          "answer": "Gene Wilder",
+          "value": 2000,
+          "order": 30,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "In Act V, Scene ii Dr. Butts shows up for a couple of lines with Cranmer & this title king",
+          "answer": "Henry VIII",
+          "value": 2000,
+          "order": 7,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "The Rhine Valley,a chessboard,Vernon & Irene's Dance School",
+          "answer": "things with castles",
+          "value": 2000,
+          "order": 17,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "Anita O'Day & June Christy were singers for this man's 1940s big band",
+          "answer": "Stan Kenton",
+          "value": 2000,
+          "order": 22,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "This 2-word part of the piano is also a verb meaning to downplay something harsh or upsetting",
+          "answer": "soft-pedal",
+          "value": 2000,
+          "order": 25,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "19th CENTURY U.S. HISTORY"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Of the 5 times Congress has declared war, the 3 during the 19th century were against these 3 nations",
+          "answer": "Britain, Spain, & Mexico"
+        }
+      ]
+    }
+  ]
+}

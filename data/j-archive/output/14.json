@@ -1,0 +1,569 @@
+{
+  "number": 4609,
+  "date": "2004-09-23",
+  "comments": "2004 Tournament of Champions quarterfinal game 4.",
+  "contestants": [
+    {
+      "name": "Russ Schumacher",
+      "occupation": "a graduate student",
+      "origin": "Fort Collins, Colorado"
+    },
+    {
+      "name": "Tom Baker",
+      "occupation": "a writer",
+      "origin": "Tokyo, Japan"
+    },
+    {
+      "name": "Chris Miller",
+      "occupation": "a retail specialist",
+      "origin": "Louisville, Kentucky"
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "NEW HAMPSHIRE"
+        },
+        {
+          "name": "ALL THAT JAZZ"
+        },
+        {
+          "name": "KOALA TIME"
+        },
+        {
+          "name": "WHAT A MYTHTAKE!"
+        },
+        {
+          "name": "RANKS & TITLES"
+        },
+        {
+          "name": "YOU ARE WHAT YOU EAT"
+        }
+      ],
+      "clues": [
+        {
+          "question": "How cool!  In 1998 New Hampshire adopted this as its state sport",
+          "answer": "skiing",
+          "value": 200,
+          "order": 21,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "In 1957 this lady sang the blues, a song called \"Fine And Mellow\", on the CBS special \"The World of Jazz\"",
+          "answer": "Billie Holiday",
+          "value": 200,
+          "order": 26,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "The Taronga Zoo in this Australian port city is famous for its koala walkabout exhibit",
+          "answer": "Sydney",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "It was a mistake to go near this part-leonine creature; if you couldn't solve its riddles, it would eat you",
+          "answer": "the Sphinx",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "If you have your heart set on being a lance corporal, this is the only U.S. armed service that offers that rank",
+          "answer": "the Marines",
+          "value": 200,
+          "order": 11,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "I wasn't surprised to see that overacting thespian eat the Smithfield type of this (he really is one, you know)",
+          "answer": "a ham",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Speak up now if you know that a college in Nashua is named for this great New Hampshire orator",
+          "answer": "Daniel Webster",
+          "value": 400,
+          "order": 22,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "At age 6, Wynton Marsalis received his first trumpet from this New Orleans trumpeter known for \"Cotton Candy\"",
+          "answer": "Al Hirt",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Of 6, 16, or 60 years, the closest to the average life expectancy of a koala",
+          "answer": "16",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "If only Remus hadn't jumped over a wall on the Palatine hill; that may be why this sibling killed him",
+          "answer": "Romulus",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "In 1841 Matthew Perry was promoted to this rank",
+          "answer": "Commodore",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Gorge on these chocolate-&-peanut butter bars (or let them slip through your digits) & folks will call you this",
+          "answer": "Butterfingers",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "New Hampshire's chief seaport, it was founded as Strawbery Banke in 1630",
+          "answer": "Portsmouth",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Many of the TV generation know this jazz singer by her '70s ads that asked \"Is it live or is it Memorex?\"",
+          "answer": "Ella Fitzgerald",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "In 1967 a talking koala became the spokesmarsupial for this airline",
+          "answer": "Qantas",
+          "value": 600,
+          "order": 8,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "This god milked his affair with Io for all it was worth: he had to turn her into a cow to protect her from his wife",
+          "answer": "Zeus",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "In 1875 Franz Ferdinand, future heir to the Austro-Hungarian throne, inherited this title",
+          "answer": "Archduke",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "I couldn't believe it when I saw the boss eat a 20-lb. wheel of brie--that's why we gave him this title",
+          "answer": "the Big Cheese",
+          "value": 600,
+          "order": 18,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "In 2003 New Hampshirites were stunned as this stony landmark of theirs just crumbled away",
+          "answer": "the Old Man of the Mountain",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Albums by this guitarist include \"A Day in the Life\" & \"Movin' Wes\"",
+          "answer": "Wes Montgomery",
+          "value": 800,
+          "order": 29,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "Like other marsupials, this is the term for a baby koala",
+          "answer": "a joey",
+          "value": 800,
+          "order": 9,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Some say that Phineus mistreated his kids, which is why these bird-like female monsters plagued him",
+          "answer": "harpies",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "The wife of a reigning monarch is referred to as the Queen this",
+          "answer": "Consort",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "Hey, you!  You with the long-lasting caramel sucker & the blond in the mink!  Bet she calls you this!",
+          "answer": "Sugar Daddy",
+          "value": 800,
+          "order": 19,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "In 1944 this resort area in the White Mountains was the site of an important U.N. monetary conference",
+          "answer": "Bretton Woods",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "In 1977 this saxophonist for the Dave Brubeck Quartet was elected to the Downbeat Magazine hall of fame",
+          "answer": "Paul Desmond",
+          "value": 1000,
+          "order": 30,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "The word koala comes from the language of the Australian natives & means \"animal that doesn't\" do this",
+          "answer": "drink",
+          "value": 1000,
+          "order": 10,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Thinking it was a love potion, Deianira dipped a shirt meant for him in poisoned blood--oops!  It killed him",
+          "answer": "Hercules",
+          "value": 1000,
+          "order": 5,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "Inheriting property & title from her deceased husband made Tz'u-hsi of China this kind of Empress",
+          "answer": "Dowager",
+          "value": 2600,
+          "order": 15,
+          "dd": 2600,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "You're such a grouch!  For your June 25th birthday I'm serving you this, the symbol of your zodiac sign",
+          "answer": "a crab",
+          "value": 1000,
+          "order": 20,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "NATIONAL BOOK CRITICS CIRCLE HONOREES"
+        },
+        {
+          "name": "TAKING YOUR LUMPS"
+        },
+        {
+          "name": "HOW DO YOU..."
+        },
+        {
+          "name": "THE JOHNNY GILBERT \"BLUE\"s"
+        },
+        {
+          "name": "THIS WAY TO THE EGRESS"
+        },
+        {
+          "name": "LETTERS IN SEQUENCE",
+          "comments": "(Alex: And in this category, we will have numbers in the clue.  These numbers will correspond to letters.  For instance, 1-2-3 would be A-B-C.)"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Robert Caro's \"Means of Ascent\", a biography of this Texan President, recounts his early Senate victories",
+          "answer": "Lyndon Johnson",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "On this '50s sitcom Frank Bank played Lumpy",
+          "answer": "Leave It to Beaver",
+          "value": 400,
+          "order": 21,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Fold a cloth into a triangle, gently slip the widest part under the arm, tie the ends around the neck",
+          "answer": "make a sling",
+          "value": 400,
+          "order": 11,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Johnny has left the building wearing these\"You can knock me down /Step on my face /Slander my name all over the place...\"",
+          "answer": "\"Blue Suede Shoes\"",
+          "value": 400,
+          "order": 16,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "\"My wallpaper and I are fighting a duel to the death.  One or the other of us has to go\", quipped this Irish playwright",
+          "answer": "Oscar Wilde",
+          "value": 400,
+          "order": 6,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "7-8-9:A type of hyena",
+          "answer": "laughing",
+          "value": 400,
+          "order": 26,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "This writer won for his novel \"The Counterlife\" & for the biography \"Patrimony\", but not for \"Portnoy\"",
+          "answer": "Philip Roth",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "Most geologists believe the earth's core to be mainly a heavy compressed lump of this metal",
+          "answer": "iron",
+          "value": 800,
+          "order": 22,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Rub a needle across a magnet & float it on a piece of paper in a bowl of water",
+          "answer": "make a compass",
+          "value": 800,
+          "order": 12,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Linda Ronstadt, brace yourself for this tune\"I feel so bad /I got a worried mind /I'm so lonesome all the time /Since I left my baby behind on...\"",
+          "answer": "\"Blue Bayou\"",
+          "value": 800,
+          "order": 17,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "This Algonquin wit suggested \"Excuse My Dust\" as her own epitaph",
+          "answer": "Dorothy Parker",
+          "value": 800,
+          "order": 7,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "4-5-6:Transfer one's allegiance to another nation",
+          "answer": "defect",
+          "value": 800,
+          "order": 27,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "Houdini, Emma Goldman & Henry Ford are in this writer’s first winner; Dutch Schultz is in his second winner",
+          "answer": "E.L. Doctorow",
+          "value": 3200,
+          "order": 3,
+          "dd": 3200,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "From the Norwegian for \"lump\", it's a blob of whipped cream put on a pie",
+          "answer": "a dollop",
+          "value": 1200,
+          "order": 23,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Combine wine, aquavit, raisins, cloves & sugar; light mixture on fire; learn a Swedish toast",
+          "answer": "make glögg",
+          "value": 1200,
+          "order": 13,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "Witness the birth of \"Captain Fantastic 2\" with this song\"Laughing like children /Living like lovers /Rolling like thunder /Under the covers...\"",
+          "answer": "\"I Guess That's Why They Call It The Blues\"",
+          "value": 1200,
+          "order": 18,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "In a self-fulfilling prophesy about his drug habit, this comedian said \"I'll die young, but it's like kissing God\"",
+          "answer": "Lenny Bruce",
+          "value": 1200,
+          "order": 8,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "8-9-10:Forcibly seize control of moving vehicle",
+          "answer": "hijacking",
+          "value": 1200,
+          "order": 28,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "Edmund White wrote a definitive biography of this French thief, novelist & playwright of \"The Maids\"",
+          "answer": "Genet",
+          "value": 1600,
+          "order": 4,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Kipling water carrier called a \"limping lump o' brick dust\"",
+          "answer": "Gunga Din",
+          "value": 1600,
+          "order": 24,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "Change direction & speed while walking, tug on a leash as you say the command, don't forget to say, \"good boy!\"",
+          "answer": "get your dog to heel",
+          "value": 1600,
+          "order": 14,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Complete this \"Crystal\"ine line\"I'll be fine when you’re gone /I'll just cry all night long /Say it isn't true and don't it...\"",
+          "answer": "\"Don't It Make My Brown Eyes Blue\"",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "A flower child turned Fuhrer in the film \"The Producers\", he made his egress during a 1987 stage performance",
+          "answer": "Dick Shawn",
+          "value": 1600,
+          "order": 9,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "18-19-20:Explode in air, perhaps",
+          "answer": "burst",
+          "value": 2600,
+          "order": 29,
+          "dd": 2600,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "This Peruvian novelist won for his critical work \"Making Waves\"",
+          "answer": "Mario Vargas Llosa",
+          "value": 2000,
+          "order": 5,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Karl Marx bunched the dregs of society under this 17-letter mouthful",
+          "answer": "the lumpenproletariat",
+          "value": 2000,
+          "order": 25,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "(Sofia of the Clue Crew strikes a yogic pose.)  Start in mountain posture, step forward, bend one knee, raise hand overhead",
+          "answer": "assume the warrior position",
+          "value": 2000,
+          "order": 15,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "This 1968 classic features the man in black, Johnny... Gilbert\"My mama always told me son, always be a good boy, don't ever play with guns /But I shot a man in Reno just to watch him die\"",
+          "answer": "\"The Folsom Prison Blues\"",
+          "value": 2000,
+          "order": 20,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "This 16th C. philosopher died of bronchitis after experiments with snow to delay the process of putrefaction",
+          "answer": "Bacon",
+          "value": 2000,
+          "order": 10,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "19-20-21:Dampness",
+          "answer": "moisture",
+          "value": 2000,
+          "order": 30,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "20th CENTURY SHIPS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "This British ship was named for a Roman province established in the area of Portugal in 27 B.C.",
+          "answer": "the Lusitania"
+        }
+      ]
+    }
+  ]
+}

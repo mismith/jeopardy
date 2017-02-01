@@ -1,0 +1,570 @@
+{
+  "number": 4636,
+  "date": "2004-11-01",
+  "comments": "Ken Jennings game 64.",
+  "contestants": [
+    {
+      "name": "Lisa Ellis",
+      "occupation": "a high school teacher",
+      "origin": "Shaker Heights, Ohio"
+    },
+    {
+      "name": "Ben Wiles",
+      "occupation": "a minister",
+      "origin": "Murfreesboro, Tennessee"
+    },
+    {
+      "name": "Ken Jennings",
+      "occupation": "a software engineer",
+      "origin": "Salt Lake City, Utah",
+      "streak": 63,
+      "winnings": 2125301
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "AMERICAN HISTORY"
+        },
+        {
+          "name": "POP CULTURE"
+        },
+        {
+          "name": "HEY, IT'S RAINING!"
+        },
+        {
+          "name": "THE BIBLE TELLS ME SO"
+        },
+        {
+          "name": "FOOD FOR THOUGHT"
+        },
+        {
+          "name": "3-LETTER WORDS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Escaped slaves in the 1850s & draft dodgers in the 1960s mainly headed to this country",
+          "answer": "Canada",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "This dance is a form of the mambo; the last 3 steps correspond to a certain nonsense syllable",
+          "answer": "the cha-cha",
+          "value": 200,
+          "order": 8,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Reportedly, the Romans were the first to use this device as a rain protector; it was originally used as a sunshade",
+          "answer": "an umbrella",
+          "value": 200,
+          "order": 26,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "According to Genesis 6:4, \"There were\" these \"in the earth in those days\"; so they had some basketball team",
+          "answer": "giants",
+          "value": 200,
+          "order": 2,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Sugars from this \"brittle\" & \"butter\" legume provide steady energy to the brain",
+          "answer": "a peanut",
+          "value": 200,
+          "order": 21,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "\"Low\" is another term for this Holstein holler",
+          "answer": "moo",
+          "value": 200,
+          "order": 10,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "On Feb. 15, 1901 Carry Nation wrecked one of these establishments with a hatchet",
+          "answer": "a bar (or a saloon)",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "In 1996 this company introduced handheld devices called the Pilot 1000 & the Pilot 5000",
+          "answer": "Palm",
+          "value": 400,
+          "order": 9,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "A raindrop's shape depends on its size; one with a diameter of less than .04 inch is basically this shape",
+          "answer": "a sphere (or round)",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "The rods of both these brothers were turned into snakes by God",
+          "answer": "Moses & Aaron",
+          "value": 400,
+          "order": 3,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "To give the brain a quick antioxidant fix, sip the green variety of this drink; herbals aren't as potent",
+          "answer": "tea",
+          "value": 400,
+          "order": 22,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "The projecting rim of a cup or pitcher",
+          "answer": "the \"lip\"",
+          "value": 400,
+          "order": 14,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "A fire in 1851 destroyed some 35,000 volumes in its collection",
+          "answer": "the Library of Congress",
+          "value": 600,
+          "order": 11,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "On film, he's played George of the Jungle & Dudley Do-Right",
+          "answer": "Brendan Fraser",
+          "value": 600,
+          "order": 18,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "The rain in Gene Kelly's title number from this film was made of water & milk so that it'd show better on film",
+          "answer": "Singin' in the Rain",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "Both Leviticus & Matthew say you should love this person as yourself",
+          "answer": "your neighbor",
+          "value": 600,
+          "order": 4,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "Too much of this, whether saturated or polyunsaturated, can permanently damage brain tissue",
+          "answer": "fat",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "It's the term for an old, worn-out horse; now quit bugging me!",
+          "answer": "a \"nag\"",
+          "value": 600,
+          "order": 15,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "In the first census conducted in 1790, this state, with nearly 692,000 people, was the most populous",
+          "answer": "Virginia",
+          "value": 1600,
+          "order": 12,
+          "dd": 1600,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "In the song \"Don’t Stand So Close To Me\", The Police mention this \"Lolita\" author",
+          "answer": "Nabokov",
+          "value": 800,
+          "order": 19,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "Mount Waialeale on this \"Garden Island\" of Hawaii is the wettest spot on Earth with about 460\" of rain each year",
+          "answer": "Kauai",
+          "value": 800,
+          "order": 29,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "A psalm says \"happy is the man that hath his quiver full of them\"; Bach must have been ecstatic, as he had 20",
+          "answer": "children",
+          "value": 800,
+          "order": 5,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "Kids who take a daily does of this, named for its containing A, D, etc., reportedly raise nonverbal IQ up to 25 points",
+          "answer": "a multivitamin",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "3-letter word for a short trip in a small aircraft",
+          "answer": "a \"hop\"",
+          "value": 800,
+          "order": 16,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Seen here at a Senate hearing, he was the first U.S. Attorney General to be convicted of a felony",
+          "answer": "John Mitchell",
+          "value": 1000,
+          "order": 13,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "One of the \"milestones\" of this trumpeter's career was recording \"Birth Of The Cool\"",
+          "answer": "Miles Davis",
+          "value": 1000,
+          "order": 20,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "The name of this seasonal wind that brings heavy rain to Southeast Asia is from the Arabic for \"season\"",
+          "answer": "a monsoon",
+          "value": 1000,
+          "order": 30,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Job says the price of this quality \"is above rubies\", & our winning contestants have their share of it",
+          "answer": "wisdom (knowledge accepted)",
+          "value": 1000,
+          "order": 6,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "Selenium from this bulb, Allium sativum, can make you more clearheaded",
+          "answer": "garlic",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "This phrase meaning “a witty remark” is made up of 2 3-letter French words",
+          "answer": "bon mot",
+          "value": 1000,
+          "order": 17,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "CLASSICAL MUSIC"
+        },
+        {
+          "name": "SPORTS MOVIES BY CHARACTERS"
+        },
+        {
+          "name": "THE NEW YORK STOCK EXCHANGE"
+        },
+        {
+          "name": "TITLE WAVE"
+        },
+        {
+          "name": "U.S. CITIES"
+        },
+        {
+          "name": "SPECIAL \"K\""
+        }
+      ],
+      "clues": [
+        {
+          "question": "Due to the color of his hair, this \"Four Seasons\" composer was known as \"Il Prete Rosso\", or \"The Red Priest\"",
+          "answer": "Vivaldi",
+          "value": 400,
+          "order": 16,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Tommy Como,Sugar Ray Robinson,Vickie La Motta",
+          "answer": "Raging Bull",
+          "value": 400,
+          "order": 11,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "(Hi, I'm Maria Bartiromo.)  Heard every day to end trading, it's also the title of an afternoon show I host on CNBC",
+          "answer": "closing bell",
+          "value": 400,
+          "order": 21,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "The title of this Shaw play refers to the Salvation Army's Barbara Undershaft",
+          "answer": "Major Barbara",
+          "value": 400,
+          "order": 24,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Named for a slain political figure, Harvey Milk Plaza is in this city's Castro district",
+          "answer": "San Francisco",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "You'd have to have your eyes wide shut not to know he directed \"Spartacus\"",
+          "answer": "Stanley Kubrick",
+          "value": 400,
+          "order": 6,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Robert Schumann's 1841 \"Spring\" symphony dealt with this important event in his life",
+          "answer": "his wedding",
+          "value": 800,
+          "order": 17,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "Max Mercy,Harriet Bird,Roy Hobbs",
+          "answer": "The Natural",
+          "value": 800,
+          "order": 12,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "This piece of trading floor technology arrived in 1867 but is now a bit out of date",
+          "answer": "the ticker",
+          "value": 800,
+          "order": 22,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Animal featured in the titles of Lillian Jackson Braun's mysteries",
+          "answer": "a (Siamese) cat",
+          "value": 800,
+          "order": 30,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "An 1861 song urged Maryland to \"avenge the patriotic gore that flecked the streets of\" this city",
+          "answer": "Baltimore",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Meaning \"tidy\", this word often preceded by \"un\" is from Old English for combed",
+          "answer": "kempt",
+          "value": 800,
+          "order": 7,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "From 1937 to 1954 he directed NBC's Radio Symphony Orchestra",
+          "answer": "Toscanini",
+          "value": 3200,
+          "order": 18,
+          "dd": 3200,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Reggie Dunlop,Ned Braden,Jeff, Steve & Jack Hanson",
+          "answer": "Slap Shot",
+          "value": 1200,
+          "order": 13,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "(Maria Bartiromo reads the clue.)  The first specific security the NYSE recommended buying was these, a symbol of \"freedom\", during World War I",
+          "answer": "(Liberty) war bonds",
+          "value": 1200,
+          "order": 23,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "This Milan Kundera novel wonders \"but is heaviness truly deplorable and lightness splendid?\" (the title implies no)",
+          "answer": "The Unbearable Lightness of Being",
+          "value": 1200,
+          "order": 27,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "Springtime is a nice time to visit this Texas city that boasts a 65-foot replica of the Eiffel Tower",
+          "answer": "Paris",
+          "value": 1200,
+          "order": 3,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Rosie O'Donnell popularized this ball named for the sound it makes when you throw it",
+          "answer": "a Koosh ball",
+          "value": 1200,
+          "order": 8,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "High school & college graduates should know that this march by Elgar is also known as \"Land Of Hope And Glory\"",
+          "answer": "\"Pomp And Circumstance\"",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Ebby Calvin \"Nuke\" LaLoosh,Annie Savoy,Crash Davis",
+          "answer": "Bull Durham",
+          "value": 1600,
+          "order": 14,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "This company, symbol XOM, makes up about 20% of the weight of the NYSE energy stock index",
+          "answer": "ExxonMobil",
+          "value": 1600,
+          "order": 25,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Fifth graders Jess & Leslie create a secret kingdom in the woods in the kids' classic \"Bridge to\" this place",
+          "answer": "Terabithia",
+          "value": 1600,
+          "order": 28,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "This \"port\" city is the seat of Caddo Parish",
+          "answer": "Shreveport",
+          "value": 1600,
+          "order": 4,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "In 1909 the first of these cooperative farms was founded along the Jordan river",
+          "answer": "a kibbutz",
+          "value": 1600,
+          "order": 9,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "In 1969 this French composer was selected to replace Leonard Bernstein as director of the N.Y. Philharmonic",
+          "answer": "Pierre Boulez",
+          "value": 2000,
+          "order": 20,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Carl Spackler,Ty Webb,Lacey Underall",
+          "answer": "Caddyshack",
+          "value": 2000,
+          "order": 15,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "(Maria Bartiromo reads the clue.)  One standard for NYSE listing includes this, market cap to us pros, of a least half a billion dollars",
+          "answer": "market capitalization",
+          "value": 2000,
+          "order": 26,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "The title of this novel by Edith Wharton doesn't refer to an actual home; it's from Ecclesiastes 7:4",
+          "answer": "The House of Mirth",
+          "value": 2800,
+          "order": 29,
+          "dd": 2800,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "The structure seen here is in this city, on the bluffs of the Mississippi",
+          "answer": "Memphis",
+          "value": 2000,
+          "order": 5,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "A plus for Minos was his being King of this on Crete",
+          "answer": "Knossos",
+          "value": 2000,
+          "order": 10,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "SEMIANNUAL PUBLICATIONS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "It began in 1886 as an extension of an upper crust family's list of whose house they'd visit & who they'd receive",
+          "answer": "The Social Register"
+        }
+      ]
+    }
+  ]
+}

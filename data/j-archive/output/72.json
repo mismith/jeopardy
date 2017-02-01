@@ -1,0 +1,569 @@
+{
+  "number": 4667,
+  "date": "2004-12-14",
+  "contestants": [
+    {
+      "name": "Jerry Mayer",
+      "occupation": "a political science professor",
+      "origin": "Arlington, Virginia"
+    },
+    {
+      "name": "Joel Kahn",
+      "occupation": "a physician",
+      "origin": "Irvine, California"
+    },
+    {
+      "name": "Robert Bowsher",
+      "occupation": "a software engineer",
+      "origin": "Hilliard, Ohio",
+      "streak": 2,
+      "winnings": 33399
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "SOCIOLOGY"
+        },
+        {
+          "name": "RADIO PERSONALITIES"
+        },
+        {
+          "name": "HEADQUARTERS"
+        },
+        {
+          "name": "BERMUDA SHORTS"
+        },
+        {
+          "name": "MILLIONS OF REASONS"
+        },
+        {
+          "name": "SOUNDS LIKE A RAPPER"
+        }
+      ],
+      "clues": [
+        {
+          "question": "This term for a rural white southerner was originally applied to sunburned agricultural workers",
+          "answer": "a redneck",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "The fans of this radio personality call themselves dittoheads to signify that they agree with his opinion",
+          "answer": "Rush Limbaugh",
+          "value": 200,
+          "order": 2,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Surprisingly, in the 1990s, this retailer moved its HQ from its tall tower in Chicago to a lowrise in the suburbs",
+          "answer": "Sears Roebuck",
+          "value": 200,
+          "order": 7,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Bermuda's almost due east of this state's Cape Hatteras",
+          "answer": "North Carolina",
+          "value": 200,
+          "order": 15,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Metallic distinction of a CD that's sold 1 million copies",
+          "answer": "platinum",
+          "value": 200,
+          "order": 26,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "This type of \"domain\" could lose you your house if the government needs your land, yo",
+          "answer": "eminent",
+          "value": 200,
+          "order": 17,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Robert & Helen Lynd based their \"Middletown\" studies on Muncie in this state",
+          "answer": "Indiana",
+          "value": 400,
+          "order": 3,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "(Hi, I'm Christie Whitman.)  I don't believe in political quid pro quo, but after his endorsement, I named a rest stop toilet for this radio personality",
+          "answer": "Howard Stern",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Since 1988 J.C. Penney has been firmly planted in Plano in this state",
+          "answer": "Texas",
+          "value": 400,
+          "order": 8,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "The cahow, or Bermuda petrel, a type of this, breeds only in Bermuda",
+          "answer": "a bird",
+          "value": 400,
+          "order": 19,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "Of 2 million, 20 million or 200 million, the length in years of one trip around the galaxy's center by our sun",
+          "answer": "200 million",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "\"It's\" one of these \"that blows nobody any good\"",
+          "answer": "an ill wind",
+          "value": 400,
+          "order": 18,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "The sum of the customs & beliefs that distinguish one group from another; the hippies formed a \"counter\" one",
+          "answer": "a culture",
+          "value": 600,
+          "order": 4,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "She's from Brooklyn, has a Ph.D. in physiology & is Deryk's mom",
+          "answer": "Dr. Laura",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "First the \"E\"s were sold, then its Houston HQ building was auctioned off in December 2003 for $55.5 million",
+          "answer": "Enron",
+          "value": 600,
+          "order": 9,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "Bermuda uses this basic unit of currency",
+          "answer": "the dollar",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "Like Chico in \"Animal Crackers\", who got paid more for not performing, she got millions from Virgin not to sing",
+          "answer": "Mariah Carey",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "It's wack but ESPN dropped the downhill racing style of this type of bicycle from its X Games in 2004",
+          "answer": "BMX",
+          "value": 600,
+          "order": 20,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "10,000 years ago all societies were these, named from the way they collected animals, fruit, etc. for food",
+          "answer": "hunter-gatherers",
+          "value": 1000,
+          "order": 5,
+          "dd": 1000,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "This \"idol\" worshipper replaced Casey Kasem as host of \"American Top 40\"",
+          "answer": "Ryan Seacrest",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "The Ford Motor Company has long been headquartered in this city that adjoins Detroit",
+          "answer": "Dearborn",
+          "value": 800,
+          "order": 10,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "The first settlement in 1609 resulted from this event, maybe the one depicted in the first scene of \"The Tempest\"",
+          "answer": "a shipwreck",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "It was the \"grateful\" title of philanthropist Percy Ross' syndicated radio show & newspaper column",
+          "answer": "Thanks a Million",
+          "value": 800,
+          "order": 29,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "Lack of movement in traffic--especially at an intersection or in politics",
+          "answer": "gridlock",
+          "value": 800,
+          "order": 21,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Someone who hates humanity; Moliere's Alceste turned into a title one",
+          "answer": "a misanthrope",
+          "value": 1000,
+          "order": 6,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Tavis Smiley launched this network's first national show to originate from Los Angeles",
+          "answer": "NPR",
+          "value": 1000,
+          "order": 16,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Where on earth is Earthlink headquartered?  In this city, same as Coca-Cola",
+          "answer": "Atlanta",
+          "value": 1000,
+          "order": 11,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Alexander or Linda could help you with the name of this capital",
+          "answer": "Hamilton",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "\"What Are You Doing After the Orgy?\" is a book by this man who played a millionaire on \"Gilligan's Island\"",
+          "answer": "Jim Backus",
+          "value": 1000,
+          "order": 30,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "Completed in 1955, this bridge crosses the Hudson near Nyack",
+          "answer": "the Tappan Zee",
+          "value": 1000,
+          "order": 22,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "THE FABULOUS '50s"
+        },
+        {
+          "name": "SNOWBOARDING"
+        },
+        {
+          "name": "TOM WOLFE"
+        },
+        {
+          "name": "MED. ABBREV."
+        },
+        {
+          "name": "THOSE CRAZY GUGGENHEIMS"
+        },
+        {
+          "name": "\"E\" CHANNEL"
+        }
+      ],
+      "clues": [
+        {
+          "question": "In 1953 Eisenhower proposed to the U.N. a plan of \"Atoms for\" this",
+          "answer": "Peace",
+          "value": 400,
+          "order": 4,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Snowboarding is often featured in ads for this Pepsico soda with a lofty name",
+          "answer": "Mountain Dew",
+          "value": 400,
+          "order": 16,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "It was Wolfe who first predicted that the 1970s \"Will come to be known as\" this \"decade\"",
+          "answer": "the Me Decade",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "2 of the 3 illnesses for which a DPT vaccination provides immunity",
+          "answer": "diphtheria and pertussis (also, tetanus)",
+          "value": 400,
+          "order": 6,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Benjamin Guggenheim made sure to dress in his evening clothes before going down with this ship in 1912",
+          "answer": "the Titanic",
+          "value": 400,
+          "order": 30,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "This South American country does not border Brazil",
+          "answer": "Ecuador",
+          "value": 400,
+          "order": 22,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "The group seen here is discussing the merits of this room they are looking at",
+          "answer": "a kitchen",
+          "value": 800,
+          "order": 5,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "An off-balance rider is said to be \"rolling down\" these, from the flailing motion of the arms",
+          "answer": "windows",
+          "value": 800,
+          "order": 17,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "In a piece of stock car racing, Wolfe introduced to written English this 3-word phrase for a solid Southern male",
+          "answer": "a good old boy",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "HRT is this kind of therapy; the use of it by menopausal women has recently been questioned",
+          "answer": "hormone replacement therapy",
+          "value": 800,
+          "order": 7,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "Patriarch Meyer moved from Switzerland to the U.S. in 1847 & set up shop in this Pennsylvania city",
+          "answer": "Philadelphia",
+          "value": 800,
+          "order": 29,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Before going bankrupt in 1989, this airline tried selling $12 plane tickets between Boston & New York",
+          "answer": "Eastern (Airlines)",
+          "value": 800,
+          "order": 23,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "A 1954 code trying to stop juvenile delinquency said \"horror\" or \"terror\" could not be used in titles of these",
+          "answer": "comics",
+          "value": 1200,
+          "order": 8,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "(Sarah of the Clue Crew snowboards down Mammoth Mountain.)  If you're doing well by cutting up the slopes, you could be called one of these, not to be confused with an office machine",
+          "answer": "a shredder",
+          "value": 1200,
+          "order": 18,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "\"The Right Stuff\" tells of how this man broke the sound barrier with 2 broken ribs from a drunken horseback ride",
+          "answer": "Chuck Yeager",
+          "value": 1200,
+          "order": 3,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "CTS, carpal tunnel syndrome, can be an RSI, this kind of injury",
+          "answer": "repetitive stress injury",
+          "value": 5000,
+          "order": 11,
+          "dd": 5000,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "For Daniel, it was all mine, mine, mine; tin in Bolivia & this in Alaska",
+          "answer": "gold",
+          "value": 1200,
+          "order": 21,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Alexander Pope once cracked, \"The vulgar boil, the learned roast\" one of these, maybe for breakfast",
+          "answer": "an egg",
+          "value": 1200,
+          "order": 24,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "In early 1951 TV viewers were riveted watching the Kefauver committee's look into this in America",
+          "answer": "organized crime",
+          "value": 1600,
+          "order": 9,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Like skateboarders, snowboarders perform in a U-shaped structure called this",
+          "answer": "a half-pipe",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "Wolfe coined the term \"radical\" this in a story on a party for the Black Panthers thrown by Leonard Bernstein",
+          "answer": "chic",
+          "value": 10000,
+          "order": 14,
+          "dd": 10000,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "I.D. stands for this specialty that focuses on illnesses like viral hepatitis",
+          "answer": "infectious disease",
+          "value": 1600,
+          "order": 12,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "In the 2000 film \"Pollock\", Amy Madigan played this art patron",
+          "answer": "Peggy Guggenheim",
+          "value": 1600,
+          "order": 28,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "In 1974 Spokane's Cannon Island was the site of this, which featured an environmental theme",
+          "answer": "an expo",
+          "value": 1600,
+          "order": 25,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "The accuracy of the Quartz clock was surpassed in 1955 by one using this element, Cs",
+          "answer": "Cesium",
+          "value": 2000,
+          "order": 10,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Stances include regular, goofy foot & this one that angles the toes of both feet in opposite directions",
+          "answer": "duck foot",
+          "value": 2000,
+          "order": 20,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "It's Wolfe's 1968 book about Ken Kesey & friends' cross-country journey",
+          "answer": "The Electric Kool-Aid Acid Test",
+          "value": 2000,
+          "order": 15,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "A CAT scan is computerized axial this kind of imaging",
+          "answer": "tomography",
+          "value": 2000,
+          "order": 13,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "The Guggenheim Foundation is the assignee of the patents of this rocket pioneer; it had financed him in the 1940s",
+          "answer": "Robert Goddard",
+          "value": 2000,
+          "order": 27,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "Philosophy branch that studies the nature & foundations of knowledge",
+          "answer": "epistemology",
+          "value": 2000,
+          "order": 26,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "AWARD-WINNING AUTHORS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "The only Oscar winner also to win a Nobel Prize, this European won a 1938 Oscar for adapting his own play",
+          "answer": "George Bernard Shaw"
+        }
+      ]
+    }
+  ]
+}

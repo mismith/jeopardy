@@ -1,0 +1,562 @@
+{
+  "number": 4658,
+  "date": "2004-12-01",
+  "comments": "Ken Jennings is brought out at the beginning to be recognized for his place in game show history.",
+  "contestants": [
+    {
+      "name": "Katie Fitzgerald",
+      "occupation": "a wealth management project analyst originally",
+      "origin": "New Rochelle, New York"
+    },
+    {
+      "name": "Nathan Brownback",
+      "occupation": "a research assistant",
+      "origin": "Washington, D.C."
+    },
+    {
+      "name": "Nancy Zerg",
+      "occupation": "a realtor",
+      "origin": "Ventura, California",
+      "streak": 1,
+      "winnings": 14401
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "DECEMBER 1st"
+        },
+        {
+          "name": " A JIM CARREY FILM FESTIVAL"
+        },
+        {
+          "name": "SOUNDS ALL AROUND"
+        },
+        {
+          "name": "ASK YOUR DOCTOR..."
+        },
+        {
+          "name": "FOREVER 39"
+        },
+        {
+          "name": "\"B\" BRAVE"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Dec. 1, 1969:  the Selective Service conducts the first lottery for this since World War II",
+          "answer": "the draft",
+          "value": 200,
+          "order": 11,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "\"Blast this Christmas music! It's joyful and triumphant\"",
+          "answer": "How the Grinch Stole Christmas",
+          "value": 200,
+          "order": 7,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "It can be a continuous low humming sound or a male bee",
+          "answer": "drone",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "answer": "the draft",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "There were 39 signers of this 1787 document",
+          "answer": "the Constitution ",
+          "value": 200,
+          "order": 12,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "It's forcing people to pay money by threatening to reveal their embarrassing secrets",
+          "answer": "blackmail",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "1959: 12 countries including the U.S. & the U.S.S.R. sign a treaty to keep this continent a scientific preserve",
+          "answer": "Antarctica",
+          "value": 400,
+          "order": 19,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "\"Riddle me this, riddle me that, who's afraid of the big black bat?\"",
+          "answer": "Batman Forever",
+          "value": 400,
+          "order": 8,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "If you listen to your heart using a stethoscope, you'll hear the sound of these flaps opening & closing",
+          "answer": "valves",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "answer": "the draft",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "In 2003 this team won its 39th pennant, a major league baseball record",
+          "answer": "the New York Yankees",
+          "value": 400,
+          "order": 13,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Movie 007 No. 6",
+          "answer": "Pierce Brosnan",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "1952: the New York Daily News reports George Jorgensen is now her after a visit to Denmark",
+          "answer": "Christine",
+          "value": 600,
+          "order": 20,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "\"Good morning! And in case I don't see you, good afternoon, good evening, and good night!\"",
+          "answer": "The Truman Show",
+          "value": 600,
+          "order": 9,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "In part of the Capitol dome, you can clearly hear distant sounds, making it this kind of \"gallery\"",
+          "answer": "a whispering gallery",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "...if Paxil is the appropriate treatment for panic attacks or OCD, which stands for this",
+          "answer": "obsessive-compulsive disorder",
+          "value": 600,
+          "order": 26,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "This president was 39 when he won a Pulitzer Prize",
+          "answer": "John F. Kennedy",
+          "value": 600,
+          "order": 14,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "192 people were killed trying to cross this infamous barrier",
+          "answer": "the Berlin Wall",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "1822: Dom Pedro is crowned emperor of this Western Hemisphere nation",
+          "answer": "Brazil",
+          "value": 800,
+          "order": 21,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "\"Hi.  Is there a problem with your service?\"",
+          "answer": "The Cable Guy",
+          "value": 800,
+          "order": 10,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "The name of this instrument comes from the Italian for \"little goose\"",
+          "answer": "an ocarina",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "...about this, America's No. 1 prescribed sleep aid that \"works like a dream\"",
+          "answer": "Ambien",
+          "value": 800,
+          "order": 28,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "This Welsh poet did not go gentle into that good night but died at age 39 in NYC after drinking 18 whiskies",
+          "answer": "Dylan Thomas",
+          "value": 800,
+          "order": 15,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "From the Latin for a type of hawk, it's the word commonly applied in the U.S. to a turkey vulture",
+          "answer": "a buzzard",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "1941: The C.A.P., this nonmilitary U.S. Air Force auxiliary, is created",
+          "answer": "the Civil Air Patrol",
+          "value": 1000,
+          "order": 22,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "\"Here I come to save the day!\"",
+          "answer": "Man on the Moon",
+          "value": 1000,
+          "order": 18,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "This rude noise is the last name of Toby, a character in \"Twelfth Night\"",
+          "answer": "Belch",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "...about taking omeprazole, sold under this brand name and available over the counter, to treat acid reflux disease",
+          "answer": "Prilosec",
+          "value": 1000,
+          "order": 27,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "There are 39 stories in these Nathaniel Hawthorne \"Tales\"",
+          "answer": "Twice-Told Tales",
+          "value": 1000,
+          "order": 16,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "It's the marine activity seen here",
+          "answer": "breaching",
+          "value": 1000,
+          "order": 5,
+          "dd": 1000,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "LET'S GET CREATIVE"
+        },
+        {
+          "name": "SPORTS RECORDS"
+        },
+        {
+          "name": "MILITARY TRAINING BASES"
+        },
+        {
+          "name": "AMERICANA"
+        },
+        {
+          "name": "SPELL-BOUND FOR BROADWAY",
+          "comments": "(Alex: You have to spell the important word in the response.)"
+        },
+        {
+          "name": "\"SUM\" IT UP"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Picasso's patrons included this expatriate American writer & her brother Leo",
+          "answer": "Gertrude Stein",
+          "value": 400,
+          "order": 21,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Puttin' the biscuit in the basket, this \"Great One\" is the NHL's regular-season goals leader with 894",
+          "answer": "Wayne Gretzky",
+          "value": 400,
+          "order": 10,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "California's Fort Irwin, the National Training Center, covers a Rhode Island-sized area in this desert",
+          "answer": "the Mojave",
+          "value": 400,
+          "order": 26,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "One of FedEx's original 13 Falcon jets from 1973 is in this Smithsonian museum; they've gone to bigger aircraft",
+          "answer": "the National Air and Space Museum",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "This dairyman ponders what it would be like \"if I were a rich man\"",
+          "answer": "T-E-V-Y-E",
+          "value": 400,
+          "order": 15,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "\"My Oberon! What visions have I seen! Methought I was enamoured of an ass\" can be heard in this play",
+          "answer": "A Midsummer Night's Dream",
+          "value": 400,
+          "order": 4,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Luca Della Robbia was famous for his reliefs in this type of clay earthenware",
+          "answer": "terra cotta",
+          "value": 800,
+          "order": 22,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "We'll \"Award\" you $800 for knowing this pitcher is number 1 with 511 career wins (but also tops in losses with 316)",
+          "answer": "Cy Young",
+          "value": 800,
+          "order": 11,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "The name of this Texas Air Defense training base implies that its soldiers are completely happy",
+          "answer": "Fort Bliss",
+          "value": 800,
+          "order": 27,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Open since 1900, it's been overshadowed by newer versions for baseball, rock & roll, cowboys, etc.",
+          "answer": "Halls of Fame",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "Martin Dysart psychoanalyzes a boy who's been re-creating the centaur myth in this drama",
+          "answer": "E-Q-U-U-S",
+          "value": 1900,
+          "order": 16,
+          "dd": 1900,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Bust out your Latin to translate \"I think, therefore I am\"",
+          "answer": "Cogito ergo sum",
+          "value": 800,
+          "order": 5,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "This \"Grand\" Parisian theatre shares its name with the French equivalent of the British puppet Punch",
+          "answer": "Guignol",
+          "value": 1200,
+          "order": 23,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "In 1961-62 this ex-Globetrotter averaged (averaged!) 50.4 points per game",
+          "answer": "Wilt Chamberlain",
+          "value": 1200,
+          "order": 12,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "answer": "Gertrude Stein",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "The hotel that Chester Nimitz' grandfather founded in Texas is in the shape of one of these",
+          "answer": "a steamboat",
+          "value": 1200,
+          "order": 3,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "This inspector relentlessly pursues Le Miserable Jean Valjean",
+          "answer": "J-A-V-E-R-T",
+          "value": 1200,
+          "order": 18,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "In diploma-speak, it's the highest of 3 special honors for grades above average",
+          "answer": "Summa Cum Laude",
+          "value": 1200,
+          "order": 6,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "The black lace made in the town of Chantilly was exported to Spain & made into these Spanish head coverings",
+          "answer": "mantillas",
+          "value": 1600,
+          "order": 24,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "In 1967 this NASCAR \"king\" won 27 races to set the single-season standard",
+          "answer": "Richard Petty",
+          "value": 1600,
+          "order": 13,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "Service branch with a San Diego recruit depot & a Yuma air station",
+          "answer": "Marines",
+          "value": 1600,
+          "order": 29,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Fred Hervey bought the Kay's food store chain & expanded it under this geometrical name",
+          "answer": "Circle K",
+          "value": 1600,
+          "order": 9,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "This \"Beauty and the Beast\" character is an enchanted candlestick played by Peter Flynn",
+          "answer": "L-U-M-I-E-R-E ",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "A common mineral used to make plaster of Paris",
+          "answer": "gypsum",
+          "value": 1600,
+          "order": 7,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "This Scottish-American born in 1768 helped define the federal style of furniture",
+          "answer": "Duncan Phyfe",
+          "value": 2000,
+          "order": 25,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "In 1952 Dick Lane, who sported this nickname, set an NFL record with 14 interceptions in a season",
+          "answer": "Dick \"Night Train\" Lane",
+          "value": 2000,
+          "order": 14,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "This Missouri fort is named for Teddy Roosevelt's superior officer in Cuba",
+          "answer": "Fort Leonard Wood",
+          "value": 2200,
+          "order": 28,
+          "dd": 2200,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Had the photo seen here been taken in the 1920s, these four additional letters would've appeared at the right",
+          "answer": "L, A, N and D",
+          "value": 2000,
+          "order": 17,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "Don Quixote, the \"Man of La Mancha\", worships her as \"Dulcinea\"",
+          "answer": "A-L-D-O-N-Z-A",
+          "value": 2000,
+          "order": 20,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "A shrub or small tree in the cashew family having milky sap",
+          "answer": "sumac",
+          "value": 2000,
+          "order": 8,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "THE 18th CENTURY"
+        }
+      ],
+      "clues": [
+        {
+          "question": "In 1790 the HMS Pandora sailed thousands of miles specifically to bring back this man but failed",
+          "answer": "Fletcher Christian"
+        }
+      ]
+    }
+  ]
+}

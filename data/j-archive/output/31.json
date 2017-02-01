@@ -1,0 +1,550 @@
+{
+  "number": 4626,
+  "date": "2004-10-18",
+  "comments": "2004-B Kids Week game 1.",
+  "contestants": [
+    {
+      "name": "Kelly Scurry",
+      "occupation": "an 11-year-old seventh grader",
+      "origin": "Lauderhill, Florida"
+    },
+    {
+      "name": "Tim Koch",
+      "occupation": "a 12-year-old sixth grader",
+      "origin": "Cliffwood, New Jersey"
+    },
+    {
+      "name": "Megan Fraedrich",
+      "occupation": "a 12-year-old seventh grader",
+      "origin": "Springfield, Virginia"
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "ANIMALS"
+        },
+        {
+          "name": "ALL I WANT FOR CHRISTMAS IS..."
+        },
+        {
+          "name": "GET A JOB!"
+        },
+        {
+          "name": "BOOK SERIES"
+        },
+        {
+          "name": "NUMBER PATTERNS"
+        },
+        {
+          "name": "NOTHIN' BUT \"A\"s"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Its legs are 6 feet long & its neck can be even longer",
+          "answer": "a giraffe",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "...one of these machines complete with music & lyrics, so I can be the singer",
+          "answer": "a karaoke machine",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "\"Aim high\" & get a job in this branch of the military & you might have to memorize their slogan \"Aim High\"",
+          "answer": "the Air Force",
+          "value": 200,
+          "order": 11,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "The \"Animal Ark\" series focuses on Mandy & her parents, both of whom are these, doctors who treat animals",
+          "answer": "veterinarians",
+          "value": 200,
+          "order": 12,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "400, 200, 100, 50, __",
+          "answer": "25",
+          "value": 200,
+          "order": 26,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "It was hard to escape from this island prison located in San Francisco Bay",
+          "answer": "Alcatraz",
+          "value": 200,
+          "order": 17,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Bactrian & dromedary are the 2 main types of this desert creature",
+          "answer": "a camel",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "...a 12-foot one of these for the backyard, with a netting enclosure, & I'll be jumping (on it) for joy!",
+          "answer": "a trampoline",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Maybe you wanna be like Pat Sajak, Wink Martindale or Bob Barker & get this gig (hey, not so fast, kid!)",
+          "answer": "a game show host",
+          "value": 400,
+          "order": 22,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "In \"the First Four Years\", the last book in the \"Little House\" series, she begins married life with Almanzo",
+          "answer": "Laura Ingalls Wilder",
+          "value": 400,
+          "order": 13,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "5, 8, 11, 14, 17, __",
+          "answer": "20",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Okay, we're at $400 for the clue, $400, do I hear 6...?  No, still at $400 & I'm talking like a guy at this event... sold, for $400",
+          "answer": "an auction",
+          "value": 400,
+          "order": 18,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "The percheron  & the palomino are types of this",
+          "answer": "a horse",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "(Jimmy of the Clue Crew demonstrates from Times Square.)  If I were a kid, I'd want a pair of these goggles for Christmas, so I can pretend I'm this hero",
+          "answer": "Spider-Man",
+          "value": 600,
+          "order": 8,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "An occupation where you make or mend clothes might be this-made for you",
+          "answer": "tailor",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "\"The Lion, the Witch and The Wardrobe\" & \"The Magician's Nephew\" are books in this series by C.S. Lewis",
+          "answer": "The Chronicles of Narnia",
+          "value": 600,
+          "order": 14,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "12, 34, 56, 78, ___",
+          "answer": "100",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "It's a type of ant or a large mythical female warrior",
+          "answer": "an Amazon",
+          "value": 600,
+          "order": 19,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "The rabbit seen here has this name after one of its features",
+          "answer": "cottontail",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "...the E100 electric one of these from Razor",
+          "answer": "a scooter",
+          "value": 800,
+          "order": 9,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "You may file a writ of habeas corpus for your client if you decide to go into this profession",
+          "answer": "law",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "\"Two of a Kind\" is a book series featuring these real-life siblings",
+          "answer": "Mary-Kate and Ashley Olsen",
+          "value": 800,
+          "order": 15,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "answer": "a giraffe",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Astronomically, this first Greek letter precedes \"Centauri\"",
+          "answer": "Alpha",
+          "value": 800,
+          "order": 20,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Pythons are oviparous, meaning they do this",
+          "answer": "lay eggs",
+          "value": 400,
+          "order": 5,
+          "dd": 400,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "...one of these dolls, with a passion for fashion, like Jade and Chloe seen here",
+          "answer": "a Bratz doll",
+          "value": 1000,
+          "order": 10,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "You'll either be a sturdy fixer of leaky pipes or, maybe, a fixer of a company's news leaks if you wade into this job",
+          "answer": "a plumber",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Junior High, High School & University are included in this Francine Pascal series known as \"SV\"",
+          "answer": "Sweet Valley",
+          "value": 1000,
+          "order": 16,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "answer": "a giraffe",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "You could say we sent this Greek god to the moon in 1969",
+          "answer": "Apollo",
+          "value": 1000,
+          "order": 21,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "18th CENTURY AMERICA"
+        },
+        {
+          "name": "THE LION KING ON BROADWAY"
+        },
+        {
+          "name": "OUTDOORS"
+        },
+        {
+          "name": "SIGNS & SYMBOLS"
+        },
+        {
+          "name": "PALINDROMIC PLACES"
+        },
+        {
+          "name": "ANYTHING BUT A's",
+          "comments": "(Alex: The correct response in each case will not have the letter \"A,\" as opposed to the first round.)"
+        }
+      ],
+      "clues": [
+        {
+          "question": "During a storm in the summer of 1752, he attached a key to a kite string & proved that lightning was electricity",
+          "answer": "Benjamin Franklin",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "(Cheryl of the Clue Crew announces, \"I'm here on the Broadway set of The Lion King.\")  It's a memorable moment in \"The Lion King\" when this baby lion cub is presented to the world atop Pride Rock",
+          "answer": "Simba",
+          "value": 400,
+          "order": 2,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Campers know oak & maple produce little of this when used as firewood; pine & fir, lots (cough! cough!)",
+          "answer": "smoke",
+          "value": 400,
+          "order": 3,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "On a map of a country, a star inside a circle indicates this",
+          "answer": "the national capital",
+          "value": 400,
+          "order": 26,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Hannah is in this state that is the center, or keystone, of the original 13 colonies",
+          "answer": "Pennsylvania",
+          "value": 400,
+          "order": 15,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "It's the continent that fits the category",
+          "answer": "Europe",
+          "value": 400,
+          "order": 9,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "On Feb. 12, 1733 James Oglethorpe founded Savannah, the first settlement in this new colony",
+          "answer": "Georgia",
+          "value": 800,
+          "order": 5,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "(Jimmy of the Clue Crew delivers the clue from the set of The Lion King.)  Many of the costumes and sets in \"The Lion King\" were inspired by the art of this continent, where the show is set",
+          "answer": "Africa",
+          "value": 800,
+          "order": 4,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Gardeners use this tined tool to level soil; Dad also might hand it to you & mention all the leaves on the lawn",
+          "answer": "a rake",
+          "value": 800,
+          "order": 19,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "answer": "Benjamin Franklin",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Yoko Ono was not born in Ono, though they're both of this Asian island nation",
+          "answer": "Japan",
+          "value": 800,
+          "order": 21,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "In a nursery rhyme, he was one of the \"three men in a tub\"",
+          "answer": "the butcher",
+          "value": 800,
+          "order": 10,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "In 1790 printing began on Dobson's Encyclopedia, an 18-volume American edition of this British reference work",
+          "answer": "Encyclopaedia Britannica",
+          "value": 1200,
+          "order": 6,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "(Cheryl of the Clue Crew delivers the clue from the set of The Lion King.)  The title of this famous song from \"The Lion King\" means \"no worries\" and it's Timon and Pumbaa's motto",
+          "answer": "\"Hakuna Matata\"",
+          "value": 1200,
+          "order": 14,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Rafters rate these speedy parts of rivers from 1 (small waves) to 6 (don't even think about it)",
+          "answer": "rapids",
+          "value": 1200,
+          "order": 16,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "answer": "Benjamin Franklin",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Iaracarai Waterfall flows in the Amazonas state of this country",
+          "answer": "Brazil",
+          "value": 1200,
+          "order": 22,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "It's in the top 3 among foreign languages most studied by Americans in college today",
+          "answer": "French",
+          "value": 1200,
+          "order": 11,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "In 1765 the British Parliament passed this act taxing newspapers, legal documents, & other printed materials",
+          "answer": "the Stamp Act",
+          "value": 2000,
+          "order": 7,
+          "dd": 2000,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "(Jimmy of the Clue Crew converses with a puppet on the set of The Lion King.)  In the stage version of \"The Lion King\", Zazu is no birdbrain--he's the aide-de-camp to this lion, Simba's father (Zazu squawks \"Aide-de-camp!\")",
+          "answer": "Mufasa",
+          "value": 1600,
+          "order": 17,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "Plaster Rock, New Brunswick hosts the championships of the pond version of this sport--a frozen pond",
+          "answer": "ice hockey",
+          "value": 1600,
+          "order": 20,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "answer": "Benjamin Franklin",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Keep a lookout for the village of Eye in Peterborough in this country",
+          "answer": "England",
+          "value": 1600,
+          "order": 23,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "It's a basic operation in arithmetic",
+          "answer": "division",
+          "value": 1600,
+          "order": 12,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "In 1775 he told the Virginia Convention, \"Gentlemen may cry peace, peace!  But there is no peace\"",
+          "answer": "Patrick Henry",
+          "value": 2000,
+          "order": 8,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "(Cheryl of the Clue Crew delivers the clue from the set of The Lion King.)  This \"Lion King\" song tells us \"the sun rolling high through the sapphire sky keeps great and small on the endless round\"",
+          "answer": "\"The Circle Of Life\"",
+          "value": 2000,
+          "order": 18,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "To earn a Girl Scout Horse Rider Badge, you have to learn to use this, which includes the bit & reins",
+          "answer": "the bridle",
+          "value": 2000,
+          "order": 25,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "answer": "Benjamin Franklin",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "If you want a pup, there's a place called that near Kirov in this country",
+          "answer": "Russia",
+          "value": 2000,
+          "order": 24,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "An officer's rank in the U.S. Army",
+          "answer": "colonel",
+          "value": 2000,
+          "order": 13,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "FAMOUS FIRSTS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "In 1876 this man became the first person not to get a busy signal on the other end of a phone line",
+          "answer": "Alexander Graham Bell"
+        }
+      ]
+    }
+  ]
+}

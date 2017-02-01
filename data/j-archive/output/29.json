@@ -1,0 +1,571 @@
+{
+  "number": 4624,
+  "date": "2004-10-14",
+  "comments": "Ken Jennings game 57.\n\n(Tie Domi: Hi, I'm Tie Domi of the Toronto Maple Leafs.  Watch Jeopardy! or you're gonna have to drop the gloves with me.)\n(Alex: Come on.  You want a piece of this, huh?)",
+  "contestants": [
+    {
+      "name": "K.C. Backer",
+      "occupation": "a graduate student",
+      "origin": "Bloomington, Indiana"
+    },
+    {
+      "name": "Graham House",
+      "occupation": "a musician",
+      "origin": "Lincoln, Nebraska"
+    },
+    {
+      "name": "Ken Jennings",
+      "occupation": "a software engineer",
+      "origin": "Salt Lake City, Utah",
+      "streak": 56,
+      "winnings": 1906400
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "PRESIDENTS BY KIDS"
+        },
+        {
+          "name": "HOCKEY"
+        },
+        {
+          "name": "FOOD, GLORIOUS FOOD"
+        },
+        {
+          "name": "HUMANITARIAN LADIES"
+        },
+        {
+          "name": "NICKNAMES"
+        },
+        {
+          "name": "\"ICK\"Y WORDS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Abigail, John Q., Charles",
+          "answer": "John Adams",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "(Alex and Tie Domi of the Toronto Maple Leafs are both suited up and on the ice to play some hockey.)  If Tie Domi crosses the blue line before I get the puck to him, we'll be guilty of this infraction",
+          "answer": "offsides",
+          "value": 200,
+          "order": 26,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Created by C.W. Post in 1897, this breakfast cereal does not contain either of the two components in its name",
+          "answer": "Grape-Nuts",
+          "value": 200,
+          "order": 9,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Her parents chose Anne Sullivan as her private teacher on the advice of Alexander Graham Bell",
+          "answer": "Helen Keller",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "This famous nickname of Ty Cobb sounds like a state fruit",
+          "answer": "\"the Georgia Peach\"",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "This pivoted device supports a bicycle or motorcycle when not in use",
+          "answer": "a kickstand",
+          "value": 200,
+          "order": 21,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "John, Calvin",
+          "answer": "Calvin Coolidge",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "To figure out how many points a player has simply add these 2 totals",
+          "answer": "goals and assists",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Macadamias were originally native to this continent",
+          "answer": "Australia",
+          "value": 400,
+          "order": 10,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Throughout the 1930s, she taught geography at St. Mary's High School in Eastern India",
+          "answer": "Mother Teresa",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "Abraham Lincoln earned this nickname from his skill in chopping wood in half to make fences",
+          "answer": "\"the Rail-splitter\"",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "For years, adverstisers have asked us to do this to \"your Bic lighter\"",
+          "answer": "flick",
+          "value": 400,
+          "order": 22,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "Lynda, Luci",
+          "answer": "LBJ",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "(Tie Domi and Alex Trebek pose together on the ice.)  Any player who messes with me will deal with Tie Domi, who has this job--also the name of a \"Dirty Harry\" film",
+          "answer": "enforcer",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "The Red Delicious apple was originally called the Hawkeye apple; it was developed in an orchard in this state",
+          "answer": "Iowa",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "In 1881 she established the first American Red Cross chapter, in Dansville, New York",
+          "answer": "Clara Barton",
+          "value": 600,
+          "order": 18,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "Emily Dickinson was \"the Belle of\" & later \"the Nun of\" this Massachusetts town",
+          "answer": "Amherst",
+          "value": 600,
+          "order": 8,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Last name of the golfing great who was the first to twice win the British Open, Masters, PGA & U.S. Open",
+          "answer": "(Jack) Nicklaus",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "Fanny, Manning, Birchard",
+          "answer": "Rutherford B. Hayes",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Bryan Trottier sparked this team to 4 Stanley Cup championships from 1980 through 1983",
+          "answer": "the New York Islanders",
+          "value": 800,
+          "order": 29,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "The name of these sugar, egg white & coconut cookies comes from the same root word as a pasta",
+          "answer": "macaroons",
+          "value": 2100,
+          "order": 14,
+          "dd": 2100,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "The 19th Amendment to the U.S. Constitution giving women full suffrage was nicknamed for her",
+          "answer": "Susan B. Anthony",
+          "value": 800,
+          "order": 19,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "General Patton's toughness on his enemies & his own men earned him the nickname \"Old\" this",
+          "answer": "\"Blood and Guts\"",
+          "value": 800,
+          "order": 11,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "It's a billy club carried by a policeman",
+          "answer": "a nightstick",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Abraham, Martin, John",
+          "answer": "Martin Van Buren",
+          "value": 1000,
+          "order": 5,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "(Alex shuffles his hockey stick back and forth on the ice.)  It's the 13 letter word for the skill I was just demonstrating (Mario Lemieux doesn't have to worry)",
+          "answer": "stickhandling",
+          "value": 1000,
+          "order": 30,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Texas grows a Texas-sized amount of blue corn, often used to make these unleavened flat breads",
+          "answer": "tortillas",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Among this pacifist's books were \"Newer Ideals of Peace\" & \"Twenty Years at Hull House\"",
+          "answer": "Jane Addams",
+          "value": 1000,
+          "order": 20,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "(Hi there.  I’m George Jones.)  You know, early in my career, a deejay gave me this nickname because he thought I resembled a certain American marsupial",
+          "answer": "\"Possum\"",
+          "value": 1000,
+          "order": 12,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "These long bloomers were once worn by women & girls as underwear",
+          "answer": "knickers",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "WORLD LIT"
+        },
+        {
+          "name": "WHATEVER HAPPENED TO..."
+        },
+        {
+          "name": "MATH"
+        },
+        {
+          "name": "LAKE CITY",
+          "comments": "(Alex: We want you to name the lake when we give you the...)"
+        },
+        {
+          "name": "THE HOLE TRUTH"
+        },
+        {
+          "name": "NOTHING \"BUT\""
+        }
+      ],
+      "clues": [
+        {
+          "question": "Sir Walter Scott wrote the book about Scottish outlaw Robert MacGregor, better known as this",
+          "answer": "Rob Roy",
+          "value": 400,
+          "order": 6,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "As of 2004 this \"By The Time I Get To Phoenix\" singer was living in Phoenix with his wife & kids",
+          "answer": "Glen Campbell",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "It's the absolute value of negative 143",
+          "answer": "143",
+          "value": 400,
+          "order": 21,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Cleveland, Ohio",
+          "answer": "Lake Erie",
+          "value": 400,
+          "order": 25,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "This disciple said he wouldn't believe in the ressurection until he saw & felt the nail holes in Jesus' hands",
+          "answer": "Thomas",
+          "value": 400,
+          "order": 16,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Examples include the two-tailed pasha & the zebra swallowtail",
+          "answer": "butterflies",
+          "value": 400,
+          "order": 11,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "13 years after Sartre wrote \"L'etre et le neant\", it was translated into \"Being and\" this",
+          "answer": "Nothingness",
+          "value": 800,
+          "order": 7,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "The party was over for him after \"Monday Night Football\", but he did play himself on \"King of the Hill\"",
+          "answer": "\"Dandy Don\" Meredith",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "A sexagesimal system is based on this number",
+          "answer": "60",
+          "value": 800,
+          "order": 22,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Toronto, Canada",
+          "answer": "Lake Ontario",
+          "value": 800,
+          "order": 26,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "A \"Judas Hole\" is the term for the tiny viewing port in one of these; you can watch the man who betrayed you through it",
+          "answer": "a cell door",
+          "value": 800,
+          "order": 17,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "These gothic architectural supports can be \"clasping\" or \"flying\"",
+          "answer": "buttresses",
+          "value": 800,
+          "order": 12,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "His \"Decameron\" may \"appear to have but a harsh and offensive beginning\", but he hoped you'd read on",
+          "answer": "Boccaccio",
+          "value": 1200,
+          "order": 8,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "This polysyllabic '50s Italian sexpot had a one-woman exhibit of her sculpture in 2003",
+          "answer": "Gina Lollobrigida",
+          "value": 1200,
+          "order": 3,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Also a type of equation, it describes functions of the formf(x) = ax² + bx + c",
+          "answer": "quadratic",
+          "value": 1200,
+          "order": 23,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "Kampala, Uganda",
+          "answer": "Lake Victoria",
+          "value": 2000,
+          "order": 28,
+          "dd": 2000,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "Asian location where a notoriously horrible event took place on the night of June 20, 1756",
+          "answer": "the Black Hole of Calcutta",
+          "value": 2300,
+          "order": 18,
+          "dd": 2300,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "He was Secretary of Agriculture under Nixon & Ford",
+          "answer": "Earl Butz",
+          "value": 1200,
+          "order": 13,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "This Utopian land of Samuel Butler's was located in New Zealand",
+          "answer": "Erewhon",
+          "value": 1600,
+          "order": 9,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "Ferdinand, who gained renown for doing this on May 3, 1986, was turned into Japanese pet food",
+          "answer": "winning the Kentucky Derby",
+          "value": 1600,
+          "order": 4,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "The area of a parallelogram equals b times h, short for these two measures",
+          "answer": "base and height",
+          "value": 1600,
+          "order": 24,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Lausanne, Switzerland",
+          "answer": "Lake Geneva",
+          "value": 1600,
+          "order": 29,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "Silver Springs in northern Florida is one of the state's largest water-filled one of these holes",
+          "answer": "a sinkhole",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "Of the genus Ranunculus, this grassland wild plant has large yellow flowers",
+          "answer": "the buttercup",
+          "value": 1600,
+          "order": 14,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "There's no dialogue in this author's novel \"The Painted Bird\"",
+          "answer": "Jerzy Kosinski",
+          "value": 2000,
+          "order": 10,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Once TV's Jennifer Keaton, she grew up to front a rock band called Jaded",
+          "answer": "Tina Yothers",
+          "value": 2000,
+          "order": 5,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "(Cheryl of the Clue Crew points to a diagram on the chalkboard.)  In the ratio of s to r, this measure of an angle is similar to the word that the r stands for",
+          "answer": "radian",
+          "value": 2000,
+          "order": 27,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Aswan, Egypt",
+          "answer": "Lake Nasser",
+          "value": 2000,
+          "order": 30,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "The yellow-bellied variety of this woodpecker drills a series of small holes in tree bark to feed",
+          "answer": "a sapsucker",
+          "value": 2000,
+          "order": 20,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "Romeo's 2-word interjection when Juliet appears at her window",
+          "answer": "but soft",
+          "value": 2000,
+          "order": 15,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "FAMOUS AMERICANS"
+        }
+      ],
+      "clues": [
+        {
+          "question": "After his public comments were criticized by FDR, he resigned his Air Corps Reserve commission in April 1941",
+          "answer": "Charles Lindbergh"
+        }
+      ]
+    }
+  ]
+}

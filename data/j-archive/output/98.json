@@ -1,0 +1,570 @@
+{
+  "number": 4682,
+  "date": "2005-01-04",
+  "comments": "Kerry Breitenbach game 3.",
+  "contestants": [
+    {
+      "name": "Inez Friedman-Boyce",
+      "occupation": "an attorney",
+      "origin": "Newton, Massachusetts"
+    },
+    {
+      "name": "Chris Mullins",
+      "occupation": "a computer programmer",
+      "origin": "Louisville, Kentucky"
+    },
+    {
+      "name": "Kerry Breitenbach",
+      "occupation": "a marketing analyst",
+      "origin": "South Euclid, Ohio",
+      "streak": 2,
+      "winnings": 28300
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "THE STARS"
+        },
+        {
+          "name": "PLANETS ON EARTH"
+        },
+        {
+          "name": "FIRST NAME'S THE SAME"
+        },
+        {
+          "name": "GOVERNMENT & POLITICS"
+        },
+        {
+          "name": "THE KING"
+        },
+        {
+          "name": "SOUNDS LIKE A PRESCRIPTION DRUG"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Denebola, a star in the tail of this constellation, is Arabic for \"the lion's tail\"",
+          "answer": "Leo",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Drive through the village of Mercury in the Rhone-Alpes region of this country",
+          "answer": "France",
+          "value": 200,
+          "order": 26,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Vega,Somers,Pleshette",
+          "answer": "Suzanne",
+          "value": 200,
+          "order": 11,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "It's a view on a case written by a minority of the Supreme Court justices",
+          "answer": "a dissent",
+          "value": 200,
+          "order": 21,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Walter Winchell & George M. Cohan have each been called the \"King of\" this thoroughfare",
+          "answer": "Broadway",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Specific term for a supplement to your last will & testament",
+          "answer": "a codicil",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Arcturus is known as the \"bear watcher\" because it follows this constellation around the north celestial pole",
+          "answer": "Ursa Major",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "There is life in Mars, 30 miles from the confluence of the Monongahela & Allegheny Rivers in this state",
+          "answer": "Pennsylvania",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "Brown,Tarkanian,Lewis",
+          "answer": "Jerry",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "All the people representatives represent; many House members websites have a section of services for them",
+          "answer": "constituents",
+          "value": 400,
+          "order": 22,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "Though born in November 1854, he was known as the \"March King\"",
+          "answer": "Sousa",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "A word to designate the 3 low countries, or their economic pact",
+          "answer": "Benelux",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "Add an \"A\" to the beginning of this star (double the \"P\") & you get singing without instrumental accompaniment",
+          "answer": "Capella (a cappella accepted)",
+          "value": 600,
+          "order": 8,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "If you're driving through Jupiter, catch a show at the maltz Jupiter theatre in this state",
+          "answer": "Florida",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Munster,Pons,Tomlin",
+          "answer": "Lily",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "It was created in 1979 but traces its beginnings to 1803, when Congress allocated aid to fire-stricken Portsmouth, N.H.",
+          "answer": "FEMA",
+          "value": 1000,
+          "order": 23,
+          "dd": 1000,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "In the 1980s he was known as the \"Junk Bond King\"",
+          "answer": "Michael Milken",
+          "value": 600,
+          "order": 18,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "A 7-letter term for an improvised encampment",
+          "answer": "a bivouac",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "Although now fainter than Pollux, this star is designated the alpha star in Gemini",
+          "answer": "Castor",
+          "value": 800,
+          "order": 9,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "The seas of Neptune are long gone, replaced by the prairies near its captital, Regina, in this Canadian province",
+          "answer": "Saskatchewan",
+          "value": 800,
+          "order": 29,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "Benson,Blanda,Bush",
+          "answer": "George",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "It's congressional action that spends our money for an authorized purpose; there's a committee for it",
+          "answer": "appropriations",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "She--yes, she--was known as \"King of the Court\"",
+          "answer": "Billie Jean King",
+          "value": 800,
+          "order": 19,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "Apollo's sister, she was Diana's Greek counterpart",
+          "answer": "Artemis",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "This star whose name sounds like a Michael Keaton character became the first whose surface was directly imaged",
+          "answer": "Betelgeuse",
+          "value": 1000,
+          "order": 10,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "Though not large enough to be an official planet, Pluto resides on this largest Philippine Island",
+          "answer": "Luzon",
+          "value": 1000,
+          "order": 30,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Hollander,Bobek,Richie",
+          "answer": "Nicole",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "(Hi.  I'm John McCain.)  The bipartisan campaign reform act is named for me & this Wisconsin Senator",
+          "answer": "Russ Feingold",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "California lawyer Melvin Belli was famous as the \"King of\" these",
+          "answer": "torts",
+          "value": 1000,
+          "order": 20,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "Orangutans live on this, the largest island that's entirely part of Indonesia",
+          "answer": "Sumatra",
+          "value": 1000,
+          "order": 5,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "FIRST LADIES"
+        },
+        {
+          "name": "ROBERT DE NIRO MOVIES"
+        },
+        {
+          "name": "LITERARY SHORTS"
+        },
+        {
+          "name": "TAKE THE KIDS!"
+        },
+        {
+          "name": "IF AT FIRST YOU DON'T SECEDE..."
+        },
+        {
+          "name": "TRY \"TRI\" AGAIN"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Her April 14th, 1964 diary entry revealed she asked King Hussein of Jordan for his autograph at a state dinner",
+          "answer": "Lady Bird Johnson",
+          "value": 400,
+          "order": 9,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "\"Come on, hit me.  Harder!  Harder!\"",
+          "answer": "Raging Bull",
+          "value": 400,
+          "order": 4,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Shooting an albatross causes bad luck for a ship's crew",
+          "answer": "The Rime of the Ancient Mariner",
+          "value": 400,
+          "order": 13,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "If the kids can stomach it, watch Tasmanian devils being fed in Tasmanian Deveil Park at Taranna in this country",
+          "answer": "Australia",
+          "value": 400,
+          "order": 21,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "It was the first U.S. state to secede, leading to the Civil War",
+          "answer": "South Carolina",
+          "value": 400,
+          "order": 18,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "It straightens the arm at the elbow",
+          "answer": "the triceps",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "First name shared by a Roosevelt & a Wilson",
+          "answer": "Edith",
+          "value": 800,
+          "order": 10,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "\"Someday a real rain will come and wash all this scum off the streets\"",
+          "answer": "Taxi Driver",
+          "value": 800,
+          "order": 5,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "A 12-year-old nymphet torments a grown man",
+          "answer": "Lolita",
+          "value": 800,
+          "order": 14,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Take the kids to Drumnadrochit to see the exhibition devoted to this beast, then go outside & search for it yourself",
+          "answer": "the Loch Ness monster",
+          "value": 800,
+          "order": 25,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "It held referendums in 1980 & 1995 to decide whether to secede from Canada",
+          "answer": "Quebec",
+          "value": 800,
+          "order": 19,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Swimming, cycling, & running all in one event",
+          "answer": "a triathalon",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "She was 32 when she started acting as Jefferson's hostess",
+          "answer": "Dolley Madison",
+          "value": 1200,
+          "order": 23,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "\"I was gonna whack you, but I was... real conflicted about it\"",
+          "answer": "Analyze This",
+          "value": 1200,
+          "order": 6,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "A psychologist tries to figure out why a young man has blinded 6 horses",
+          "answer": "Equus",
+          "value": 1200,
+          "order": 15,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "Kids love creepy stuff, so take them to see the bog mummies at the Silkeborg Museum in this country",
+          "answer": "Denmark",
+          "value": 1200,
+          "order": 26,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "In 1965 this island city-state peacefully seceded from Malaysia",
+          "answer": "Singapore",
+          "value": 1200,
+          "order": 20,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "The period that lasted from about 245 million to 208 million years ago",
+          "answer": "Triassic",
+          "value": 1200,
+          "order": 3,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "Pink, a favorite color of hers, became popular nationwide when she lived in the White House",
+          "answer": "Mamie Eisenhower",
+          "value": 1600,
+          "order": 24,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "\"Better to be king for a night than a schmuck for a lifetime\"",
+          "answer": "The King of Comedy",
+          "value": 1600,
+          "order": 7,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "\"Admirable\" butler becomes the leader of a shipwrecked group",
+          "answer": "The Admirable Chrichton",
+          "value": 1600,
+          "order": 16,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "The kids will be amazed that Tchantches, a puppet who's the symbol of Liege in this country, has his own museum",
+          "answer": "Belgium",
+          "value": 1600,
+          "order": 27,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "This country in the Western Hemisphere didn't exist until 1903 when it seceded from its larger neighbor",
+          "answer": "Panama",
+          "value": 2500,
+          "order": 22,
+          "dd": 2500,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "From the Latin for \"platform for magistrates\", it's a court of justice",
+          "answer": "a tribunal",
+          "value": 1600,
+          "order": 11,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Known under this name as First Lady, she was born Elizabeth Wallace",
+          "answer": "Bess Truman",
+          "value": 5600,
+          "order": 30,
+          "dd": 5600,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "\"Counselor!  Come out, come out, wherever you are!!\"",
+          "answer": "Cape Fear",
+          "value": 2000,
+          "order": 8,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Swift advocates the eating of poor children as a way to combat poverty",
+          "answer": "A Modest Proposal",
+          "value": 2000,
+          "order": 17,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "A train ride & a hall of mirrors tempt the tykes at Jardin d'Acclimation in this Parisian park nicknamed Le Bois",
+          "answer": "the Bois de Boulogne",
+          "value": 2000,
+          "order": 28,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "This nation has fought several wars over territory with Ethiopia since seceding from it in 1993",
+          "answer": "Eritrea",
+          "value": 2000,
+          "order": 29,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "A group of 3 men collectively responsible for the administration of ancient Rome",
+          "answer": "a triumvirate",
+          "value": 2000,
+          "order": 12,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "TECHNOLOGY"
+        }
+      ],
+      "clues": [
+        {
+          "question": "In 1913 this alloy was invented by Harry Brearley of Sheffield, England, a city known for its cutlery since before 1400",
+          "answer": "stainless steel"
+        }
+      ]
+    }
+  ]
+}

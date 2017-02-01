@@ -1,0 +1,562 @@
+{
+  "number": 4628,
+  "date": "2004-10-20",
+  "comments": "2004-B Kids Week game 3.",
+  "contestants": [
+    {
+      "name": "Tamika Turner",
+      "occupation": "an 11-year-old eighth grader",
+      "origin": "Sylvania, Ohio"
+    },
+    {
+      "name": "Grace Thomas",
+      "occupation": "an 11-year-old sixth grader",
+      "origin": "Raleigh, North Carolina"
+    },
+    {
+      "name": "Josh Klein",
+      "occupation": "a 12-year-old seventh grader",
+      "origin": "Philadelphia, Pennsylvania"
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "HISTORY PROBLEMS"
+        },
+        {
+          "name": "NICK BEFORE NIGHT"
+        },
+        {
+          "name": "COMPUTING 101"
+        },
+        {
+          "name": "MR. NOODLE"
+        },
+        {
+          "name": "PRESIDENTS' CHILDREN"
+        },
+        {
+          "name": "KIDSPEAK"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Since Vermont entered the Union as State number 14 in 1891, this many more have followed it",
+          "answer": "36",
+          "value": 200,
+          "order": 21,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "This animated character may grasp advanced science, but he still needs to be in bed before 9",
+          "answer": "Jimmy Neutron",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "5-letter term for an \"infectious\" program designed to harm your computer",
+          "answer": "a virus",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Miki are Asian noodles made with this poultry product",
+          "answer": "eggs",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Dad Bill was a Rhodes Scholar at Oxford Univ.; she earned a master's in international relations at Oxford in 2003",
+          "answer": "Chelsea Clinton",
+          "value": 200,
+          "order": 26,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "To cereal lovers, it's a friend of Crackle; it's also in the title of a kids' song about a weasel",
+          "answer": "pop",
+          "value": 200,
+          "order": 9,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "If Newton had 1 apple drop on his head on Monday, 3 on Tuesday & 5 on Wednesday, he averaged this number a day",
+          "answer": "3",
+          "value": 400,
+          "order": 22,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "The half-boy, half-ghost seen here battles the paranormal at Casper High on this series",
+          "answer": "Danny Phantom (Danny Fenton accepted)",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "The many versions of Windows are the flagship products of this company",
+          "answer": "Microsoft",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Toshikoshi soba, or \"year-crossing noodles\", are traditionally eaten on this night in Japan",
+          "answer": "New Year's Eve",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "They're the only 2 sons of U.S. presidents to be elected president",
+          "answer": "George W. Bush and John Quincy Adams",
+          "value": 300,
+          "order": 27,
+          "dd": 300,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "A dog named Rover might be black or brown, but this color \"rover\" is a popular kids' game",
+          "answer": "Red Rover",
+          "value": 400,
+          "order": 10,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "The Incan empire was split between 2 sons in 1525; if there had been 5 sons, each would have gotten this percent",
+          "answer": "20%",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Seen here are the hosts of this show, where U watch, U call, & U click",
+          "answer": "U-Pick Live",
+          "value": 600,
+          "order": 18,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "It's the hardware item whose name comes from \"modulator demodulator\"",
+          "answer": "modem",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "You'll find dancing noodles on the website of Real Torino, which markets rigatoni, spaghetti & other types of this",
+          "answer": "pasta",
+          "value": 600,
+          "order": 8,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "He had no kids of his own, but he loved his stepdaughter Patsy Custis as if she were his own daughter",
+          "answer": "George Washington",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "It's a hemispherical portion of ice cream that you dish out with a utensil of the same name",
+          "answer": "scooper (or scoop)",
+          "value": 600,
+          "order": 11,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "If Clyde the Chaldean turned out 3 cuneiform tablets an hour, & worked 8 hours a day for 5 days, he made this many",
+          "answer": "120",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "This kid lives with his grandparents in a boarding house--where kids aren't allowed",
+          "answer": "Arnold",
+          "value": 800,
+          "order": 19,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "This letter of the alphabet represents 1,024 bytes",
+          "answer": "K",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "If your take-out place makes lousy mee krob, fly to Bangkok in this country to sample it from the source",
+          "answer": "Thailand",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "answer": "36",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "They're also called milk teeth & you probably began to lose yours when you were about 6",
+          "answer": "baby teeth",
+          "value": 800,
+          "order": 12,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "If the 15th C. Wars of the Roses had been fought with real roses, & each side had 48 roses, it totaled this many dozen",
+          "answer": "8",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "XJ-9, also known as Jenny, would rather hang with friends and read magazines than save the world in this animated series",
+          "answer": "My Life as a Teenage Robot",
+          "value": 1000,
+          "order": 20,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Sometimes your computer is fine, but this, your LAN, is down",
+          "answer": "local area network",
+          "value": 1000,
+          "order": 5,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "If you can't cook anything else, grab the cream of mushroom soup & learn to make the classic tuna noodle this",
+          "answer": "casserole",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "answer": "36",
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Poogles, Quiggles & Kougras are 3 types of these \"pets\" that have their own website",
+          "answer": "Neopets",
+          "value": 1000,
+          "order": 13,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "GEOGRAPHY \"B\""
+        },
+        {
+          "name": "THE YOU-NIVERSE"
+        },
+        {
+          "name": "CIVIL WAR PEOPLE"
+        },
+        {
+          "name": "I KNOW THAT SONG"
+        },
+        {
+          "name": "CREATURE CULTURE"
+        },
+        {
+          "name": "COLORFUL RHYME TIME"
+        }
+      ],
+      "clues": [
+        {
+          "question": "In Europe, the beautiful blue Danube eventually empties into this sea of another color",
+          "answer": "the Black Sea",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Your body has about 650 of these including the biceps and hamstrings",
+          "answer": "muscles",
+          "value": 400,
+          "order": 16,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "Elizabeth Van Lew pretended to be mentally ill but she was really working as a Union spy in this capital of Virginia",
+          "answer": "Richmond",
+          "value": 400,
+          "order": 27,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Familiar tune that begins \"It's a world of laughter, a world of tears\"",
+          "answer": "\"It's A Small World\"",
+          "value": 400,
+          "order": 11,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "Some of these insects known for eating wood grow their own fungi for food in their mounds",
+          "answer": "termites",
+          "value": 400,
+          "order": 21,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "A crimson bunk",
+          "answer": "a red bed",
+          "value": 400,
+          "order": 6,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "O this little town in Pennsylvania's Lehigh Valley is known as the \"Christmas City\"",
+          "answer": "Bethlehem",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "(Jimmy of the Clue Crew reports from the Top Secret Jeopardy! Science Lab wearing his official Clue Crew lab coat.)  Both men and women have this cartilage in the throat that has a biblical name",
+          "answer": "the Adam's apple",
+          "value": 800,
+          "order": 17,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "This woman's work on the Underground Railroad later inspired an opera called \"She Never Lost a Passenger\"",
+          "answer": "Harriet Tubman",
+          "value": 800,
+          "order": 28,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "(Sarah of the Clue Crew does a thumb-to-forefinger upward crawl with her hands.)  It's the song moms sing that goes along with these hand movements",
+          "answer": "\"The Itsy Bitsy Spider\"",
+          "value": 800,
+          "order": 12,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "Word for the animal seen here, a National League ballplayer, or a young scout",
+          "answer": "cub",
+          "value": 800,
+          "order": 22,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "A cloudless sky-coloured sneaker",
+          "answer": "a blue shoe",
+          "value": 800,
+          "order": 7,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "This country that's named for a South American hero lies on Peru's eastern border",
+          "answer": "Bolivia",
+          "value": 1000,
+          "order": 3,
+          "dd": 1000,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "Containing 33 vertebrae, it's also known as the vertebral column",
+          "answer": "the spine",
+          "value": 1200,
+          "order": 18,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Confederate General Richard Taylor was the son of this U.S. President",
+          "answer": "Zachary Taylor",
+          "value": 1200,
+          "order": 26,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "The song \"God Bless The U.S.A.\" says, \"I'm proud to be an American where at least I know I'm\" this",
+          "answer": "free",
+          "value": 1200,
+          "order": 13,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "Normally a dormouse spends the day doing this",
+          "answer": "sleeping",
+          "value": 1200,
+          "order": 23,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "An earth-colored circus comic",
+          "answer": "a brown clown",
+          "value": 1200,
+          "order": 8,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "It forms a republic with Herzegovina",
+          "answer": "Bosnia",
+          "value": 1600,
+          "order": 4,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "The upper 7 pairs of these are attached to the breastbone; the others are considered \"false\" or \"floating\"",
+          "answer": "ribs",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "This famous nurse was nearly killed when a bullet ripped through her dress at the battle of Antietam",
+          "answer": "Clara Barton",
+          "value": 700,
+          "order": 29,
+          "dd": 700,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "A familiar spiritual says \"Go down, Moses, way down in Egypt land, tell Old Pharaoh\" this",
+          "answer": "to let my people go",
+          "value": 1600,
+          "order": 14,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "The spotted or laughing species of this lives in clans of up to 100 in the South Sahara",
+          "answer": "hyena",
+          "value": 1600,
+          "order": 24,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "An emerald female monarch",
+          "answer": "a green queen",
+          "value": 1600,
+          "order": 9,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "Until 1973 these islands off the southeast coast of Florida belonged to Great Britain",
+          "answer": "the Bahamas",
+          "value": 2000,
+          "order": 5,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "The \"X\" and \"Y\" ones of these gene structures are inherited from your parents & determine if you're male or female",
+          "answer": "chromosomes",
+          "value": 2000,
+          "order": 20,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Born into slavery around 1818, this great orator helped recruit his fellow African-Americans for the Union army",
+          "answer": "Frederick Douglass",
+          "value": 2000,
+          "order": 30,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "In this song \"seldom is heard a discouraging word and the skies are not cloudy all day\"",
+          "answer": "\"Home On The Range\"",
+          "value": 2000,
+          "order": 15,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "There are 3 classes of annelids: bristleworms, earthworms & these bloodsuckers",
+          "answer": "leeches",
+          "value": 2000,
+          "order": 25,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "Blushing writing liquid",
+          "answer": "pink ink",
+          "value": 2000,
+          "order": 10,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "BIBLICAL WEIGHTS AND MEASURES"
+        }
+      ],
+      "clues": [
+        {
+          "question": "As described in the Bible, the total volume of this was 450,000 cubic cubits",
+          "answer": "Noah's Ark"
+        }
+      ]
+    }
+  ]
+}
