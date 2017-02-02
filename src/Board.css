@@ -23,7 +23,10 @@
   height: 100%;
   background-color: rgba(0,0,0,.25);
 }
-.Cell .clue,
+.Cell .value {
+  cursor: pointer;
+}
+.Cell .question,
 .Cell .answer {
   display: flex;
   align-items: center;
@@ -35,12 +38,13 @@
   bottom: 0;
   background-color: var(--color-primary);
   color: var(--color-lightest);
+  border: dotted 10px transparent;
   z-index: 1;
 }
 .Cell .answer {
   background-color: var(--color-success);
 }
 
-.Board.canBuzz .Cell .clue {
-  background-color: hotpink;
+.Board.canBuzz .Cell .question {
+  border-color: white;
 }

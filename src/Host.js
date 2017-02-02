@@ -10,14 +10,23 @@ import './Host.css';
 
 class Host extends Component {
   state = {
-    game:    undefined,
-    players: undefined,
+    game:     undefined,
+    players:  undefined,
+    gameData: undefined,
   }
 
   componentWillMount() {
     firebase.sync(this, 'game', `games/${this.props.params.gameId}`);
     firebase.sync(this, 'currentCell', `games/${this.props.params.gameId}/currentCell`);
     firebase.sync(this, 'players', `games:players/${this.props.params.gameId}`);
+
+
+    fetch(`/games/1.json`)
+      .then(res => res.json())
+      .then(gameData => {
+        console.log(gameData);
+        this.setState({gameData});
+      });
   }
   componentWillUnmount() {
     firebase.unsync(this, 'game', 'currentCell', 'players');
@@ -57,6 +66,20 @@ class Host extends Component {
         });
     }
   }
+
+  getRound() {
+    if (this.state.game && this.state.gameData && this.state.gameData.rounds && this.state.gameData.rounds[this.state.game.round - 1]) {
+      return this.state.gameData.rounds[this.state.game.round - 1];
+    }
+    return {};
+  }
+  getCategories() {
+    return this.getRound().categories || [];
+  }
+  getCells() {
+    return this.getRound().clues || [];
+  }
+
   pickCell(cell) {
     // buzzing enabled (but they will be penalized if they buzz now)
     this.firebaseRefs.currentCell.set(cell);
@@ -101,7 +124,10 @@ class Host extends Component {
         // move to archived list
         return this.firebaseRefs.game.child('usedCells').push(cell);
       })
-      .then(() => this.firebaseRefs.currentCell.remove());
+      .then(() => this.firebaseRefs.currentCell.remove())
+      .then(() => {
+        // @TODO: update the cell status
+      });
   }
 
   handlePick(cell, status) {
@@ -148,7 +174,7 @@ class Host extends Component {
             </div>
           </div>
         {this.state.game.round > 0 &&
-          <Board round={this.state.game.round} onPick={this.handlePick.bind(this)} className={this.state.game.currentCell && this.state.game.currentCell.buzzesAt && 'canBuzz'} />
+          <Board categories={this.getCategories()} clues={this.getCells()} onPick={this.handlePick.bind(this)} className={this.state.game.currentCell && this.state.game.currentCell.buzzesAt && 'canBuzz'} />
         }
         </div>
       }
