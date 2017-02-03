@@ -4,30 +4,22 @@ import './Board.css';
 
 class Cell extends Component {
   render() {
-    const cell = this.props.data || {},
-          status = this.props.status || 0;
+    const value = this.props.value || 0;
     return (
       <div className="Cell">
-      {!cell.value &&
+      {!value &&
         <div className="empty"></div>
       }
-      {cell.value && status === 0 &&
-        <div className="value">{cell.value}</div>
-      }
-      {cell.value && status === 1 &&
-        <div className="question">{cell.question}</div>
-      }
-      {cell.value && status === 2 &&
-        <div className="answer">{cell.answer}</div>
+      {value &&
+        <div className="value">{value}</div>
       }
       </div>
     );
   }
 }
 Cell.defaultProps = {
-  cell:    undefined,
-  status:  0,
-}
+  value: 0,
+};
 
 class Board extends Component {
   getCell(row, col) {
@@ -35,7 +27,7 @@ class Board extends Component {
   }
 
   render() {
-    const {categories, clues, onPick, className, ...props} = this.props;
+    const {categories, clues, round, onPick, className, ...props} = this.props;
 
     return (
       <div className={`Board ${className}`} {...props}>
@@ -56,7 +48,7 @@ class Board extends Component {
             <tr key={row}>
             {[1,2,3,4,5,6].map(col => 
               <td key={col} onClick={e=>onPick(row, col)}>
-                <Cell data={this.getCell(row, col)} />
+                <Cell value={round * row * 200} />
               </td>
             )}
             </tr>
@@ -70,6 +62,7 @@ class Board extends Component {
 Board.defaultProps = {
   categories: [],
   clues:      [],
+  round:      0,
   onPick:     () => {},
 };
 

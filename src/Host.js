@@ -20,7 +20,6 @@ class Host extends Component {
     firebase.sync(this, 'currentCell', `games/${this.props.params.gameId}/currentCell`);
     firebase.sync(this, 'players', `games:players/${this.props.params.gameId}`);
 
-
     fetch(`/games/1.json`)
       .then(res => res.json())
       .then(gameData => {
@@ -174,7 +173,7 @@ class Host extends Component {
             </div>
           </div>
         {this.state.game.round > 0 &&
-          <Board categories={this.getCategories()} clues={this.getCells()} onPick={this.handlePick.bind(this)} className={this.state.game.currentCell && this.state.game.currentCell.buzzesAt && 'canBuzz'} />
+          <Board categories={this.getCategories()} clues={this.getCells()} round={this.state.game.round} onPick={this.handlePick.bind(this)} className={this.state.game.currentCell && this.state.game.currentCell.buzzesAt && 'canBuzz'} />
         }
         </div>
       }
