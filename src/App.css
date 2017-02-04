@@ -1,8 +1,14 @@
-.App {
-  text-align: center;
+body,
+#root,
+.App,
+.Game,
+.Host,
+.Board {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
-.flex-row {
-	display: flex;
-	flex-direction: row;
+.App {
+  text-align: center;
 }
