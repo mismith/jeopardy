@@ -12,7 +12,8 @@
 	background-color: green;
 }
 
-.Clue {
+.Clue,
+.Answer {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -24,4 +25,34 @@
   color: white;
   font-size: 3em;
   text-transform: uppercase;
+}
+.Answer {
+  background-color: #FC0;
+  color: black;
+}
+.Clue > div,
+.Answer > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 5%;
+}
+
+
+.Clue:not(.canBuzz) .Timer {
+  visibility: hidden;
+}
+.Timer {
+  display: flex;
+  padding: 2px;
+}
+.Timer > div {
+  height: 20px;
+  background-color: white;
+  flex-grow: 1;
+  border: solid 2px blue;
+}
+.Timer > div.expired {
+  opacity: .5;
 }
