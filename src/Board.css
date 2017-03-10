@@ -20,9 +20,14 @@
   color: white;
   border: solid 2px white;
 }
-.Cell.hasValue {
-  color: #FC0;
+.Cell.isClue {
+  color: transparent;
   font-weight: bolder;
   font-size: 30px;
+  user-select: none;
+  cursor: default;
+}
+.Cell.isClue.hasValue {
+  color: #FC0;
   cursor: pointer;
 }

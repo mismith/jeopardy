@@ -4,32 +4,47 @@ import classNames from 'classnames';
 import './Board.css';
 
 class Board extends Component {
-  getCell(row, col) {
-    // @TODO: add caching? (or at least remove duplicate calls)
-    return this.props.clues && this.props.clues.find(clue => clue && clue.row === row && clue.col === col);
-  }
-
   render() {
-    const {categories, clues, round, onPick, children, ...props} = this.props;
+    const {categories, clues, onPick, children, ...props} = this.props;
+
+    // turn object-'array' into row/col nested list for faster retrieval
+    let nestedClues = {};
+    Object.entries(clues).forEach(([clueId, clue]) => {
+      nestedClues[clue.row] = nestedClues[clue.row] || {};
+
+      clue.$id = clueId;
+      nestedClues[clue.row][clue.col] = clue;
+    });
+    function getClue(row, col) {
+      return nestedClues && nestedClues[row] && nestedClues[row][col];
+    }
 
     return (
       <div className="Board" {...props}>
         <header>
-          {categories.map((category, col) =>
-            <div key={col} className="Cell">
+          {Object.entries(categories).map(([categoryId, category]) =>
+            <div key={categoryId} className="Cell">
               <span>{category.name}</span>
             {category.comments &&
-              <button title={category.comments}>?</button>
-            }</div>
+              <small>{category.comments}</small>
+            }
+            </div>
           )}
         </header>
       {[1,2,3,4,5].map(row =>
         <article key={row}>
-        {[1,2,3,4,5,6].map(col => 
-          <div key={col} onClick={e=>onPick(row, col)} className={classNames('Cell', {hasValue: this.getCell(row, col)})}>
-            {this.getCell(row, col) && '$' + this.getCell(row, col).value}
+        {[1,2,3,4,5,6].map(col => {
+          const clue = getClue(row, col);
+          return (
+          <div
+            key={col}
+            onClick={e => clue.pickedAt ? null : onPick(clue)}
+            className={classNames('Cell', 'isClue', {hasValue: clue && !clue.pickedAt})}
+          >
+            ${clue.value}
           </div>
-        )}
+          );
+        })}
         </article>
       )}
         {children}
@@ -38,9 +53,8 @@ class Board extends Component {
   }
 }
 Board.defaultProps = {
-  categories: [],
-  clues:      [], // only those remaining
-  round:      0,  // needed for the automatic values
+  categories: {},
+  clues:      {},
   onPick:     () => {},
 };
 

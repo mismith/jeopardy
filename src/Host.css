@@ -53,6 +53,6 @@
   flex-grow: 1;
   border: solid 2px blue;
 }
-.Timer > div.expired {
+.Timer > div.elapsed {
   opacity: .5;
 }
