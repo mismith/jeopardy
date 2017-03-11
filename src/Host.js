@@ -102,6 +102,10 @@ class Host extends Component {
     }
   }
 
+  // helpers
+  arrayPyramid(max) {
+    return Array.from(Array(max * 2 - 1)).map((v,i,a) => i >= max ? max * 2 - i - 1 : i + 1);
+  }
   readAloud(text) {
     return new Promise(resolve => {
       setTimeout(() => {
