@@ -21,7 +21,7 @@ class Host extends Component {
   }
 
   reloadGameData() {
-    fetch(`/games/1.json`)
+    fetch(`/games/2.json`)
       .then(res => res.json())
       .then(gameData => {
         this.firebaseRefs.game.child('rounds').remove();
@@ -356,7 +356,7 @@ Host.defaultProps = {
   minPlayers: 1,
   maxPlayers: 3,
   clueTimeout: 5,
-  responseTimeout: 5,
+  responseTimeout: 10,
   answerTimeout: 2,
 };
 
