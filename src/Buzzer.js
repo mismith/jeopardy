@@ -5,26 +5,58 @@ import firebase from './utils/firebase';
 
 import UserInfo from './UserInfo';
 
-//import './Buzzer.css';
+import './Buzzer.css';
 
 class Buzzer extends Component {
   state = {
-    answer: '',
-    game:   undefined,
-    player: undefined,
-    user:   undefined,
+    game:       undefined,
+    clue:       undefined,
+    buzz:       undefined,
+
+    player:     undefined,
+    user:       undefined,
   }
 
   componentWillMount() {
-    firebase.sync(this, 'game', `games/${this.props.params.gameId}`);
+    // game data + sync
+    firebase.sync(this, 'game', `games/${this.props.params.gameId}`)
+      .child('round').on('value', snap => {
+        const round = snap.val() - 1;
+
+        this.firebaseRefs.game.child('pickedClueId').on('value', snap2 => {
+          const clueId = snap2.val();
+          if (clueId) {
+            firebase.sync(this, 'clue',  `games/${this.props.params.gameId}/rounds/${round}/clues/${clueId}`);
+
+            this.firebaseRefs.clue.child('pickedBuzzId').on('value', snap3 => {
+              const buzzId = snap3.val();
+              if (buzzId) {
+                firebase.sync(this, 'buzz',  `games/${this.props.params.gameId}/rounds/${round}/clues/${clueId}/buzzes/${buzzId}`);
+              } else {
+                firebase.unsync(this, 'buzz');
+                this.setState({
+                  buzz: null,
+                });
+              }
+            });
+          } else {
+            firebase.unsync(this, 'clue');
+            this.setState({
+              clue: null,
+            });
+          }
+        });
+      });
+
+    // player info + connection state
     firebase.sync(this, 'player', `games:players/${this.props.params.gameId}/${this.props.params.playerId}`)
-      .once('value', snap => {
-        const userId = snap.child('userId').val();
+      .child('userId').once('value', snap => {
+        const userId = snap.val();
         if (userId) {
           firebase.sync(this, 'user', `users/${userId}`);
         }
       });
-    firebase.sync(this, 'connected', `.info/connected`)
+    firebase.database().ref(`.info/connected`)
       .on('value', snap => {
         if (snap.val() === true) {
           this.firebaseRefs.connection = this.firebaseRefs.player.child('connections').push(true);
@@ -33,16 +65,11 @@ class Buzzer extends Component {
       });
   }
   componentWillUnmount() {
+    firebase.unsync(this, 'game', 'clue', 'player', 'user');
+
     if (this.firebaseRefs.connection) this.firebaseRefs.connection.remove();
-    firebase.unsync(this, 'game', 'player', 'user', 'connected');
   }
 
-  buzzIn() {
-    this.firebaseRefs.game.child('currentCell/buzzes').push({
-      playerId: this.props.params.playerId,
-      buzzedAt: firebase.database.ServerValue.TIMESTAMP,
-    });
-  }
   leaveGame(e) {
     if (e.shiftKey || confirm(`Are you sure?`)) {
       this.firebaseRefs.player.remove()
@@ -52,10 +79,11 @@ class Buzzer extends Component {
     }
   }
 
-  handleResponse(e) {
-    e.preventDefault();
-    
-    this.firebaseRefs.game.child('currentCell/currentResponse/answer').set(this.state.answer);
+  buzzIn() {
+    this.firebaseRefs.clue.child('buzzes').push({
+      playerId: this.props.params.playerId,
+      buzzedAt: firebase.database.ServerValue.TIMESTAMP,
+    });
   }
 
   render() {
@@ -69,16 +97,17 @@ class Buzzer extends Component {
       }
       {this.state.game &&
         <div>
-          <button onClick={this.buzzIn.bind(this)} disabled={!this.state.game.currentCell}>Buzz In</button>
-        {this.state.game.currentCell && this.state.game.currentCell.currentResponse && this.state.game.currentCell.currentResponse.playerId === this.props.params.playerId &&
-          <form onSubmit={this.handleResponse.bind(this)}>
-            <input onChange={e=>this.setState({answer: e.currentTarget.value || ''})} placeholder="What is..." autoFocus></input>
+          <button className="button" onClick={this.buzzIn.bind(this)} disabled={!this.state.clue || this.state.clue.pickedBuzzId || this.state.clue.completedAt}>Buzz In</button>
+        {this.state.buzz &&
+          <form onSubmit={e=>e.preventDefault()}>
+            What is&hellip;&nbsp;
+            <input onInput={e=>this.firebaseRefs.buzz.child('answer').set(e.currentTarget.value || '')} autoFocus></input>
             <button type="submit">Submit</button>
           </form>
         }
         </div>
       }
-      {this.props.children}
+        {this.props.children}
       </div>
     );
   }
