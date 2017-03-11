@@ -10,43 +10,49 @@ import './Buzzer.css';
 class Buzzer extends Component {
   state = {
     game:       undefined,
-    clue:       undefined,
-    buzz:       undefined,
 
     player:     undefined,
     user:       undefined,
   }
 
+  // data fetchers
+  game(asReference = false) {
+    if (asReference) {
+      return this.firebaseRefs.game;
+    }
+    return this.state.game;
+  }
+  round(asReference = false) {
+    const game = this.game();
+    if (game && game.round && game.rounds) {
+      if (asReference) {
+        return this.game(true).child('rounds').child(game.round - 1);
+      }
+      return game.rounds[game.round - 1];
+    }
+  }
+  clue(asReference = false) {
+    const round = this.round();
+    if (round && round.clues && round.pickedClueId) {
+      if (asReference) {
+        return this.round(true).child('clues').child(round.pickedClueId);
+      }
+      return round.clues[round.pickedClueId];
+    }
+  }
+  buzz(asReference = false) {
+    const clue = this.clue();
+    if (clue && clue.buzzes && clue.pickedBuzzId) {
+      if (asReference) {
+        return this.clue(true).child('buzzes').child(clue.pickedBuzzId);
+      }
+      return clue.buzzes[clue.pickedBuzzId];
+    }
+  }
+
   componentWillMount() {
     // game data + sync
-    firebase.sync(this, 'game', `games/${this.props.params.gameId}`)
-      .child('round').on('value', snap => {
-        const round = snap.val() - 1;
-
-        this.firebaseRefs.game.child('pickedClueId').on('value', snap2 => {
-          const clueId = snap2.val();
-          if (clueId) {
-            firebase.sync(this, 'clue',  `games/${this.props.params.gameId}/rounds/${round}/clues/${clueId}`);
-
-            this.firebaseRefs.clue.child('pickedBuzzId').on('value', snap3 => {
-              const buzzId = snap3.val();
-              if (buzzId) {
-                firebase.sync(this, 'buzz',  `games/${this.props.params.gameId}/rounds/${round}/clues/${clueId}/buzzes/${buzzId}`);
-              } else {
-                firebase.unsync(this, 'buzz');
-                this.setState({
-                  buzz: null,
-                });
-              }
-            });
-          } else {
-            firebase.unsync(this, 'clue');
-            this.setState({
-              clue: null,
-            });
-          }
-        });
-      });
+    firebase.sync(this, 'game', `games/${this.props.params.gameId}`);
 
     // player info + connection state
     firebase.sync(this, 'player', `games:players/${this.props.params.gameId}/${this.props.params.playerId}`)
@@ -65,7 +71,7 @@ class Buzzer extends Component {
       });
   }
   componentWillUnmount() {
-    firebase.unsync(this, 'game', 'clue', 'player', 'user');
+    firebase.unsync(this, 'game', 'player', 'user');
 
     if (this.firebaseRefs.connection) this.firebaseRefs.connection.remove();
   }
@@ -80,13 +86,17 @@ class Buzzer extends Component {
   }
 
   buzzIn() {
-    this.firebaseRefs.clue.child('buzzes').push({
+    this.clue(true).child('buzzes').push({
       playerId: this.props.params.playerId,
       buzzedAt: firebase.database.ServerValue.TIMESTAMP,
     });
   }
 
   render() {
+    const game = this.game();
+    const clue = this.clue();
+    const buzz = this.buzz();
+
     return (
       <div className="Buzzer">
       {this.state.user &&
@@ -95,13 +105,13 @@ class Buzzer extends Component {
       {this.state.player &&
         <button onClick={this.leaveGame.bind(this)}>Leave Game</button>
       }
-      {this.state.game &&
+      {game &&
         <div>
-          <button className="button" onClick={this.buzzIn.bind(this)} disabled={!this.state.clue || this.state.clue.pickedBuzzId || this.state.clue.completedAt}>Buzz In</button>
-        {this.state.buzz &&
+          <button className="button" onClick={this.buzzIn.bind(this)} disabled={!clue || clue.pickedBuzzId || clue.completedAt}>Buzz In</button>
+        {buzz &&
           <form onSubmit={e=>e.preventDefault()}>
             What is&hellip;&nbsp;
-            <input onInput={e=>this.firebaseRefs.buzz.child('answer').set(e.currentTarget.value || '')} autoFocus></input>
+            <input onInput={e=>this.buzz(true).child('answer').set(e.currentTarget.value || '')} autoFocus></input>
             <button type="submit">Submit</button>
           </form>
         }

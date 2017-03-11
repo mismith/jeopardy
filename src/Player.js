@@ -32,7 +32,13 @@ class Player extends Component {
   }
 
   render() {
-    const {player, className, children, ...props} = this.props;
+    const {
+      player,
+      className,
+      children,
+      ...props,
+    } = this.props;
+    
     return (
       <div className={`Player ${className}`} {...props}>
       {this.state.user === undefined && 

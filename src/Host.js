@@ -12,16 +12,11 @@ import './Host.css';
 class Host extends Component {
   state = {
     game:    undefined,
-    round:   undefined,
-    clues:   undefined,
     players: undefined,
-
-    clue:    undefined,
-    buzz:    undefined,
   }
 
   reloadGameData() {
-    fetch(`/games/2.json`)
+    fetch(`/games/1.json`)
       .then(res => res.json())
       .then(gameData => {
         this.firebaseRefs.game.child('rounds').remove();
@@ -47,19 +42,48 @@ class Host extends Component {
       });
   }
   componentWillMount() {
-    firebase.sync(this, 'game', `games/${this.props.params.gameId}`)
-      .child('round').on('value', snap => {
-        const round = snap.val() - 1;
-
-        firebase.sync(this, 'round', `games/${this.props.params.gameId}/rounds/${round}`);
-        firebase.sync(this, 'clues', `games/${this.props.params.gameId}/rounds/${round}/clues`);
-      });
+    firebase.sync(this, 'game', `games/${this.props.params.gameId}`);
     firebase.sync(this, 'players', `games:players/${this.props.params.gameId}`);
 
-    //this.reloadGameData();
+    this.reloadGameData();
   }
   componentWillUnmount() {
-    firebase.unsync(this, 'game', 'round', 'clues', 'players');
+    firebase.unsync(this, 'game', 'players');
+  }
+
+  // data fetchers
+  game(asReference = false) {
+    if (asReference) {
+      return this.firebaseRefs.game;
+    }
+    return this.state.game;
+  }
+  round(asReference = false) {
+    const game = this.game();
+    if (game && game.round && game.rounds) {
+      if (asReference) {
+        return this.game(true).child('rounds').child(game.round - 1);
+      }
+      return game.rounds[game.round - 1];
+    }
+  }
+  clue(asReference = false) {
+    const round = this.round();
+    if (round && round.clues && round.pickedClueId) {
+      if (asReference) {
+        return this.round(true).child('clues').child(round.pickedClueId);
+      }
+      return round.clues[round.pickedClueId];
+    }
+  }
+  buzz(asReference = false) {
+    const clue = this.clue();
+    if (clue && clue.buzzes && clue.pickedBuzzId) {
+      if (asReference) {
+        return this.clue(true).child('buzzes').child(clue.pickedBuzzId);
+      }
+      return clue.buzzes[clue.pickedBuzzId];
+    }
   }
 
   // player
@@ -75,7 +99,7 @@ class Host extends Component {
         players.push(player);
       });
     }
-    while(players.length < this.props.maxPlayers) {
+    while (players.length < this.props.maxPlayers) {
       players.push(null);
     };
     return players;
@@ -85,8 +109,9 @@ class Host extends Component {
   }
   getPlayerDollars(playerId) {
     let dollars = 0;
-    if (this.state.clues) {
-      Object.values(this.state.clues).forEach(clue => {
+    const round = this.round();
+    if (round && round.clues) {
+      Object.values(round.clues).forEach(clue => {
         dollars += clue.rewards ? clue.rewards[playerId] || 0 : 0;
         dollars -= clue.penalties ? clue.penalties[playerId] || 0 : 0;
       });
@@ -96,10 +121,10 @@ class Host extends Component {
 
   // game
   regressGame() {
-    this.firebaseRefs.game.child('round').set(this.state.game.round - 1);
+    this.firebaseRefs.game.child('round').set(this.game().round - 1);
   }
   advanceGame() {
-    this.firebaseRefs.game.child('round').set((this.state.game.round || 0) + 1);
+    this.firebaseRefs.game.child('round').set((this.game().round || 0) + 1);
   }
   cancelGame(e) {
     if (e.shiftKey || confirm(`Are you sure?`)) {
@@ -157,9 +182,10 @@ class Host extends Component {
     if (!clue || !clue.$id) throw new Error('Invalid clue');
 
     // show clue card
-    return firebase.sync(this, 'clue', this.firebaseRefs.clues.path.toString(), clue.$id)
-      .child('pickedAt').set(firebase.database.ServerValue.TIMESTAMP)
-      .then(() => this.firebaseRefs.game.child('pickedClueId').set(clue.$id))
+    return this.round(true).update({
+      pickedClueId: clue.$id,
+      [`clues/${clue.$id}/pickedAt`]: firebase.database.ServerValue.TIMESTAMP,
+    })
       .then(() => this.startAllowingBuzzes())
       .then(() => this.readAloud(clue.question))
       .then(() => this.startAcceptingBuzzes())
@@ -167,15 +193,16 @@ class Host extends Component {
       .then(() => this.finishClue());
   }
   startAllowingBuzzes() {
-    this.firebaseRefs.clue.child('buzzes').on('child_added', snap => {
+    this.clue(true).child('buzzes').on('child_added', snap => {
       const buzz = {
         $id: snap.key,
         ...snap.val(),
       };
 
-      if (this.state.clue && !this.state.clue.pickedBuzzId) {
+      const clue = this.clue();
+      if (clue && !clue.pickedBuzzId) {
         // no-one is currently buzzed in
-        if (this.state.clue.buzzesAt && buzz.buzzedAt >= this.state.clue.buzzesAt) {
+        if (clue.buzzesAt && buzz.buzzedAt >= clue.buzzesAt) {
           // legit buzz, begin response
           this.stopIntervalTimer('clue')
             .then(() => this.showResponse(buzz))
@@ -194,7 +221,7 @@ class Host extends Component {
     });
   }
   startAcceptingBuzzes() {
-    return this.firebaseRefs.clue
+    return this.clue(true)
       .child('buzzesAt').set(firebase.database.ServerValue.TIMESTAMP);
   }
   answerClue() {
@@ -212,69 +239,99 @@ class Host extends Component {
       .then(() => this.finishClue());
   }
   finishClue() {
-    return this.firebaseRefs.clue
+    return this.clue(true)
       .child('completedAt').set(firebase.database.ServerValue.TIMESTAMP)
 
       .then(() => this.startIntervalTimer('answer')) // temporarily show the correct answer
 
-      .then(() => this.firebaseRefs.game.child('pickedClueId').remove())
-      .then(() => firebase.unsync(this, 'clue'))
-      .then(() => {
-        this.setState({
-          clue: null,
-        });
-      });
+      .then(() => this.round(true).child('pickedClueId').remove());
   }
 
   // dollars
   rewardPlayer() {
-    return this.firebaseRefs.clue.child('rewards').child(this.state.buzz.playerId).set(this.state.clue.value);
+    // @TODO: check clue and buzz
+    return this.clue(true).child('rewards').child(this.buzz().playerId).set(this.clue().value);
   }
   penalizePlayer() {
-    return this.firebaseRefs.clue.child('penalties').child(this.state.buzz.playerId).set(this.state.clue.value);
+    // @TODO: check clue and buzz
+    return this.clue(true).child('penalties').child(this.buzz().playerId).set(this.clue().value);
   }
 
   // response
   showResponse(buzz) {
     if (!buzz || !buzz.$id) throw new Error('Invalid buzz');
 
-    return firebase.sync(this, 'buzz', this.firebaseRefs.clue.path.toString(), 'buzzes', buzz.$id)
-      .child('pickedAt').set(firebase.database.ServerValue.TIMESTAMP)
-      .then(() => this.firebaseRefs.clue.child('pickedBuzzId').set(buzz.$id))
+    return this.clue(true).update({
+      pickedBuzzId: buzz.$id,
+      [`buzzes/${buzz.$id}/pickedAt`]: firebase.database.ServerValue.TIMESTAMP,
+    })
+
       // @TODO: check for submittedAt and skip timer if necessary
       .then(() => this.startIntervalTimer('response'));
   }
   checkResponse() {
+    // @TODO: check clue and buzz
     return new Promise((resolve, reject) => {
-      if ((this.state.clue.answer || '').toLowerCase() === (this.state.buzz.answer || '').toLowerCase()) { // @TODO: do proper/flexible answer checking
+      if ((this.clue().answer || '').toLowerCase() === (this.buzz().answer || '').toLowerCase()) { // @TODO: do proper/flexible answer checking
         return resolve();
       }
       return reject();
     });
   }
   finishResponse() {
-    return this.stopIntervalTimer('response') // @TODO: is this necessary?
-      .then(() => this.firebaseRefs.clue.child('pickedBuzzId').remove())
-      .then(() => firebase.unsync(this, 'buzz'))
-      .then(() => {
-        this.setState({
-          buzz: null,
-        });
-      });
+    return this.buzz(true)
+      .child('completedAt').set(firebase.database.ServerValue.TIMESTAMP)
+
+      .then(() => this.stopIntervalTimer('response')) // @TODO: is this necessary?
+
+      .then(() => this.clue(true).child('pickedBuzzId').remove());
   }
 
   render() {
+    const game = this.game();
+    const clue = this.clue();
+    const buzz = this.buzz();
+
+    const renderOverlay = () => {
+      if (clue) {
+        if (!clue.completedAt) {
+          return (
+            <aside className={classNames('Clue', {canBuzz: clue.buzzesAt})}>
+              <div>
+                {clue.question}
+              </div>
+            {!buzz &&
+              <footer className="Timer">
+              {this.arrayPyramid(this.props.clueTimeout).map((t, i) =>
+                <div key={i} className={classNames({elapsed: this.state.clueTime >= t})}></div>
+              )}
+              </footer>
+            }
+            </aside>
+          );
+        } else {
+          return (
+            <aside className="Answer" onClick={this.finishClue.bind(this)}>
+              <div>
+                {clue.answer}
+              </div>
+            </aside>
+          );
+        }
+      }
+    };
+
     return (
       <div className="Host">
-      {this.state.game === undefined &&
+      {game === undefined &&
         <div>
           Loading…
         </div>
       }
-      {this.state.game &&
+      {game &&
         <header style={{display: 'flex', justifyContent: 'space-between', padding: 10}}>
           <div>
-            Join Code: <input defaultValue={this.state.game.joinCode} readOnly />
+            Join Code: <input defaultValue={game.joinCode} readOnly />
           </div>
           <div>
           {this.numPlayers() < this.props.minPlayers &&
@@ -289,64 +346,45 @@ class Host extends Component {
           }
           </div>
           <div>
-          {this.state.game.round > 0 &&
+          {game.round > 0 &&
             <button onClick={this.regressGame.bind(this)}>Previous Round</button>
           }
-          {this.state.game.round < 3 &&
-            <button onClick={this.advanceGame.bind(this)} disabled={this.numPlayers() < this.props.minPlayers}>{this.state.game.round ? 'Next Round' : 'Start Game'}</button>
+          {game.round < 3 &&
+            <button onClick={this.advanceGame.bind(this)} disabled={this.numPlayers() < this.props.minPlayers}>{game.round ? 'Next Round' : 'Start Game'}</button>
           }
             <button onClick={this.cancelGame.bind(this)}>Delete Game</button>
           </div>
         </header>
       }
-      {this.state.game && this.state.game.round > 0 &&
-        <Board categories={this.state.round.categories} clues={this.state.round.clues} onPick={this.showClue.bind(this)}>
-        {this.state.clue && !this.state.clue.completedAt &&
-          <aside className={classNames('Clue', {canBuzz: this.state.clue.buzzesAt})}>
-            <div>
-              {this.state.clue.question}
-            </div>
-          {!this.state.buzz &&
-            <footer className="Timer">
-            {this.arrayPyramid(this.props.clueTimeout).map((t, i) =>
-              <div key={i} className={classNames({elapsed: this.state.clueTime >= t})}></div>
-            )}
-            </footer>
-          }
-          </aside>
-        }
-        {this.state.clue && this.state.clue.completedAt &&
-          <aside className="Answer" onClick={this.finishClue.bind(this)}>
-            <div>
-              {this.state.clue.answer}
-            </div>
-          </aside>
-        }
+      {game && game.round > 0 &&
+        <Board categories={this.round().categories} clues={this.round().clues} onPick={this.showClue.bind(this)}>
+          {renderOverlay()}
         </Board>
       }
         <div className="Players">
-        {this.getPlayerSeats().map((player, i) =>
-          <Player key={i} player={player} className={player && this.state.buzz && this.state.buzz.playerId === player.$id && 'isResponding'}>
-          {player &&
-            <button onClick={e=>this.removePlayer(player.$id)}>Remove Player</button>
-          }
-          {player &&
-            <div>
-              <output>{this.getPlayerDollars(player.$id)}</output>
-            </div>
-          }
-          {player && this.state.buzz && this.state.buzz.playerId === player.$id &&
-            <div>
-              <div>{this.state.buzz.answer}</div>
-              <footer className="Timer">
-              {this.arrayPyramid(this.props.responseTimeout).map((t, i) =>
-                <div key={i} className={classNames({elapsed: this.state.responseTime >= t})}></div>
-              )}
-              </footer>
-            </div>
-          }
-          </Player>
-        )}
+        {this.getPlayerSeats().map((player, i) => {
+          const isResponding = (player && buzz && buzz.playerId === player.$id);
+          return (
+            <Player key={player ? player.$id : i} player={player} className={{isResponding}}>
+            {player &&
+              <button onClick={e=>this.removePlayer(player.$id)}>Remove Player</button>
+            }
+            {player &&
+              <div>{this.getPlayerDollars(player.$id)}</div>
+            }
+            {isResponding &&
+              <div>
+                <div>{buzz.answer}</div>
+                <footer className="Timer">
+                {this.arrayPyramid(this.props.responseTimeout).map((t, i) =>
+                  <div key={i} className={classNames({elapsed: this.state.responseTime >= t})}></div>
+                )}
+                </footer>
+              </div>
+            }
+            </Player>
+          );
+        })}
         </div>
       </div>
     );
