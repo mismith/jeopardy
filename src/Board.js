@@ -5,7 +5,13 @@ import './Board.css';
 
 class Board extends Component {
   render() {
-    const {categories, clues, onPick, children, ...props} = this.props;
+    const {
+      categories,
+      clues,
+      onPick,
+      children,
+      ...props,
+    } = this.props;
 
     // turn object-'array' into row/col nested list for faster retrieval
     let nestedClues = {};

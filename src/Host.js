@@ -5,8 +5,8 @@ import {browserHistory} from 'react-router';
 import firebase from './utils/firebase';
 
 import Board from './Board';
-import Player from './Player';
-import Timer from './Timer';
+import Player from './helpers/Player';
+import Timer from './helpers/Timer';
 
 import './Host.css';
 

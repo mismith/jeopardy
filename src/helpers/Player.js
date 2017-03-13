@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import firebase from './utils/firebase';
+import firebase from '../utils/firebase';
 
 import UserInfo from './UserInfo';
 

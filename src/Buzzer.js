@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import {browserHistory} from 'react-router';
 import firebase from './utils/firebase';
 
-import UserInfo from './UserInfo';
+import UserInfo from './helpers/UserInfo';
 
 import './Buzzer.css';
 
