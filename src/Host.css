@@ -43,16 +43,3 @@
 .Clue:not(.canBuzz) .Timer {
   visibility: hidden;
 }
-.Timer {
-  display: flex;
-  padding: 2px;
-}
-.Timer > div {
-  height: 20px;
-  background-color: white;
-  flex-grow: 1;
-  border: solid 2px blue;
-}
-.Timer > div.elapsed {
-  opacity: .5;
-}

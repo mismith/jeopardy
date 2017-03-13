@@ -6,6 +6,7 @@ import firebase from './utils/firebase';
 
 import Board from './Board';
 import Player from './Player';
+import Timer from './Timer';
 
 import './Host.css';
 
@@ -136,9 +137,6 @@ class Host extends Component {
   }
 
   // helpers
-  arrayPyramid(max) {
-    return Array.from(Array(max * 2 - 1)).map((v,i,a) => i >= max ? max * 2 - i - 1 : i + 1);
-  }
   readAloud(text) {
     return new Promise(resolve => {
       setTimeout(() => {
@@ -301,11 +299,7 @@ class Host extends Component {
                 {clue.question}
               </div>
             {!buzz &&
-              <footer className="Timer">
-              {this.arrayPyramid(this.props.clueTimeout).map((t, i) =>
-                <div key={i} className={classNames({elapsed: this.state.clueTime >= t})}></div>
-              )}
-              </footer>
+              <Timer timeout={this.props.clueTimeout} time={this.state.clueTime} />
             }
             </aside>
           );
@@ -365,7 +359,7 @@ class Host extends Component {
         {this.getPlayerSeats().map((player, i) => {
           const isResponding = (player && buzz && buzz.playerId === player.$id);
           return (
-            <Player key={player ? player.$id : i} player={player} className={{isResponding}}>
+            <Player key={player ? player.$id : i} player={player} className={classNames({isResponding})}>
             {player &&
               <button onClick={e=>this.removePlayer(player.$id)}>Remove Player</button>
             }
@@ -375,11 +369,7 @@ class Host extends Component {
             {isResponding &&
               <div>
                 <div>{buzz.answer}</div>
-                <footer className="Timer">
-                {this.arrayPyramid(this.props.responseTimeout).map((t, i) =>
-                  <div key={i} className={classNames({elapsed: this.state.responseTime >= t})}></div>
-                )}
-                </footer>
+                <Timer timeout={this.props.responseTimeout} time={this.state.responseTime} />
               </div>
             }
             </Player>

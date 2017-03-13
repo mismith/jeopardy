@@ -1,0 +1,14 @@
+.Timer {
+  display: flex;
+  padding: 2px;
+  margin: 0;
+}
+.Timer > div {
+  height: 20px;
+  background-color: white;
+  flex-grow: 1;
+  margin: 2px;
+}
+.Timer > div.elapsed {
+  opacity: .5;
+}
