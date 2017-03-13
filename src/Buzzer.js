@@ -86,6 +86,7 @@ class Buzzer extends Component {
   }
 
   buzzIn() {
+    // log all buzzes (i.e. for stats)
     this.clue(true).child('buzzes').push({
       playerId: this.props.params.playerId,
       buzzedAt: firebase.database.ServerValue.TIMESTAMP,
