@@ -9,10 +9,10 @@ import './Buzzer.css';
 
 class Buzzer extends Component {
   state = {
-    game:       undefined,
+    game:   undefined,
 
-    player:     undefined,
-    user:       undefined,
+    player: undefined,
+    user:   undefined,
   }
 
   // data fetchers
@@ -91,6 +91,13 @@ class Buzzer extends Component {
       playerId: this.props.params.playerId,
       buzzedAt: firebase.database.ServerValue.TIMESTAMP,
     });
+  handleInput(e) {
+    this.buzz(true).child('answer').set(e.currentTarget.value || '');
+  }
+  handleSubmit(e) {
+    e.preventDefault();
+    
+    this.buzz(true).child('submittedAt').set(firebase.database.ServerValue.TIMESTAMP);
   }
 
   render() {
@@ -108,11 +115,11 @@ class Buzzer extends Component {
       }
       {game &&
         <div>
-          <button className="button" onClick={this.buzzIn.bind(this)} disabled={!clue || clue.pickedBuzzId || clue.completedAt}>Buzz In</button>
-        {buzz &&
-          <form onSubmit={e=>e.preventDefault()}>
+          <button className="button" onClick={this.buzzIn.bind(this)} disabled={!clue || clue.pickedBuzzId || clue.finishedAt}>Buzz In</button>
+        {buzz && buzz.playerId === this.props.params.playerId && !buzz.submittedAt &&
+          <form onSubmit={this.handleSubmit.bind(this)}>
             What is&hellip;&nbsp;
-            <input onInput={e=>this.buzz(true).child('answer').set(e.currentTarget.value || '')} autoFocus></input>
+            <input onInput={this.handleInput.bind(this)} autoFocus></input>
             <button type="submit">Submit</button>
           </form>
         }

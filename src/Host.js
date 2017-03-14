@@ -259,13 +259,27 @@ class Host extends Component {
   showResponse(buzz) {
     if (!buzz || !buzz.$id) throw new Error('Invalid buzz');
 
-    return this.clue(true).update({
-      pickedBuzzId: buzz.$id,
-      [`buzzes/${buzz.$id}/pickedAt`]: firebase.database.ServerValue.TIMESTAMP,
-    })
+    return new Promise(resolve => {
+      this.clue(true).update({
+        pickedBuzzId: buzz.$id,
+        [`buzzes/${buzz.$id}/pickedAt`]: firebase.database.ServerValue.TIMESTAMP,
+      })
 
-      // @TODO: check for submittedAt and skip timer if necessary
-      .then(() => this.startIntervalTimer('response'));
+        // check for 'submittedAt' and skip timer if necessary
+        .then(() => {
+          this.buzz(true).child('submittedAt').on('value', snap => {
+            if (snap.val()) {
+              // manually submitted, no need to keep waiting
+              this.stopIntervalTimer('response')
+                .then(resolve);
+            }
+          });
+        })
+
+        // run timer
+        .then(() => this.startIntervalTimer('response'))
+        .then(resolve);
+    });
   }
   checkResponse() {
     // @TODO: check clue and buzz
