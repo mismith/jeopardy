@@ -219,8 +219,7 @@ class Host extends Component {
     });
   }
   startAcceptingBuzzes() {
-    return this.clue(true)
-      .child('buzzesAt').set(firebase.database.ServerValue.TIMESTAMP);
+    return this.clue(true).child('buzzesAt').set(firebase.database.ServerValue.TIMESTAMP);
   }
   answerClue() {
     return this.rewardPlayer()
@@ -237,11 +236,10 @@ class Host extends Component {
       .then(() => this.finishClue());
   }
   finishClue() {
-    return this.clue(true)
-      .child('completedAt').set(firebase.database.ServerValue.TIMESTAMP)
-
-      .then(() => this.startIntervalTimer('answer')) // temporarily show the correct answer
-
+    return Promise.all([
+      this.clue(true).child('finishedAt').set(firebase.database.ServerValue.TIMESTAMP),
+      this.startIntervalTimer('answer'), // temporarily show the correct answer
+    ])
       .then(() => this.round(true).child('pickedClueId').remove());
   }
 
@@ -291,12 +289,11 @@ class Host extends Component {
     });
   }
   finishResponse() {
-    return this.buzz(true)
-      .child('completedAt').set(firebase.database.ServerValue.TIMESTAMP)
-
-      .then(() => this.stopIntervalTimer('response')) // @TODO: is this necessary?
-
-      .then(() => this.clue(true).child('pickedBuzzId').remove());
+    return Promise.all([
+      this.stopIntervalTimer('response'),
+      this.buzz(true).child('finishedAt').set(firebase.database.ServerValue.TIMESTAMP),
+      this.clue(true).child('pickedBuzzId').remove(),
+    ]);
   }
 
   render() {
@@ -306,7 +303,7 @@ class Host extends Component {
 
     const renderOverlay = () => {
       if (clue) {
-        if (!clue.completedAt) {
+        if (!clue.finishedAt) {
           return (
             <aside className={classNames('Clue', {canBuzz: clue.buzzesAt})}>
               <div>
