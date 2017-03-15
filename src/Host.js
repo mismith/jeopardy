@@ -146,30 +146,33 @@ class Host extends Component {
   }
   startIntervalTimer(name, timeout, interval = 1000) {
     return new Promise(resolve => {
-      this.setState({
-        [`${name}Timer`]: setInterval(() => {
-          const elapsed = (this.state[`${name}Time`] || 0) + 1;
+      return this.stopIntervalTimer(name) // make sure it isn't already running
+        .then(() => {
+          this.setState({
+            [`${name}Timer`]: setInterval(() => {
+              const elapsed = (this.state[`${name}Time`] || 0) + 1;
 
-          if (elapsed < (timeout || this.props[`${name}Timeout`])) {
-            // increment the timer
-            this.setState({
-              [`${name}Time`]: elapsed,
-            });
-          } else {
-            // time has elapsed
-            this.stopIntervalTimer(name) // stop timer
-              .then(resolve);
-          }
-        }, interval),
-      });
+              if (elapsed < (timeout || this.props[`${name}Timeout`])) {
+                // increment the timer
+                this.setState({
+                  [`${name}Time`]: elapsed,
+                });
+              } else {
+                // time has elapsed
+                this.stopIntervalTimer(name) // stop timer
+                  .then(resolve);
+              }
+            }, interval),
+          });
+        });
     });
   }
   stopIntervalTimer(name) {
     return new Promise(resolve => {
-      if (this.state[`${name}Timer`]) clearInterval(this.state[`${name}Timer`]);
+      clearInterval(this.state[`${name}Timer`]);
 
       this.setState({
-        [`${name}Time`]:  null,
+        [`${name}Time`]:  0,
         [`${name}Timer`]: null,
       }, resolve);
     });
@@ -325,6 +328,15 @@ class Host extends Component {
         }
       }
     };
+
+    // console.log(
+    //   this.state.clueTime,
+    //   this.state.clueTimer,
+    //   this.state.responseTime,
+    //   this.state.responseTimer,
+    //   this.state.answerTime,
+    //   this.state.answerTimer,
+    // );
 
     return (
       <div className="Host">
