@@ -234,8 +234,14 @@ class Host extends Component {
     return this.penalizePlayer()
       .then(() => this.finishResponse())
 
-      // @TODO: check that there are still players who can answer left
-      .then(() => this.startIntervalTimer('clue')) // restart counter for remaining players
+      // ensure there are still players who can answer left
+      .then(() => {
+        const penalties = this.clue().penalties;
+        if (penalties && Object.keys(penalties).length < this.numPlayers()) {
+          // restart counter for remaining players
+          return this.startIntervalTimer('clue');
+        }
+      })
 
       .then(() => this.finishClue());
   }
