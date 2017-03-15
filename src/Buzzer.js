@@ -115,7 +115,7 @@ class Buzzer extends Component {
       }
       {game &&
         <div>
-          <button className="button" onClick={this.buzzIn.bind(this)} disabled={!clue || clue.pickedBuzzId || clue.finishedAt}>Buzz In</button>
+          <button className="button" onClick={this.buzzIn.bind(this)} disabled={!clue || clue.pickedBuzzId || clue.finishedAt || (clue.penalties && clue.penalties[this.props.params.playerId])}>Buzz In</button>
         {buzz && buzz.playerId === this.props.params.playerId && !buzz.submittedAt &&
           <form onSubmit={this.handleSubmit.bind(this)}>
             What is&hellip;&nbsp;

@@ -203,7 +203,8 @@ class Host extends Component {
       const clue = this.clue();
       if (clue && !clue.pickedBuzzId) {
         // no-one is currently buzzed in
-        if (clue.buzzesAt && buzz.buzzedAt >= clue.buzzesAt) {
+        const penalizedUsers = Object.keys(clue.penalties || {});
+        if (clue.buzzesAt && buzz.buzzedAt >= clue.buzzesAt && !penalizedUsers.includes(buzz.playerId)) {
           // legit buzz, begin response
           this.stopIntervalTimer('clue')
             .then(() => this.showResponse(buzz))
