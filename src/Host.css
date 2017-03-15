@@ -26,10 +26,6 @@
   font-size: 3em;
   text-transform: uppercase;
 }
-.Answer {
-  background-color: #FC0;
-  color: black;
-}
 .Clue > div,
 .Answer > div {
   display: flex;
@@ -37,6 +33,13 @@
   justify-content: center;
   flex-grow: 1;
   padding: 5%;
+}
+.Answer {
+  background-color: #FC0;
+  color: black;
+}
+.Answer.isCorrect {
+  background-color: #0C0;
 }
 
 

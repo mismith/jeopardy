@@ -327,7 +327,7 @@ class Host extends Component {
           );
         } else {
           return (
-            <aside className="Answer" onClick={this.finishClue.bind(this)}>
+            <aside className={classNames('Answer', {isCorrect: this.clue().rewards})} onClick={this.finishClue.bind(this)}>
               <div>
                 {clue.answer}
               </div>
