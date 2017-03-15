@@ -91,6 +91,9 @@ class Host extends Component {
   numPlayers() {
     return this.state.players ? Object.keys(this.state.players).length : 0;
   }
+  removePlayer(playerId) {
+    this.firebaseRefs.players.child(playerId).remove();
+  }
   getPlayerSeats() {
     let players = [];
     if (this.state.players) {
@@ -104,9 +107,6 @@ class Host extends Component {
       players.push(null);
     };
     return players;
-  }
-  removePlayer(playerId) {
-    this.firebaseRefs.players.child(playerId).remove();
   }
   getPlayerDollars(playerId) {
     let dollars = 0;
@@ -206,8 +206,7 @@ class Host extends Component {
         const penalizedUsers = Object.keys(clue.penalties || {});
         if (clue.buzzesAt && buzz.buzzedAt >= clue.buzzesAt && !penalizedUsers.includes(buzz.playerId)) {
           // legit buzz, begin response
-          this.stopIntervalTimer('clue')
-            .then(() => this.showResponse(buzz))
+          this.showResponse(buzz)
             .then(() => {
               return this.checkResponse()
                 .then(() => this.answerClue())
@@ -247,10 +246,11 @@ class Host extends Component {
   }
   finishClue() {
     return Promise.all([
+      this.stopIntervalTimer('clue'), // just to make sure
       this.clue(true).child('finishedAt').set(firebase.database.ServerValue.TIMESTAMP),
       this.startIntervalTimer('answer'), // temporarily show the correct answer
     ])
-      .then(() => this.round(true).child('pickedClueId').remove());
+      .then(() => this.round(true).child('pickedClueId').remove()); // clean up
   }
 
   // dollars
@@ -268,10 +268,11 @@ class Host extends Component {
     if (!buzz || !buzz.$id) throw new Error('Invalid buzz');
 
     return new Promise(resolve => {
-      this.clue(true).update({
-        pickedBuzzId: buzz.$id,
-        [`buzzes/${buzz.$id}/pickedAt`]: firebase.database.ServerValue.TIMESTAMP,
-      })
+      this.stopIntervalTimer('clue')
+        .then(() => this.clue(true).update({
+          pickedBuzzId: buzz.$id,
+          [`buzzes/${buzz.$id}/pickedAt`]: firebase.database.ServerValue.TIMESTAMP,
+        }))
 
         // check for 'submittedAt' and skip timer if necessary
         .then(() => {
@@ -300,7 +301,7 @@ class Host extends Component {
   }
   finishResponse() {
     return Promise.all([
-      this.stopIntervalTimer('response'),
+      this.stopIntervalTimer('response'), // just to make sure
       this.buzz(true).child('finishedAt').set(firebase.database.ServerValue.TIMESTAMP),
       this.clue(true).child('pickedBuzzId').remove(),
     ]);
