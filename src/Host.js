@@ -225,24 +225,26 @@ class Host extends Component {
     return this.clue(true).child('buzzesAt').set(firebase.database.ServerValue.TIMESTAMP);
   }
   answerClue() {
-    return this.rewardPlayer()
-      .then(() => this.finishResponse())
-      .then(() => this.finishClue());
+    return this.rewardPlayer() // increase score
+      .then(() => this.finishResponse()) // end attempt
+      .then(() => this.finishClue()); // end turn
   }
   misanswerClue() {
-    return this.penalizePlayer()
-      .then(() => this.finishResponse())
+    return this.penalizePlayer() // reduce score
+      .then(() => this.setState({misanswer: this.buzz().answer})) // store incorrect answer locally
+      .then(() => this.finishResponse()) // end attempt
+      .then(() => this.startIntervalTimer('answer')) // show attempted/wrong answer
+      .then(() => this.setState({misanswer: null})) // clear incorrect answer
 
-      // ensure there are still players who can answer left
+      // restart counter for remaining players, if any
       .then(() => {
         const penalties = this.clue().penalties;
+        // ensure there are still players who can answer left
         if (penalties && Object.keys(penalties).length < this.numPlayers()) {
-          // restart counter for remaining players
           return this.startIntervalTimer('clue');
         }
       })
-
-      .then(() => this.finishClue());
+      .then(() => this.finishClue()); // end turn
   }
   finishClue() {
     return Promise.all([
@@ -314,7 +316,7 @@ class Host extends Component {
 
     const renderOverlay = () => {
       if (clue) {
-        if (!clue.finishedAt) {
+        if (!clue.finishedAt && !this.state.misanswer) {
           return (
             <aside className={classNames('Clue', {canBuzz: clue.buzzesAt})}>
               <div>
@@ -327,9 +329,9 @@ class Host extends Component {
           );
         } else {
           return (
-            <aside className={classNames('Answer', {isCorrect: this.clue().rewards})} onClick={this.finishClue.bind(this)}>
+            <aside className={classNames('Answer', {isCorrect: this.clue().rewards, isIncorrect: this.state.misanswer})} onClick={this.finishClue.bind(this)}>
               <div>
-                {clue.answer}
+                {this.state.misanswer || clue.answer}
               </div>
             </aside>
           );

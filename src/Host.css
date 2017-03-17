@@ -35,11 +35,14 @@
   padding: 5%;
 }
 .Answer {
-  background-color: #FC0;
+  background-color: #999;
   color: black;
 }
 .Answer.isCorrect {
   background-color: #0C0;
+}
+.Answer.isIncorrect {
+  background-color: #C00;
 }
 
 
