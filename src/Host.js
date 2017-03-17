@@ -97,7 +97,7 @@ class Host extends Component {
   getPlayerSeats() {
     let players = [];
     if (this.state.players) {
-      Object.keys(this.state.players).forEach(playerId => {
+      Object.keys(this.state.players).sort().forEach(playerId => {
         let player = this.state.players[playerId];
         player.$id = playerId;
         players.push(player);
@@ -226,6 +226,7 @@ class Host extends Component {
   }
   answerClue() {
     return this.rewardPlayer() // increase score
+      .then(() => this.round(true).child('currentPlayerId').set(this.buzz().playerId)) // save turn
       .then(() => this.finishResponse()) // end attempt
       .then(() => this.finishClue()); // end turn
   }
@@ -311,6 +312,7 @@ class Host extends Component {
 
   render() {
     const game = this.game();
+    const round = this.round();
     const clue = this.clue();
     const buzz = this.buzz();
 
@@ -392,18 +394,18 @@ class Host extends Component {
         {this.getPlayerSeats().map((player, i) => {
           const isResponding = (player && buzz && buzz.playerId === player.$id);
           return (
-            <Player key={player ? player.$id : i} player={player} className={classNames({isResponding})}>
+            <Player key={i} player={player} className={classNames({isResponding})}>
             {player &&
-              <button onClick={e=>this.removePlayer(player.$id)}>Remove Player</button>
-            }
-            {player &&
-              <div>{this.getPlayerDollars(player.$id)}</div>
+              <div>
+                <button onClick={e=>this.removePlayer(player.$id)}>Remove Player</button>
+                <div>{this.getPlayerDollars(player.$id)}</div>
+              {round.currentPlayerId === player.$id &&
+                <div>&bull;</div>
+              }
+              </div>
             }
             {isResponding &&
-              <div>
-                <div>{buzz.answer}</div>
-                <Timer timeout={this.props.responseTimeout} time={this.state.responseTime} />
-              </div>
+              <Timer timeout={this.props.responseTimeout} time={this.state.responseTime} />
             }
             </Player>
           );
