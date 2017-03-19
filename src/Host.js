@@ -150,6 +150,9 @@ class Host extends Component {
       window.speechSynthesis.speak(msg);
     });
   }
+  pickRandomReply(replies) {
+    return replies[Math.floor(Math.random()*replies.length)];
+  }
   startIntervalTimer(name, timeout, interval = 1000) {
     return new Promise(resolve => {
       return this.stopIntervalTimer(name) // make sure it isn't already running
@@ -237,12 +240,36 @@ class Host extends Component {
   answerClue() {
     return this.rewardPlayer() // increase score
       .then(() => this.round(true).child('currentPlayerId').set(this.buzz().playerId)) // save turn
+      .then(() => {
+        this.readAloud(this.pickRandomReply([
+          `Yes`,
+          `Yup`,
+          `Correct`,
+          `Right`,
+          `That's right`,
+          `That's it`,
+          `That's correct`,
+          `Well done`,
+        ]));
+      })
       .then(() => this.finishResponse()) // end attempt
       .then(() => this.finishClue()); // end turn
   }
   misanswerClue() {
     return this.penalizePlayer() // reduce score
       .then(() => this.setState({misanswer: this.buzz().answer})) // store incorrect answer locally
+      .then(() => {
+        this.readAloud(this.pickRandomReply([
+          `No`,
+          `Nope`,
+          `Incorrect`,
+          `Wrong`,
+          `That's not right`,
+          `That's not it`,
+          `That's incorrect`,
+          `That's wrong`,
+        ]));
+      })
       .then(() => this.finishResponse()) // end attempt
       .then(() => this.startIntervalTimer('answer')) // show attempted/wrong answer
       .then(() => this.setState({misanswer: null})) // clear incorrect answer
