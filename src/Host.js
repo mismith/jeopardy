@@ -140,9 +140,10 @@ class Host extends Component {
   // helpers
   readAloud(text) {
     return new Promise(resolve => {
-      setTimeout(() => {
-        resolve(); // @TODO: trigger after text2speech completes
-      }, (text || '').split(' ').length * 200); // simulate reading the clue
+      // @TODO: test for support?
+      var msg = new SpeechSynthesisUtterance(text);
+      msg.onend = resolve;
+      window.speechSynthesis.speak(msg);
     });
   }
   startIntervalTimer(name, timeout, interval = 1000) {
