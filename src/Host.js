@@ -3,6 +3,7 @@ import classNames from 'classnames';
 
 import {browserHistory} from 'react-router';
 import firebase from './utils/firebase';
+import FuzzySet from 'fuzzyset.js';
 
 import Board from './Board';
 import Player from './helpers/Player';
@@ -296,8 +297,18 @@ class Host extends Component {
   checkResponse() {
     // @TODO: check clue and buzz
     return new Promise((resolve, reject) => {
-      if ((this.clue().answer || '').toLowerCase() === (this.buzz().answer || '').toLowerCase()) { // @TODO: do proper/flexible answer checking
-        return resolve();
+      const realAnswer = this.clue().answer;
+      const givenAnswer = this.buzz().answer;
+      const set = FuzzySet([
+        realAnswer,
+      ]);
+      const match = set.get(givenAnswer);
+      if (match && match.length) {
+        const [likelihood] = match[0];
+        if (likelihood > this.props.answerThreshold) {
+          console.log(realAnswer, '~=', givenAnswer, '@', likelihood);
+          return resolve();
+        }
       }
       return reject();
     });
@@ -418,6 +429,7 @@ class Host extends Component {
 Host.defaultProps = {
   minPlayers: 1,
   maxPlayers: 3,
+  answerThreshold: 0.75,
   clueTimeout: 5,
   responseTimeout: 10,
   answerTimeout: 2,
