@@ -15,6 +15,10 @@ class Host extends Component {
   state = {
     game:    undefined,
     players: undefined,
+
+    audio: {
+      timesUp: new Audio('/audio/times-up.mp3'),
+    }
   }
 
   reloadGameData() {
@@ -179,6 +183,9 @@ class Host extends Component {
       }, resolve);
     });
   }
+  playTimesUp() {
+    this.state.audio.timesUp.play();
+  }
 
   // clue
   showClue(clue) {
@@ -193,6 +200,7 @@ class Host extends Component {
       .then(() => this.readAloud(clue.question))
       .then(() => this.startAcceptingBuzzes())
       .then(() => this.startIntervalTimer('clue'))
+      .then(() => this.playTimesUp())
       .then(() => this.finishClue());
   }
   startAllowingBuzzes() {
@@ -292,6 +300,7 @@ class Host extends Component {
 
         // run timer
         .then(() => this.startIntervalTimer('response'))
+        .then(() => this.playTimesUp())
         .then(resolve);
     });
   }
