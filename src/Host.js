@@ -336,7 +336,7 @@ class Host extends Component {
   misanswerClue() {
     return Promise.all([
       this.penalizePlayer(), // reduce score
-      this.setState({misanswer: this.buzz().answer}), // store incorrect answer locally
+      this.setState({misanswer: this.buzz().answer || '???'}), // store incorrect answer locally
       this.finishResponse([
         `No`,
         `Nope`,
