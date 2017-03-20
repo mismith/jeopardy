@@ -418,7 +418,11 @@ class Host extends Component {
 
       // run timer until expiry
       return this.startIntervalTimer('response')
-        .then(() => this.playSound('time'))
+        .then(() => {
+          if (!this.buzz().answer) {
+            return this.playSound('time');
+          }
+        })
         .then(resolve);
     });
   }
