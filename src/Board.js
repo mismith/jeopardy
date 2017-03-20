@@ -41,6 +41,7 @@ class Board extends Component {
         <article key={row}>
         {[1,2,3,4,5,6].map(col => {
           const clue = getClue(row, col);
+          if (!clue) return <div key={col} className="Cell" />;
           return (
           <div
             key={col}
