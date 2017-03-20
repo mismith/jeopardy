@@ -19,6 +19,7 @@ class Host extends Component {
     audio: {
       time: new Audio('/audio/time.wav'),
       'daily-double': new Audio('/audio/daily-double.wav'),
+      boardfill: new Audio('/audio/boardfill.wav'),
     }
   }
 
@@ -135,6 +136,23 @@ class Host extends Component {
   advanceGame() {
     const roundNum = (parseInt(this.game().round, 10) || 0) + 1;
     return this.firebaseRefs.game.child('round').set(roundNum)
+      .then(() => {
+        switch(roundNum) {
+          case 1:
+          case 2:
+            return this.playSound('boardfill')
+              .then(() => {
+                // read categories aloud
+                const round = this.round();
+                if (round && round.categories) {
+                  const categoryNames = Object.values(round.categories).map(category => category.name);
+                  return this.readAloud(`Categories this round are: ${categoryNames.join('; ')}`);
+                }
+              });
+          default:
+            return;
+        }
+      });
   }
   cancelGame(e) {
     if (e.shiftKey || confirm(`Are you sure?`)) {
@@ -196,7 +214,17 @@ class Host extends Component {
     });
   }
   playSound(name) {
-    this.state.audio[name].play();
+    return new Promise(resolve => {
+      const audio = this.state.audio[name];
+      if (audio) {
+        audio.play();
+        audio.onended = () => {
+          resolve();
+        };
+      } else {
+        return resolve();
+      }
+    });
   }
 
   // clue
