@@ -10,6 +10,7 @@ class Board extends Component {
       clues,
       onPick,
       children,
+      className,
       ...props,
     } = this.props;
 
@@ -26,14 +27,11 @@ class Board extends Component {
     }
 
     return (
-      <div className="Board" {...props}>
+      <div className={classNames(`Board`, className)} {...props}>
         <header>
           {Object.entries(categories).map(([categoryId, category]) =>
-            <div key={categoryId} className="Cell">
+            <div key={categoryId} className="Cell" title={category.comments}>
               <span>{category.name}</span>
-            {category.comments &&
-              <small>{category.comments}</small>
-            }
             </div>
           )}
         </header>

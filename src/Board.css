@@ -9,6 +9,9 @@
   display: flex;
   flex-grow: 1;
 }
+.Board:not(.hasStarted) > header .Cell > * {
+  opacity: 0;
+}
 
 .Cell {
   display: flex;

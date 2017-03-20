@@ -54,7 +54,7 @@ class Host extends Component {
     firebase.sync(this, 'game', `games/${this.props.params.gameId}`);
     firebase.sync(this, 'players', `games:players/${this.props.params.gameId}`);
 
-    this.reloadGameData();
+    //this.reloadGameData();
   }
   componentWillUnmount() {
     firebase.unsync(this, 'game', 'players');
@@ -141,16 +141,24 @@ class Host extends Component {
 
   // game
   regressGame() {
-    return this.firebaseRefs.game.child('round').set(this.game().round - 1);
+    return this.game(true).child('round').set(this.game().round - 1);
   }
   advanceGame() {
     const roundNum = (parseInt(this.game().round, 10) || 0) + 1;
-    return this.firebaseRefs.game.child('round').set(roundNum)
+
+    return this.game(true).child('round').set(roundNum)
+      .then(() => {
+         // don't return here since this should be async/instant
+         this.pickCategory(null); // make sure category is reset
+         this.startRound(null);
+      })
       .then(() => {
         switch(roundNum) {
           case 1:
           case 2:
-            return this.playSound('boardfill')
+            return Promise.all([
+              this.playSound('boardfill'),
+            ])
               .then(() => this.readAloud(`Categories this round are:`))
               .then(() => {
                 let promise = Promise.resolve();
@@ -160,19 +168,24 @@ class Host extends Component {
                 Object.keys(round.categories).forEach((categoryId, i) => {
                   const category = round.categories[categoryId];
                   return promise = promise
-                    .then(() => this.round(true).child('pickedCategoryId').set(categoryId))
+                    .then(() => this.pickCategory(categoryId))
                     .then(() => this.readAloud(`${i === 5 ? 'and;!' : '!;'} ${category.name}; !`));
                 });
+
                 return promise
-                  .then(() => this.round(true).child('pickedCategoryId').remove());
+                  .then(() => Promise.all([
+                    this.pickCategory(null),
+                    this.startRound(),
+                  ]));
               });
           case 3:
             const round = this.round();
             const categoryId = Object.keys(round.categories)[0];
+
             return this.readAloud(`Welcome to Final Jeopardy!!`)
               .then(() => this.readAloud(`Today's category is:`))
               .then(() => Promise.all([
-                this.round(true).child('pickedCategoryId').set(categoryId),
+                this.pickCategory(categoryId),
                 this.playSound('chime'),
               ]))
               .then(() => {
@@ -187,7 +200,7 @@ class Host extends Component {
   }
   cancelGame(e) {
     if (e.shiftKey || confirm(`Are you sure?`)) {
-      this.firebaseRefs.game.remove()
+      this.game(true).remove()
         .then(() => {
           browserHistory.push(`/`);
         });
@@ -261,6 +274,12 @@ class Host extends Component {
         return resolve();
       }
     });
+  }
+  pickCategory(categoryId) {
+    return this.round(true).child('pickedCategoryId').set(categoryId);
+  }
+  startRound(timestamp = firebase.database.ServerValue.TIMESTAMP) {
+    return this.round(true).child('startedAt').set(timestamp);
   }
 
   // clue
@@ -505,7 +524,7 @@ class Host extends Component {
               <div>{clue.question}</div>
             }
             {(clue.dd && (!buzz || (buzz && !buzz.wager))) &&
-              <div>DAILY DOUBLE</div>
+              <div><h1>DAILY DOUBLE</h1></div>
             }
             {!buzz &&
               <Timer timeout={this.props.clueTimeout} time={this.state.clueTime} />
@@ -528,7 +547,7 @@ class Host extends Component {
       } else if (game.round === 3) {
         return (
           <aside className="Clue">
-            <div>Final Jeopardy</div>
+            <div><h1>Final Jeopardy</h1></div>
           </aside>
         );
       }
@@ -570,7 +589,7 @@ class Host extends Component {
         </header>
       }
       {game && game.round > 0 && round &&
-        <Board categories={round.categories} clues={round.clues} onPick={this.showClue.bind(this)}>
+        <Board categories={round.categories} clues={round.clues} onPick={this.showClue.bind(this)} className={classNames({hasStarted: round.startedAt})}>
           {renderOverlay()}
         </Board>
       }
