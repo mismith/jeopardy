@@ -340,12 +340,12 @@ class Host extends Component {
         `No`,
         `Nope`,
         `Incorrect`,
-        `${answer} is wrong`,
+        `Wrong`,
         `That's not right`,
         `That's not it`,
         `That's incorrect`,
         `That's wrong`,
-        `It's not ${answer}`,
+        `It's not that`,
       ])))
       .then(() => this.startIntervalTimer('answer')) // show attempted/wrong answer
       .then(() => this.setState({misanswer: null})) // clear incorrect answer
@@ -363,16 +363,23 @@ class Host extends Component {
       .then(() => this.finishClue()); // end turn
   }
   finishClue() {
-    const answer = this.clue().answer;
+    const clue = this.clue();
+    const answer = clue.answer;
+
     return Promise.all([
       this.stopIntervalTimer('clue'), // just to make sure
       this.clue(true).child('finishedAt').set(firebase.database.ServerValue.TIMESTAMP),
-      this.startIntervalTimer('answer'), // temporarily show the correct answer
-      this.readAloud(this.pickRandomReply([
-        `The answer is ${answer}`,
-        `It's ${answer}`,
-      ])),
     ])
+      .then(() => {
+        if (!clue.rewards) {
+          // no correct answer / timeout, so read the answer aloud
+          return this.readAloud(this.pickRandomReply([
+            `The answer is ${answer}`,
+            `It's ${answer}`,
+          ]));
+        }
+      })
+      .then(() => this.startIntervalTimer('answer')) // temporarily show the correct answer
       .then(() => this.round(true).child('pickedClueId').remove()); // clean up
   }
 
