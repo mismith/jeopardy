@@ -116,11 +116,13 @@ class Host extends Component {
   }
   getPlayerScore(playerId) {
     let dollars = 0;
-    const round = this.round();
-    if (round && round.clues) {
-      Object.values(round.clues).forEach(clue => {
-        dollars += clue.rewards ? clue.rewards[playerId] || 0 : 0;
-        dollars -= clue.penalties ? clue.penalties[playerId] || 0 : 0;
+    const game = this.game();
+    if (game && game.rounds) {
+      game.rounds.forEach(round => {
+        Object.values(round.clues).forEach(clue => {
+          dollars += clue.rewards ? clue.rewards[playerId] || 0 : 0;
+          dollars -= clue.penalties ? clue.penalties[playerId] || 0 : 0;
+        });
       });
     }
     return dollars;
