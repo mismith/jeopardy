@@ -270,19 +270,19 @@ class Host extends Component {
             })
             .then(() => this.readAloud(clue.question))
             .then(() => this.awaitResponse())
-            .then(() => {
-              return this.checkResponse()
-                .then(() => this.answerClue())
-                .catch(() => this.misanswerClue());
-            });
+            .then(() => this.checkResponse())
+              .then(() => this.answerClue())
+              .catch(() => this.misanswerClue());
         } else {
           // regular clue
           return this.startAllowingBuzzes()
             .then(() => this.readAloud(clue.question))
             .then(() => this.startAcceptingBuzzes())
             .then(() => this.startIntervalTimer('clue'))
-            .then(() => this.playSound('time'))
-            .then(() => this.finishClue());
+            .then(() => Promise.all([
+              this.playSound('time'),
+              this.finishClue(),
+            ]));
         }
       });
   }
@@ -301,11 +301,9 @@ class Host extends Component {
           // legit buzz, begin response
           this.showResponse(buzz)
             .then(() => this.awaitResponse())
-            .then(() => {
-              return this.checkResponse()
-                .then(() => this.answerClue())
-                .catch(() => this.misanswerClue());
-            });
+            .then(() => this.checkResponse())
+              .then(() => this.answerClue())
+              .catch(() => this.misanswerClue());
         } else {
           // buzz was too early
           // @TODO: penalize the player
@@ -376,17 +374,13 @@ class Host extends Component {
     return Promise.all([
       this.stopIntervalTimer('clue'), // just to make sure
       this.clue(true).child('finishedAt').set(firebase.database.ServerValue.TIMESTAMP),
+      !clue.rewards && // no correct answer / timeout, so read the answer aloud
+        this.readAloud(this.pickRandomReply([ 
+          `The answer is ${answer}`,
+          `It's ${answer}`,
+        ])),
+      this.startIntervalTimer('answer'), // temporarily show the correct answer
     ])
-      .then(() => {
-        if (!clue.rewards) {
-          // no correct answer / timeout, so read the answer aloud
-          return this.readAloud(this.pickRandomReply([
-            `The answer is ${answer}`,
-            `It's ${answer}`,
-          ]));
-        }
-      })
-      .then(() => this.startIntervalTimer('answer')) // temporarily show the correct answer
       .then(() => this.round(true).child('pickedClueId').remove()); // clean up
   }
 
@@ -424,7 +418,8 @@ class Host extends Component {
       // run timer until expiry
       return this.startIntervalTimer('response')
         .then(() => {
-          if (!this.buzz().answer) {
+          const buzz = this.buzz();
+          if (buzz && !buzz.answer) {
             return this.playSound('time');
           }
         })
