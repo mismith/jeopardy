@@ -1,0 +1,570 @@
+{
+  "number": 4602,
+  "date": "2004-09-14",
+  "comments": "Ken Jennings game 45.",
+  "contestants": [
+    {
+      "name": "Robert Quinn",
+      "occupation": "a real estate manager and actor",
+      "origin": "Hoboken, New Jersey"
+    },
+    {
+      "name": "Kate Duffy",
+      "occupation": "a reporter",
+      "origin": "Lebanon, New Hampshire"
+    },
+    {
+      "name": "Ken Jennings",
+      "occupation": "a software engineer",
+      "origin": "Salt Lake City, Utah",
+      "streak": 44,
+      "winnings": 1477461
+    }
+  ],
+  "rounds": [
+    {
+      "categories": [
+        {
+          "name": "NEW YORK CITY"
+        },
+        {
+          "name": "SECONDS"
+        },
+        {
+          "name": "OH, FOR PETE'S SAKE!"
+        },
+        {
+          "name": "A PROVERBIAL MESS"
+        },
+        {
+          "name": "OPERA"
+        },
+        {
+          "name": "THE TALES OF HOFFMAN"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Barbra Streisand & Neil Diamond were contemporaries at Erasmus Hall High in this borough",
+          "answer": "Brooklyn",
+          "value": 200,
+          "order": 16,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "Baltic Avenue is the second property after \"Go\" in this game",
+          "answer": "Monopoly",
+          "value": 200,
+          "order": 6,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "He was the son of Czar Alexis by his second wife Natalya",
+          "answer": "Peter the Great",
+          "value": 200,
+          "order": 1,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "Good one deserves another turn",
+          "answer": "one good turn deserves another",
+          "value": 200,
+          "order": 26,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "The title role in \"Boris Godunov\" is for a singer in this vocal range",
+          "answer": "bass",
+          "value": 200,
+          "order": 11,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "In this film Dustin Hoffman's character Raymond Babbitt habitually watches \"Jeopardy!\"",
+          "answer": "Rain Man",
+          "value": 200,
+          "order": 21,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "(Sofia of the Clue Crew skates on the ice rink at Rockefeller Center, New York.)  Though there was a depression on, Rockefeller Rink opened on this festive day in 1936",
+          "answer": "Christmas Day",
+          "value": 400,
+          "order": 17,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "It's the second of the Harry Potter books",
+          "answer": "Harry Potter and the Chamber of Secrets",
+          "value": 400,
+          "order": 7,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "This man was the drummer for the Beatles before Ringo joined in 1962",
+          "answer": "Pete Best",
+          "value": 400,
+          "order": 2,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "Boils never watched a pot",
+          "answer": "a watched pot never boils",
+          "value": 400,
+          "order": 27,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "Peter Cornelius' opera \"The Barber of Baghdad\" was based on a tale in this collection",
+          "answer": "Arabian Nights",
+          "value": 400,
+          "order": 12,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Frank Wills, the security guard who discovered the Watergate break-in, played himself in this Hoffman film",
+          "answer": "All the President's Men",
+          "value": 400,
+          "order": 22,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "The heart of Little Italy is this street also found in a Dr. Seuss book title",
+          "answer": "Mulberry Street",
+          "value": 1400,
+          "order": 18,
+          "dd": 1400,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "On Dec. 12, 1787 this \"Keystone State\" became the second U.S. state to ratify the Constitution",
+          "answer": "Pennsylvania",
+          "value": 600,
+          "order": 8,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "Gray Davis succeeded him as governor of California",
+          "answer": "Pete Wilson",
+          "value": 600,
+          "order": 3,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "Dogs lie sleeping let",
+          "answer": "let sleeping dogs lie",
+          "value": 600,
+          "order": 28,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "In Sir Arthur Sullivan's \"Ivanhoe\", \"Ho, Jolly Jenkin\" is an aria for this Friar",
+          "answer": "Friar Tuck",
+          "value": 600,
+          "order": 13,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "Posters for this 1982 film featured Hoffman in a red sequined dress",
+          "answer": "Tootsie",
+          "value": 600,
+          "order": 23,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "In honor of NYC's blaze-battlers, these 4 letters appeared on a lot of caps in 2001",
+          "answer": "FDNY",
+          "value": 800,
+          "order": 19,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "\"No graven images\" is number 2 on this ancient list",
+          "answer": "the Ten Commandments",
+          "value": 800,
+          "order": 9,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "In 2000 he won the Wimbledon men's singles, his 13th Grand Slam title",
+          "answer": "Pete Sampras",
+          "value": 800,
+          "order": 4,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Once twice shy bitten",
+          "answer": "once bitten twice shy",
+          "value": 800,
+          "order": 29,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "Wagner didn't want \"Parsifal\" performed outside of this city that now holds Wagner festivals",
+          "answer": "Bayreuth",
+          "value": 800,
+          "order": 14,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "\"Everybody's Talkin'\" served as the theme to this 1969 film in which Hoffman played street hustler Ratso Rizzo",
+          "answer": "Midnight Cowboy",
+          "value": 800,
+          "order": 24,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "This mental hospital is the primary teaching hospital for NYU's medical school",
+          "answer": "Bellevue",
+          "value": 1000,
+          "order": 20,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "It's the second chemical element listed on the periodic table",
+          "answer": "helium",
+          "value": 1000,
+          "order": 10,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Dutch colonial governor of New Amsterdam who bought it from the Indians",
+          "answer": "Peter Minuit",
+          "value": 1000,
+          "order": 5,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "A color different of a horse",
+          "answer": "a horse of a different color",
+          "value": 1000,
+          "order": 30,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "His \"Elecktra\" in 1908 may have been electric, but it was his \"Salome\" 3 years earlier that was scandalous",
+          "answer": "Richard Strauss",
+          "value": 1000,
+          "order": 15,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "In this 1997 film a Washington spin doctor & a Hollywood producer team up to stage a phony war",
+          "answer": "Wag the Dog",
+          "value": 1000,
+          "order": 25,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "19th CENTURY AMERICA"
+        },
+        {
+          "name": "'80s SONGS"
+        },
+        {
+          "name": "FLOWER POWER"
+        },
+        {
+          "name": "RHYME TIME"
+        },
+        {
+          "name": "CANADIAN PROVINCIAL CAPITALS"
+        },
+        {
+          "name": "LET'S CUT TO THE CHASE"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Accepting the GOP nomination for U.S. Senate in 1858, he said \"A house divided against itself cannot stand\"",
+          "answer": "Abraham Lincoln",
+          "value": 400,
+          "order": 1,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "question": "This duo dedicated a 1984 to \"All the girls who shared my life who are now someone else's wives\"",
+          "answer": "Willie Nelson and Julio Iglesias",
+          "value": 400,
+          "order": 14,
+          "row": 1,
+          "col": 2
+        },
+        {
+          "question": "By dropping 2 letters in Osiris' name, you get this Greek goddess who shares her name with a flower",
+          "answer": "Iris",
+          "value": 400,
+          "order": 21,
+          "row": 1,
+          "col": 3
+        },
+        {
+          "question": "In \"Through the Looking Glass\" he tells Alice there's no chance he'd ever fall off his wall",
+          "answer": "Humpty Dumpty",
+          "value": 400,
+          "order": 11,
+          "row": 1,
+          "col": 4
+        },
+        {
+          "question": "In the mid-1880s, it was the capital of the Crown colony of Vancouver Island",
+          "answer": "Victoria",
+          "value": 400,
+          "order": 6,
+          "row": 1,
+          "col": 5
+        },
+        {
+          "question": "Surrealist, Spanish, died in 1989, hello...",
+          "answer": "(Salvador) Dalí",
+          "value": 400,
+          "order": 26,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "question": "Completed in June 1854, the lighthouse on this island in San Francisco Bay was the West Coast's first active one",
+          "answer": "Alcatraz",
+          "value": 800,
+          "order": 2,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "question": "This 1980 No. 1 hit was the theme from the movie \"American Gigolo\"",
+          "answer": "\"Call Me\"",
+          "value": 800,
+          "order": 15,
+          "row": 2,
+          "col": 2
+        },
+        {
+          "question": "I can't recall the last time that I saw one of these hyphenated perennials, from the Old French \"Ne m'oubliez mie\"",
+          "answer": "forget-me-not",
+          "value": 800,
+          "order": 22,
+          "row": 2,
+          "col": 3
+        },
+        {
+          "question": "In \"Through the Looking Glass\" he tells Alice his horse has anklets to guard against shark bites",
+          "answer": "the White Knight",
+          "value": 800,
+          "order": 12,
+          "row": 2,
+          "col": 4
+        },
+        {
+          "question": "It's the only provincial capital that lies on the shore of one of the Great Lakes",
+          "answer": "Toronto",
+          "value": 800,
+          "order": 7,
+          "row": 2,
+          "col": 5
+        },
+        {
+          "question": "Finnish composer, \"Valse triste\", died in 1957",
+          "answer": "Sibelius",
+          "value": 800,
+          "order": 27,
+          "row": 2,
+          "col": 6
+        },
+        {
+          "question": "In April 1824 the U.S. & this country agreed to 54 deg. 40 min. N. latitude as the southern limit of its west coast claims",
+          "answer": "Russia",
+          "value": 1200,
+          "order": 3,
+          "row": 3,
+          "col": 1
+        },
+        {
+          "question": "The video for this song, Toni Basil's only hit, featured cheerleaders",
+          "answer": "\"Mickey\"",
+          "value": 1200,
+          "order": 16,
+          "row": 3,
+          "col": 2
+        },
+        {
+          "question": "This computing term for a series of peripherals connected to a computer sounds like a school day flower bracelet",
+          "answer": "daisy chain",
+          "value": 1200,
+          "order": 23,
+          "row": 3,
+          "col": 3
+        },
+        {
+          "question": "(Sofia of the Clue Crew wears inappropriate attire that is too revealing.)  Here's some advice--don't wear a St. Patty's Day shirt when working with this",
+          "answer": "a green screen",
+          "value": 1200,
+          "order": 13,
+          "row": 3,
+          "col": 4
+        },
+        {
+          "question": "Lying about 175 miles north of Calgary, it's known as the \"Gateway to the North\"",
+          "answer": "Edmonton",
+          "value": 1200,
+          "order": 8,
+          "row": 3,
+          "col": 5
+        },
+        {
+          "question": "\"Lion of Judah\", Ethiopian, died in 1975",
+          "answer": "Haile Selassie",
+          "value": 1200,
+          "order": 28,
+          "row": 3,
+          "col": 6
+        },
+        {
+          "question": "This 19th C. glass was named for the Massachusetts village where it was made, not for a club or a dagwood",
+          "answer": "Sandwich glass",
+          "value": 1600,
+          "order": 4,
+          "row": 4,
+          "col": 1
+        },
+        {
+          "question": "This Pat Benatar song says, \"You come on like a flame, then you turn a cold shoulder\"",
+          "answer": "\"Fire And Ice\"",
+          "value": 1600,
+          "order": 17,
+          "row": 4,
+          "col": 2
+        },
+        {
+          "question": "This flower that Shakespeare wrote about several times was also the name of a theatre he once worked at",
+          "answer": "a rose",
+          "value": 3400,
+          "order": 24,
+          "dd": 3400,
+          "row": 4,
+          "col": 3
+        },
+        {
+          "question": "Nickname of Irwin Allen, who produced \"The Towering Inferno\" & \"The Poseidon Adventure\"",
+          "answer": "the Master of Disaster",
+          "value": 1600,
+          "order": 19,
+          "row": 4,
+          "col": 4
+        },
+        {
+          "question": "This capital's harbor is spanned by the Angus L. MacDonald & A. Murray MacKay suspension bridges",
+          "answer": "Halifax",
+          "value": 4000,
+          "order": 9,
+          "dd": 4000,
+          "row": 4,
+          "col": 5
+        },
+        {
+          "question": "2-time Pulitzer winner, Mississippian, died in 1962",
+          "answer": "William Faulkner",
+          "value": 1600,
+          "order": 29,
+          "row": 4,
+          "col": 6
+        },
+        {
+          "question": "On July 4, 1828 President John Quincy Adams broke ground for this canal, known as the C&O",
+          "answer": "the Chesapeake & Ohio Canal",
+          "value": 2000,
+          "order": 5,
+          "row": 5,
+          "col": 1
+        },
+        {
+          "question": "A Belgian DJ created this studio group that had hits with \"Pump Up The Jam\" and \"Move This\"",
+          "answer": "Technotronic",
+          "value": 2000,
+          "order": 18,
+          "row": 5,
+          "col": 2
+        },
+        {
+          "question": "Type of \"wine\" mentioned in the title of a 1957 Ray Bradbury novel",
+          "answer": "dandelion wine",
+          "value": 2000,
+          "order": 25,
+          "row": 5,
+          "col": 3
+        },
+        {
+          "question": "Ronald Reagan often accused pessimistic critics of peddling this rhyming pair",
+          "answer": "gloom and doom",
+          "value": 2000,
+          "order": 20,
+          "row": 5,
+          "col": 4
+        },
+        {
+          "question": "It's the provincial capital closest to Europe",
+          "answer": "St. John's",
+          "value": 2000,
+          "order": 10,
+          "row": 5,
+          "col": 5
+        },
+        {
+          "question": "Monk, \"Ecclesiastical History\", born around 673",
+          "answer": "the Venerable Bede",
+          "value": 2000,
+          "order": 30,
+          "row": 5,
+          "col": 6
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "name": "ALIASES"
+        }
+      ],
+      "clues": [
+        {
+          "question": "Norma McCorvey recently sought a reversal to her landmark 1973 case in which she had this name",
+          "answer": "(Jane) Roe"
+        }
+      ]
+    }
+  ]
+}
