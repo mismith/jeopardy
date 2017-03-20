@@ -29,7 +29,7 @@ class Host extends Component {
         this.firebaseRefs.game.child('rounds').remove();
 
         gameData.rounds.forEach((round, i) => {
-          const roundRef = this.firebaseRefs.game.child(`rounds/${i}`);
+          const roundRef = this.firebaseRefs.game.child(`rounds/${i + 1}`);
 
           round.categories.forEach(category => {
             roundRef.child('categories').push(category);
@@ -69,9 +69,9 @@ class Host extends Component {
     const game = this.game();
     if (game && game.round && game.rounds) {
       if (asReference) {
-        return this.game(true).child('rounds').child(game.round - 1);
+        return this.game(true).child('rounds').child(game.round);
       }
-      return game.rounds[game.round - 1];
+      return game.rounds[game.round];
     }
   }
   clue(asReference = false) {
@@ -130,10 +130,11 @@ class Host extends Component {
 
   // game
   regressGame() {
-    this.firebaseRefs.game.child('round').set(this.game().round - 1);
+    return this.firebaseRefs.game.child('round').set(this.game().round - 1);
   }
   advanceGame() {
-    this.firebaseRefs.game.child('round').set((this.game().round || 0) + 1);
+    const roundNum = (parseInt(this.game().round, 10) || 0) + 1;
+    return this.firebaseRefs.game.child('round').set(roundNum)
   }
   cancelGame(e) {
     if (e.shiftKey || confirm(`Are you sure?`)) {
@@ -210,7 +211,8 @@ class Host extends Component {
       .then(() => {
         if (clue.dd) {
           // daily double!
-          const playerId = this.round().currentPlayerId || this.getPlayerSeats()[0].$id; // @TODO: make this more robust
+          const round = this.round();
+          const playerId = (round && round.currentPlayerId) || this.getPlayerSeats()[0].$id; // @TODO: make this more robust
           const score = this.getPlayerScore(playerId);
 
           this.playSound('daily-double');
@@ -487,8 +489,8 @@ class Host extends Component {
           </div>
         </header>
       }
-      {game && game.round > 0 &&
-        <Board categories={this.round().categories} clues={this.round().clues} onPick={this.showClue.bind(this)}>
+      {game && game.round > 0 && round &&
+        <Board categories={round.categories} clues={round.clues} onPick={this.showClue.bind(this)}>
           {renderOverlay()}
         </Board>
       }
@@ -501,7 +503,7 @@ class Host extends Component {
               <div>
                 <button onClick={e=>this.removePlayer(player.$id)}>Remove Player</button>
                 <div>{this.getPlayerScore(player.$id)}</div>
-              {round.currentPlayerId === player.$id &&
+              {round && round.currentPlayerId === player.$id &&
                 <div>&bull;</div>
               }
               </div>
