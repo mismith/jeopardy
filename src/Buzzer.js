@@ -26,9 +26,9 @@ class Buzzer extends Component {
     const game = this.game();
     if (game && game.round && game.rounds) {
       if (asReference) {
-        return this.game(true).child('rounds').child(game.round - 1);
+        return this.game(true).child('rounds').child(game.round);
       }
-      return game.rounds[game.round - 1];
+      return game.rounds[game.round];
     }
   }
   clue(asReference = false) {
