@@ -295,6 +295,7 @@ class Host extends Component {
         if (clue.buzzesAt && buzz.buzzedAt >= clue.buzzesAt && !penalizedUsers.includes(buzz.playerId)) {
           // legit buzz, begin response
           this.showResponse(buzz)
+            .then(() => this.awaitResponse())
             .then(() => {
               return this.checkResponse()
                 .then(() => this.answerClue())
@@ -314,10 +315,10 @@ class Host extends Component {
     return this.clue(true).child('buzzesAt').set(firebase.database.ServerValue.TIMESTAMP);
   }
   answerClue() {
-    return this.rewardPlayer() // increase score
-      .then(() => this.round(true).child('currentPlayerId').set(this.buzz().playerId)) // save turn
-      .then(() => this.finishResponse()) // end attempt
-      .then(() => this.readAloud(this.pickRandomReply([
+    return Promise.all([
+      this.rewardPlayer(), // increase score
+      this.round(true).child('currentPlayerId').set(this.buzz().playerId), // save turn
+      this.finishResponse([
         `Yes`,
         `You got it`,
         `Correct`,
@@ -328,15 +329,15 @@ class Host extends Component {
         `Well done`,
         `You're right`,
         `You're correct`,
-      ])))
-      .then(() => this.finishClue()); // end turn
+      ]), // end attempt
+      this.finishClue(), // end turn
+    ]);
   }
   misanswerClue() {
-    const answer = this.buzz().answer;
-    return this.penalizePlayer() // reduce score
-      .then(() => this.setState({misanswer: answer})) // store incorrect answer locally
-      .then(() => this.finishResponse()) // end attempt
-      .then(() => this.readAloud(this.pickRandomReply([
+    return Promise.all([
+      this.penalizePlayer(), // reduce score
+      this.setState({misanswer: this.buzz().answer}), // store incorrect answer locally
+      this.finishResponse([
         `No`,
         `Nope`,
         `Incorrect`,
@@ -346,7 +347,8 @@ class Host extends Component {
         `That's incorrect`,
         `That's wrong`,
         `It's not that`,
-      ])))
+      ]), // end attempt
+    ])
       .then(() => this.startIntervalTimer('answer')) // show attempted/wrong answer
       .then(() => this.setState({misanswer: null})) // clear incorrect answer
 
@@ -383,7 +385,7 @@ class Host extends Component {
       .then(() => this.round(true).child('pickedClueId').remove()); // clean up
   }
 
-  // dollars
+  // score
   rewardPlayer() {
     // @TODO: check clue and buzz
     return this.clue(true).child('rewards').child(this.buzz().playerId).set(this.buzz().wager || this.clue().value);
@@ -401,8 +403,7 @@ class Host extends Component {
       .then(() => this.clue(true).update({
         pickedBuzzId: buzz.$id,
         [`buzzes/${buzz.$id}/pickedAt`]: firebase.database.ServerValue.TIMESTAMP,
-      }))
-      .then(() => this.awaitResponse());
+      }));
   }
   awaitResponse() {
     return new Promise(resolve => {
@@ -444,11 +445,12 @@ class Host extends Component {
       return reject();
     });
   }
-  finishResponse() {
+  finishResponse(replies) {
     return Promise.all([
       this.stopIntervalTimer('response'), // just to make sure
       this.buzz(true).child('finishedAt').set(firebase.database.ServerValue.TIMESTAMP),
       this.clue(true).child('pickedBuzzId').remove(),
+      this.readAloud(this.pickRandomReply(replies)),
     ]);
   }
 
