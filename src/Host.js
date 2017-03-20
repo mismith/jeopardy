@@ -421,14 +421,18 @@ class Host extends Component {
       const givenAnswer = this.buzz().answer;
       const set = FuzzySet([
         realAnswer,
+        realAnswer.replace(/^(a|the) /ig, ''), // remove leading prepositions
+        realAnswer.replace(/\([^)]+\)/ig, ''), // remove stuff in brackets
+        realAnswer.replace(/^.*\(or (.*?)\)$/ig, '$1'), // try alternates
       ]);
-      const match = set.get(givenAnswer);
-      if (match && match.length) {
-        const [likelihood] = match[0];
-        console.info(realAnswer, '~=', givenAnswer, '@', likelihood);
-        if (likelihood > this.props.answerThreshold) {
-          return resolve();
-        }
+      const matches = set.get(givenAnswer);
+      if (matches && matches.length) {
+        matches.forEach(([likelihood, match]) => {
+          console.info(match, '~=', givenAnswer, '@', likelihood);
+          if (likelihood > this.props.answerThreshold) {
+            return resolve();
+          }
+        });
       }
       return reject();
     });
