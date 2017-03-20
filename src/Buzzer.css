@@ -1,4 +1,28 @@
-.button {
-  width: 80vw;
-  height: 60vh;
+.Buzzer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
+}
+.Buzzer .Interface {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.Buzzer .Button {
+  -webkit-appearance: none;
+  flex-grow: 1;
+  background-color: #333;
+  color: #FFF;
+  border: inset 20px #999;
+}
+.Buzzer .Button:disabled {
+  opacity: .25;
+}
+.Buzzer .Button:active {
+  border-width: 0;
+}
+
+.Buzzer form {
+  padding: 20px;
 }
