@@ -438,11 +438,6 @@
           "col": 4
         },
         {
-          "answer": "Hartford, Connecticut",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "This 11-letter word for \"sleight of hand\" is from the French for \"light of hand\"",
           "answer": "legerdemain",
           "value": 1200,
@@ -481,11 +476,6 @@
           "order": 10,
           "row": 4,
           "col": 4
-        },
-        {
-          "answer": "Hartford, Connecticut",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "This adjective refers to a 150th anniversary",
@@ -527,11 +517,6 @@
           "order": 11,
           "row": 5,
           "col": 4
-        },
-        {
-          "answer": "Hartford, Connecticut",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "28-letter term for opposition to the withdrawal of state support, as for the Anglican church",

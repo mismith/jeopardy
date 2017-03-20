@@ -341,11 +341,6 @@
           "col": 4
         },
         {
-          "answer": "Mutiny on the Bounty",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "Hampton Court in England has an \"amazing\" one made out of high hedges",
           "answer": "a labyrinth",
           "value": 200,
@@ -530,11 +525,6 @@
           "order": 10,
           "row": 5,
           "col": 4
-        },
-        {
-          "answer": "Mutiny on the Bounty",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "A violet colour, or a plant in the lily family with spiky flowers",

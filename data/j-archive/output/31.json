@@ -219,11 +219,6 @@
           "col": 4
         },
         {
-          "answer": "a giraffe",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "Astronomically, this first Greek letter precedes \"Centauri\"",
           "answer": "Alpha",
           "value": 800,
@@ -263,11 +258,6 @@
           "order": 16,
           "row": 5,
           "col": 4
-        },
-        {
-          "answer": "a giraffe",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "You could say we sent this Greek god to the moon in 1969",
@@ -375,11 +365,6 @@
           "col": 3
         },
         {
-          "answer": "Benjamin Franklin",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "Yoko Ono was not born in Ono, though they're both of this Asian island nation",
           "answer": "Japan",
           "value": 800,
@@ -418,11 +403,6 @@
           "order": 16,
           "row": 3,
           "col": 3
-        },
-        {
-          "answer": "Benjamin Franklin",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "Iaracarai Waterfall flows in the Amazonas state of this country",
@@ -466,11 +446,6 @@
           "col": 3
         },
         {
-          "answer": "Benjamin Franklin",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "Keep a lookout for the village of Eye in Peterborough in this country",
           "answer": "England",
           "value": 1600,
@@ -509,11 +484,6 @@
           "order": 25,
           "row": 5,
           "col": 3
-        },
-        {
-          "answer": "Benjamin Franklin",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "If you want a pup, there's a place called that near Kirov in this country",

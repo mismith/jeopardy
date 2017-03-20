@@ -155,11 +155,6 @@
           "col": 2
         },
         {
-          "answer": "the Torah (or the Pentateuch)",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "The only specific time of day that's a palindrome as a word",
           "answer": "noon",
           "value": 300,
@@ -200,11 +195,6 @@
           "col": 2
         },
         {
-          "answer": "the Torah (or the Pentateuch)",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "It's usually classified into two general types: pulse and continuous wave",
           "answer": "radar",
           "value": 400,
@@ -243,11 +233,6 @@
           "order": 7,
           "row": 5,
           "col": 2
-        },
-        {
-          "answer": "the Torah (or the Pentateuch)",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "It's generally held to be true and is often referred to as a basic",

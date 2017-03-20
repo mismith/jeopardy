@@ -310,11 +310,6 @@
       ],
       "clues": [
         {
-          "answer": "Rebel Without a Cause",
-          "row": 1,
-          "col": 2
-        },
-        {
           "question": "This James Dean film was advertised with the line \"Teenage terror torn from today's headlines\"",
           "answer": "Rebel Without a Cause",
           "value": 400,
@@ -355,11 +350,6 @@
           "col": 6
         },
         {
-          "answer": "Rebel Without a Cause",
-          "row": 1,
-          "col": 2
-        },
-        {
           "question": "\"You just can't imagine the thrill of shooting the curl\", said this 1959 Sandra Dee character",
           "answer": "Gidget",
           "value": 800,
@@ -398,11 +388,6 @@
           "order": 18,
           "row": 2,
           "col": 6
-        },
-        {
-          "answer": "Rebel Without a Cause",
-          "row": 1,
-          "col": 2
         },
         {
           "question": "In this film Marilyn Monroe famously stepped on a subway grating in a billowy white dress",

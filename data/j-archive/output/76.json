@@ -446,11 +446,6 @@
           "col": 5
         },
         {
-          "answer": "Paul",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "The name of this Central American people who predated the Mayans means \"The Rubber People\"",
           "answer": "the Olmecs",
           "value": 1600,
@@ -492,11 +487,6 @@
           "col": 5
         },
         {
-          "answer": "Paul",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "Cicero dubbed this man the \"Father of History\"",
           "answer": "Herodotus",
           "value": 2000,
@@ -535,11 +525,6 @@
           "order": 25,
           "row": 5,
           "col": 5
-        },
-        {
-          "answer": "Paul",
-          "row": 1,
-          "col": 1
         }
       ]
     },

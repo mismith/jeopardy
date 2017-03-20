@@ -488,11 +488,6 @@
           "col": 4
         },
         {
-          "answer": "Puerto Rico",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "A chronological record of the events of successive years",
           "answer": "annals",
           "value": 1600,
@@ -531,11 +526,6 @@
           "order": 20,
           "row": 5,
           "col": 4
-        },
-        {
-          "answer": "Puerto Rico",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "In 1777 the Green Mountain boys had a hand in winning the Battle of this city in Vermont",

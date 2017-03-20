@@ -191,11 +191,6 @@
           "col": 6
         },
         {
-          "answer": "Alfred E. Neuman",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "Take a partly ground husk of wheat & add a serving plate to do this, like waving a sword",
           "answer": "brandish",
           "value": 800,
@@ -234,11 +229,6 @@
           "order": 5,
           "row": 4,
           "col": 6
-        },
-        {
-          "answer": "Alfred E. Neuman",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "Take a group & add a large wild cat to make a cluster of nerve cells",

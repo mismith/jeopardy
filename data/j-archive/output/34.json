@@ -180,11 +180,6 @@
           "col": 5
         },
         {
-          "answer": "an allergy",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "It might feel like your arm is going to explode when that rubber cuff is inflated, but the doc is just measuring this",
           "answer": "blood pressure",
           "value": 800,
@@ -272,11 +267,6 @@
           "order": 26,
           "row": 5,
           "col": 5
-        },
-        {
-          "answer": "an allergy",
-          "row": 1,
-          "col": 1
         }
       ]
     },
@@ -495,11 +485,6 @@
           "order": 19,
           "row": 4,
           "col": 6
-        },
-        {
-          "answer": "Depression",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "This 16-year-old girl from Texas was golden in women's all-around gymnastics at the 2004 Olympics",

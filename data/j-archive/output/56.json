@@ -342,11 +342,6 @@
           "col": 4
         },
         {
-          "answer": "The Divine Comedy",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "A \"Steel-drivin' Man\" who helped dig the Big Bend tunnel in the 1870s is said to be the basis of this folklore legend",
           "answer": "John Henry",
           "value": 400,
@@ -360,11 +355,6 @@
           "value": 800,
           "order": 11,
           "row": 2,
-          "col": 1
-        },
-        {
-          "answer": "The Divine Comedy",
-          "row": 1,
           "col": 1
         },
         {
@@ -456,11 +446,6 @@
           "col": 1
         },
         {
-          "answer": "The Divine Comedy",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "Called \"The Merry Monarch\", this English king had 14 children by mistresses, but failed to sire a legal heir",
           "answer": "Charles II",
           "value": 1600,
@@ -502,11 +487,6 @@
           "col": 1
         },
         {
-          "answer": "The Divine Comedy",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "This Hungarian piano virtuoso was scandalously involved with the married princess Carolyn Sayn-Wittgenstein",
           "answer": "Franz Liszt",
           "value": 2000,
@@ -521,11 +501,6 @@
           "order": 17,
           "row": 5,
           "col": 4
-        },
-        {
-          "answer": "The Divine Comedy",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "In 1901, merging with this steeler, J.P. Morgan said, \"I congratulate you on being the richest man in the world\"",

@@ -358,11 +358,6 @@
           "col": 6
         },
         {
-          "answer": "a horse",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "A No. 1 song says, \"Did you ever know that you're my hero... I can fly higher than an eagle, for you are\" this",
           "answer": "\"The Wind Beneath My Wings\"",
           "value": 800,
@@ -401,11 +396,6 @@
           "order": 8,
           "row": 2,
           "col": 6
-        },
-        {
-          "answer": "a horse",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "Soloists on this 1985 song include Lionel Richie, Stevie Wonder, Willie Nelson, Bob Dylan & Cyndi Lauper",

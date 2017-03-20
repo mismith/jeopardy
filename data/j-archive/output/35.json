@@ -163,11 +163,6 @@
           "col": 3
         },
         {
-          "answer": "Carson City",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "What a \"joy\" when this nut debuted as a Crayola color in 1998",
           "answer": "Almond",
           "value": 600,
@@ -209,11 +204,6 @@
           "col": 3
         },
         {
-          "answer": "Carson City",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "In 2003 Crayola celebrated its 100th birthday by adding some new colors, including \"Mango\" this (hey, that rhymes)",
           "answer": "Tango",
           "value": 800,
@@ -252,16 +242,6 @@
           "order": 18,
           "row": 5,
           "col": 3
-        },
-        {
-          "answer": "Carson City",
-          "row": 1,
-          "col": 1
-        },
-        {
-          "answer": "Carson City",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "It's when a group wants you to conform so you'll be acceptedP _ _ RP R _ _ _ U R _",
@@ -440,11 +420,6 @@
           "col": 6
         },
         {
-          "answer": "Celsius and Fahrenheit",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "I know you can name this hip-hop hero who had the hit song \"I Can\"",
           "answer": "Nas",
           "value": 1600,
@@ -477,16 +452,6 @@
           "col": 5
         },
         {
-          "answer": "Celsius and Fahrenheit",
-          "row": 1,
-          "col": 1
-        },
-        {
-          "answer": "Celsius and Fahrenheit",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "Shad Gregory Moss is the real name of this teen rapper who's been \"Unleashed\"",
           "answer": "Lil' Bow Wow",
           "value": 2000,
@@ -509,16 +474,6 @@
           "order": 13,
           "row": 5,
           "col": 4
-        },
-        {
-          "answer": "Celsius and Fahrenheit",
-          "row": 1,
-          "col": 1
-        },
-        {
-          "answer": "Celsius and Fahrenheit",
-          "row": 1,
-          "col": 1
         }
       ]
     },

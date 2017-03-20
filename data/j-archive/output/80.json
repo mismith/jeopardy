@@ -271,11 +271,6 @@
           "col": 4
         },
         {
-          "answer": "November 3 (the 1st Tuesday after the 1st Monday)",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "On this Scottish instrument, the melody is played on the chanter while the other tubes drone out single notes",
           "answer": "Bagpipes",
           "value": 500,
@@ -445,11 +440,6 @@
           "col": 5
         },
         {
-          "answer": "Russian",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "California's Santa Catalina Island, like the U.K.'s Guernsey, belongs to a group called this",
           "answer": "Channel Islands",
           "value": 1500,
@@ -475,22 +465,12 @@
           "col": 3
         },
         {
-          "answer": "Russian",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "This preacher dresses casually or formally on different dustcovers for his 1997 book \"Just As I Am\"",
           "answer": "Billy Graham",
           "value": 800,
           "order": 22,
           "row": 4,
           "col": 5
-        },
-        {
-          "answer": "Russian",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "The Windward Passage separates Haiti from this large Caribbean island to the northeast",
@@ -515,21 +495,6 @@
           "order": 15,
           "row": 5,
           "col": 3
-        },
-        {
-          "answer": "Russian",
-          "row": 1,
-          "col": 1
-        },
-        {
-          "answer": "Russian",
-          "row": 1,
-          "col": 1
-        },
-        {
-          "answer": "Russian",
-          "row": 1,
-          "col": 1
         }
       ]
     },

@@ -243,11 +243,6 @@
           "col": 1
         },
         {
-          "answer": "Alexander the Great",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "This tale published in 1932 is set in the year 632 AF (After Ford)",
           "answer": "Brave New World",
           "value": 1000,
@@ -271,11 +266,6 @@
           "dd": 1000,
           "row": 5,
           "col": 5
-        },
-        {
-          "answer": "Alexander the Great",
-          "row": 1,
-          "col": 1
         }
       ]
     },

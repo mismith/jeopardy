@@ -109,11 +109,6 @@
           "col": 2
         },
         {
-          "answer": "Tokyo",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "Named by Abel Tasman, Grotte Eylandt is the biggest island in this country's Gulf of Carpentaria",
           "answer": "Australia",
           "value": 400,
@@ -152,11 +147,6 @@
           "order": 14,
           "row": 3,
           "col": 2
-        },
-        {
-          "answer": "Tokyo",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "During WWII Malta controlled the sea lanes between North Africa & this Italian island 50 miles from Malta",
@@ -200,11 +190,6 @@
           "col": 2
         },
         {
-          "answer": "Tokyo",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "For administrative purposes, this island group is divided into 2 bailiwicks: Jersey & Guernsey",
           "answer": "the Channel Islands",
           "value": 800,
@@ -243,11 +228,6 @@
           "order": 16,
           "row": 5,
           "col": 2
-        },
-        {
-          "answer": "Tokyo",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "This Portuguese group in the N. Atlantic was uninhabited when discovered in 1427; now it has over 200,000 people",
@@ -522,11 +502,6 @@
           "order": 16,
           "row": 5,
           "col": 4
-        },
-        {
-          "answer": "Sousa",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "Originally written in Greek, this Christian statement of faith begins \"We believe in one God...\"",

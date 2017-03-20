@@ -165,11 +165,6 @@
           "col": 3
         },
         {
-          "answer": "Polar bear",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "It's the Irish-sounding name for a diced potato dish fried with onions & peppers",
           "answer": "Potatoes O'Brien",
           "value": 300,
@@ -208,11 +203,6 @@
           "order": 19,
           "row": 4,
           "col": 3
-        },
-        {
-          "answer": "Polar bear",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "Fresh broccoli & zucchini are often featured in this pasta dish served in \"spring\" or any time",
@@ -254,11 +244,6 @@
           "dd": 600,
           "row": 5,
           "col": 3
-        },
-        {
-          "answer": "Polar bear",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "We salute you if you know port-salut is a type of this",
@@ -358,11 +343,6 @@
           "col": 1
         },
         {
-          "answer": "Turkey",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "Jason James Richter played Jesse, the 12-year-old who helped \"free\" this title movie character",
           "answer": "Willy",
           "value": 400,
@@ -400,11 +380,6 @@
           "value": 600,
           "order": 8,
           "row": 3,
-          "col": 1
-        },
-        {
-          "answer": "Turkey",
-          "row": 1,
           "col": 1
         },
         {
@@ -446,11 +421,6 @@
           "order": 9,
           "dd": 1000,
           "row": 4,
-          "col": 1
-        },
-        {
-          "answer": "Turkey",
-          "row": 1,
           "col": 1
         },
         {

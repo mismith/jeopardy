@@ -269,11 +269,6 @@
           "col": 4
         },
         {
-          "answer": "Earth",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "1900s coat or 1970s car",
           "answer": "a duster",
           "value": 1000,
@@ -403,11 +398,6 @@
           "col": 6
         },
         {
-          "answer": "the Ho Chi Minh Trail",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "\"Keep Your Eye on the Sparrow\"",
           "answer": "Baretta",
           "value": 1200,
@@ -446,11 +436,6 @@
           "order": 18,
           "row": 3,
           "col": 6
-        },
-        {
-          "answer": "the Ho Chi Minh Trail",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "\"Jessica Behind Bars\"",

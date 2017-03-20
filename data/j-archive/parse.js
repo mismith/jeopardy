@@ -50,9 +50,11 @@ for (let i = 1; i <= max; i++) {
           answer = getText(div.querySelector('.correct_response'));
         }
         eval((clue.querySelector('[onmouseover]') || round.querySelector('[onmouseover]')).getAttribute('onmouseover'));
+        const question = getText(clue.querySelector('.clue_text'));
 
+        if (!question) return;
         return {
-          question: getText(clue.querySelector('.clue_text')),
+          question,
           answer,
           value:    toNum(getText(dd || clue.querySelector('.clue_value'))),
           order:    toNum(getText(clue.querySelector('.clue_order_number'))),
@@ -60,7 +62,7 @@ for (let i = 1; i <= max; i++) {
           row:      toNum(row),
           col:      toNum(col),
         };
-      });
+      }).filter(clue => clue);
 
       return {
         categories,

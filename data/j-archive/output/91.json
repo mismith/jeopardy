@@ -424,11 +424,6 @@
           "col": 2
         },
         {
-          "answer": "Edward",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "Actress seen here, Nov. 30, 1982 in Calgary",
           "answer": "(Elisha) Cuthbert",
           "value": 1200,
@@ -470,11 +465,6 @@
           "col": 2
         },
         {
-          "answer": "Edward",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "A warrior ruler: July 11, 1274 in Ayrshire",
           "answer": "Robert the Bruce",
           "value": 2300,
@@ -514,11 +504,6 @@
           "order": 20,
           "row": 5,
           "col": 2
-        },
-        {
-          "answer": "Edward",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "A pharmaceutical magnate: May 15, 1886 in St. Louis",

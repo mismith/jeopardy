@@ -360,11 +360,6 @@
           "col": 6
         },
         {
-          "answer": "Ankara",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "(R2-D2 \"reads\".)  In \"Star Wars\", the term used for robots like C-3PO & myself is this 5-letter shortening of another word",
           "answer": "droid",
           "value": 800,
@@ -501,11 +496,6 @@
           "order": 10,
           "row": 4,
           "col": 6
-        },
-        {
-          "answer": "Ankara",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "(I'm Anthony Daniels.)  I play C-3PO, a droid specializing in this political etiquette used at official ceremonies & occasions",

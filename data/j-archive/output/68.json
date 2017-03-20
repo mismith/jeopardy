@@ -311,11 +311,6 @@
       ],
       "clues": [
         {
-          "answer": "Berry Gordy",
-          "row": 1,
-          "col": 2
-        },
-        {
           "question": "In 1961 Marvin Gaye married Anna, sister of this Motown mogul",
           "answer": "Berry Gordy",
           "value": 400,
@@ -354,11 +349,6 @@
           "order": 5,
           "row": 1,
           "col": 6
-        },
-        {
-          "answer": "Berry Gordy",
-          "row": 1,
-          "col": 2
         },
         {
           "question": "She is 12 years older than longtime beau Tim Robbins",

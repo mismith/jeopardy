@@ -488,11 +488,6 @@
           "col": 4
         },
         {
-          "answer": "Wuthering Heights",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "He served as a midshipman in the U.S. Navy at age 9; that \"Damn the torpedoes\" quote came 55 years later",
           "answer": "Farragut",
           "value": 1600,
@@ -531,11 +526,6 @@
           "order": 16,
           "row": 5,
           "col": 4
-        },
-        {
-          "answer": "Wuthering Heights",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "The name of this small flute comes from the Latin for \"peep\"",

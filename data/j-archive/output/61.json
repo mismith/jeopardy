@@ -213,11 +213,6 @@
           "col": 3
         },
         {
-          "answer": "John Deere",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "Don't \"DIS\" this company, though shareholders did just that when 43% voted against its CEO at the '04 annual meeting",
           "answer": "Disney",
           "value": 800,
@@ -257,11 +252,6 @@
           "order": 5,
           "row": 5,
           "col": 3
-        },
-        {
-          "answer": "John Deere",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "IBM (stock symbol IBM) is short for this",

@@ -69,11 +69,6 @@
           "col": 3
         },
         {
-          "answer": "the draft",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "There were 39 signers of this 1787 document",
           "answer": "the Constitution ",
           "value": 200,
@@ -112,11 +107,6 @@
           "order": 17,
           "row": 2,
           "col": 3
-        },
-        {
-          "answer": "the draft",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "In 2003 this team won its 39th pennant, a major league baseball record",
@@ -416,11 +406,6 @@
           "order": 12,
           "row": 3,
           "col": 2
-        },
-        {
-          "answer": "Gertrude Stein",
-          "row": 1,
-          "col": 1
         },
         {
           "question": "The hotel that Chester Nimitz' grandfather founded in Texas is in the shape of one of these",

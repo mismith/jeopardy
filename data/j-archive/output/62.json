@@ -71,11 +71,6 @@
           "col": 3
         },
         {
-          "answer": "mungo",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "Nothing, as a tennis score",
           "answer": "love",
           "value": 200,
@@ -317,11 +312,6 @@
           "col": 1
         },
         {
-          "answer": "bulls",
-          "row": 1,
-          "col": 1
-        },
-        {
           "question": "This \"Grand Ole Opry\" comedy star used to wear a straw hat with the $1.98 price tag still attached",
           "answer": "Minnie Pearl",
           "value": 400,
@@ -359,11 +349,6 @@
           "value": 800,
           "order": 11,
           "row": 2,
-          "col": 1
-        },
-        {
-          "answer": "bulls",
-          "row": 1,
           "col": 1
         },
         {
