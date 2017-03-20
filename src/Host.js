@@ -20,7 +20,8 @@ class Host extends Component {
       time: new Audio('/audio/time.wav'),
       'daily-double': new Audio('/audio/daily-double.wav'),
       boardfill: new Audio('/audio/boardfill.wav'),
-    }
+      'chime': new Audio('/audio/chime.wav'),
+    },
   }
 
   reloadGameData() {
@@ -93,6 +94,15 @@ class Host extends Component {
       return clue.buzzes[clue.pickedBuzzId];
     }
   }
+  category(asReference = false) {
+    const round = this.round();
+    if (round && round.categories && round.pickedCategoryId) {
+      if (asReference) {
+        return this.round(true).child('categories').child(round.pickedCategoryId);
+      }
+      return round.categories[round.pickedCategoryId];
+    }
+  }
 
   // player
   numPlayers() {
@@ -141,14 +151,35 @@ class Host extends Component {
           case 1:
           case 2:
             return this.playSound('boardfill')
+              .then(() => this.readAloud(`Categories this round are:`))
               .then(() => {
-                // read categories aloud
+                let promise = Promise.resolve();
+
+                // read each category aloud
                 const round = this.round();
-                if (round && round.categories) {
-                  const categoryNames = Object.values(round.categories).map(category => category.name);
-                  return this.readAloud(`Categories this round are: ${categoryNames.join('; ')}`);
-                }
+                Object.keys(round.categories).forEach((categoryId, i) => {
+                  const category = round.categories[categoryId];
+                  return promise = promise
+                    .then(() => this.round(true).child('pickedCategoryId').set(categoryId))
+                    .then(() => this.readAloud(`${i === 5 ? 'and;!' : '!;'} ${category.name}; !`));
+                });
+                return promise
+                  .then(() => this.round(true).child('pickedCategoryId').remove());
               });
+          case 3:
+            const round = this.round();
+            const categoryId = Object.keys(round.categories)[0];
+            return this.readAloud(`Welcome to Final Jeopardy!!`)
+              .then(() => this.readAloud(`Today's category is:`))
+              .then(() => Promise.all([
+                this.round(true).child('pickedCategoryId').set(categoryId),
+                this.playSound('chime'),
+              ]))
+              .then(() => {
+                const category = this.category();
+                return this.readAloud(category.name);
+              })
+              .then(() => this.readAloud(`!! Please make your wagers.`));
           default:
             return;
         }
@@ -463,6 +494,7 @@ class Host extends Component {
     const round = this.round();
     const clue = this.clue();
     const buzz = this.buzz();
+    const category = this.category();
 
     const renderOverlay = () => {
       if (clue) {
@@ -487,6 +519,18 @@ class Host extends Component {
             </aside>
           );
         }
+      } else if (category) {
+        return (
+          <aside className="Clue">
+            <div>{category.name}</div>
+          </aside>
+        );
+      } else if (game.round === 3) {
+        return (
+          <aside className="Clue">
+            <div>Final Jeopardy</div>
+          </aside>
+        );
       }
     };
 
