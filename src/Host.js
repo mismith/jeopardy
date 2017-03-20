@@ -174,6 +174,11 @@ class Host extends Component {
       utterance.onend = () => {
         resolve();
       };
+      // window.speechSynthesis.getVoices().forEach((voice, i) => {
+      //   console.log(voice,name, i, voice);
+      // })
+      // const voice = window.speechSynthesis.getVoices().find(voice => voice.name === 'Daniel');
+      // utterance.voice = voice;
       window.speechSynthesis.speak(utterance);
     });
   }
@@ -482,22 +487,13 @@ class Host extends Component {
           );
         } else {
           return (
-            <aside className={classNames('Answer', {isCorrect: this.clue().rewards, isIncorrect: this.state.misanswer})} onClick={this.finishClue.bind(this)}>
+            <aside className={classNames('Answer', {isCorrect: clue.rewards, isIncorrect: this.state.misanswer})} onClick={this.finishClue.bind(this)}>
               <div>{this.state.misanswer || clue.answer}</div>
             </aside>
           );
         }
       }
     };
-
-    // console.log(
-    //   this.state.clueTime,
-    //   this.state.clueTimer,
-    //   this.state.responseTime,
-    //   this.state.responseTimer,
-    //   this.state.answerTime,
-    //   this.state.answerTimer,
-    // );
 
     return (
       <div className="Host">
@@ -547,7 +543,7 @@ class Host extends Component {
             {player &&
               <div>
                 <button onClick={e=>this.removePlayer(player.$id)}>Remove Player</button>
-                <div>{this.getPlayerScore(player.$id)}</div>
+                <div>{this.getPlayerScore(player.$id)}{buzz && buzz.dailyDouble && buzz.wager && ` ± ${buzz.wager}`}</div>
               {round && round.currentPlayerId === player.$id &&
                 <div>&bull;</div>
               }
