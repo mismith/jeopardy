@@ -17,7 +17,8 @@ class Host extends Component {
     players: undefined,
 
     audio: {
-      timesUp: new Audio('/audio/times-up.mp3'),
+      time: new Audio('/audio/time.wav'),
+      'daily-double': new Audio('/audio/daily-double.wav'),
     }
   }
 
@@ -38,7 +39,7 @@ class Host extends Component {
               question: clue.question,
               answer:   clue.answer,
               value:    (clue.row || 0) * (i + 1) * 200, // overwrite DD wagers
-              isDD:     clue.isDD || null,
+              dd:       clue.dd || null,
 
               row: clue.row || null,
               col: clue.col || null,
@@ -113,7 +114,7 @@ class Host extends Component {
     };
     return players;
   }
-  getPlayerDollars(playerId) {
+  getPlayerScore(playerId) {
     let dollars = 0;
     const round = this.round();
     if (round && round.clues) {
@@ -145,9 +146,14 @@ class Host extends Component {
   readAloud(text) {
     return new Promise(resolve => {
       // @TODO: test for support?
-      var msg = new SpeechSynthesisUtterance(text);
-      msg.onend = resolve;
-      window.speechSynthesis.speak(msg);
+      // @HACK: storing in array as per bug here: http://stackoverflow.com/a/35935851/888928
+      window.utterances = [];
+      const utterance = new SpeechSynthesisUtterance(text);
+      window.utterances.push(utterance);
+      utterance.onend = () => {
+        resolve();
+      };
+      window.speechSynthesis.speak(utterance);
     });
   }
   pickRandomReply(replies) {
@@ -186,8 +192,8 @@ class Host extends Component {
       }, resolve);
     });
   }
-  playTimesUp() {
-    this.state.audio.timesUp.play();
+  playSound(name) {
+    this.state.audio[name].play();
   }
 
   // clue
@@ -199,12 +205,49 @@ class Host extends Component {
       pickedClueId: clue.$id,
       [`clues/${clue.$id}/pickedAt`]: firebase.database.ServerValue.TIMESTAMP,
     })
-      .then(() => this.startAllowingBuzzes())
-      .then(() => this.readAloud(clue.question))
-      .then(() => this.startAcceptingBuzzes())
-      .then(() => this.startIntervalTimer('clue'))
-      .then(() => this.playTimesUp())
-      .then(() => this.finishClue());
+      .then(() => {
+        if (clue.dd) {
+          // daily double!
+          const playerId = this.round().currentPlayerId || this.getPlayerSeats()[0].$id; // @TODO: make this more robust
+          const score = this.getPlayerScore(playerId);
+
+          this.playSound('daily-double');
+
+          return this.clue(true).child('buzzes').push({
+            dailyDouble: true,
+            max: Math.max(score, this.game().round * 1000),
+            playerId,
+            pickedAt: firebase.database.ServerValue.TIMESTAMP,
+          })
+            .then(ref => {
+              const buzzId = ref.key;
+              return this.clue(true).child('pickedBuzzId').set(buzzId)
+                .then(() => {
+                  // await wager
+                  return new Promise(resolve => {
+                    ref.child('wager').on('value', snap => {
+                      if (snap.val()) return resolve();
+                    });
+                  });
+                });
+            })
+            .then(() => this.readAloud(clue.question))
+            .then(() => this.awaitResponse())
+            .then(() => {
+              return this.checkResponse()
+                .then(() => this.answerClue())
+                .catch(() => this.misanswerClue());
+            });
+        } else {
+          // regular clue
+          return this.startAllowingBuzzes()
+            .then(() => this.readAloud(clue.question))
+            .then(() => this.startAcceptingBuzzes())
+            .then(() => this.startIntervalTimer('clue'))
+            .then(() => this.playSound('time'))
+            .then(() => this.finishClue());
+        }
+      });
   }
   startAllowingBuzzes() {
     this.clue(true).child('buzzes').on('child_added', snap => {
@@ -233,6 +276,7 @@ class Host extends Component {
         // someone is already responding, so ignore this buzz
       }
     });
+    return Promise.resolve();
   }
   startAcceptingBuzzes() {
     return this.clue(true).child('buzzesAt').set(firebase.database.ServerValue.TIMESTAMP);
@@ -240,48 +284,50 @@ class Host extends Component {
   answerClue() {
     return this.rewardPlayer() // increase score
       .then(() => this.round(true).child('currentPlayerId').set(this.buzz().playerId)) // save turn
-      .then(() => {
-        this.readAloud(this.pickRandomReply([
-          `Yes`,
-          `Yup`,
-          `Correct`,
-          `Right`,
-          `That's right`,
-          `That's it`,
-          `That's correct`,
-          `Well done`,
-        ]));
-      })
+      .then(() => this.readAloud(this.pickRandomReply([
+        `Yes`,
+        `You got it`,
+        `Correct`,
+        `Right`,
+        `That's right`,
+        `That's it`,
+        `That's correct`,
+        `Well done`,
+        `You're right`,
+        `You're correct`,
+      ])))
       .then(() => this.finishResponse()) // end attempt
       .then(() => this.finishClue()); // end turn
   }
   misanswerClue() {
     return this.penalizePlayer() // reduce score
       .then(() => this.setState({misanswer: this.buzz().answer})) // store incorrect answer locally
-      .then(() => {
-        this.readAloud(this.pickRandomReply([
-          `No`,
-          `Nope`,
-          `Incorrect`,
-          `Wrong`,
-          `That's not right`,
-          `That's not it`,
-          `That's incorrect`,
-          `That's wrong`,
-        ]));
-      })
+      .then(() => this.readAloud(this.pickRandomReply([
+        `No`,
+        `Nope`,
+        `Incorrect`,
+        `Wrong`,
+        `That's not right`,
+        `That's not it`,
+        `That's incorrect`,
+        `That's wrong`,
+      ])))
       .then(() => this.finishResponse()) // end attempt
+
       .then(() => this.startIntervalTimer('answer')) // show attempted/wrong answer
       .then(() => this.setState({misanswer: null})) // clear incorrect answer
 
-      // restart counter for remaining players, if any
+      // restart counter for remaining (non-DD) players, if any
       .then(() => {
-        const penalties = this.clue().penalties;
-        // ensure there are still players who can answer left
-        if (penalties && Object.keys(penalties).length < this.numPlayers()) {
-          return this.startIntervalTimer('clue');
+        const clue = this.clue();
+        if (clue && !clue.dd) {
+          // ensure there are still players who can answer left
+          if (clue.penalties && Object.keys(clue.penalties).length < this.numPlayers()) {
+            return this.startIntervalTimer('clue');
+          }
         }
       })
+
       .then(() => this.finishClue()); // end turn
   }
   finishClue() {
@@ -296,38 +342,38 @@ class Host extends Component {
   // dollars
   rewardPlayer() {
     // @TODO: check clue and buzz
-    return this.clue(true).child('rewards').child(this.buzz().playerId).set(this.clue().value);
+    return this.clue(true).child('rewards').child(this.buzz().playerId).set(this.buzz().wager || this.clue().value);
   }
   penalizePlayer() {
     // @TODO: check clue and buzz
-    return this.clue(true).child('penalties').child(this.buzz().playerId).set(this.clue().value);
+    return this.clue(true).child('penalties').child(this.buzz().playerId).set(this.buzz().wager || this.clue().value);
   }
 
   // response
   showResponse(buzz) {
     if (!buzz || !buzz.$id) throw new Error('Invalid buzz');
 
+    return this.stopIntervalTimer('clue')
+      .then(() => this.clue(true).update({
+        pickedBuzzId: buzz.$id,
+        [`buzzes/${buzz.$id}/pickedAt`]: firebase.database.ServerValue.TIMESTAMP,
+      }))
+      .then(() => this.awaitResponse());
+  }
+  awaitResponse() {
     return new Promise(resolve => {
-      this.stopIntervalTimer('clue')
-        .then(() => this.clue(true).update({
-          pickedBuzzId: buzz.$id,
-          [`buzzes/${buzz.$id}/pickedAt`]: firebase.database.ServerValue.TIMESTAMP,
-        }))
+      // check for 'submittedAt' and skip timer if necessary
+      this.buzz(true).child('submittedAt').on('value', snap => {
+        if (snap.val()) {
+          // manually submitted, no need to keep waiting
+          return this.stopIntervalTimer('response')
+            .then(resolve);
+        }
+      });
 
-        // check for 'submittedAt' and skip timer if necessary
-        .then(() => {
-          this.buzz(true).child('submittedAt').on('value', snap => {
-            if (snap.val()) {
-              // manually submitted, no need to keep waiting
-              this.stopIntervalTimer('response')
-                .then(resolve);
-            }
-          });
-        })
-
-        // run timer
-        .then(() => this.startIntervalTimer('response'))
-        .then(() => this.playTimesUp())
+      // run timer until expiry
+      return this.startIntervalTimer('response')
+        .then(() => this.playSound('time'))
         .then(resolve);
     });
   }
@@ -342,8 +388,8 @@ class Host extends Component {
       const match = set.get(givenAnswer);
       if (match && match.length) {
         const [likelihood] = match[0];
+        console.info(realAnswer, '~=', givenAnswer, '@', likelihood);
         if (likelihood > this.props.answerThreshold) {
-          console.log(realAnswer, '~=', givenAnswer, '@', likelihood);
           return resolve();
         }
       }
@@ -369,9 +415,12 @@ class Host extends Component {
         if (!clue.finishedAt && !this.state.misanswer) {
           return (
             <aside className={classNames('Clue', {canBuzz: clue.buzzesAt})}>
-              <div>
-                {clue.question}
-              </div>
+            {(!clue.dd || (buzz && buzz.wager)) &&
+              <div>{clue.question}</div>
+            }
+            {(clue.dd && (!buzz || (buzz && !buzz.wager))) &&
+              <div>DAILY DOUBLE</div>
+            }
             {!buzz &&
               <Timer timeout={this.props.clueTimeout} time={this.state.clueTime} />
             }
@@ -380,9 +429,7 @@ class Host extends Component {
         } else {
           return (
             <aside className={classNames('Answer', {isCorrect: this.clue().rewards, isIncorrect: this.state.misanswer})} onClick={this.finishClue.bind(this)}>
-              <div>
-                {this.state.misanswer || clue.answer}
-              </div>
+              <div>{this.state.misanswer || clue.answer}</div>
             </aside>
           );
         }
@@ -440,13 +487,13 @@ class Host extends Component {
       }
         <div className="Players">
         {this.getPlayerSeats().map((player, i) => {
-          const isResponding = (player && buzz && buzz.playerId === player.$id);
+          const isResponding = (player && buzz && buzz.playerId === player.$id && (!buzz.dailyDouble || (buzz.dailyDouble && buzz.wager)));
           return (
             <Player key={i} player={player} className={classNames({isResponding})}>
             {player &&
               <div>
                 <button onClick={e=>this.removePlayer(player.$id)}>Remove Player</button>
-                <div>{this.getPlayerDollars(player.$id)}</div>
+                <div>{this.getPlayerScore(player.$id)}</div>
               {round.currentPlayerId === player.$id &&
                 <div>&bull;</div>
               }

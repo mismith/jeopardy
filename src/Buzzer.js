@@ -87,17 +87,36 @@ class Buzzer extends Component {
 
   buzzIn() {
     // log all buzzes (i.e. for stats)
+    //const sent = +new Date();
     this.clue(true).child('buzzes').push({
       playerId: this.props.params.playerId,
       buzzedAt: firebase.database.ServerValue.TIMESTAMP,
-    });
-  handleInput(e) {
+    })
+      // .then(ref => {
+      //   const received = +new Date();
+      //   ref.once('value', snap => {
+      //     console.log(sent, snap.val().buzzedAt, received);
+      //     console.log(0, snap.val().buzzedAt - sent, received - snap.val().buzzedAt, received - sent);
+      //   });
+      // });
+  }
+  handleAnswerInput(e) {
     this.buzz(true).child('answer').set(e.currentTarget.value || '');
   }
-  handleSubmit(e) {
+  handleAnswerSubmit(e) {
     e.preventDefault();
-    
+
     this.buzz(true).child('submittedAt').set(firebase.database.ServerValue.TIMESTAMP);
+  }
+  handleWagerInput(e) {
+    this.setState({
+      wager: e.currentTarget.value || null,
+    });
+  }
+  handleWagerSubmit(e) {
+    e.preventDefault();
+
+    this.buzz(true).child('wager').set(Math.round(this.state.wager));
   }
 
   render() {
@@ -116,10 +135,17 @@ class Buzzer extends Component {
       {game &&
         <div>
           <button className="button" onClick={this.buzzIn.bind(this)} disabled={!clue || clue.pickedBuzzId || clue.finishedAt || (clue.penalties && clue.penalties[this.props.params.playerId])}>Buzz In</button>
-        {buzz && buzz.playerId === this.props.params.playerId && !buzz.submittedAt &&
-          <form onSubmit={this.handleSubmit.bind(this)}>
+        {buzz && buzz.playerId === this.props.params.playerId && (!buzz.dailyDouble || (buzz.dailyDouble && buzz.wager)) && !buzz.submittedAt &&
+          <form onSubmit={this.handleAnswerSubmit.bind(this)}>
             What is&hellip;&nbsp;
-            <input onInput={this.handleInput.bind(this)} autoFocus></input>
+            <input onInput={this.handleAnswerInput.bind(this)} required autoFocus></input>
+            <button type="submit">Submit</button>
+          </form>
+        }
+        {buzz && buzz.playerId === this.props.params.playerId && buzz.dailyDouble && !buzz.wager &&
+          <form onSubmit={this.handleWagerSubmit.bind(this)}>
+            Wager &nbsp;
+            <input type="number" min={5} max={buzz.max} onInput={this.handleWagerInput.bind(this)} required autoFocus></input>
             <button type="submit">Submit</button>
           </form>
         }
