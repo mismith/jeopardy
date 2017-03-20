@@ -286,6 +286,7 @@ class Host extends Component {
   answerClue() {
     return this.rewardPlayer() // increase score
       .then(() => this.round(true).child('currentPlayerId').set(this.buzz().playerId)) // save turn
+      .then(() => this.finishResponse()) // end attempt
       .then(() => this.readAloud(this.pickRandomReply([
         `Yes`,
         `You got it`,
@@ -298,24 +299,24 @@ class Host extends Component {
         `You're right`,
         `You're correct`,
       ])))
-      .then(() => this.finishResponse()) // end attempt
       .then(() => this.finishClue()); // end turn
   }
   misanswerClue() {
+    const answer = this.buzz().answer;
     return this.penalizePlayer() // reduce score
-      .then(() => this.setState({misanswer: this.buzz().answer})) // store incorrect answer locally
+      .then(() => this.setState({misanswer: answer})) // store incorrect answer locally
+      .then(() => this.finishResponse()) // end attempt
       .then(() => this.readAloud(this.pickRandomReply([
         `No`,
         `Nope`,
         `Incorrect`,
-        `Wrong`,
+        `${answer} is wrong`,
         `That's not right`,
         `That's not it`,
         `That's incorrect`,
         `That's wrong`,
+        `It's not ${answer}`,
       ])))
-      .then(() => this.finishResponse()) // end attempt
-
       .then(() => this.startIntervalTimer('answer')) // show attempted/wrong answer
       .then(() => this.setState({misanswer: null})) // clear incorrect answer
 
@@ -329,14 +330,18 @@ class Host extends Component {
           }
         }
       })
-
       .then(() => this.finishClue()); // end turn
   }
   finishClue() {
+    const answer = this.clue().answer;
     return Promise.all([
       this.stopIntervalTimer('clue'), // just to make sure
       this.clue(true).child('finishedAt').set(firebase.database.ServerValue.TIMESTAMP),
       this.startIntervalTimer('answer'), // temporarily show the correct answer
+      this.readAloud(this.pickRandomReply([
+        `The answer is ${answer}`,
+        `It's ${answer}`,
+      ])),
     ])
       .then(() => this.round(true).child('pickedClueId').remove()); // clean up
   }
