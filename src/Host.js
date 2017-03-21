@@ -17,7 +17,6 @@ class Host extends Component {
     players: undefined,
 
     audio: {
-      boardfill: new Audio('/audio/boardfill.wav'),
       'daily-double': new Audio('/audio/daily-double.wav'),
       time: new Audio('/audio/time.wav'),
       round: new Audio('/audio/round.wav'),
@@ -157,11 +156,7 @@ class Host extends Component {
         switch(roundNum) {
           case 1:
           case 2:
-            return Promise.all([
-              this.playSound('boardfill'),
-              this.startIntervalTimer('boardfill', undefined, 500),
-            ])
-              .then(() => this.readAloud(`Categories this round are:`))
+            return this.readAloud(`Categories this round are:`)
               .then(() => {
                 let promise = Promise.resolve();
 
@@ -591,7 +586,7 @@ class Host extends Component {
         </header>
       }
       {game && game.round > 0 && round &&
-        <Board categories={round.categories} clues={round.clues} onPick={this.showClue.bind(this)} className={classNames({hasStarted: round.startedAt})}>
+        <Board categories={round.categories} clues={round.clues} onPick={this.showClue.bind(this)}>
           {renderOverlay()}
         </Board>
       }

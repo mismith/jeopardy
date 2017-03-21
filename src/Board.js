@@ -8,7 +8,6 @@ class Board extends Component {
     const {
       categories,
       clues,
-      boardfill,
       onPick,
       children,
       className,
@@ -47,7 +46,7 @@ class Board extends Component {
           <div
             key={col}
             onClick={e => clue.pickedAt ? null : onPick(clue)}
-            className={classNames('Cell', 'isClue', {hasValue: clue && !clue.pickedAt, isFilling: boardfill && boardfill < Math.random() * 4})}
+            className={classNames('Cell', 'isClue', {hasValue: clue && !clue.pickedAt})}
           >
             ${clue.value}
           </div>
