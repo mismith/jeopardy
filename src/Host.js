@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 
 import {browserHistory} from 'react-router';
-import firebase from './utils/firebase';
 import FuzzySet from 'fuzzyset.js';
+import firebase from './utils/firebase';
+import STRINGS from './utils/strings';
 
 import Board from './Board';
 import Player from './helpers/Player';
@@ -365,39 +366,22 @@ class Host extends Component {
     return this.clue(true).child('buzzesAt').set(firebase.database.ServerValue.TIMESTAMP);
   }
   answerClue() {
+    const answer = this.clue().answer;
+
     return Promise.all([
       this.rewardPlayer(), // increase score
       this.round(true).child('currentPlayerId').set(this.buzz().playerId), // save turn
-      this.finishResponse([
-        `Yes`,
-        `You got it`,
-        `Correct`,
-        `Right`,
-        `That's right`,
-        `That's it`,
-        `That's correct`,
-        `Well done`,
-        `You're right`,
-        `You're correct`,
-      ]), // end attempt
+      this.finishResponse(STRINGS.correct(answer)), // end attempt
       this.finishClue(), // end turn
     ]);
   }
   misanswerClue() {
+    const answer = this.buzz().answer || '???';
+
     return Promise.all([
       this.penalizePlayer(), // reduce score
-      this.setState({misanswer: this.buzz().answer || '???'}), // store incorrect answer locally
-      this.finishResponse([
-        `No`,
-        `Nope`,
-        `Incorrect`,
-        `Wrong`,
-        `That's not right`,
-        `That's not it`,
-        `That's incorrect`,
-        `That's wrong`,
-        `It's not that`,
-      ]), // end attempt
+      this.setState({misanswer: answer}), // store incorrect answer locally
+      this.finishResponse(STRINGS.incorrect(answer)), // end attempt
     ])
       .then(() => this.startIntervalTimer('answer')) // show attempted/wrong answer
       .then(() => this.setState({misanswer: null})) // clear incorrect answer
@@ -422,10 +406,7 @@ class Host extends Component {
       this.stopIntervalTimer('clue'), // just to make sure
       this.clue(true).child('finishedAt').set(firebase.database.ServerValue.TIMESTAMP),
       !clue.rewards && // no correct answer / timeout, so read the answer aloud
-        this.readAloud(this.pickRandomReply([ 
-          `The answer is ${answer}`,
-          `It's ${answer}`,
-        ])),
+        this.readAloud(this.pickRandomReply(STRINGS.expired(answer))),
       this.startIntervalTimer('answer'), // temporarily show the correct answer
     ])
       .then(() => this.round(true).child('pickedClueId').remove()); // clean up
@@ -625,35 +606,3 @@ Host.defaultProps = {
 };
 
 export default Host;
-
-/*
-good
-X is right
-X is right, yes
-no
-and that would be X
-that's right
-X, that's right
-that correct response this time, is X
-Answer, daily double
-okay, # it is
-that's it
-right
-it's X
-yup
-you got him
-what is X
-that's followed by
-and finally
-he's the one
-and that is X
-correct
-looking for X
-that's right
-X, good
-that's the X
-X, right
-X, right you are
-that'd be X
-what is X
-// */
