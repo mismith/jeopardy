@@ -159,6 +159,7 @@ class Host extends Component {
           case 2:
             return Promise.all([
               this.playSound('boardfill'),
+              this.startIntervalTimer('boardfill', undefined, 500),
             ])
               .then(() => this.readAloud(`Categories this round are:`))
               .then(() => {
@@ -230,13 +231,13 @@ class Host extends Component {
   pickRandomReply(replies) {
     return replies[Math.floor(Math.random()*replies.length)];
   }
-  startIntervalTimer(name, timeout, interval = 1000) {
+  startIntervalTimer(name, timeout = undefined, interval = 1000) {
     return new Promise(resolve => {
       return this.stopIntervalTimer(name) // make sure it isn't already running
         .then(() => {
           this.setState({
             [`${name}Timer`]: setInterval(() => {
-              const elapsed = (this.state[`${name}Time`] || 0) + 1;
+              const elapsed = (this.state[`${name}Time`] || 0) + (interval / 1000);
 
               if (elapsed < (timeout || this.props[`${name}Timeout`])) {
                 // increment the timer

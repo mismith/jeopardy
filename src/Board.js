@@ -8,6 +8,7 @@ class Board extends Component {
     const {
       categories,
       clues,
+      boardfill,
       onPick,
       children,
       className,
@@ -39,12 +40,14 @@ class Board extends Component {
         <article key={row}>
         {[1,2,3,4,5,6].map(col => {
           const clue = getClue(row, col);
-          if (!clue) return <div key={col} className="Cell" />;
+          if (!clue) {
+            return <div key={col} className="Cell" />;
+          }
           return (
           <div
             key={col}
             onClick={e => clue.pickedAt ? null : onPick(clue)}
-            className={classNames('Cell', 'isClue', {hasValue: clue && !clue.pickedAt})}
+            className={classNames('Cell', 'isClue', {hasValue: clue && !clue.pickedAt, isFilling: boardfill && boardfill < Math.random() * 4})}
           >
             ${clue.value}
           </div>
