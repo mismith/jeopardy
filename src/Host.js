@@ -12,6 +12,13 @@ import Timer from './helpers/Timer';
 
 import './Host.css';
 
+// @TODO:
+// play sound when new player enters
+// clues expiring before i asnwer or could answer or anyone else could answer. or answer
+// daily double buzzer set answer not wager
+// show video and audio and photo clues properly
+// tooltips on categories need an indicator
+
 class Host extends Component {
   state = {
     game:    undefined,
@@ -360,7 +367,8 @@ class Host extends Component {
         const penalizedUsers = Object.keys(clue.penalties || {});
         if (clue.buzzesAt && buzz.buzzedAt >= clue.buzzesAt && !penalizedUsers.includes(buzz.playerId)) {
           // legit buzz, begin response
-          this.showResponse(buzz)
+          this.stopIntervalTimer('clue')
+            .then(() => this.showResponse(buzz))
             .then(() => this.awaitResponse())
             .then(() => this.checkResponse())
               .then(() => this.answerClue())
@@ -439,11 +447,10 @@ class Host extends Component {
   showResponse(buzz) {
     if (!buzz || !buzz.$id) throw new Error('Invalid buzz');
 
-    return this.stopIntervalTimer('clue')
-      .then(() => this.clue(true).update({
-        pickedBuzzId: buzz.$id,
-        [`buzzes/${buzz.$id}/pickedAt`]: firebase.database.ServerValue.TIMESTAMP,
-      }));
+    return this.clue(true).update({
+      pickedBuzzId: buzz.$id,
+      [`buzzes/${buzz.$id}/pickedAt`]: firebase.database.ServerValue.TIMESTAMP,
+    });
   }
   awaitResponse() {
     return new Promise(resolve => {
