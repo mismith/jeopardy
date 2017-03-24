@@ -511,7 +511,7 @@ class Host extends Component {
         if (!clue.finishedAt && !this.state.misanswer) {
           return (
             <aside className={classNames('Clue', {canBuzz: clue.buzzesAt})}>
-            {!clue.dailyDouble || clue.shownAt &&
+            {(!clue.dailyDouble || clue.shownAt) &&
               <div>{clue.question}</div>
             }
             {clue.dailyDouble && !clue.shownAt &&
