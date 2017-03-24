@@ -134,15 +134,15 @@ class Buzzer extends Component {
       }
       {game &&
         <div className="Interface">
-          <button className="Button" onClick={this.buzzIn.bind(this)} disabled={!clue || clue.pickedBuzzId || clue.finishedAt || (clue.penalties && clue.penalties[this.props.params.playerId])}>Buzz In</button>
-        {buzz && buzz.playerId === this.props.params.playerId && (!buzz.dailyDouble || (buzz.dailyDouble && buzz.wager)) && !buzz.submittedAt &&
+          <button className="Button" onClick={this.buzzIn.bind(this)} disabled={!clue || clue.pickedBuzzId || clue.dailyDouble || clue.finishedAt || (clue.penalties && clue.penalties[this.props.params.playerId])}>Buzz In</button>
+        {buzz && buzz.playerId === this.props.params.playerId && clue && (!clue.dailyDouble || (clue.dailyDouble && buzz.wager)) && !buzz.submittedAt &&
           <form onSubmit={this.handleAnswerSubmit.bind(this)}>
             What is&hellip;&nbsp;
             <input onInput={this.handleAnswerInput.bind(this)} required autoFocus></input>
             <button type="submit">Submit</button>
           </form>
         }
-        {buzz && buzz.playerId === this.props.params.playerId && buzz.dailyDouble && !buzz.wager &&
+        {buzz && buzz.playerId === this.props.params.playerId && clue && clue.dailyDouble && !buzz.wager &&
           <form onSubmit={this.handleWagerSubmit.bind(this)}>
             Wager &nbsp;
             <input type="number" min={5} max={buzz.max} onInput={this.handleWagerInput.bind(this)} required autoFocus></input>

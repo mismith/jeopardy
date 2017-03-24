@@ -42,7 +42,7 @@ class Host extends Component {
               question: clue.question,
               answer:   clue.answer,
               value:    (clue.row || 0) * (i + 1) * 200, // overwrite DD wagers
-              dd:       clue.dd || null,
+              dailyDouble: clue.dd || null,
 
               row: clue.row || null,
               col: clue.col || null,
@@ -55,7 +55,7 @@ class Host extends Component {
     firebase.sync(this, 'game', `games/${this.props.params.gameId}`);
     firebase.sync(this, 'players', `games:players/${this.props.params.gameId}`);
 
-    //this.reloadGameData();
+    this.reloadGameData();
   }
   componentWillUnmount() {
     firebase.unsync(this, 'game', 'players');
@@ -149,15 +149,15 @@ class Host extends Component {
 
     return this.game(true).child('round').set(roundNum)
       .then(() => {
-         // don't return here since this should be async/instant
+         // these should be async/instant
          this.pickCategory(null); // make sure category is reset
          this.startRound(null);
       })
+      .then(() => this.readAloud(this.pickRandomReply(STRINGS.round(roundNum))))
       .then(() => {
         switch(roundNum) {
-          case 1:
-          case 2:
-            return this.readAloud(`Categories this round are:`)
+          default:
+            return this.readAloud(this.pickRandomReply(STRINGS.categories()))
               .then(() => {
                 let promise = Promise.resolve();
 
@@ -167,21 +167,16 @@ class Host extends Component {
                   const category = round.categories[categoryId];
                   return promise = promise
                     .then(() => this.pickCategory(categoryId))
-                    .then(() => this.readAloud(`${i === 5 ? 'and;!' : '!;'} ${category.name}; !`));
+                    .then(() => this.readAloud(this.pickRandomReply(STRINGS.category(category.name, i + 1))));
                 });
 
-                return promise
-                  .then(() => Promise.all([
-                    this.pickCategory(null),
-                    this.startRound(),
-                  ]));
+                return promise;
               });
-          case 3:
+          case 3: // final jeopardy
             const round = this.round();
             const categoryId = Object.keys(round.categories)[0];
 
-            return this.readAloud(`Welcome to Final Jeopardy!!`)
-              .then(() => this.readAloud(`Today's category is:`))
+            return this.readAloud(this.pickRandomReply(STRINGS.category('', 0)))
               .then(() => Promise.all([
                 this.pickCategory(categoryId),
                 this.playSound('chime'),
@@ -190,11 +185,15 @@ class Host extends Component {
                 const category = this.category();
                 return this.readAloud(category.name);
               })
-              .then(() => this.readAloud(`!! Please make your wagers.`));
-          default:
-            return;
+              .then(() => this.readAloud(this.pickRandomReply(STRINGS.finalJeopardyWager())));
+
+              // @TODO: everything else
         }
-      });
+      })
+      .then(() => Promise.all([
+        this.pickCategory(null),
+        this.startRound(),
+      ]));
   }
   cancelGame(e) {
     if (e.shiftKey || confirm(`Are you sure?`)) {
@@ -206,6 +205,9 @@ class Host extends Component {
   }
 
   // helpers
+  pickRandomReply(replies) {
+    return replies[Math.floor(Math.random()*replies.length)];
+  }
   readAloud(text) {
     return new Promise(resolve => {
       // @TODO: test for support?
@@ -224,8 +226,18 @@ class Host extends Component {
       window.speechSynthesis.speak(utterance);
     });
   }
-  pickRandomReply(replies) {
-    return replies[Math.floor(Math.random()*replies.length)];
+  playSound(name) {
+    return new Promise(resolve => {
+      const audio = this.state.audio[name];
+      if (audio) {
+        audio.play();
+        audio.onended = () => {
+          resolve();
+        };
+      } else {
+        return resolve();
+      }
+    });
   }
   startIntervalTimer(name, timeout = undefined, interval = 1000) {
     return new Promise(resolve => {
@@ -260,19 +272,6 @@ class Host extends Component {
       }, resolve);
     });
   }
-  playSound(name) {
-    return new Promise(resolve => {
-      const audio = this.state.audio[name];
-      if (audio) {
-        audio.play();
-        audio.onended = () => {
-          resolve();
-        };
-      } else {
-        return resolve();
-      }
-    });
-  }
   pickCategory(categoryId) {
     return this.round(true).child('pickedCategoryId').set(categoryId);
   }
@@ -290,33 +289,47 @@ class Host extends Component {
       [`clues/${clue.$id}/pickedAt`]: firebase.database.ServerValue.TIMESTAMP,
     })
       .then(() => {
-        if (clue.dd) {
+        if (clue.dailyDouble) {
           // daily double!
           const round = this.round();
           const playerId = (round && round.currentPlayerId) || this.getPlayerSeats()[0].$id; // @TODO: make this more robust
           const score = this.getPlayerScore(playerId);
+          const max = Math.max(score, this.game().round * 1000);
 
-          this.playSound('daily-double');
-
-          return this.clue(true).child('buzzes').push({
-            dailyDouble: true,
-            max: Math.max(score, this.game().round * 1000),
-            playerId,
-            pickedAt: firebase.database.ServerValue.TIMESTAMP,
-          })
-            .then(ref => {
+          return Promise.all([
+            this.playSound('daily-double'),
+            this.clue(true).child('buzzes').push({
+              max,
+              playerId,
+              pickedAt: firebase.database.ServerValue.TIMESTAMP,
+            }),
+          ])
+            .then(([a, ref]) => {
               const buzzId = ref.key;
-              return this.clue(true).child('pickedBuzzId').set(buzzId)
+
+              // get wager
+              return this.readAloud(this.pickRandomReply(STRINGS.dailyDoubleFound()))
+                .then(() => Promise.all([
+                  this.readAloud(this.pickRandomReply(STRINGS.dailyDoubleWager())),
+                  this.clue(true).child('pickedBuzzId').set(buzzId),
+                ]))
                 .then(() => {
                   // await wager
                   return new Promise(resolve => {
                     ref.child('wager').on('value', snap => {
-                      if (snap.val()) return resolve();
+                      if (snap.val()) return resolve(snap.val());
                     });
                   });
                 });
             })
+            .then((wager) => this.readAloud(this.pickRandomReply(STRINGS.dailyDoubleWagered(wager))))
+
+            // show question
+            .then(() => this.clue(true).child('shownAt').set(firebase.database.ServerValue.TIMESTAMP))
             .then(() => this.readAloud(clue.question))
+
+            // accept response
+            .then(() => this.clue(true).child('startedAt').set(firebase.database.ServerValue.TIMESTAMP))
             .then(() => this.awaitResponse())
             .then(() => this.checkResponse())
               .then(() => this.answerClue())
@@ -389,7 +402,7 @@ class Host extends Component {
       // restart counter for remaining (non-DD) players, if any
       .then(() => {
         const clue = this.clue();
-        if (clue && !clue.dd) {
+        if (clue && !clue.dailyDouble) {
           // ensure there are still players who can answer left
           if (clue.penalties && Object.keys(clue.penalties).length < this.numPlayers()) {
             return this.startIntervalTimer('clue');
@@ -461,7 +474,7 @@ class Host extends Component {
       const givenAnswer = this.buzz().answer;
       const set = FuzzySet([
         realAnswer,
-        realAnswer.replace(/^(a|the) /ig, ''), // remove leading prepositions
+        realAnswer.replace(/^(an?|the|his|her|s?he) /ig, ''), // remove leading prepositions
         realAnswer.replace(/\([^)]+\)/ig, ''), // remove stuff in brackets
         realAnswer.replace(/^.*\(or (.*?)\)$/ig, '$1'), // try alternates
       ]);
@@ -498,13 +511,13 @@ class Host extends Component {
         if (!clue.finishedAt && !this.state.misanswer) {
           return (
             <aside className={classNames('Clue', {canBuzz: clue.buzzesAt})}>
-            {(!clue.dd || (buzz && buzz.wager)) &&
+            {!clue.dailyDouble || clue.shownAt &&
               <div>{clue.question}</div>
             }
-            {(clue.dd && (!buzz || (buzz && !buzz.wager))) &&
+            {clue.dailyDouble && !clue.shownAt &&
               <div><h1>DAILY DOUBLE</h1></div>
             }
-            {!buzz &&
+            {!buzz && !clue.dailyDouble &&
               <Timer timeout={this.props.clueTimeout} time={this.state.clueTime} />
             }
             </aside>
@@ -522,10 +535,12 @@ class Host extends Component {
             <div>{category.name}</div>
           </aside>
         );
-      } else if (game.round === 3) {
+      } else if (round && !round.startedAt) {
         return (
           <aside className="Clue">
-            <div><h1>Final Jeopardy</h1></div>
+            <div><h1>
+              {game.round === 3 ? 'Final' : (game.round === 2 ? 'Double' : '')} Jeopardy
+            </h1></div>
           </aside>
         );
       }
@@ -573,13 +588,16 @@ class Host extends Component {
       }
         <div className="Players">
         {this.getPlayerSeats().map((player, i) => {
-          const isResponding = (player && buzz && buzz.playerId === player.$id && (!buzz.dailyDouble || (buzz.dailyDouble && buzz.wager)));
+          const isResponding = player && buzz && buzz.playerId === player.$id && (!clue.dailyDouble || (clue.dailyDouble && clue.startedAt));
           return (
             <Player key={i} player={player} className={classNames({isResponding})}>
             {player &&
               <div>
                 <button onClick={e=>this.removePlayer(player.$id)}>Remove Player</button>
-                <div>{this.getPlayerScore(player.$id)}{buzz && buzz.dailyDouble && buzz.wager && ` ± ${buzz.wager}`}</div>
+                <div>
+                  {this.getPlayerScore(player.$id)}
+                  {buzz && buzz.playerId === player.$id && clue && clue.dailyDouble && buzz.wager && ` ± ${buzz.wager}`}
+                </div>
               {round && round.currentPlayerId === player.$id &&
                 <div>&bull;</div>
               }
