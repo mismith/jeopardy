@@ -30,8 +30,11 @@ class Board extends Component {
       <div className={classNames(`Board`, className)} {...props}>
         <header>
           {Object.entries(categories).map(([categoryId, category]) =>
-            <div key={categoryId} className="Cell" title={category.comments}>
+            <div key={categoryId} className="Cell">
               <span>{category.name}</span>
+            {category.comments &&
+              <span title={category.comments}>&lt;?&gt;</span>
+            }
             </div>
           )}
         </header>
