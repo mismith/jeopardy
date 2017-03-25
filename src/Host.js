@@ -15,7 +15,6 @@ import './Host.css';
 // @TODO:
 // play sound when new player enters
 // clues expiring before i asnwer or could answer or anyone else could answer. or answer
-// daily double buzzer set answer not wager
 // show video and audio and photo clues properly
 // tooltips on categories need an indicator
 
@@ -362,7 +361,7 @@ class Host extends Component {
       };
 
       const clue = this.clue();
-      if (clue && !clue.pickedBuzzId) {
+      if (clue && !clue.finishedAt && !clue.pickedBuzzId) {
         // no-one is currently buzzed in
         const penalizedUsers = Object.keys(clue.penalties || {});
         if (clue.buzzesAt && buzz.buzzedAt >= clue.buzzesAt && !penalizedUsers.includes(buzz.playerId)) {
@@ -378,7 +377,7 @@ class Host extends Component {
           // @TODO: penalize the player
         }
       } else {
-        // someone is already responding, so ignore this buzz
+        // someone is already responding (or clue is expired), so ignore this buzz
       }
     });
     return Promise.resolve();
