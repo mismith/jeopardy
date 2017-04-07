@@ -24,7 +24,7 @@ class Host extends Component {
     players: undefined,
 
     audio: {
-      'daily-double': new Audio('/audio/daily-double.wav'),
+      dailyDouble: new Audio('/audio/dailyDouble.wav'),
       time: new Audio('/audio/time.wav'),
       round: new Audio('/audio/round.wav'),
       chime: new Audio('/audio/chime.wav'),
@@ -303,7 +303,7 @@ class Host extends Component {
           const max = Math.max(score, this.game().round * 1000);
 
           return Promise.all([
-            this.playSound('daily-double'),
+            this.playSound('dailyDouble'),
             this.clue(true).child('buzzes').push({
               max,
               playerId,
