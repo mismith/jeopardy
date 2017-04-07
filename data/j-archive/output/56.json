@@ -245,6 +245,9 @@
         },
         {
           "question": "(Cheryl and Sofia of the Clue Crew shoot some skeet.)  \"Pull!\"  You should know the name of the person who releases the target in trap shooting",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-22_J_13.jpg"
+          ],
           "answer": "the puller",
           "value": 1000,
           "order": 13,
@@ -253,6 +256,9 @@
         },
         {
           "question": "You can camp at Mazam Village when visiting this Northwestern body of water seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-22_J_27.jpg"
+          ],
           "answer": "Crater Lake",
           "value": 1000,
           "order": 27,
@@ -277,6 +283,9 @@
         },
         {
           "question": "You might see why this coach, seen here, tends to lead with this chin",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-22_J_08.jpg"
+          ],
           "answer": "Bill Cowher",
           "value": 1000,
           "order": 8,
@@ -319,6 +328,9 @@
         },
         {
           "question": "When this singer rings, it means she needs a partner for her Kabbalah class",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-22_DJ_21.mp3"
+          ],
           "answer": "Madonna",
           "value": 400,
           "order": 21,
@@ -399,6 +411,9 @@
         },
         {
           "question": "It's \"The Long Road\" back to Canada when this band calls",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-22_DJ_25.mp3"
+          ],
           "answer": "Nickelback",
           "value": 1200,
           "order": 25,

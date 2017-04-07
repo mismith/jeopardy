@@ -252,6 +252,9 @@
         },
         {
           "question": "(I'm Ashleigh Banfield.)  \"Men seldom make passes at girls who wear glasses\", said this Algonquin Round Table member",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-12_J_10.jpg"
+          ],
           "answer": "Dorothy Parker",
           "value": 1000,
           "order": 10,
@@ -423,6 +426,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew reports from under the boughs of a riverside willow in England.)  Holy Trinity Church, where Shakespeare was baptized & buried, stands on the banks of this English river",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-12_DJ_30.jpg"
+          ],
           "answer": "Avon",
           "value": 1200,
           "order": 30,

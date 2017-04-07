@@ -181,6 +181,9 @@
         },
         {
           "question": "(Hello, I'm Kathy Ireland.)  It's the chip of choice of Vendela, Naomi Campbell, Miss Piggy & moi",
+          "attachments": [
+            "http://www.j-archive.com/media/1997-12-30_J_08.jpg"
+          ],
           "answer": "Baked Lays",
           "value": 500,
           "order": 8,
@@ -414,6 +417,9 @@
         },
         {
           "question": "19th century composer whose work is heard here",
+          "attachments": [
+            "http://www.j-archive.com/media/1997-12-30_DJ_18.mp3"
+          ],
           "answer": "Wagner",
           "value": 1600,
           "order": 18,
@@ -495,6 +501,9 @@
         },
         {
           "question": "Multiple Oscar-winning 1966 film seen here:\"I die his majesty's good servant, but God's first.\"",
+          "attachments": [
+            "http://www.j-archive.com/media/1997-12-30_DJ_15.jpg"
+          ],
           "answer": "A Man for All Seasons",
           "value": 2000,
           "order": 15,

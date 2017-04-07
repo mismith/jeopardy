@@ -327,6 +327,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew walks on the CIA seal in CIA Headquarters in Langley, VA.)  On the CIA seal, the global directions from which information comes are symbolized by this sixteen-pointed star",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-29_DJ_26.jpg"
+          ],
           "answer": "a compass rose",
           "value": 400,
           "order": 26,
@@ -423,6 +426,10 @@
         },
         {
           "question": "(Jimmy of the Clue Crew points to a keyboarded box in a museum exhibit in CIA Headquarters in Langley, VA.)  This code machine, whose name is from the Greek for \"to speak in riddles\", was cracked by the Poles in 1939",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-29_DJ_28.jpg",
+            "http://www.j-archive.com/media/2004-10-29_DJ_28a.jpg"
+          ],
           "answer": "the ENIGMA Machine",
           "value": 1200,
           "order": 28,

@@ -54,6 +54,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew holds a feathered headdress at Experience Music Project in Seattle, WA.)  Felipe Rose, who wore this costume as part of this '70s group, has since founded Tomahawk Records",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-07_J_01.jpg"
+          ],
           "answer": "The Village People",
           "value": 200,
           "order": 1,
@@ -150,6 +153,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew holds a giant black boot at Experience Music Project in Seattle, WA.)  The dragon boots were part of the finery of this hard rock band",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-07_J_03.jpg"
+          ],
           "answer": "Kiss",
           "value": 600,
           "order": 3,
@@ -246,6 +252,10 @@
         },
         {
           "question": "(Sofia of the Clue Crew holds a red hat at the Experience Music Project in Seattle, WA.)  Experience Music Project has a hat from the collection of this man from Romeo, Michigan",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-07_J_10.jpg",
+            "http://www.j-archive.com/media/2004-09-07_J_10a.jpg"
+          ],
           "answer": "Kid Rock",
           "value": 1000,
           "order": 10,
@@ -254,6 +264,9 @@
         },
         {
           "question": "Choose one of these with evenly distributed netting",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-07_J_25.jpg"
+          ],
           "answer": "cantaloupe",
           "value": 1000,
           "order": 25,

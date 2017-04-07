@@ -385,6 +385,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew sits at a table in the Seelback Hilton in Louisville, KY.)  This boxing legend known as the Louisville Lip loves to dine here at the Oak Room when he's visiting his hometown",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-13_DJ_03.jpg"
+          ],
           "answer": "Muhammad Ali",
           "value": 800,
           "order": 3,
@@ -467,6 +470,9 @@
         },
         {
           "question": "The riff heard here kicks off a recent album by this band",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-13_DJ_15.mp3"
+          ],
           "answer": "The White Stripes",
           "value": 1600,
           "order": 15,
@@ -483,6 +489,10 @@
         },
         {
           "question": "Good morning to this newswoman, who's seen here in 1963, when she was America's Junior Miss",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-13_DJ_05.jpg",
+            "http://www.j-archive.com/media/2004-09-13_DJ_05a.jpg"
+          ],
           "answer": "Diane Sawyer",
           "value": 1600,
           "order": 5,

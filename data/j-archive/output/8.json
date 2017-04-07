@@ -375,6 +375,9 @@
         },
         {
           "question": "The Manet painting seen here shows this similarly named artist in his studio boat",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-15_DJ_17.jpg"
+          ],
           "answer": "(Claude) Monet",
           "value": 800,
           "order": 17,
@@ -391,6 +394,10 @@
         },
         {
           "question": "(Sarah of the Clue Crew crosses a pedestrian bridge over a Yucatan Peninsula, Mexico resort spot.)  A touristy part of the Yucatan is known as this precolumbian people's Riviera",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-15_DJ_30.jpg",
+            "http://www.j-archive.com/media/2004-09-15_DJ_30a.jpg"
+          ],
           "answer": "the Maya",
           "value": 800,
           "order": 30,
@@ -537,6 +544,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew reads from the center of a small town on the Yucatan Peninsula in Mexico.)  Not the glitzy Yucatan, sleepy Puerto Morelos is so sleepy it is sometimes called this, rhyming with Puerto",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-15_DJ_29.jpg"
+          ],
           "answer": "Muerto",
           "value": 2000,
           "order": 29,

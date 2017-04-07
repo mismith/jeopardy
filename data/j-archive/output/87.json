@@ -110,6 +110,9 @@
         },
         {
           "question": "Person:The controversial Supreme Court nominee seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-24_J_02.jpg"
+          ],
           "answer": "(Robert) Bork",
           "value": 400,
           "order": 2,
@@ -118,6 +121,9 @@
         },
         {
           "question": "Seen here, the fennec is the smallest one of these animals, and it has the longest ears relative to body size",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-24_J_21.jpg"
+          ],
           "answer": "a fox",
           "value": 400,
           "order": 21,

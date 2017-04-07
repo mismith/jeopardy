@@ -45,6 +45,9 @@
       "clues": [
         {
           "question": "(Sarah of the Clue Crew stands by a table with architectural drawings on it in the Frank Lloyd Wright home in Oak Park.)  A colleague said Wright maneuvered his T-square with beautiful dexterity in this activity for which this room is named",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-20_J_11.jpg"
+          ],
           "answer": "drafting",
           "value": 200,
           "order": 11,
@@ -141,6 +144,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew stands in front of Wright's Robie House in Chicago, IL.)  Wright's Robie House is from this school of architecture whose horizontal lines imitate Midwestern terrain",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-20_J_13.jpg"
+          ],
           "answer": "the Prairie School",
           "value": 600,
           "order": 13,
@@ -238,6 +244,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew stands outside the Robie House in Chicago, IL with a view featuring a broad roof overhang.)  Steel beams let Wright build a daring example of this type of roof that extends beyond its supporting wall",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-20_J_15.jpg"
+          ],
           "answer": "a cantilever",
           "value": 1000,
           "order": 15,
@@ -318,6 +327,9 @@
         },
         {
           "question": "Bing Crosby (with the Andrews Sisters) & Bruce Springsteen have recorded popular versions of this favorite",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-20_DJ_06.mp3"
+          ],
           "answer": "\"Santa Claus Is Coming To Town\"",
           "value": 400,
           "order": 6,
@@ -366,6 +378,9 @@
         },
         {
           "question": "\"Suds\" lovers might know this song's original title was \"Unrequited Love\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-20_DJ_07.mp3"
+          ],
           "answer": "\"The Beer Barrel Polka\" (\"Roll Out The Barrel\" also accepted)",
           "value": 800,
           "order": 7,
@@ -415,6 +430,9 @@
         },
         {
           "question": "Classic song heard here that Sir Isaac Newton might have liked ",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-20_DJ_08.mp3"
+          ],
           "answer": "\"Don't Sit Under The Apple Tree\"",
           "value": 1200,
           "order": 8,
@@ -455,6 +473,9 @@
         },
         {
           "question": "It's the patriotic march heard here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-20_DJ_09.mp3"
+          ],
           "answer": "\"The Liberty Bell March\"",
           "value": 1600,
           "order": 9,
@@ -496,6 +517,9 @@
         },
         {
           "question": "The title of the following is an alternation of a French word meaning this",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-20_DJ_10.mp3"
+          ],
           "answer": "wake up",
           "value": 2000,
           "order": 10,

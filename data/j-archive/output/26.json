@@ -311,6 +311,10 @@
       "clues": [
         {
           "question": "(Sarah of the Clue Crew stands outside the dome of the Adler Planetarium in Chicago.) Weighing over a half ton, this visitor probably broke off from an asteroid before reaching earth 50,000 years ago",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-11_DJ_06.jpg",
+            "http://www.j-archive.com/media/2004-10-11_DJ_06a.jpg"
+          ],
           "answer": "a meteorite",
           "value": 400,
           "order": 6,
@@ -375,6 +379,9 @@
         },
         {
           "question": "(This is Alison Krauss.)  In 1993 I joined the cast of this Nashville institution & was its youngest member at that time",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-11_DJ_17.jpg"
+          ],
           "answer": "the Grand Ole Opry",
           "value": 800,
           "order": 17,
@@ -407,6 +414,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew stands outside the dome of the Adler Planetarium in Chicago.)  The first modern planetarium in the Western Hemisphere, the Adler, opened in 1930, about the time of this planet's discovery",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-11_DJ_08.jpg"
+          ],
           "answer": "Pluto",
           "value": 1200,
           "order": 8,
@@ -505,6 +515,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew stands behind a large metal cylinder in the Adler Plantarium in Chicago.)  This telescope was made by William Herschel and may be the actual one he used to discover this planet in 1781",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-11_DJ_10.jpg"
+          ],
           "answer": "Uranus",
           "value": 2000,
           "order": 10,

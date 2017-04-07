@@ -246,6 +246,9 @@
         },
         {
           "question": "Like Shelley, Johnny Mercer & Hoagy Carmichael wrote an ode to this title bird",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-03_J_10.mp3"
+          ],
           "answer": "skylark",
           "value": 1000,
           "order": 10,
@@ -310,6 +313,9 @@
       "clues": [
         {
           "question": "(Jimmy of the Clue Crew reports from inside the Hermitage in Tennessee, a gold sword in his hands.)  Jackson received this sword in honor of this 1815 victory that made him a national hero",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-03_DJ_02.jpg"
+          ],
           "answer": "The Battle of New Orleans",
           "value": 400,
           "order": 2,
@@ -406,6 +412,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew reports from inside the Hermitage in Tennessee holding a pendant.)  Jackson was never without his miniature of this woman, who died just before he became President",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-03_DJ_04.jpg"
+          ],
           "answer": "Rachel Robards",
           "value": 1200,
           "order": 4,
@@ -520,6 +529,9 @@
         },
         {
           "question": "Ashland has a very refined line, including this brand, whose logo is seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-03_DJ_25.jpg"
+          ],
           "answer": "Valvoline",
           "value": 2000,
           "order": 25,
@@ -536,6 +548,9 @@
         },
         {
           "question": "A cactus one is seen here in the photo",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-03_DJ_15.jpg"
+          ],
           "answer": "wren",
           "value": 2000,
           "order": 15,

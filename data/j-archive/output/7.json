@@ -94,6 +94,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew skates on the ice rink at Rockefeller Center, New York.)  Though there was a depression on, Rockefeller Rink opened on this festive day in 1936",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-14_J_17.wmv"
+          ],
           "answer": "Christmas Day",
           "value": 400,
           "order": 17,
@@ -431,6 +434,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew wears inappropriate attire that is too revealing.)  Here's some advice--don't wear a St. Patty's Day shirt when working with this",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-14_DJ_13.wmv"
+          ],
           "answer": "a green screen",
           "value": 1200,
           "order": 13,

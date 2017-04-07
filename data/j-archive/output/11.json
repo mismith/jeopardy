@@ -333,6 +333,9 @@
         },
         {
           "question": "(Hi, I'm Bill Rancic of The Apprentice.)  My prize involves helming the work of Mr. Trump's new Chicago hotel, planned for the site of this newspaper's old building",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-20_DJ_14.jpg"
+          ],
           "answer": "the Sun-Times",
           "value": 400,
           "order": 14,

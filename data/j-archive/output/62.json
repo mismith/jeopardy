@@ -80,6 +80,10 @@
         },
         {
           "question": "(Jerry Seinfeld reads the clue.)  This Season 7 episode revealed that this store owner was based on a real person\"Very good.  You know something?\"\"Hm?\"\"No soup for you!\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-30_J_02.wmv",
+            "http://www.j-archive.com/media/2004-11-30_J_02.jpg"
+          ],
           "answer": "the Soup Nazi",
           "value": 200,
           "order": 2,
@@ -128,6 +132,10 @@
         },
         {
           "question": "\"A Christmas present?\"\"That's right.\"\"For who?\"\"For you!\"\"Oh!  Get out of here!\"(Julia Louis-Dreyfus [Elaine Benes] reads the clue.)  In that scene from Season 3, George's gift to Elaine was this article of clothing--a bargain because of a flaw: a small red dot",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-30_J_03.wmv",
+            "http://www.j-archive.com/media/2004-11-30_J_03.jpg"
+          ],
           "answer": "a sweater",
           "value": 400,
           "order": 3,
@@ -176,6 +184,10 @@
         },
         {
           "question": "\"She tells me that her ex-boyfriend was over late last night and 'yada yada yada', I'm really tired today.'\"\"What do you think she was tired from?\"\"Well obviously the 'yada yada.'\"(Jason Alexander [George Costanza] reads the clue.)  That was a classic scene from Season 8; \"yada yada yada\" recently made it into one edition of this venerable British dictionary",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-30_J_04.wmv",
+            "http://www.j-archive.com/media/2004-11-30_J_04.jpg"
+          ],
           "answer": "the Oxford English Dictionary",
           "value": 600,
           "order": 4,
@@ -225,6 +237,10 @@
         },
         {
           "question": "\"I'm out.\"(Michael Richards [Cosmo Kramer] reads the clue.)  When he wrote that classic episode from Season 4, this Seinfeld co-creator turned curbing his enthusiasm into an Emmy",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-30_J_05.wmv",
+            "http://www.j-archive.com/media/2004-11-30_J_05.jpg"
+          ],
           "answer": "Larry David",
           "value": 800,
           "order": 5,
@@ -273,6 +289,10 @@
         },
         {
           "question": "(Jerry Seinfeld reads the clue.)  Kramer dated a \"low-talker\" who designed this, also the title of the episode from Season 5\"I... I can't wear this!\"\"Hey, this looks better than anything you own.\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-30_J_06.wmv",
+            "http://www.j-archive.com/media/2004-11-30_J_06.jpg"
+          ],
           "answer": "the puffy shirt",
           "value": 1000,
           "order": 6,

@@ -173,6 +173,9 @@
         },
         {
           "question": "(Hi.  I'm Tim Russert of NBC's Meet the Press.)  An interview I did in 2000 with this senator & former P.O.W. won an excellence in TV journalism award",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-06_J_15.jpg"
+          ],
           "answer": "John McCain",
           "value": 600,
           "order": 15,
@@ -229,6 +232,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew demonstrates with three green balls lined up on a table before him.)  The three-ball routine is a classic example of this type of magic that shares its name with a camera shot",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-06_J_12.jpg"
+          ],
           "answer": "close-up",
           "value": 800,
           "order": 12,
@@ -269,6 +275,9 @@
         },
         {
           "question": "(Hi.  I'm Anderson Cooper of CNN.)  I covered this former priest's return to power in 1994, & interviewed him again just before he fell from grace again",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-06_J_28.jpg"
+          ],
           "answer": "Jean-Bertrand Aristide",
           "value": 3000,
           "order": 28,
@@ -455,6 +464,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew reads from inside the Cirque du Soleil with performers on the stage.)  From the type of simple machine a teeter board is, it's the 8-letter term for what's throwing them up in the air",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-06_DJ_09.jpg"
+          ],
           "answer": "leverage",
           "value": 1600,
           "order": 9,
@@ -479,6 +491,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew holds a musical instrument.)  Here at Mammoth Mountain, the staff of the yodeler lodge sounds this instrument each day to bring folks in from the slopes",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-06_DJ_27.jpg"
+          ],
           "answer": "an Alpine horn",
           "value": 1600,
           "order": 27,

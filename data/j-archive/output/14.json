@@ -334,6 +334,9 @@
         },
         {
           "question": "Johnny has left the building wearing these\"You can knock me down /Step on my face /Slander my name all over the place...\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-23_DJ_16.mp3"
+          ],
           "answer": "\"Blue Suede Shoes\"",
           "value": 400,
           "order": 16,
@@ -382,6 +385,9 @@
         },
         {
           "question": "Linda Ronstadt, brace yourself for this tune\"I feel so bad /I got a worried mind /I'm so lonesome all the time /Since I left my baby behind on...\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-23_DJ_17.mp3"
+          ],
           "answer": "\"Blue Bayou\"",
           "value": 800,
           "order": 17,
@@ -431,6 +437,9 @@
         },
         {
           "question": "Witness the birth of \"Captain Fantastic 2\" with this song\"Laughing like children /Living like lovers /Rolling like thunder /Under the covers...\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-23_DJ_18.mp3"
+          ],
           "answer": "\"I Guess That's Why They Call It The Blues\"",
           "value": 1200,
           "order": 18,
@@ -479,6 +488,9 @@
         },
         {
           "question": "Complete this \"Crystal\"ine line\"I'll be fine when you’re gone /I'll just cry all night long /Say it isn't true and don't it...\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-23_DJ_19.mp3"
+          ],
           "answer": "\"Don't It Make My Brown Eyes Blue\"",
           "value": 1600,
           "order": 19,
@@ -520,6 +532,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew strikes a yogic pose.)  Start in mountain posture, step forward, bend one knee, raise hand overhead",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-23_DJ_15.jpg"
+          ],
           "answer": "assume the warrior position",
           "value": 2000,
           "order": 15,
@@ -528,6 +543,9 @@
         },
         {
           "question": "This 1968 classic features the man in black, Johnny... Gilbert\"My mama always told me son, always be a good boy, don't ever play with guns /But I shot a man in Reno just to watch him die\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-23_DJ_20.mp3"
+          ],
           "answer": "\"The Folsom Prison Blues\"",
           "value": 2000,
           "order": 20,

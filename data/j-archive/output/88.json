@@ -127,6 +127,9 @@
         },
         {
           "question": "This man's band had a hit with the song heard here:",
+          "attachments": [
+            "http://www.j-archive.com/media/1998-04-06_J_03.mp3"
+          ],
           "answer": "Charlie Daniels",
           "value": 200,
           "order": 3,
@@ -223,6 +226,9 @@
         },
         {
           "question": "Title that completes the lyrics heard here:\"You look like an angel (look like an angel) /Walk like an angel (walk like an angel) /Talk like an angel /But I got wise...\"",
+          "attachments": [
+            "http://www.j-archive.com/media/1998-04-06_J_06.mp3"
+          ],
           "answer": "\"(You're The) Devil In Disguise\"",
           "value": 500,
           "order": 6,
@@ -360,6 +366,9 @@
         },
         {
           "question": "This film star was Al's roommate at Harvard around the time Will Smith was born:\"I'm talkin' to you!  You know how many of your kind I've swatted with a newspaper?  You're nothing but a smear on the sports page to me, you slimy, gut-sucking, intestinal parasite!\"",
+          "attachments": [
+            "http://www.j-archive.com/media/1998-04-06_DJ_23.wmv"
+          ],
           "answer": "Tommy Lee Jones",
           "value": 400,
           "order": 23,
@@ -513,6 +522,9 @@
         },
         {
           "question": "Based on a play by Clifford Odets, it's the 1939 boxing film seen here:\"Well, I've made up my mind to win the middleweight crown.\"\"But your heart's in music!\"",
+          "attachments": [
+            "http://www.j-archive.com/media/1998-04-06_DJ_06.wmv"
+          ],
           "answer": "Golden Boy",
           "value": 1000,
           "order": 6,

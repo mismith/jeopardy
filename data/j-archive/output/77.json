@@ -69,6 +69,9 @@
         },
         {
           "question": "In 1962 he graduated from a military academy in Peru",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-21_J_13.jpg"
+          ],
           "answer": "Manuel Noriega",
           "value": 200,
           "order": 13,
@@ -117,6 +120,9 @@
         },
         {
           "question": "In the 1930s the FBI was gunning for this bank robber--and they got him in Chicago",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-21_J_15.jpg"
+          ],
           "answer": "(John) Dillinger",
           "value": 400,
           "order": 15,
@@ -166,6 +172,9 @@
         },
         {
           "question": "In 1977 the president pardoned this World War II propagandist",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-21_J_16.jpg"
+          ],
           "answer": "Tokyo Rose",
           "value": 600,
           "order": 16,
@@ -214,6 +223,9 @@
         },
         {
           "question": "In 1947 this gangster lost his life in Beverly Hills",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-21_J_17.jpg"
+          ],
           "answer": "(Bugsy) Siegel",
           "value": 800,
           "order": 17,
@@ -262,6 +274,9 @@
         },
         {
           "question": "In 1931 a gang war ended when this fortunate guy had the leaders of both sides whacked",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-21_J_18.jpg"
+          ],
           "answer": "\"Lucky\" Luciano",
           "value": 1000,
           "order": 18,

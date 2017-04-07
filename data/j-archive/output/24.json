@@ -182,6 +182,9 @@
         },
         {
           "question": "He's the \"nosy\" entertainer seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-07_J_03.jpg"
+          ],
           "answer": "(Jimmy) Durante",
           "value": 600,
           "order": 3,
@@ -423,6 +426,9 @@
         },
         {
           "question": "Born near Prague in 1841, he composed the following in 1863",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-07_DJ_24.mp3"
+          ],
           "answer": "Antonin Dvorák",
           "value": 1200,
           "order": 24,
@@ -505,6 +511,10 @@
         },
         {
           "question": "(Cheryl of the Clue Crew stands in the nave of a chapel at the University of Chicago.)  This chapel here on campus is named for him, of whom students sang, \"Wonderful man is he / Gives all his spare change to the U. of C.\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-07_DJ_20.jpg",
+            "http://www.j-archive.com/media/2004-10-07_DJ_20a.jpg"
+          ],
           "answer": "John D. Rockefeller (Rockefeller Chapel accepted)",
           "value": 2000,
           "order": 20,
@@ -521,6 +531,9 @@
         },
         {
           "question": "This Strauss waltz heard here commemorated a meeting between Franz Joseph I & Wilhelm II",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-07_DJ_26.mp3"
+          ],
           "answer": "\"The Emperor Waltz\" (\"The Emperors Waltz\" accepted)",
           "value": 2000,
           "order": 26,

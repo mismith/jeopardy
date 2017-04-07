@@ -44,6 +44,9 @@
       "clues": [
         {
           "question": "Ottawa, Canada is famous for these flowers seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-11_J_08.jpg"
+          ],
           "answer": "tulips",
           "value": 200,
           "order": 8,
@@ -116,6 +119,9 @@
         },
         {
           "question": "This prince was really in the swim when he was voted water polo captain at St. Andrews University",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-11_J_23.jpg"
+          ],
           "answer": "Prince William",
           "value": 400,
           "order": 23,
@@ -140,6 +146,9 @@
         },
         {
           "question": "Being shaped like this gives the flower seen here its name and also its genus name, campanula",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-11_J_10.jpg"
+          ],
           "answer": "bell",
           "value": 600,
           "order": 10,
@@ -172,6 +181,9 @@
         },
         {
           "question": "Seen here, he was an endocrinologist before promoting Ayur Veda, an ancient form of holistic medicine",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-11_J_05.jpg"
+          ],
           "answer": "Deepak Chopra",
           "value": 600,
           "order": 5,
@@ -261,6 +273,9 @@
         },
         {
           "question": "(Hi, I'm Anderson Cooper of CNN.)  My great-great-great grandfather was this shipping & railroad magnate known as \"The Commodore\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-11_J_26.jpg"
+          ],
           "answer": "Cornelius Vanderbilt",
           "value": 1000,
           "order": 26,

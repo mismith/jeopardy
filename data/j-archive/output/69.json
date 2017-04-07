@@ -93,6 +93,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew sits in front of the intake fan of a jet engine.)  The jet engines of the 777 have up to 115,000 pounds of this, the physical force they generate to fight drag",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-09_J_18.jpg"
+          ],
           "answer": "thrust",
           "value": 400,
           "order": 18,
@@ -350,6 +353,9 @@
         },
         {
           "question": "An image from this type of dramatic performance is shown here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-09_DJ_16.jpg"
+          ],
           "answer": "a Passion play",
           "value": 400,
           "order": 16,
@@ -446,6 +452,9 @@
         },
         {
           "question": "A bottle of this vodka brand is seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-09_DJ_18.jpg"
+          ],
           "answer": "Grey Goose",
           "value": 1200,
           "order": 18,

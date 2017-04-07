@@ -54,6 +54,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew sits upon a white mare on a dude ranch in Montana.)  A seldom heard later verse of this song goes:\"Oh I love those wild flowers in this dear land of ours\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-12_J_06.wmv"
+          ],
           "answer": "\"Home On The Range\"",
           "value": 200,
           "order": 6,
@@ -102,6 +105,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew belts out a tune from atop a horse on a dude ranch in Montana.)  Dale Evans wrote the lyrics to this song that says:\"Until we meet again\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-12_J_27.wmv"
+          ],
           "answer": "\"Happy Trails\"",
           "value": 400,
           "order": 27,
@@ -150,6 +156,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew belts out a tune from atop a horse on a dude ranch in Montana.)  It’s where Gene Autry was in the title of his theme song:\"Out where a friend is a friend\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-12_J_28.wmv"
+          ],
           "answer": "\"Back In The Saddle (Again)\"",
           "value": 600,
           "order": 28,
@@ -198,6 +207,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew sits upon a brown horse on a dude ranch in Montana.)  A dying cowboy made this request:\"These words came low and mournfully\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-12_J_29.wmv"
+          ],
           "answer": "bury me not on the lone prairie",
           "value": 800,
           "order": 29,
@@ -246,6 +258,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew sits in the saddle of a brown horse on a dude ranch in Montana.)  In this song, a cowpuncher in a hurry sings:\"It’s your misfortune and none of my own\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-12_J_30.wmv"
+          ],
           "answer": "\"Get Along Little Dogies\"",
           "value": 1000,
           "order": 30,
@@ -423,6 +438,9 @@
         },
         {
           "question": "If you have the room, this structure seen here is a fine addition to any backyard",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-12_DJ_23.jpg"
+          ],
           "answer": "a gazebo",
           "value": 1200,
           "order": 23,

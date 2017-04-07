@@ -277,6 +277,9 @@
         },
         {
           "question": "In 1962 Nat King Cole sang the following to this title female:",
+          "attachments": [
+            "http://www.j-archive.com/media/1998-01-05_J_26.mp3"
+          ],
           "answer": "\"Ramblin' Rose\"",
           "value": 1000,
           "order": 26,

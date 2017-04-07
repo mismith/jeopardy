@@ -180,6 +180,9 @@
         },
         {
           "question": "The title of this song might describe a European spring vacation:",
+          "attachments": [
+            "http://www.j-archive.com/media/1987-11-13_J_09.mp3"
+          ],
           "answer": "\"April In Portugal\"",
           "value": 500,
           "order": 9,

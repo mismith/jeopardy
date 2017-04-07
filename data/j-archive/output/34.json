@@ -310,6 +310,9 @@
         },
         {
           "question": "Well doggone it, in 2001, this beloved character appeared on the stamp seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-21_DJ_10.jpg"
+          ],
           "answer": "Snoopy",
           "value": 400,
           "order": 10,
@@ -414,6 +417,9 @@
         },
         {
           "question": "John F. Kennedy and Richard Nixon are seen here during one of these in 1960, the first year they were held",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-21_DJ_07.jpg"
+          ],
           "answer": "(presidential) debate",
           "value": 1200,
           "order": 7,
@@ -455,6 +461,9 @@
         },
         {
           "question": "Part of the \"Celebrate the Century\" series, the stamp seen here honored the first observance of this in the 1970s",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-21_DJ_14.jpg"
+          ],
           "answer": "Earth Day",
           "value": 1400,
           "order": 14,

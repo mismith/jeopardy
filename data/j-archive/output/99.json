@@ -94,6 +94,9 @@
         },
         {
           "question": "(Hi, I'm Tim Russert of NBC's Meet the Press.)  Before joining NBC News, I observed politics firsthand as a lawyer working in the N.Y. Governor's office in this state capital",
+          "attachments": [
+            "http://www.j-archive.com/media/2005-01-05_J_02.jpg"
+          ],
           "answer": "Albany",
           "value": 400,
           "order": 2,
@@ -191,6 +194,9 @@
         },
         {
           "question": "(Hi, I'm Tucker Carlson of CNN's Crossfire.)  One of my first jobs in journalism was as a staff writer at the Arkansas Democrat-Gazette in this state capital",
+          "attachments": [
+            "http://www.j-archive.com/media/2005-01-05_J_04.jpg"
+          ],
           "answer": "Little Rock",
           "value": 800,
           "order": 4,
@@ -271,6 +277,9 @@
         },
         {
           "question": "(Hi, I'm Gretchen Carlson of the CBS Saturday Early Show.)  As a former Miss Minnesota, I know that the Minnesota state motto is \"L'Etoile du Nord\", or this \"of the North\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2005-01-05_J_30.jpg"
+          ],
           "answer": "star",
           "value": 1000,
           "order": 30,
@@ -407,6 +416,9 @@
         },
         {
           "question": "Sarah from the Clue Crew: William Shakespeare is buried here in Holy Trinity Church near the remains of his wife, this woman",
+          "attachments": [
+            "http://www.j-archive.com/media/2005-01-05_DJ_28.jpg"
+          ],
           "answer": "Anne Hathaway",
           "value": 1200,
           "order": 28,
@@ -504,6 +516,9 @@
         },
         {
           "question": "Shakespeare's birth home is in the style called half-this, alluding to the amount of wood used",
+          "attachments": [
+            "http://www.j-archive.com/media/2005-01-05_DJ_30.jpg"
+          ],
           "answer": "timber",
           "value": 2000,
           "order": 30,

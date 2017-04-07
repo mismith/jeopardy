@@ -44,6 +44,9 @@
       "clues": [
         {
           "question": "(Cheryl of the Clue Crew reports from the White House.)  One year ago he represented Michigan's 5th District.  Today, August 9th 1974, he enters the Oval Office as President",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-10_J_06.jpg"
+          ],
           "answer": "Gerald Ford",
           "value": 200,
           "order": 6,
@@ -148,6 +151,9 @@
         },
         {
           "question": "Attain the crown of Grand Champion after completing over 30 levels of this epic first person bot shooter",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-10_J_03.jpg"
+          ],
           "answer": "Unreal Tournament",
           "value": 600,
           "order": 3,
@@ -189,6 +195,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew reports from the White House.)  June 13, 1967 is a historic day as President Johnson appointed this great-grandson of a slave to the Supreme Court",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-10_J_16.jpg"
+          ],
           "answer": "Thurgood Marshall",
           "value": 800,
           "order": 16,
@@ -245,6 +254,9 @@
         },
         {
           "question": "Spell-casters & adventurers do battle in the land of Norrath in this online role-playing game",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-10_J_05.jpg"
+          ],
           "answer": "Everquest",
           "value": 1000,
           "order": 5,
@@ -373,6 +385,9 @@
         },
         {
           "question": "The regional study of objects like the one shown here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-10_DJ_21.jpg"
+          ],
           "answer": "egyptology",
           "value": 800,
           "order": 21,
@@ -470,6 +485,9 @@
         },
         {
           "question": "Subjects of this branch of zoology are seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-10_DJ_22.jpg"
+          ],
           "answer": "herpetology",
           "value": 1600,
           "order": 22,
@@ -535,6 +553,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew in Venice, Italy.)  I'm here in Venice on this beautiful square which Napoleon called \"The Drawing Room of Europe\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-10_DJ_30.jpg"
+          ],
           "answer": "St. Mark's Square",
           "value": 2000,
           "order": 30,

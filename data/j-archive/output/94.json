@@ -481,6 +481,9 @@
         },
         {
           "question": "Seen here is the characteristic chain arrangement of these bacteria",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-29_DJ_27.jpg"
+          ],
           "answer": "streptococci",
           "value": 2000,
           "order": 27,

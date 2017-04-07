@@ -102,6 +102,10 @@
         },
         {
           "question": "(Sarah of the Clue Crew reads from the courts at the Tennis Hall of Fame in Newport, RI.)  From 1978 to 1984 the title of U.S. Open men's singles champ volleyed between John McEnroe & this other volatile lefty",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-16_J_27.jpg",
+            "http://www.j-archive.com/media/2004-09-16_J_27a.jpg"
+          ],
           "answer": "Jimmy Connors",
           "value": 400,
           "order": 27,
@@ -110,6 +114,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew speaks in a foreign tongue familiar to us.)  Until Vatican II, the Catholic Mass was officially only celebrated in this language",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-16_J_02.wmv"
+          ],
           "answer": "Latin",
           "value": 400,
           "order": 2,
@@ -343,6 +350,9 @@
         },
         {
           "question": "In 2003 in works like the one shown, the Dayton Contemporary Dance Company celebrated the centennial of this",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-16_DJ_26.wmv"
+          ],
           "answer": "the (Wright Brothers') first flight",
           "value": 400,
           "order": 26,
@@ -480,6 +490,9 @@
         },
         {
           "question": "Blue is a popular clothing color for members of this original Moroccan ethnic group",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-16_DJ_19.jpg"
+          ],
           "answer": "the Berbers",
           "value": 1600,
           "order": 19,
@@ -488,6 +501,9 @@
         },
         {
           "question": "This performer/choreographer was one of the most influential figures in modern dance",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-16_DJ_29.wmv"
+          ],
           "answer": "Martha Graham",
           "value": 1600,
           "order": 29,
@@ -496,6 +512,9 @@
         },
         {
           "question": "This patriotic composer said, \"Give me liberty or give me d-death, d-death, d-death, d-death, d-death, d-death, d-death\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-16_DJ_09.mp3"
+          ],
           "answer": "Patrick Henry Mancini",
           "value": 1600,
           "order": 9,
@@ -520,6 +539,9 @@
         },
         {
           "question": "The marmot, seen here, wishes it didn't have this name, which means cowardly",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-16_DJ_24.jpg"
+          ],
           "answer": "yellow-bellied",
           "value": 2000,
           "order": 24,

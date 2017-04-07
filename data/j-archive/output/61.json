@@ -110,6 +110,9 @@
         },
         {
           "question": "(Hi, I'm Anderson Cooper of CNN.)  A few years after I graduated from Yale, I spent 5 months studying Vietnamese at the University of this world capital",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-29_J_02.jpg"
+          ],
           "answer": "Hanoi",
           "value": 400,
           "order": 2,

@@ -182,6 +182,9 @@
         },
         {
           "question": "Albanian ones say hunk hunk; maybe it's the smell that makes French ones say groin groin while truffle hunting",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-03_J_13.mp3"
+          ],
           "answer": "pigs",
           "value": 600,
           "order": 13,
@@ -223,6 +226,9 @@
         },
         {
           "question": "(Hi, I'm Ari Fleischer.)  Now named for James Brady, this room in the White House is where the briefing of the press takes place",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-03_J_23.jpg"
+          ],
           "answer": "the briefing room",
           "value": 800,
           "order": 23,
@@ -439,6 +445,9 @@
         },
         {
           "question": "Kevin's role in this movie seen here may have left him feeling a bit empty",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-03_DJ_17.wmv"
+          ],
           "answer": "Hollow Man",
           "value": 1600,
           "order": 17,
@@ -513,6 +522,9 @@
         },
         {
           "question": "This American Nobel Laureate is seen here with a plaque at the site of his discovery of plutonium",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-03_DJ_26.jpg"
+          ],
           "answer": "Glenn Seaborg",
           "value": 2000,
           "order": 26,

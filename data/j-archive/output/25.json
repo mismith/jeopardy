@@ -168,6 +168,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew delivers the clue from Toledo, Spain.) This great Spanish writer was a soldier, slave & tax collector before publishing his most famous work",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-08_J_15.jpg"
+          ],
           "answer": "Cervantes",
           "value": 600,
           "order": 15,
@@ -176,6 +179,9 @@
         },
         {
           "question": "His many roles have ranged from villain to Jesus",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-08_J_08.jpg"
+          ],
           "answer": "Willem Dafoe",
           "value": 600,
           "order": 8,
@@ -408,6 +414,9 @@
         },
         {
           "question": "Like audiences today, 1920s filmgoers roared at the antics of this comedian seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-08_DJ_03.wmv"
+          ],
           "answer": "Buster Keaton",
           "value": 1200,
           "order": 3,
@@ -522,6 +531,9 @@
         },
         {
           "question": "Shark Reef, seen here, is a jaw-dropping attraction at this hotel-casino, whose name makes us think of Burma",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-08_DJ_26.wmv"
+          ],
           "answer": "Mandalay Bay",
           "value": 2000,
           "order": 26,

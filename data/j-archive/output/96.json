@@ -304,6 +304,9 @@
       "clues": [
         {
           "question": "Beyond ovoid abandonment, beyond ovoid betrayal... you won't believe the ending when he \"Hatches the Egg\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-31_DJ_23.mp3"
+          ],
           "answer": "Horton",
           "value": 400,
           "order": 23,
@@ -384,6 +387,9 @@
         },
         {
           "question": "The shorter glass seen here, or a quaint cocktail made with sugar & bitters",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-31_DJ_12.jpg"
+          ],
           "answer": "an old-fashioned",
           "value": 800,
           "order": 12,
@@ -392,6 +398,9 @@
         },
         {
           "question": "Ripped from today's headlines, he was a turtle king gone mad; Mack was the one good turtle who'd bring him down",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-31_DJ_26.mp3"
+          ],
           "answer": "Yertle",
           "value": 1200,
           "order": 26,
@@ -433,6 +442,9 @@
         },
         {
           "question": "Somewhere between truth & fiction lies Marco's reality... on Halloween, you won't believe you saw it on this St.",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-31_DJ_25.mp3"
+          ],
           "answer": "Mulberry Street",
           "value": 1600,
           "order": 25,
@@ -473,6 +485,9 @@
         },
         {
           "question": "\"500 Hats\"... 500 ways to die.  On July 4th, this young boy will defy a king... & become a legend",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-31_DJ_24.mp3"
+          ],
           "answer": "Bartholomew Cubbins",
           "value": 2000,
           "order": 24,

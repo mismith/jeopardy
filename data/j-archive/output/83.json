@@ -373,6 +373,9 @@
         },
         {
           "question": "Movie that featured the following music:",
+          "attachments": [
+            "http://www.j-archive.com/media/1987-11-10_DJ_03.mp3"
+          ],
           "answer": "Picnic",
           "value": 200,
           "order": 3,

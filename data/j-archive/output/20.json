@@ -279,6 +279,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew wears a warm, woolly coat.)  Finally add these four letters to get the type of coat I'm wearing",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-01_J_05.jpg"
+          ],
           "answer": "L-I-N-G",
           "value": 1000,
           "order": 5,
@@ -359,6 +362,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew points to a blackboard.)  By finding the value of the right side of the equation, we'll do this to the function",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-01_DJ_27.jpg"
+          ],
           "answer": "integrate it",
           "value": 800,
           "order": 27,
@@ -529,6 +535,9 @@
         },
         {
           "question": "This notorious comedienne seen here blogs about such things as her potty mouth and the end of the world",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-01_DJ_20.jpg"
+          ],
           "answer": "Margaret Cho",
           "value": 2000,
           "order": 20,

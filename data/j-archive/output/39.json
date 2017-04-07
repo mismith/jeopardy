@@ -134,6 +134,9 @@
         },
         {
           "question": "(I'm Paul Pierce.)  This coach said, \"The Boston Celtics are not a basketball team, they are a way of life\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-28_J_27.jpg"
+          ],
           "answer": "(Red) Auerbach",
           "value": 400,
           "order": 27,
@@ -344,6 +347,10 @@
         },
         {
           "question": "This man's 1642 work, seen here is today found in an Amsterdam museum",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-28_DJ_01.jpg",
+            "http://www.j-archive.com/media/2004-10-28_DJ_01a.jpg"
+          ],
           "answer": "Rembrandt",
           "value": 400,
           "order": 1,
@@ -393,6 +400,10 @@
         },
         {
           "question": "Seen here is one of many denizens of the American West depicted by this man",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-28_DJ_02.jpg",
+            "http://www.j-archive.com/media/2004-10-28_DJ_02a.jpg"
+          ],
           "answer": "(Frederick) Remington",
           "value": 800,
           "order": 2,
@@ -442,6 +453,10 @@
         },
         {
           "question": "All that the Empire came to symbolize is seen here in this artist's portrait of Madame Recamier",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-28_DJ_03.jpg",
+            "http://www.j-archive.com/media/2004-10-28_DJ_03a.jpg"
+          ],
           "answer": "(Jacques-Louis) David",
           "value": 1200,
           "order": 3,
@@ -490,6 +505,9 @@
         },
         {
           "question": "The characteristic style of this Frenchman is seen here in his 1890s work, \"Turning Road at Montgeroult\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-28_DJ_04.jpg"
+          ],
           "answer": "Cézanne",
           "value": 1600,
           "order": 4,
@@ -538,6 +556,10 @@
         },
         {
           "question": "This poet and painter whose work is seen here had the same first name as a poet born in 1265",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-28_DJ_05.jpg",
+            "http://www.j-archive.com/media/2004-10-28_DJ_05a.jpg"
+          ],
           "answer": "Dante Rossetti",
           "value": 2000,
           "order": 5,

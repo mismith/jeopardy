@@ -125,6 +125,9 @@
         },
         {
           "question": "It's the color as well as the translucent material in the picture seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-22_J_17.jpg"
+          ],
           "answer": "amber",
           "value": 400,
           "order": 17,
@@ -133,6 +136,9 @@
         },
         {
           "question": "The name of this 12th century landmark seen here might ring a bell",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-22_J_02.jpg"
+          ],
           "answer": "(the Cathedral of) Notre Dame",
           "value": 400,
           "order": 2,
@@ -213,6 +219,9 @@
         },
         {
           "question": "The name of this man, seen here, is now synonymous with ruthless power",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-22_J_09.jpg"
+          ],
           "answer": "Stalin",
           "value": 800,
           "order": 9,
@@ -269,6 +278,9 @@
         },
         {
           "question": "It's the vivid color named for the showy flowers seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-22_J_21.jpg"
+          ],
           "answer": "fuchsia",
           "value": 1000,
           "order": 21,

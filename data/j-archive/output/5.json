@@ -150,6 +150,9 @@
         },
         {
           "question": "(Hi, I’m Clay Aiken.)  For my movie song on “American Idol” I sang “Somewhere Out There” from this animated film",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-10_J_08.jpg"
+          ],
           "answer": "An American Tail",
           "value": 600,
           "order": 8,
@@ -407,6 +410,9 @@
         },
         {
           "question": "Casey Kasem created the long distance one of these & is heard here reading one:\"This letter comes from a teenager in Washington, D.C. who learned that it's better to give than receive.  Here's what she writes: 'Dear Casey...'\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-10_DJ_28.mp3"
+          ],
           "answer": "a dedication",
           "value": 1200,
           "order": 28,
@@ -439,6 +445,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew demonstrates at a chalkboard.)  For the way it curls, Germans call our @ sign the Affinschwanz or this part of a monkey",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-10_DJ_25.jpg"
+          ],
           "answer": "the tail",
           "value": 1200,
           "order": 25,
@@ -488,6 +497,9 @@
         },
         {
           "question": "The name of this company, whose symbol is seen here, consists of 3-letters plus an &",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-10_DJ_26.jpg"
+          ],
           "answer": "AT&T",
           "value": 1600,
           "order": 26,
@@ -537,6 +549,10 @@
         },
         {
           "question": "(Cheryl of the Clue Crew quizzes us from the chalkboard, which reads, \"10 gal. of paint @ $2.50 per qt.\") It’s the total price in dollars for the shipment I've listed",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-10_DJ_27.jpg",
+            "http://www.j-archive.com/media/2004-09-10_DJ_27a.jpg"
+          ],
           "answer": "$100",
           "value": 2000,
           "order": 27,

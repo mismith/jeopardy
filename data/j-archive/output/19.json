@@ -77,6 +77,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew spoons steamed & foamed milk into a cup of espresso behind a counter of a Starbucks in Seattle.)  Espresso with steamed & foamed milk was given this Italian name because the color was similar to a monk's habit",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-30_J_26.jpg"
+          ],
           "answer": "cappuccino",
           "value": 200,
           "order": 26,
@@ -351,6 +354,9 @@
         },
         {
           "question": "This type of engine takes in air, compresses it, & thrusts it out the back",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-30_DJ_11.jpg"
+          ],
           "answer": "jet",
           "value": 400,
           "order": 11,
@@ -400,6 +406,9 @@
         },
         {
           "question": "Originally a traveling salesman, Nikolaus August Otto invented the 4-stroke type of this engine",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-30_DJ_12.jpg"
+          ],
           "answer": "gas",
           "value": 800,
           "order": 12,
@@ -449,6 +458,9 @@
         },
         {
           "question": "The first practical type of this engine was built by the English inventor Thomas Newcomen in 1712",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-30_DJ_13.jpg"
+          ],
           "answer": "steam",
           "value": 1200,
           "order": 13,
@@ -497,6 +509,9 @@
         },
         {
           "question": "These trucks use two engines--one to propel the vehicle, the other to drive the pump",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-30_DJ_14.jpg"
+          ],
           "answer": "fire",
           "value": 1600,
           "order": 14,
@@ -513,6 +528,9 @@
         },
         {
           "question": "The song heard here kicks off \"Let It Be\" by these cult favorites from Minnesota\"Meet me anyplace or anywhere or anytime...\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-30_DJ_10.mp3"
+          ],
           "answer": "The Replacements",
           "value": 2000,
           "order": 10,
@@ -529,6 +547,9 @@
         },
         {
           "question": "Pyres of Vanity, the bonfires that destroyed works of art, were lit by this monk, the Medici's most virulent enemy",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-30_DJ_30.jpg"
+          ],
           "answer": "(Girolamo) Savonarola",
           "value": 2000,
           "order": 30,
@@ -545,6 +566,9 @@
         },
         {
           "question": "This is the shortened word for the engine type as well as for the plane that uses it",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-30_DJ_15.jpg"
+          ],
           "answer": "prop",
           "value": 2000,
           "order": 15,

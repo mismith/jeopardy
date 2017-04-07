@@ -52,6 +52,9 @@
         },
         {
           "question": "This animated character may grasp advanced science, but he still needs to be in bed before 9",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-20_J_16.jpg"
+          ],
           "answer": "Jimmy Neutron",
           "value": 200,
           "order": 16,
@@ -100,6 +103,9 @@
         },
         {
           "question": "The half-boy, half-ghost seen here battles the paranormal at Casper High on this series",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-20_J_17.jpg"
+          ],
           "answer": "Danny Phantom (Danny Fenton accepted)",
           "value": 400,
           "order": 17,
@@ -149,6 +155,9 @@
         },
         {
           "question": "Seen here are the hosts of this show, where U watch, U call, & U click",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-20_J_18.jpg"
+          ],
           "answer": "U-Pick Live",
           "value": 600,
           "order": 18,
@@ -197,6 +206,9 @@
         },
         {
           "question": "This kid lives with his grandparents in a boarding house--where kids aren't allowed",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-20_J_19.jpg"
+          ],
           "answer": "Arnold",
           "value": 800,
           "order": 19,
@@ -237,6 +249,9 @@
         },
         {
           "question": "XJ-9, also known as Jenny, would rather hang with friends and read magazines than save the world in this animated series",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-20_J_20.jpg"
+          ],
           "answer": "My Life as a Teenage Robot",
           "value": 1000,
           "order": 20,
@@ -349,6 +364,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew reports from the Top Secret Jeopardy! Science Lab wearing his official Clue Crew lab coat.)  Both men and women have this cartilage in the throat that has a biblical name",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-20_DJ_17.jpg"
+          ],
           "answer": "the Adam's apple",
           "value": 800,
           "order": 17,
@@ -365,6 +383,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew does a thumb-to-forefinger upward crawl with her hands.)  It's the song moms sing that goes along with these hand movements",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-20_DJ_12.jpg"
+          ],
           "answer": "\"The Itsy Bitsy Spider\"",
           "value": 800,
           "order": 12,
@@ -373,6 +394,9 @@
         },
         {
           "question": "Word for the animal seen here, a National League ballplayer, or a young scout",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-20_DJ_22.jpg"
+          ],
           "answer": "cub",
           "value": 800,
           "order": 22,

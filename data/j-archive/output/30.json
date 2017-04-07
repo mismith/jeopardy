@@ -103,6 +103,9 @@
         },
         {
           "question": "This Spanish beauty seen here has starred in \"All the Pretty Horses\" & \"Blow\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-15_J_04.jpg"
+          ],
           "answer": "Penelope Cruz",
           "value": 400,
           "order": 4,
@@ -151,6 +154,9 @@
         },
         {
           "question": "She vampired it up in \"Underworld\" & \"Van Helsing\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-15_J_05.jpg"
+          ],
           "answer": "Kate Beckinsale",
           "value": 600,
           "order": 5,
@@ -199,6 +205,9 @@
         },
         {
           "question": "Late actress seen here in the same year she worked with her biggest co-star\"Mm!  Very tasty, my good man, very tasty.\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-15_J_06.wmv"
+          ],
           "answer": "Fay Wray",
           "value": 800,
           "order": 6,
@@ -466,6 +475,9 @@
         },
         {
           "question": "Oh baby, it's the 1990 hit heard here\"It burned like a ball of fire /When the rebel took a little child bride /To tease yeah /So go easy yeah\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-15_DJ_19.mp3"
+          ],
           "answer": "\"Cradle Of Love\"",
           "value": 1600,
           "order": 19,
@@ -531,6 +543,10 @@
         },
         {
           "question": "This type of bassoon would be 16 feet long if you unfolded it all the way",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-15_DJ_05.jpg",
+            "http://www.j-archive.com/media/2004-10-15_DJ_05.mp3"
+          ],
           "answer": "double bassoon (or contrabassoon)",
           "value": 2000,
           "order": 5,

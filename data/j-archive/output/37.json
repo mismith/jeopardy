@@ -94,6 +94,9 @@
         },
         {
           "question": "(Hi.  I'm Bob Woodward.)  In 1976 Carl Bernstein & I published \"The Final Days\" about his last days in office",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-26_J_22.jpg"
+          ],
           "answer": "Nixon",
           "value": 400,
           "order": 22,
@@ -175,6 +178,10 @@
         },
         {
           "question": "This type of picture takes its name from a medieval term for decorations of shrines to the muses",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-26_J_18.jpg",
+            "http://www.j-archive.com/media/2004-10-26_J_18a.jpg"
+          ],
           "answer": "a mosaic",
           "value": 600,
           "order": 18,
@@ -207,6 +214,9 @@
         },
         {
           "question": "Seen here, he's a Democrat and the ranking member of the Senate Foreign Relations Committee",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-26_J_14.wmv"
+          ],
           "answer": "Joe Biden",
           "value": 800,
           "order": 14,
@@ -312,6 +322,9 @@
       "clues": [
         {
           "question": "(Jeff Probst delivers the clue from Vanuatu, location of Survivor 9.)  Using vines tied around their ankles, the land divers of Pentecost Island may have inspired this sport",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-26_DJ_16.jpg"
+          ],
           "answer": "bungee jumping",
           "value": 400,
           "order": 16,
@@ -530,6 +543,9 @@
         },
         {
           "question": "The label of this brand is seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-26_DJ_05.jpg"
+          ],
           "answer": "St. Pauli Girl",
           "value": 2000,
           "order": 5,
@@ -563,6 +579,9 @@
       "clues": [
         {
           "question": "After several decades off it, works by this man seen here returned to the New York Times Bestseller List in 2003",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-26_FJ.jpg"
+          ],
           "answer": "J.R.R. Tolkien"
         }
       ]

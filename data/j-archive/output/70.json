@@ -157,6 +157,9 @@
         },
         {
           "question": "(Hi, I'm Tucker Carlson of CNN's Crossfire.)  One of the many publications I've written for is this \"condensed\" magazine that began publication in 1922",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-10_J_23.jpg"
+          ],
           "answer": "Reader's Digest",
           "value": 600,
           "order": 23,
@@ -358,6 +361,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew strolls down along a Manhattan sidewalk.)  A young street singer named Irving Berlin is one of many immigrants who got started in this area with a 3-word name",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-10_DJ_09.jpg"
+          ],
           "answer": "the Lower East Side",
           "value": 800,
           "order": 9,
@@ -406,6 +412,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew walks past a curbside restaurant with green, white, and red banners.)  There's no shortage of good food in this ethnic-named neighborhood once home to Martin Scorcese",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-10_DJ_28.jpg"
+          ],
           "answer": "Little Italy",
           "value": 1200,
           "order": 28,
@@ -504,6 +513,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew stands outside an a balconied edifice at dusk.)  This area in New York is neither too far up nor too far down, but just right for men like Henry Luce and Donald Trump",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-10_DJ_30.jpg"
+          ],
           "answer": "Midtown",
           "value": 2000,
           "order": 30,
@@ -544,6 +556,9 @@
         },
         {
           "question": "Listening to this famous piece of ballet music makes me think of a flurry of little dancers",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-10_DJ_22.mp3"
+          ],
           "answer": "\"Waltz Of The Snowflakes\" (from The Nutcracker)",
           "value": 2000,
           "order": 22,

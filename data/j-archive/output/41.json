@@ -239,6 +239,9 @@
         },
         {
           "question": "Seen here at a Senate hearing, he was the first U.S. Attorney General to be convicted of a felony",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-01_J_13.jpg"
+          ],
           "answer": "John Mitchell",
           "value": 1000,
           "order": 13,
@@ -327,6 +330,9 @@
         },
         {
           "question": "(Hi, I'm Maria Bartiromo.)  Heard every day to end trading, it's also the title of an afternoon show I host on CNBC",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-01_DJ_21.jpg"
+          ],
           "answer": "closing bell",
           "value": 400,
           "order": 21,
@@ -424,6 +430,9 @@
         },
         {
           "question": "(Maria Bartiromo reads the clue.)  The first specific security the NYSE recommended buying was these, a symbol of \"freedom\", during World War I",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-01_DJ_23.jpg"
+          ],
           "answer": "(Liberty) war bonds",
           "value": 1200,
           "order": 23,
@@ -520,6 +529,9 @@
         },
         {
           "question": "(Maria Bartiromo reads the clue.)  One standard for NYSE listing includes this, market cap to us pros, of a least half a billion dollars",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-01_DJ_26.jpg"
+          ],
           "answer": "market capitalization",
           "value": 2000,
           "order": 26,
@@ -537,6 +549,9 @@
         },
         {
           "question": "The structure seen here is in this city, on the bluffs of the Mississippi",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-01_DJ_05.jpg"
+          ],
           "answer": "Memphis",
           "value": 2000,
           "order": 5,

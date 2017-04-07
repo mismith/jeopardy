@@ -132,6 +132,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew eats a slice of pizza on Arthur Avenue in New York.)  A motto on Arthur Avenue is \"mangia bene, vivi bene\", which translates to this",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-24_J_02.jpg"
+          ],
           "answer": "eat well, live well",
           "value": 400,
           "order": 2,
@@ -156,6 +159,9 @@
         },
         {
           "question": "This chain-wearer seen here sailed from Lisbon in 1497 with the São Gabriel and other ships under his command",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-24_J_28.jpg"
+          ],
           "answer": "Vasco da Gama",
           "value": 600,
           "order": 28,
@@ -269,6 +275,9 @@
         },
         {
           "question": "(I'm John DeStefano, Mayor of New Haven, but) This man, our first mayor, was the only man to sign the 4 great U.S. founding documents, including the Constitution",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-24_J_10.jpg"
+          ],
           "answer": "Roger Sherman",
           "value": 1000,
           "order": 10,

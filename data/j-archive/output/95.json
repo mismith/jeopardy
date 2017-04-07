@@ -342,6 +342,9 @@
         },
         {
           "question": "He is the groundbreaking second baseman seen here in 1946",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-30_DJ_08.jpg"
+          ],
           "answer": "Jackie Robinson",
           "value": 400,
           "order": 8,
@@ -456,6 +459,9 @@
         },
         {
           "question": "Popular in the 1960s, this brand made a comeback in 2001",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-30_DJ_29.jpg"
+          ],
           "answer": "Vespa",
           "value": 1600,
           "order": 29,

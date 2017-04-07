@@ -349,6 +349,9 @@
         },
         {
           "question": "Though the following wasn't one of his biggest hits, this artist used it as the theme for his TV show",
+          "attachments": [
+            "http://www.j-archive.com/media/1987-11-09_DJ_05.mp3"
+          ],
           "answer": "Glen Campbell",
           "value": 400,
           "order": 5,

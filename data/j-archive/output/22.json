@@ -360,6 +360,11 @@
         },
         {
           "question": "(Jimmy of the Clue Crew walks through a sparsely furnished bedroom in Mission San Diego de Alcala.)  A room at Mission San Diego de Alcala is named for this man, who founded the mission and was beatified in 1988",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-05_DJ_12.jpg",
+            "http://www.j-archive.com/media/2004-10-05_DJ_12a.jpg",
+            "http://www.j-archive.com/media/2004-10-05_DJ_12b.jpg"
+          ],
           "answer": "Junipero Serra",
           "value": 800,
           "order": 12,
@@ -457,6 +462,9 @@
         },
         {
           "question": "In 1981 exiles from this nation founded the organization whose symbol is seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-05_DJ_14.jpg"
+          ],
           "answer": "Cuba",
           "value": 1600,
           "order": 14,
@@ -473,6 +481,10 @@
         },
         {
           "question": "The angel of the water statue in Central Park seen here is featured in this play that won the 1993 Pulitzer Prize",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-05_DJ_09.jpg",
+            "http://www.j-archive.com/media/2004-10-05_DJ_09a.jpg"
+          ],
           "answer": "Angels in America",
           "value": 1600,
           "order": 9,
@@ -530,6 +542,10 @@
         },
         {
           "question": "This vase in the British Museum was broken in 1845, repaired and then re-repaired in 1988",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-05_DJ_20.jpg",
+            "http://www.j-archive.com/media/2004-10-05_DJ_20a.jpg"
+          ],
           "answer": "the Portland Vase",
           "value": 2000,
           "order": 20,

@@ -93,6 +93,9 @@
         },
         {
           "question": "(I'm Aaron Brown of CNN.)  This 5-letter word is slang for an exclusive news story acquired before one's competitors",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-13_J_02.jpg"
+          ],
           "answer": "a scoop",
           "value": 400,
           "order": 2,
@@ -133,6 +136,9 @@
         },
         {
           "question": "The title of this Dr. Seuss book is evident from the illustration seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-13_J_08.jpg"
+          ],
           "answer": "Hop on Pop",
           "value": 400,
           "order": 8,
@@ -189,6 +195,9 @@
         },
         {
           "question": "(Hi, I'm Bob Woodward.)  A popular expression says that \"a good reporter never reveals\" this, & I'll be the first to agree",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-13_J_05.jpg"
+          ],
           "answer": "the sources",
           "value": 800,
           "order": 5,
@@ -261,6 +270,9 @@
         },
         {
           "question": "(Hi, I'm Tucker Carlsen of CNN's Crossfire.)  Among the many influential men to wear bow ties is this great Spanish poet & author of \"The House of Bernarda Alba\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-13_J_21.jpg"
+          ],
           "answer": "(Federico García) Lorca",
           "value": 1000,
           "order": 21,
@@ -366,6 +378,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew stands at a blackboard.)  In the familiar atomic symbol, the dots represent these little guys",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-13_DJ_04.jpg"
+          ],
           "answer": "electrons",
           "value": 800,
           "order": 4,
@@ -430,6 +445,9 @@
         },
         {
           "question": "\"Vulcan\", the U.S.A.'s largest cast-iron statue, is seen here, looking down on this Southern city",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-13_DJ_26.jpg"
+          ],
           "answer": "Birmingham, Alabama",
           "value": 3000,
           "order": 26,
@@ -528,6 +546,9 @@
         },
         {
           "question": "The view of Rio seen here is from this mountain",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-13_DJ_27.jpg"
+          ],
           "answer": "Corcovado",
           "value": 2000,
           "order": 27,

@@ -270,6 +270,9 @@
         },
         {
           "question": "Give thanks for her",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-18_J_20.jpg"
+          ],
           "answer": "Julianne Moore",
           "value": 1000,
           "order": 20,
@@ -334,6 +337,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew points to an image of a painting on a screen.)  You can see why John Constable said that in this type of work, the sky is the chief organ of sentiment",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-18_DJ_09.jpg"
+          ],
           "answer": "a landscape",
           "value": 400,
           "order": 9,
@@ -382,6 +388,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew points to an image of a cave painting on a screen.)  Temperature and moisture within the Lascaux cave preserved even the pigments from 15,000 B.C. in this age",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-18_DJ_16.jpg"
+          ],
           "answer": "the Stone Age",
           "value": 800,
           "order": 16,
@@ -431,6 +440,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew points to an image of a painting on a screen.)  As painters began to portray domestic life, \"The Merode Altarpiece\" gave this humble character his due",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-18_DJ_17.jpg"
+          ],
           "answer": "Joseph",
           "value": 1200,
           "order": 17,
@@ -479,6 +491,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew points to an image of a painting on a screen.)  The brushstroke works of this pop artist are parodies on abstract art technique",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-18_DJ_18.jpg"
+          ],
           "answer": "Lichtenstein",
           "value": 1600,
           "order": 18,
@@ -528,6 +543,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew points to an image of a painting on a screen.)  In Monet's work, we see the impressionist's varied colors, known as \"the rainbow\" this",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-18_DJ_19.jpg"
+          ],
           "answer": "palette",
           "value": 2000,
           "order": 19,
@@ -561,6 +579,9 @@
       "clues": [
         {
           "question": "The image seen here is part of Faulkner's original text of this 1930 novel",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-18_FJ.jpg"
+          ],
           "answer": "As I Lay Dying"
         }
       ]

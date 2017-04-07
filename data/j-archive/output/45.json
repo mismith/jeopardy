@@ -505,6 +505,10 @@
         },
         {
           "question": "(Cheryl of the Clue Crew demonstrates with a strip of paper from the top secret Jeopardy! labs.)  The Mobius strip is used in this field, the study of properties that don't change when a shape bends or twists",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-06_DJ_05.jpg",
+            "http://www.j-archive.com/media/2004-11-06_DJ_05a.jpg"
+          ],
           "answer": "topology",
           "value": 2000,
           "order": 5,

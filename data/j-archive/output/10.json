@@ -54,6 +54,9 @@
         },
         {
           "question": "Introduced in a 1933 film, this song heard here has become a toe-tapping favorite on Broadway",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-17_J_11.mp3"
+          ],
           "answer": "\"42nd Street\"",
           "value": 200,
           "order": 11,
@@ -78,6 +81,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew plays a game with Sofia.)  Eight years of studying medicine have prepared me to perform delicate surgery on Cavity Sam in this game--scalpel!Bzzzt!",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-17_J_20.wmv"
+          ],
           "answer": "Operation",
           "value": 200,
           "order": 20,
@@ -158,6 +164,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew plays a game with Jimmy.)  Trying to catch a rodent isn't as easy as it seems in this classic board game",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-17_J_22.wmv"
+          ],
           "answer": "Mouse Trap",
           "value": 600,
           "order": 22,
@@ -223,6 +232,9 @@
         },
         {
           "question": "Jason Patrick & Ashley Judd are seen here in the acclaimed revival of this Tennessee Williams classic",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-17_J_16.jpg"
+          ],
           "answer": "Cat on a Hot Tin Roof",
           "value": 1000,
           "order": 16,
@@ -239,6 +251,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew plays a game with Jimmy.)  Jimmy's playing older brother & helping me choose who's taking me out in the updated version of this gameGuy on telephone says, \"What's up?\" and Jimmy shakes his head.",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-17_J_24.wmv"
+          ],
           "answer": "Mystery Date",
           "value": 1000,
           "order": 24,
@@ -327,6 +342,9 @@
         },
         {
           "question": "In 1988 this Pythoner made it around the world in 80 days for the BBC with 17 hours to spare",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-17_DJ_08.jpg"
+          ],
           "answer": "Michael Palin",
           "value": 800,
           "order": 8,

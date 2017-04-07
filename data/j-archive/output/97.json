@@ -222,6 +222,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew reports from Berlin, Germany.)  After East Berlin began to be walled off in 1961, this was the first entry checkpoint to be opened after Alpha and Bravo",
+          "attachments": [
+            "http://www.j-archive.com/media/2005-01-03_J_14.jpg"
+          ],
           "answer": "Checkpoint Charlie",
           "value": 800,
           "order": 14,

@@ -263,6 +263,9 @@
         },
         {
           "question": "(Hi.  I'm John McCain.)  The bipartisan campaign reform act is named for me & this Wisconsin Senator",
+          "attachments": [
+            "http://www.j-archive.com/media/2005-01-04_J_25.jpg"
+          ],
           "answer": "Russ Feingold",
           "value": 1000,
           "order": 25,
@@ -455,6 +458,9 @@
         },
         {
           "question": "Pink, a favorite color of hers, became popular nationwide when she lived in the White House",
+          "attachments": [
+            "http://www.j-archive.com/media/2005-01-04_DJ_24.jpg"
+          ],
           "answer": "Mamie Eisenhower",
           "value": 1600,
           "order": 24,

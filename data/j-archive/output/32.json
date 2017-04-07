@@ -44,6 +44,9 @@
       "clues": [
         {
           "question": "(Sofia of the Clue Crew reports from Yellowstone National Park.)  Reliably, every half to 2 1/2 hours, this most famous of geysers fires out about 5,000 gallons of water",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-19_J_26.jpg"
+          ],
           "answer": "Old Faithful",
           "value": 200,
           "order": 26,
@@ -92,6 +95,9 @@
         },
         {
           "question": "(All four Clue Crew members listen to an animal howl as they sit around the campfire at dusk in Yellowstone National Park. Sarah reads.)  You can hear the call of this animal which was re-introduced to Yellowstone in the 1990s",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-19_J_27.jpg"
+          ],
           "answer": "a wolf",
           "value": 400,
           "order": 27,
@@ -140,6 +146,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew reads from Yellowstone National Park.)  Yellowstone has hot springs because this layer of the earth is extra thin here, so molten rock isn't far down",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-19_J_28.jpg"
+          ],
           "answer": "the crust",
           "value": 600,
           "order": 28,
@@ -188,6 +197,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew reads from Yellowstone National Park.)  The gases emitted by Yellowstone's thermal features contain this element--atomic number 16--accounting for a distinctive smell",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-19_J_29.jpg"
+          ],
           "answer": "sulfur",
           "value": 800,
           "order": 29,
@@ -237,6 +249,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew reads from Yellowstone National Park.)  This backbone of North America separating east- from west-flowing rivers cuts through the plateau of Yellowstone Park",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-19_J_30.jpg"
+          ],
           "answer": "the continental divide",
           "value": 1000,
           "order": 30,

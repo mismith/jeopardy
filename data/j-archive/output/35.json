@@ -84,6 +84,9 @@
         },
         {
           "question": "It's Apple's killer music combinationI _ _ __ N _I _ _ N _ S",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-22_J_12.jpg"
+          ],
           "answer": "iPod and iTunes",
           "value": 200,
           "order": 12,
@@ -108,6 +111,9 @@
         },
         {
           "question": "It's the rhyming name of the movie treats seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-22_J_15.jpg"
+          ],
           "answer": "Reese's Pieces",
           "value": 400,
           "order": 15,
@@ -116,6 +122,9 @@
         },
         {
           "question": "(LeVar Burton of Reading Rainbow delivers the clue.)  In \"The Bionic Bunny Show\", the Bionic Bunny twitches his nose and wiggles these to summon his bionic strength",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-22_J_19.jpg"
+          ],
           "answer": "his ears",
           "value": 400,
           "order": 19,
@@ -132,6 +141,9 @@
         },
         {
           "question": "For Brittany Snow they include liberty & equalityA _ _ R _ _ A N_ R _ A M S",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-22_J_13.jpg"
+          ],
           "answer": "American Dreams",
           "value": 400,
           "order": 13,
@@ -172,6 +184,9 @@
         },
         {
           "question": "Tale about someone who rises from neglect to success__ I _ _ E _ E _ _ __ T _ _ Y",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-22_J_20.jpg"
+          ],
           "answer": "a Cinderella story",
           "value": 600,
           "order": 20,
@@ -213,6 +228,9 @@
         },
         {
           "question": "Before dueling in this game, you must greet your opponent with a friendly handshake_ _ - _ I - O _",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-22_J_21.jpg"
+          ],
           "answer": "Yu-Gi-Oh",
           "value": 800,
           "order": 21,
@@ -245,6 +263,9 @@
         },
         {
           "question": "It's when a group wants you to conform so you'll be acceptedP _ _ RP R _ _ _ U R _",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-22_J_22.jpg"
+          ],
           "answer": "peer pressure",
           "value": 1000,
           "order": 22,
@@ -357,6 +378,9 @@
         },
         {
           "question": "This man, who co-hosted the grand opening of Disneyland, later became the President of the United States",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-22_DJ_14.jpg"
+          ],
           "answer": "Ronald Reagan",
           "value": 800,
           "order": 14,
@@ -389,6 +413,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew snaps some rubber bands around a familiar piece of sports gear.)  Lather it with lanolin, put a ball in the pocket, and wrap it with rubber bands for 48 hours",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-22_DJ_21.jpg"
+          ],
           "answer": "wear in (or break in) a (baseball) glove (or mitt)",
           "value": 1200,
           "order": 21,
@@ -445,6 +472,10 @@
         },
         {
           "question": "Neuschwanstein Castle inspired the design of this heroine's castle in a 1959 film and at Disneyland",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-22_DJ_25.jpg",
+            "http://www.j-archive.com/media/2004-10-22_DJ_25a.jpg"
+          ],
           "answer": "Sleeping Beauty",
           "value": 1600,
           "order": 25,
@@ -461,6 +492,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew reads and demonstrates on Jimmy.)  To perform this 2-word procedure to relieve choking, place your thumb on the person's upper abdomen and thrust inward",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-22_DJ_23.jpg"
+          ],
           "answer": "the Heimlich maneuver",
           "value": 2000,
           "order": 23,

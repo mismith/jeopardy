@@ -124,6 +124,9 @@
         },
         {
           "question": "(Hi.  I'm LeVar Burton, and) In 1999 I won a Grammy for narrating \"The Autobiography of\" this winner of the Nobel Peace Prize",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-22_J_13.jpg"
+          ],
           "answer": "Martin Luther King, Jr.",
           "value": 400,
           "order": 13,
@@ -180,6 +183,9 @@
         },
         {
           "question": "Created in 1981, this video game character's life ends when you hear the following sound",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-22_J_08.mp3"
+          ],
           "answer": "Pac-Man",
           "value": 600,
           "order": 8,
@@ -220,6 +226,9 @@
         },
         {
           "question": "(Hi, I'm Gretchen Carlson of the CBS Saturday Early Show.)  You could say it was my \"crowning\" moment when I became the 1st classical violinist to win this national title",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-22_J_16.jpg"
+          ],
           "answer": "Miss America",
           "value": 800,
           "order": 16,
@@ -405,6 +414,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew motions to a diagram on a chalkboard.)  During cell division, structures called spindles attach these to one end of the cell",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-22_DJ_10.jpg"
+          ],
           "answer": "chromosomes",
           "value": 2000,
           "order": 10,
@@ -503,6 +515,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew demonstrates at a chalkboard.)  Though its name is from the latin for \"empty,\" this cavity in a plant cell holds a solution that's important for life",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-22_DJ_11.jpg"
+          ],
           "answer": "a vacuole",
           "value": 2000,
           "order": 11,

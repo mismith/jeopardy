@@ -44,6 +44,9 @@
       "clues": [
         {
           "question": "(Jimmy of the Clue Crew delivers from an open mic in a small club.)  I tell you it was so cold today... (How cold was it?) It was so cold, I wished we were back in 64 when he was emperor. Hot times, if you know what I mean!",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-29_J_12.mp3"
+          ],
           "answer": "Nero",
           "value": 200,
           "order": 12,
@@ -92,6 +95,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew delivers from an open mic in a small club.)  Boy, in the old days we knew how to par-tay.  You know what they say--if you can remember this festival of the god Bacchus, you weren't there!",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-29_J_13.mp3"
+          ],
           "answer": "a bacchanalia",
           "value": 400,
           "order": 13,
@@ -140,6 +146,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew delivers from an open mic in a small club.)  See, in this place, I like to stay in the calderium; avoid the frigidarium.  I like my tenaculum the size it is!",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-29_J_14.mp3"
+          ],
           "answer": "the baths",
           "value": 600,
           "order": 14,
@@ -188,6 +197,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew delivers from an open mic in a small club.)  Talk about a terrible cook!  My wife's pretty bad, but at least she never gave me poisoned figs like Livia gave this guy",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-29_J_15.mp3"
+          ],
           "answer": "Augustus Caesar",
           "value": 800,
           "order": 15,
@@ -236,6 +248,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew delivers from an open mic in a small club.)  How about Varis's army being wiped out in the forest in this country?  That's like me being in the arena against Spartacus!",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-29_J_16.mp3"
+          ],
           "answer": "Germany",
           "value": 1000,
           "order": 16,
@@ -414,6 +429,9 @@
         },
         {
           "question": "Dorothy Fields, the most successful female theater lyricist of the 20th century, wrote the words to this classic",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-29_DJ_23.mp3"
+          ],
           "answer": "\"A Fine Romance\"",
           "value": 1200,
           "order": 23,
@@ -422,6 +440,9 @@
         },
         {
           "question": "Appropriately, this vast Russian art museum houses the icon of St. Nicholas seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-29_DJ_17.jpg"
+          ],
           "answer": "the Hermitage",
           "value": 1200,
           "order": 17,

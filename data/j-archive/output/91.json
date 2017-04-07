@@ -329,6 +329,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew stands next to a portrait at the Eisenhower Center in Abilene, KS.)  A Civil War buff who lived in retirement at Gettysburg, Ike painted a portrait of this man",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-28_DJ_21.jpg"
+          ],
           "answer": "(Robert E.) Lee",
           "value": 400,
           "order": 21,
@@ -425,6 +428,9 @@
         },
         {
           "question": "Actress seen here, Nov. 30, 1982 in Calgary",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-28_DJ_03.jpg"
+          ],
           "answer": "(Elisha) Cuthbert",
           "value": 1200,
           "order": 3,

@@ -8,6 +8,15 @@ function toNum(str) {
 function getText(node) {
   return node && node.textContent || undefined;
 }
+function getAttachments(node) {
+  if (node) {
+    const attachmentNodes = node.querySelectorAll('[href]');
+    if (attachmentNodes.length) {
+      return [].slice.call(attachmentNodes).map(attachmentNode => attachmentNode.href);
+    }
+  }
+  return undefined;
+}
 
 const max = 100;
 const bar = new ProgressBar('Parsing files [:bar] :current/:total', {total: max});
@@ -51,10 +60,12 @@ for (let i = 1; i <= max; i++) {
         }
         eval((clue.querySelector('[onmouseover]') || round.querySelector('[onmouseover]')).getAttribute('onmouseover'));
         const question = getText(clue.querySelector('.clue_text'));
+        const attachments = getAttachments(clue.querySelector('.clue_text'));
 
         if (!question) return;
         return {
           question,
+          attachments,
           answer,
           value:    toNum(getText(dd || clue.querySelector('.clue_value'))),
           order:    toNum(getText(clue.querySelector('.clue_order_number'))),

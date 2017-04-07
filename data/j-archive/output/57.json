@@ -124,6 +124,9 @@
         },
         {
           "question": "Taken recently, the ultraviolet image seen here shows this planet's most famous feature",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-23_J_12.jpg"
+          ],
           "answer": "Saturn",
           "value": 400,
           "order": 12,
@@ -252,6 +255,9 @@
         },
         {
           "question": "(Hi.  I'm Keith Olberman.)  I started when I was 16 and I graduated at 20 with a B.S. in communications at this Ivy League school in Ithaca",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-23_J_11.jpg"
+          ],
           "answer": "Cornell",
           "value": 1000,
           "order": 11,
@@ -318,6 +324,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew speaks from Santorini in Greece.)  Volcanic cliffs on Santorini are the remnants of an eruption that may be the source of the legend of this island",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-23_DJ_06.jpg"
+          ],
           "answer": "Atlantis",
           "value": 400,
           "order": 6,
@@ -366,6 +375,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew reads from Delos in Greece.)  Delos was sacred as the birthplace of this music-loving sun god whose temple this is",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-23_DJ_07.jpg"
+          ],
           "answer": "Apollo",
           "value": 800,
           "order": 7,
@@ -415,6 +427,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew delivers the clue from Athens, Greece.)  In Greek cities, orient yourself using this, whose name comes from words meaning \"highest\" and \"city\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-23_DJ_08.jpg"
+          ],
           "answer": "the Acropolis",
           "value": 1200,
           "order": 8,
@@ -464,6 +479,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew stands in the the Theatre of Dionysus in Athens, Greece.)  In 401 B.C. here at the Theatre of Dionysus, this man won a posthumous first prize for his play \"Oedipus at Colonus\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-23_DJ_09.jpg"
+          ],
           "answer": "Sophocles",
           "value": 1600,
           "order": 9,
@@ -512,6 +530,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew stands in front of the Parthenon in Athens, Greece.)  Built in the 400s B.C., the temple of Athena, known as the Parthenon, is the greatest example of this ancient architectural style",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-23_DJ_10.jpg"
+          ],
           "answer": "doric",
           "value": 2000,
           "order": 10,

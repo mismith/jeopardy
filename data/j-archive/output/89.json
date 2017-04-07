@@ -54,6 +54,11 @@
         },
         {
           "question": "(Jimmy of the Clue Crew reports from Times Square.)  In 1904, Oscar Hammerstein I brought Times Square this new entertainment form, with dancing girls and comedy teams",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-27_J_06.jpg",
+            "http://www.j-archive.com/media/2004-12-27_J_06a.jpg",
+            "http://www.j-archive.com/media/2004-12-27_J_06b.jpg"
+          ],
           "answer": "Vaudeville",
           "value": 200,
           "order": 6,
@@ -102,6 +107,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew reads from Broadway.)  Fittingly, O. J. Gude, who designed many Times Square electric signs, coined this term for Broadway",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-27_J_07.jpg"
+          ],
           "answer": "The Great White Way",
           "value": 400,
           "order": 7,
@@ -150,6 +158,11 @@
         },
         {
           "question": "(Cheryl of the Clue Crew reports from Times Square.)  On the night of August 14th of this year, an estimated 2 million people spontaneously celebrated in Times Square",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-27_J_08.jpg",
+            "http://www.j-archive.com/media/2004-12-27_J_08a.jpg",
+            "http://www.j-archive.com/media/2004-12-27_J_08b.jpg"
+          ],
           "answer": "1945",
           "value": 600,
           "order": 8,
@@ -198,6 +211,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew reports Times Square.)  In 1907, risky fireworks were replaced for New Year's Eve with this, covered with 125-watt bulbs",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-27_J_09.jpg"
+          ],
           "answer": "the (New Year's Eve dropping) ball",
           "value": 800,
           "order": 9,
@@ -247,6 +263,11 @@
         },
         {
           "question": "(Jimmy of the Clue Crew reads from Times Square.)  In 1904, Times Square got its name from the newspaper and this owner ushered in 1905 with a big party",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-27_J_10.jpg",
+            "http://www.j-archive.com/media/2004-12-27_J_10a.jpg",
+            "http://www.j-archive.com/media/2004-12-27_J_10b.jpg"
+          ],
           "answer": "Adolph Ochs",
           "value": 1000,
           "order": 10,
@@ -335,6 +356,9 @@
         },
         {
           "question": "\"Sandy\" was probably not a nickname of this British World War I hero",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-27_DJ_07.jpg"
+          ],
           "answer": "Lawrence (of Arabia)",
           "value": 400,
           "order": 7,
@@ -383,6 +407,9 @@
         },
         {
           "question": "This German's military fame arises mostly from his successes in North Africa",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-27_DJ_08.jpg"
+          ],
           "answer": "(Erwin) Rommel",
           "value": 800,
           "order": 8,
@@ -431,6 +458,9 @@
         },
         {
           "question": "Long-time opposer of Spanish rule in the Americas seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-27_DJ_09.jpg"
+          ],
           "answer": "(Simón) Bolívar",
           "value": 1200,
           "order": 9,
@@ -480,6 +510,9 @@
         },
         {
           "question": "His infamy began on December 7th, 1941",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-27_DJ_10.jpg"
+          ],
           "answer": "(Isoroku) Yamamoto",
           "value": 1600,
           "order": 10,
@@ -496,6 +529,9 @@
         },
         {
           "question": "It's the more popular & timely name for \"Opus 64 No. 1\", heard here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-27_DJ_19.mp3"
+          ],
           "answer": "\"The Minute Waltz\" (by Frédéric Chopin)",
           "value": 1600,
           "order": 19,
@@ -529,6 +565,9 @@
         },
         {
           "question": "You might say this German military leader of World War I was full of hot air",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-27_DJ_11.jpg"
+          ],
           "answer": "(Paul von) Hindenburg",
           "value": 2000,
           "order": 11,

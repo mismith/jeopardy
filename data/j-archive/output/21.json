@@ -62,6 +62,9 @@
         },
         {
           "question": "There's plenty of room here for your groceries",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-04_J_21.jpg"
+          ],
           "answer": "a pantry",
           "value": 200,
           "order": 21,
@@ -110,6 +113,9 @@
         },
         {
           "question": "This is your John Hancock",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-04_J_22.jpg"
+          ],
           "answer": "your autograph",
           "value": 400,
           "order": 22,
@@ -158,6 +164,9 @@
         },
         {
           "question": "This is right",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-04_J_23.jpg"
+          ],
           "answer": "starboard",
           "value": 600,
           "order": 23,
@@ -207,6 +216,9 @@
         },
         {
           "question": "This is your history",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-04_J_24.jpg"
+          ],
           "answer": "your background",
           "value": 800,
           "order": 24,
@@ -247,6 +259,9 @@
         },
         {
           "question": "(I'm Moe Williams from the NFL.)  The Minnesota Vikings play their home games in a domed stadium named for this former U.S. vice president",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-04_J_30.jpg"
+          ],
           "answer": "Humphrey",
           "value": 1000,
           "order": 30,
@@ -255,6 +270,9 @@
         },
         {
           "question": "Someone who's very middle-of-the-road",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-04_J_25.jpg"
+          ],
           "answer": "centrist",
           "value": 1000,
           "order": 25,
@@ -327,6 +345,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew strolls through an unfinished airplane cabin at the Boeing Everett Factory in Seattle, WA.)  I'm walking through this main body of the airplane, which gets its name from the Old French for \"spindle\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-04_DJ_14.jpg"
+          ],
           "answer": "the fuselage",
           "value": 400,
           "order": 14,

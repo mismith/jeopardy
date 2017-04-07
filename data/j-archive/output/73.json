@@ -85,6 +85,9 @@
         },
         {
           "question": "It's the U.S. territory whose flag is seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-15_J_26.jpg"
+          ],
           "answer": "the Virgin Islands",
           "value": 200,
           "order": 26,
@@ -101,6 +104,10 @@
         },
         {
           "question": "(Sarah of the Clue Crew reports from the Brooklyn Bridge.)  In 1998 after terrorizing New York, this movie monster is finally brought down on the Brooklyn Bridge",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-15_J_09.jpg",
+            "http://www.j-archive.com/media/2004-12-15_J_09a.jpg"
+          ],
           "answer": "Godzilla",
           "value": 400,
           "order": 9,
@@ -181,6 +188,9 @@
         },
         {
           "question": "He's the explorer who used the flag seen here in honor of his royal patrons",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-15_J_28.jpg"
+          ],
           "answer": "Columbus",
           "value": 600,
           "order": 28,
@@ -277,6 +287,9 @@
         },
         {
           "question": "This South Atlantic island group's flag is seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-15_J_30.jpg"
+          ],
           "answer": "the Falklands",
           "value": 1000,
           "order": 30,
@@ -318,6 +331,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew reports from the Majestic Theatre.)  I'm on the Broadway set of this ever-popular musical, whose first act ends with a resounding crash",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-15_DJ_07.jpg"
+          ],
           "answer": "The Phantom of the Opera",
           "value": 400,
           "order": 7,
@@ -366,6 +382,9 @@
         },
         {
           "question": "(Hi, I'm John Tartaglia.  And I'm Rod.  And I'm Princeton.)  And we're here on the set of the 2004 Tony-award winner for best musical of this title street",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-15_DJ_08.jpg"
+          ],
           "answer": "Avenue Q",
           "value": 800,
           "order": 8,
@@ -406,6 +425,9 @@
         },
         {
           "question": "The title vessel of a 1494 poem by Sebastian Brant & of the painting of the same period by Hieronymus Bosch",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-15_DJ_25.jpg"
+          ],
           "answer": "the ship of fools",
           "value": 1200,
           "order": 25,
@@ -414,6 +436,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew hovers over the stage of the Gershwin Theatre.)  Gregory Maguire's novel about the early years of the witches of Oz inspired this award-winning Broadway musical",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-15_DJ_09.jpg"
+          ],
           "answer": "Wicked",
           "value": 1200,
           "order": 9,
@@ -463,6 +488,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew stands on stage with giraffes at the New Amsterdam Theatre.)  She was the first woman to win a Tony for best director of a musical when she won in 1998 for \"The Lion King\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-15_DJ_10.jpg"
+          ],
           "answer": "Julie Taymor",
           "value": 1600,
           "order": 10,
@@ -512,6 +540,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew reports from the St. James Theatre.)  In \"The Producers,\" Zero Mostel played this man on film; Nathan Lane and Brad Oscar have played him here on Broadway",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-15_DJ_11.jpg"
+          ],
           "answer": "Max Bialystock",
           "value": 2000,
           "order": 11,

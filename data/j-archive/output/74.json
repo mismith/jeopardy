@@ -342,6 +342,9 @@
         },
         {
           "question": "This island had its own Norman conquest and Roman conquest and Vandal and Saracen",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-16_DJ_02.jpg"
+          ],
           "answer": "Sicily",
           "value": 400,
           "order": 2,
@@ -390,6 +393,9 @@
         },
         {
           "question": "Governor Granholm, not shown works in this city",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-16_DJ_03.jpg"
+          ],
           "answer": "Lansing",
           "value": 800,
           "order": 3,
@@ -406,6 +412,9 @@
         },
         {
           "question": "Indianan writer who appears in the photo seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-16_DJ_16.jpg"
+          ],
           "answer": "Kurt Vonnegut",
           "value": 1200,
           "order": 16,
@@ -439,6 +448,9 @@
         },
         {
           "question": "It's the name of this state, mate",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-16_DJ_04.jpg"
+          ],
           "answer": "Victoria",
           "value": 1200,
           "order": 4,
@@ -487,6 +499,9 @@
         },
         {
           "question": "Until 1966, it was Basutoland",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-16_DJ_05.jpg"
+          ],
           "answer": "Lesotho",
           "value": 1600,
           "order": 5,
@@ -536,6 +551,9 @@
         },
         {
           "question": "County of cliffs and Celts seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-16_DJ_06.jpg"
+          ],
           "answer": "Cornwall",
           "value": 2000,
           "order": 6,

@@ -182,6 +182,9 @@
         },
         {
           "question": "(Hi, I'm Tim Russert of NBC's Meet the Press.)  In 1985 I supervised a broadcast from Rome featuring a live interview with this man, a first for American television",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-27_J_18.jpg"
+          ],
           "answer": "Pope John Paul II",
           "value": 600,
           "order": 18,
@@ -222,6 +225,10 @@
         },
         {
           "question": "For this North American member of the family iguanidae seen here:\"Honk if you're corneus\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-27_J_25.jpg",
+            "http://www.j-archive.com/media/2004-10-27_J_25a.jpg"
+          ],
           "answer": "horned lizard (or horned toad)",
           "value": 800,
           "order": 25,
@@ -263,6 +270,9 @@
         },
         {
           "question": "State where the concession speech seen here was made in 2004",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-27_J_10.wmv"
+          ],
           "answer": "Iowa",
           "value": 1000,
           "order": 10,
@@ -311,6 +321,9 @@
       "clues": [
         {
           "question": "Ivan Kramskoi painted him in 1873 with the author at the height of his powers",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-27_DJ_01.jpg"
+          ],
           "answer": "(Leon) Tolstoy",
           "value": 400,
           "order": 1,
@@ -359,6 +372,9 @@
         },
         {
           "question": "Cirque du Soleil's aerial cube was originated in Russia by members of this famed circus",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-27_DJ_02.wmv"
+          ],
           "answer": "the Moscow Circus",
           "value": 800,
           "order": 2,
@@ -399,6 +415,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew fires a shotgun out in the hills.)  Newton's third law of motion explains why this 6-letter reaction happens after I discharge the gun",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-27_DJ_22.wmv"
+          ],
           "answer": "recoil",
           "value": 800,
           "order": 22,
@@ -407,6 +426,10 @@
         },
         {
           "question": "The painting seen here depicts these workers, also the subject of a Russian folk song",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-27_DJ_03.jpg",
+            "http://www.j-archive.com/media/2004-10-27_DJ_03a.jpg"
+          ],
           "answer": "Boatmen of the Volga (or Volga Boatmen)",
           "value": 1200,
           "order": 3,
@@ -456,6 +479,9 @@
         },
         {
           "question": "In Russian, these nesting dolls are called matryoshka, from a word meaning this person",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-27_DJ_04.jpg"
+          ],
           "answer": "mother",
           "value": 1600,
           "order": 4,

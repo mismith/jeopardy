@@ -88,6 +88,9 @@
         },
         {
           "question": "This type of photoelectric cell converts sunlight to energy",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-25_J_23.jpg"
+          ],
           "answer": "solar",
           "value": 200,
           "order": 23,
@@ -104,6 +107,9 @@
         },
         {
           "question": "(I'm Troy Vincent of the NFL.)  Along with 2 safeties, 2 players at this position of mine normally make up the secondary",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-25_J_18.jpg"
+          ],
           "answer": "cornerbacks",
           "value": 400,
           "order": 18,
@@ -112,6 +118,9 @@
         },
         {
           "question": "This site has seen more than its share of historic & ceremonial occasions",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-25_J_22.wmv"
+          ],
           "answer": "the Rose Garden",
           "value": 400,
           "order": 22,
@@ -136,6 +145,9 @@
         },
         {
           "question": "This type of light can drill holes in diamonds or carry information over long distances",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-25_J_24.jpg"
+          ],
           "answer": "laser",
           "value": 400,
           "order": 24,
@@ -184,6 +196,9 @@
         },
         {
           "question": "A bulb gives off light from this which comes from the resistance of the filament to the electric current",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-25_J_25.jpg"
+          ],
           "answer": "heat",
           "value": 600,
           "order": 25,
@@ -208,6 +223,9 @@
         },
         {
           "question": "Not the Golden Gate, but the gate seen here, gets you into this garden",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-25_J_29.jpg"
+          ],
           "answer": "the Japanese Tea Garden (in San Francisco)",
           "value": 800,
           "order": 29,
@@ -232,6 +250,9 @@
         },
         {
           "question": "Light can behave like a particle or, when it bends, like one of these",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-25_J_26.jpg"
+          ],
           "answer": "wave",
           "value": 800,
           "order": 26,
@@ -248,6 +269,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew comes to a quick stop on the slopes.)  A sharp turn perpendicular to the hill is this kind of stop, named for the game played by Brendan Shanahan",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-25_J_21.wmv"
+          ],
           "answer": "hockey",
           "value": 1000,
           "order": 21,
@@ -281,6 +305,9 @@
         },
         {
           "question": "The photon, a light particle, has momentum & energy but no electric charge or this",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-25_J_27.jpg"
+          ],
           "answer": "mass",
           "value": 1000,
           "order": 27,
@@ -369,6 +396,9 @@
         },
         {
           "question": "Fred Astaire's sister Adele introduced this Gershwin tune",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-25_DJ_29.mp3"
+          ],
           "answer": "\"The Man I Love\"",
           "value": 800,
           "order": 29,
@@ -466,6 +496,9 @@
         },
         {
           "question": "There was a rush to record this big hit of 1948",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-25_DJ_27.mp3"
+          ],
           "answer": "\"You Call Everybody Darlin'\"",
           "value": 1600,
           "order": 27,

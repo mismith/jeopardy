@@ -60,6 +60,9 @@
         },
         {
           "question": "This animal's horns, seen here, are made entirely of keratin, a fibrous hair protein",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-15_J_11.jpg"
+          ],
           "answer": "the rhinoceros",
           "value": 200,
           "order": 11,
@@ -92,6 +95,9 @@
         },
         {
           "question": "It's the geographically appropriate name of the Pittsburgh landmark seen here on Feb. 11, 2001",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-15_J_02.jpg"
+          ],
           "answer": "Three Rivers Stadium",
           "value": 400,
           "order": 2,
@@ -156,6 +162,9 @@
         },
         {
           "question": "Life is unfair for the males of this animal, seen here; they're bald on top of their horns, while the female has hair",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-15_J_13.jpg"
+          ],
           "answer": "a giraffe",
           "value": 600,
           "order": 13,

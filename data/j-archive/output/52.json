@@ -53,6 +53,9 @@
         },
         {
           "question": "My daughter put this Canadian singer's songs on my iPod, but I'm man enough to admit I listen to her too\"All this time you were pretending /So much for my happy ending...\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-16_J_14.mp3"
+          ],
           "answer": "Avril Lavigne",
           "value": 200,
           "order": 14,
@@ -109,6 +112,9 @@
         },
         {
           "question": "You're on the money if you know that he's the statesman seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-16_J_02.jpg"
+          ],
           "answer": "Alexander Hamilton",
           "value": 400,
           "order": 2,
@@ -149,6 +155,9 @@
         },
         {
           "question": "This band of brothers started their career in their dad's band\"I been lost in my own place and I'm gettin' weary...\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-16_J_28.mp3"
+          ],
           "answer": "Los Lonely Boys",
           "value": 600,
           "order": 28,
@@ -246,6 +255,9 @@
         },
         {
           "question": "This group's song is more than great listening, it's a history lesson\"...Springsteen, Madonna /Way before Nirvana there was /U2 and Blondie...\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-16_J_30.mp3"
+          ],
           "answer": "Bowling for Soup",
           "value": 1000,
           "order": 30,

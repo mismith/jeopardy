@@ -148,6 +148,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew demonstrates from Times Square.)  If I were a kid, I'd want a pair of these goggles for Christmas, so I can pretend I'm this hero",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-18_J_08.jpg"
+          ],
           "answer": "Spider-Man",
           "value": 600,
           "order": 8,
@@ -188,6 +191,9 @@
         },
         {
           "question": "The rabbit seen here has this name after one of its features",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-18_J_04.jpg"
+          ],
           "answer": "cottontail",
           "value": 800,
           "order": 4,
@@ -237,6 +243,9 @@
         },
         {
           "question": "...one of these dolls, with a passion for fashion, like Jade and Chloe seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-18_J_10.jpg"
+          ],
           "answer": "a Bratz doll",
           "value": 1000,
           "order": 10,
@@ -302,6 +311,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew announces, \"I'm here on the Broadway set of The Lion King.\")  It's a memorable moment in \"The Lion King\" when this baby lion cub is presented to the world atop Pride Rock",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-18_DJ_02.jpg"
+          ],
           "answer": "Simba",
           "value": 400,
           "order": 2,
@@ -350,6 +362,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew delivers the clue from the set of The Lion King.)  Many of the costumes and sets in \"The Lion King\" were inspired by the art of this continent, where the show is set",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-18_DJ_04.jpg"
+          ],
           "answer": "Africa",
           "value": 800,
           "order": 4,
@@ -390,6 +405,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew delivers the clue from the set of The Lion King.)  The title of this famous song from \"The Lion King\" means \"no worries\" and it's Timon and Pumbaa's motto",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-18_DJ_14.jpg"
+          ],
           "answer": "\"Hakuna Matata\"",
           "value": 1200,
           "order": 14,
@@ -431,6 +449,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew converses with a puppet on the set of The Lion King.)  In the stage version of \"The Lion King\", Zazu is no birdbrain--he's the aide-de-camp to this lion, Simba's father (Zazu squawks \"Aide-de-camp!\")",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-18_DJ_17.jpg"
+          ],
           "answer": "Mufasa",
           "value": 1600,
           "order": 17,
@@ -471,6 +492,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew delivers the clue from the set of The Lion King.)  This \"Lion King\" song tells us \"the sun rolling high through the sapphire sky keeps great and small on the endless round\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-18_DJ_18.jpg"
+          ],
           "answer": "\"The Circle Of Life\"",
           "value": 2000,
           "order": 18,

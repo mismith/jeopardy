@@ -328,6 +328,9 @@
         },
         {
           "question": "(Alex reads the clue from the Barnes Collection.)  Rosy cheeks are a signature of this French artist, Dr. Barnes' favorite; there are over 180 of his works in the Barnes collection",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-23_DJ_24.jpg"
+          ],
           "answer": "(Pierre-Auguste) Renoir",
           "value": 400,
           "order": 24,
@@ -376,6 +379,9 @@
         },
         {
           "question": "(Alex reads the clue from the Barnes Collection.)Talk about an eye for value!  Dr. Barnes once refused to sell for $6,000 the watercolor by this artist that he had acquired for $10",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-23_DJ_25.jpg"
+          ],
           "answer": "(Pablo) Picasso",
           "value": 800,
           "order": 25,
@@ -424,6 +430,9 @@
         },
         {
           "question": "(Alex reads the clue from the Barnes Collection.)  Early on, Dr. Barnes recognized the influence of African art on European artists, like this Italian whose work is featured here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-23_DJ_28.jpg"
+          ],
           "answer": "(Amedeo) Modigliani",
           "value": 1200,
           "order": 28,
@@ -472,6 +481,9 @@
         },
         {
           "question": "(Alex reads the clue from the Barnes Collection.)  There are treasures everywhere here at the Barnes, even in a stairwell: \"Joy of Life,\" a Matisse masterpiece, was said to be the inspiration for this wild art movement",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-23_DJ_29.jpg"
+          ],
           "answer": "Fauvism",
           "value": 1600,
           "order": 29,
@@ -488,6 +500,9 @@
         },
         {
           "question": "1921 Heidelberg University graduate seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-23_DJ_19.jpg"
+          ],
           "answer": "Joseph Goebbels",
           "value": 1600,
           "order": 19,
@@ -521,6 +536,9 @@
         },
         {
           "question": "(Alex reads the clue from the Barnes Collection.)  In the Barnes collections, there are 46 Picassos, 59 Matisses and 69 works by this artist, whose famous \"Card Players\" is seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-23_DJ_30.jpg"
+          ],
           "answer": "Paul Cézanne",
           "value": 2000,
           "order": 30,

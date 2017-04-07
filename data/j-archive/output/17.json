@@ -365,6 +365,9 @@
         },
         {
           "question": "This Englishman described his work as \"modern moral subjects... similar to representations on the stage\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-28_DJ_22.jpg"
+          ],
           "answer": "(William) Hogarth",
           "value": 800,
           "order": 22,
@@ -422,6 +425,9 @@
         },
         {
           "question": "If we covered everything Cajun from A to Z, we'd finally come to this accordion-based musical style heard here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-28_DJ_28.mp3"
+          ],
           "answer": "zydeco",
           "value": 1200,
           "order": 28,
@@ -463,6 +469,9 @@
         },
         {
           "question": "His \"Jolly Toper\" of the 1600s is seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-28_DJ_24.jpg"
+          ],
           "answer": "Franz Hals",
           "value": 1600,
           "order": 24,

@@ -119,6 +119,10 @@
         },
         {
           "question": "(Al Franken reads.)  Chernobyl, Iran-Contra & Flock of Seagulls haircuts weren't exactly what I had in mind when I named this decade after me...\"Al Franken\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-26_J_27.jpg",
+            "http://www.j-archive.com/media/2004-11-26_J_27a.jpg"
+          ],
           "answer": "the 1980s",
           "value": 400,
           "order": 27,
@@ -352,6 +356,9 @@
         },
         {
           "question": "It's the action heard here; someone talking in fantasies is said to be doing it",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-26_DJ_01.mp3"
+          ],
           "answer": "whistling \"Dixie\"",
           "value": 400,
           "order": 1,
@@ -409,6 +416,10 @@
         },
         {
           "question": "The frolicsome painting seen here dates from this century",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-26_DJ_10.jpg",
+            "http://www.j-archive.com/media/2004-11-26_DJ_10a.jpg"
+          ],
           "answer": "the 18th",
           "value": 1200,
           "order": 10,
@@ -449,6 +460,9 @@
         },
         {
           "question": "This expression for what's being done here is found in Psalm 9\"You are magnificent, you're marvelous, you're triumphant, and you're grand...\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-26_DJ_23.wmv"
+          ],
           "answer": "singing his praises",
           "value": 1200,
           "order": 23,
@@ -506,6 +520,10 @@
         },
         {
           "question": "Georges de la Tour mastered candlelight in the type of painting called this, also a musical term",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-26_DJ_12.jpg",
+            "http://www.j-archive.com/media/2004-11-26_DJ_12a.jpg"
+          ],
           "answer": "Nocturne",
           "value": 2000,
           "order": 12,

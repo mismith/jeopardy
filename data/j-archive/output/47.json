@@ -208,6 +208,9 @@
         },
         {
           "question": "Since 1851, it's helped people get where they're going",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-09_J_23.jpg"
+          ],
           "answer": "Travelers Aid",
           "value": 800,
           "order": 23,
@@ -337,6 +340,11 @@
         },
         {
           "question": "(Cheryl of the Clue Crew, in ski gear, reports from a snowy spot.)  I'm on Mammoth Mountain, which, like a lot of great California skiing, is in this mountain range",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-09_DJ_11.jpg",
+            "http://www.j-archive.com/media/2004-11-09_DJ_11a.jpg",
+            "http://www.j-archive.com/media/2004-11-09_DJ_11b.jpg"
+          ],
           "answer": "the Sierra Nevada",
           "value": 400,
           "order": 11,
@@ -385,6 +393,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew leans against a corral fence in a high, green pasture.)  I'm overlooking Paradise Valley in this state, with a nickname that encourages you to look up",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-09_DJ_12.jpg"
+          ],
           "answer": "Montana",
           "value": 800,
           "order": 12,
@@ -393,6 +404,9 @@
         },
         {
           "question": "Place a bet & name this classic heard here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-09_DJ_07.mp3"
+          ],
           "answer": "\"Camptown Races\"",
           "value": 800,
           "order": 7,
@@ -433,6 +447,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew stands somewhere with a brightly-lit Eiffel Tower in the background.)  I'm on the street called this, originally named by L.A. ex-cop Guy McAfee, who was reminded of Sunset Boulevard",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-09_DJ_13.jpg"
+          ],
           "answer": "the Las Vegas Strip",
           "value": 1200,
           "order": 13,
@@ -482,6 +499,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew stands at the edge of an inviting, palm-enclosed lagoon lined with grass-capped umbrellas.)  On the east coast of this Mexican peninsula, I'm actually due south of Florida",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-09_DJ_14.jpg"
+          ],
           "answer": "the Yucatan",
           "value": 1600,
           "order": 14,
@@ -530,6 +550,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew strolls across a college campus.)  I'm on the campus of this university, where over 25 Nobel Prize winners were educated, including Milton Friedman",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-09_DJ_15.jpg"
+          ],
           "answer": "(the University of) Chicago",
           "value": 2000,
           "order": 15,

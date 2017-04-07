@@ -47,6 +47,10 @@
       "clues": [
         {
           "question": "The knicknacks seen here were part of the Benmania resulting from his arrival in this city [audio]",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-02_J_03.jpg",
+            "http://www.j-archive.com/media/2004-12-02_J_03.mp3"
+          ],
           "answer": "Paris",
           "value": 200,
           "order": 3,
@@ -143,6 +147,10 @@
         },
         {
           "question": "This job Ben got in 1753 helped his business, as described here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-02_J_09.jpg",
+            "http://www.j-archive.com/media/2004-12-02_J_09.mp3"
+          ],
           "answer": "Postmaster",
           "value": 600,
           "order": 9,
@@ -208,6 +216,9 @@
         },
         {
           "question": "Shapely two-word location of the people seen here, May 5th, 1973",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-02_J_24.jpg"
+          ],
           "answer": "the winner's circle",
           "value": 800,
           "order": 24,
@@ -240,6 +251,9 @@
         },
         {
           "question": "Shown here, a musical instrument Ben invented is called the \"glass\" one of these",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-02_J_11.jpg"
+          ],
           "answer": "harmonica",
           "value": 1000,
           "order": 11,
@@ -256,6 +270,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew stands by a blackboard showing connected hexagons.)  The conjecture that hexagons use the least total perimeter to cover a surface is named for this animal structure",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-02_J_25.jpg"
+          ],
           "answer": "a honeycomb",
           "value": 1000,
           "order": 25,
@@ -280,6 +297,9 @@
         },
         {
           "question": "With a population of more than 47 million, its flag is seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-02_J_30.jpg"
+          ],
           "answer": "the Ukraine",
           "value": 1000,
           "order": 30,
@@ -385,6 +405,9 @@
         },
         {
           "question": "(Hi, I'm Joshua Malina of The West Wing.)  My fellow graduates of this Ivy League school include Jodie Foster & Jennifer Beals",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-02_DJ_12.jpg"
+          ],
           "answer": "Yale",
           "value": 800,
           "order": 12,

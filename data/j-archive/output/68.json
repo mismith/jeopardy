@@ -182,6 +182,9 @@
         },
         {
           "question": "(Hi.  I'm Hal Sparks.)  This former E! entertainment channel TV show helped further the careers of me, John Henson & Greg Kinnear",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-08_J_10.jpg"
+          ],
           "answer": "Talk Soup",
           "value": 600,
           "order": 10,
@@ -441,6 +444,9 @@
         },
         {
           "question": "The strings in the symphony heard here, by this playful Austrian, give it the nickname \"The Bear\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-08_DJ_27.mp3"
+          ],
           "answer": "Joseph Haydn",
           "value": 1600,
           "order": 27,
@@ -506,6 +512,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew reports from inside the Robie House in Chicago, IL.)  I'm inside Frank Lloyd Wright's Robie House, whose windows, rather than stained glass, are called by this aesthetic term",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-08_DJ_09.jpg"
+          ],
           "answer": "art glass",
           "value": 2000,
           "order": 9,

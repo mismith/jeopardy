@@ -54,6 +54,9 @@
         },
         {
           "question": "(Alex and Tie Domi of the Toronto Maple Leafs are both suited up and on the ice to play some hockey.)  If Tie Domi crosses the blue line before I get the puck to him, we'll be guilty of this infraction",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-14_J_26.wmv"
+          ],
           "answer": "offsides",
           "value": 200,
           "order": 26,
@@ -150,6 +153,9 @@
         },
         {
           "question": "(Tie Domi and Alex Trebek pose together on the ice.)  Any player who messes with me will deal with Tie Domi, who has this job--also the name of a \"Dirty Harry\" film",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-14_J_28.jpg"
+          ],
           "answer": "enforcer",
           "value": 600,
           "order": 28,
@@ -247,6 +253,9 @@
         },
         {
           "question": "(Alex shuffles his hockey stick back and forth on the ice.)  It's the 13 letter word for the skill I was just demonstrating (Mario Lemieux doesn't have to worry)",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-14_J_30.wmv"
+          ],
           "answer": "stickhandling",
           "value": 1000,
           "order": 30,
@@ -271,6 +280,9 @@
         },
         {
           "question": "(Hi there.  I’m George Jones.)  You know, early in my career, a deejay gave me this nickname because he thought I resembled a certain American marsupial",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-14_J_12.jpg"
+          ],
           "answer": "\"Possum\"",
           "value": 1000,
           "order": 12,
@@ -522,6 +534,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew points to a diagram on the chalkboard.)  In the ratio of s to r, this measure of an angle is similar to the word that the r stands for",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-14_DJ_27.jpg"
+          ],
           "answer": "radian",
           "value": 2000,
           "order": 27,

@@ -101,6 +101,9 @@
         },
         {
           "question": "(Hi, I'm Christie Whitman.)  I don't believe in political quid pro quo, but after his endorsement, I named a rest stop toilet for this radio personality",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-14_J_12.jpg"
+          ],
           "answer": "Howard Stern",
           "value": 400,
           "order": 12,
@@ -358,6 +361,9 @@
         },
         {
           "question": "The group seen here is discussing the merits of this room they are looking at",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-14_DJ_05.jpg"
+          ],
           "answer": "a kitchen",
           "value": 800,
           "order": 5,
@@ -414,6 +420,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew snowboards down Mammoth Mountain.)  If you're doing well by cutting up the slopes, you could be called one of these, not to be confused with an office machine",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-14_DJ_18.jpg"
+          ],
           "answer": "a shredder",
           "value": 1200,
           "order": 18,

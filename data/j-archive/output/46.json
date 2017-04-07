@@ -143,6 +143,10 @@
         },
         {
           "question": "(Sarah of the Clue Crew reports from the Truman Library in Independence, MO.)  Among the library's historic artifacts is the safety plug from the bomb dropped on this city on August 9, 1945",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-08_J_18.jpg",
+            "http://www.j-archive.com/media/2004-11-08_J_18a.jpg"
+          ],
           "answer": "Nagasaki",
           "value": 600,
           "order": 18,
@@ -192,6 +196,10 @@
         },
         {
           "question": "(Sofia of the Clue Crew reports from the Truman Library in Independence, MO.)  \"Family Squabble\", a painting by this illustrator, shows how many families argued about the 1948 presidential election",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-08_J_19.jpg",
+            "http://www.j-archive.com/media/2004-11-08_J_19a.jpg"
+          ],
           "answer": "(Norman) Rockwell",
           "value": 800,
           "order": 19,
@@ -321,6 +329,9 @@
         },
         {
           "question": "(Mark Hamill reads.)  This villain was portrayed by three different actors: one did his voice, one did his physical acting, & one did his stunts",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-08_DJ_12.wmv"
+          ],
           "answer": "Darth Vader",
           "value": 400,
           "order": 12,
@@ -361,6 +372,9 @@
         },
         {
           "question": "(R2-D2 \"reads\".)  In \"Star Wars\", the term used for robots like C-3PO & myself is this 5-letter shortening of another word",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-08_DJ_13.wmv"
+          ],
           "answer": "droid",
           "value": 800,
           "order": 13,
@@ -410,6 +424,9 @@
         },
         {
           "question": "(A stormtrooper reads.)  Infiltrating the Death Star, these 2 characters dress up like storm troopers to rescue Princess Leia",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-08_DJ_14.wmv"
+          ],
           "answer": "Han & Luke",
           "value": 1200,
           "order": 14,
@@ -459,6 +476,9 @@
         },
         {
           "question": "(Chewbacca \"reads\".)  I am Chewbacca, this type of creature from the planet Kashyyyk",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-08_DJ_15.wmv"
+          ],
           "answer": "a Wookiee",
           "value": 1600,
           "order": 15,
@@ -499,6 +519,9 @@
         },
         {
           "question": "(I'm Anthony Daniels.)  I play C-3PO, a droid specializing in this political etiquette used at official ceremonies & occasions",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-08_DJ_16.wmv"
+          ],
           "answer": "protocol",
           "value": 2000,
           "order": 16,

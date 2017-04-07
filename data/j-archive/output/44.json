@@ -328,6 +328,10 @@
         },
         {
           "question": "(Cheryl of the Clue Crew reports from the National Cathedral in Washington, D.C.)  In 1968 he gave his last Sunday sermon from the Canterbury pulpit; a memorial service for him was held here 5 days later",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-05_DJ_21.jpg",
+            "http://www.j-archive.com/media/2004-11-05_DJ_21a.jpg"
+          ],
           "answer": "Dr. King",
           "value": 400,
           "order": 21,
@@ -392,6 +396,9 @@
         },
         {
           "question": "(Hi. I'm Gretchen Carlson of the CBS Saturday Early Show.)  As a journalist I've been honored with  3 of these awards named for this TV legend, George Burns' famous partner",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-05_DJ_07.jpg"
+          ],
           "answer": "Gracie Allen",
           "value": 800,
           "order": 7,

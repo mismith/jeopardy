@@ -247,6 +247,9 @@
         },
         {
           "question": "(I’m Hall of Fame running back John Riggins.)  In 1983 I rushed for a then record 24 TDs; the Redskins offensive line who opened holes for me had this nickname",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-09_J_30.jpg"
+          ],
           "answer": "Hogs",
           "value": 1000,
           "order": 30,
@@ -319,6 +322,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew.) 1980s TV show, 2 words:",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-09_DJ_16.wmv"
+          ],
           "answer": "Dance Fever",
           "value": 400,
           "order": 16,
@@ -367,6 +373,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew.)  1986 Meryl Streep movie, one word:",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-09_DJ_17.wmv"
+          ],
           "answer": "Heartburn",
           "value": 800,
           "order": 17,
@@ -375,6 +384,9 @@
         },
         {
           "question": "His mother, Marie-Letizia, seen here, had special status as Madame Mare",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-09_DJ_02.jpg"
+          ],
           "answer": "Napoleon",
           "value": 800,
           "order": 2,
@@ -383,6 +395,9 @@
         },
         {
           "question": "Contraction in the title of the following",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-09_DJ_22.mp3"
+          ],
           "answer": "I'll",
           "value": 800,
           "order": 22,
@@ -415,6 +430,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew.)  A James Bond movie, three words:",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-09_DJ_18.wmv"
+          ],
           "answer": "Diamonds Are Forever",
           "value": 1200,
           "order": 18,
@@ -463,6 +481,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew.)  An Elton John classic, four words:",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-09_DJ_19.wmv"
+          ],
           "answer": "\"Candle In The Wind\"",
           "value": 1600,
           "order": 19,
@@ -513,6 +534,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew.)  A 1960 John Updike book, two words:",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-09_DJ_20.wmv"
+          ],
           "answer": "Rabbit, Run",
           "value": 2000,
           "order": 20,
@@ -537,6 +561,9 @@
         },
         {
           "question": "Federalist turned Democrat Chief of State seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-09_DJ_26.jpg"
+          ],
           "answer": "James Buchanan",
           "value": 2000,
           "order": 26,

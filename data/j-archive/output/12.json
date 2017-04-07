@@ -108,6 +108,9 @@
         },
         {
           "question": "Seen here, the death of this Athenian philosopher was immortalized by  Jacques-Louis David in 1787",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-21_J_17.jpg"
+          ],
           "answer": "Socrates",
           "value": 400,
           "order": 17,
@@ -164,6 +167,9 @@
         },
         {
           "question": "They're the climbers seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-21_J_25.jpg"
+          ],
           "answer": "sweet peas",
           "value": 600,
           "order": 25,
@@ -253,6 +259,9 @@
         },
         {
           "question": "This intellectual known for his concept of the absurd classifies rebels into world deniers and world affirmers",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-21_J_20.jpg"
+          ],
           "answer": "Albert Camus",
           "value": 1000,
           "order": 20,
@@ -535,6 +544,9 @@
         },
         {
           "question": "(Sofia of the Clue Crew stands with a mariachi band in the Yucatan Peninsula, Mexico.)  Add 3 letters to \"guitar\" to get the name of this bass guitar used in Mexican music",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-21_DJ_25.jpg"
+          ],
           "answer": "guitarron",
           "value": 2000,
           "order": 25,

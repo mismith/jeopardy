@@ -238,6 +238,9 @@
         },
         {
           "question": "1993 film seen here about a group of young kids that banded together:",
+          "attachments": [
+            "http://www.j-archive.com/media/1998-01-02_J_20.mp4"
+          ],
           "answer": "Backbeat",
           "value": 600,
           "order": 20,
@@ -515,6 +518,9 @@
       "clues": [
         {
           "question": "50 years after a famous incident, this city got a new flag, seen here, featuring a mysterious dot in the sky:",
+          "attachments": [
+            "http://www.j-archive.com/media/1998-01-02_FJ.jpg"
+          ],
           "answer": "Roswell, New Mexico"
         }
       ]

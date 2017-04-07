@@ -126,6 +126,10 @@
         },
         {
           "question": "(Cheryl of the Clue Crew reports from the Briefing Room at the White House.)  The White House briefing room floor covers a swimming pool that was installed for this man in 1933",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-06_J_22.jpg",
+            "http://www.j-archive.com/media/2004-09-06_J_22a.jpg"
+          ],
           "answer": "Franklin Delano Roosevelt",
           "value": 400,
           "order": 22,
@@ -279,6 +283,10 @@
         },
         {
           "question": "(Jimmy of the Clue Crew reads from the Cirque du Soleil.)  When used by acrobats, this structure isn't called a seesaw, but this",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-06_J_20.wmv",
+            "http://www.j-archive.com/media/2004-09-06_J_20.jpg"
+          ],
           "answer": "a teeterboard",
           "value": 1000,
           "order": 20,
@@ -368,6 +376,9 @@
         },
         {
           "question": "This actor played a medium hired to investigate the Everest of Haunted Houses in \"Legend of Hell House\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-06_DJ_02.jpg"
+          ],
           "answer": "Roddy McDowall",
           "value": 800,
           "order": 2,
@@ -400,6 +411,9 @@
         },
         {
           "question": "(Jeff Probst, host of Survivor, reads the clue.)  This river got its name after a Spanish explorer reported that he had been attacked by female warriors there",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-06_DJ_12.jpg"
+          ],
           "answer": "Amazon",
           "value": 800,
           "order": 12,
@@ -426,6 +440,9 @@
         },
         {
           "question": "The vessel seen here, the type of missile it carries or a much more low-tech weapon",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-06_DJ_24.wmv"
+          ],
           "answer": "Trident",
           "value": 1200,
           "order": 24,

@@ -132,6 +132,9 @@
         },
         {
           "question": "1945 Broadway musical which featured the following waltz:",
+          "attachments": [
+            "http://www.j-archive.com/media/1987-11-12_J_13.mp3"
+          ],
           "answer": "Carousel",
           "value": 100,
           "order": 13,

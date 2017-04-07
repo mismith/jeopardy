@@ -92,6 +92,9 @@
         },
         {
           "question": "It’s easy to recognize this city’s skyline--see the Sears Tower?",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-17_J_14.jpg"
+          ],
           "answer": "Chicago",
           "value": 400,
           "order": 14,
@@ -172,6 +175,9 @@
         },
         {
           "question": "(Jimmy and Sarah of the Clue Crew pull on cords of different thicknesses.)  Seven letter word for the type of strength, based on the cohesion of molecules, that varies in different materials",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-17_J_03.jpg"
+          ],
           "answer": "tensile",
           "value": 600,
           "order": 3,
@@ -269,6 +275,9 @@
         },
         {
           "question": "This represents the direction and the magnitude, by the arrow’s length, of certain quantities",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-17_J_01.jpg"
+          ],
           "answer": "a vector",
           "value": 1000,
           "order": 1,
@@ -310,6 +319,9 @@
       "clues": [
         {
           "question": "Excavations at this city destroyed by Vesuvius have revealed people trapped in time",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-17_DJ_29.jpg"
+          ],
           "answer": "Pompeii",
           "value": 400,
           "order": 29,
@@ -407,6 +419,9 @@
         },
         {
           "question": "The philosopher Jeremy Bentham, who died in 1832, is kept in a glass case at University College in this British city",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-17_DJ_26.jpg"
+          ],
           "answer": "London",
           "value": 1200,
           "order": 26,
@@ -496,6 +511,9 @@
         },
         {
           "question": "He's the missionary and humanitarian seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-17_DJ_08.jpg"
+          ],
           "answer": "Albert Schweitzer",
           "value": 1600,
           "order": 8,
@@ -504,6 +522,9 @@
         },
         {
           "question": "This patron saint of Lourdes' body has remained unchanged in its glass display case since her death in 1879",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-17_DJ_21.jpg"
+          ],
           "answer": "Saint Bernadette",
           "value": 2000,
           "order": 21,
@@ -528,6 +549,9 @@
         },
         {
           "question": "You'll want to remove the stem and possibly the gills before cooking with this jumbo-sized mushroom",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-17_DJ_07.jpg"
+          ],
           "answer": "portobello",
           "value": 2000,
           "order": 7,

@@ -190,6 +190,9 @@
         },
         {
           "question": "The name of this instrument comes from the Italian for \"little goose\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-01_J_24.mp3"
+          ],
           "answer": "an ocarina",
           "value": 800,
           "order": 24,
@@ -262,6 +265,9 @@
         },
         {
           "question": "It's the marine activity seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-01_J_05.jpg"
+          ],
           "answer": "breaching",
           "value": 1000,
           "order": 5,
@@ -320,6 +326,9 @@
         },
         {
           "question": "One of FedEx's original 13 Falcon jets from 1973 is in this Smithsonian museum; they've gone to bigger aircraft",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-01_DJ_01.jpg"
+          ],
           "answer": "the National Air and Space Museum",
           "value": 400,
           "order": 1,
@@ -506,6 +515,9 @@
         },
         {
           "question": "Had the photo seen here been taken in the 1920s, these four additional letters would've appeared at the right",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-12-01_DJ_17.jpg"
+          ],
           "answer": "L, A, N and D",
           "value": 2000,
           "order": 17,

@@ -112,6 +112,9 @@
         },
         {
           "question": "(I'm Aaron Brown of CNN.)  One of my first on-air assignments for CNN was on this fateful date, reporting from a rooftop vantage point",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-11-25_J_07.jpg"
+          ],
           "answer": "September 11, 2001",
           "value": 400,
           "order": 7,

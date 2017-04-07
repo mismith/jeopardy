@@ -48,6 +48,9 @@
       "clues": [
         {
           "question": "What?  Him worry?",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-13_J_26.jpg"
+          ],
           "answer": "Alfred E. Neuman",
           "value": 200,
           "order": 26,
@@ -96,6 +99,9 @@
         },
         {
           "question": "You'd be smiling like this man if you had helped build another house for Habitat for Humanity",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-13_J_27.jpg"
+          ],
           "answer": "Jimmy Carter",
           "value": 400,
           "order": 27,
@@ -136,6 +142,9 @@
         },
         {
           "question": "This novel was adapted into the film seen here\"You must let me free the lifeboats.\"\"Why so you can abandon us?\"\"You believe that?\"",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-13_J_02.wmv"
+          ],
           "answer": "Lord Jim",
           "value": 400,
           "order": 2,
@@ -144,6 +153,9 @@
         },
         {
           "question": "Even the teeth of this politician seem to have muscles",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-13_J_28.jpg"
+          ],
           "answer": "Governor Schwarzenegger",
           "value": 600,
           "order": 28,
@@ -337,6 +349,9 @@
         },
         {
           "question": "(Sarah of the Clue Crew strolls through one of the terminals at O'Hare Airport in Chicago.)  It's the large passage along which airport gates are located, like here at O'Hare",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-13_DJ_16.jpg"
+          ],
           "answer": "the concourse",
           "value": 400,
           "order": 16,
@@ -385,6 +400,9 @@
         },
         {
           "question": "One-word term for the small stall seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-13_DJ_17.jpg"
+          ],
           "answer": "confessional",
           "value": 800,
           "order": 17,
@@ -433,6 +451,9 @@
         },
         {
           "question": "(Cheryl of the Clue Crew points to a diagram.)  In geometry, it's a segment that joins two points on a circle",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-13_DJ_18.jpg"
+          ],
           "answer": "a chord",
           "value": 1200,
           "order": 18,
@@ -482,6 +503,9 @@
         },
         {
           "question": "According to the poem inscribed on it, the type of statue seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-13_DJ_19.wmv"
+          ],
           "answer": "a colossus",
           "value": 1600,
           "order": 19,
@@ -531,6 +555,9 @@
         },
         {
           "question": "This luminous constellation has a daughter, Andromeda, placed near her in the heavens",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-10-13_DJ_20.jpg"
+          ],
           "answer": "Cassiopeia",
           "value": 2000,
           "order": 20,

@@ -86,6 +86,9 @@
         },
         {
           "question": "My newt, seen here, gets offended when people call it a lizard--it's obviously one of these amphibians",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-08_J_01.jpg"
+          ],
           "answer": "a salamander",
           "value": 200,
           "order": 1,
@@ -110,6 +113,9 @@
         },
         {
           "question": "As a player, this man led tiny Williston, N.D. High to the state basketball championships",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-08_J_22.jpg"
+          ],
           "answer": "Phil Jackson",
           "value": 400,
           "order": 22,
@@ -207,6 +213,9 @@
         },
         {
           "question": "This bandleader whose hit is heard here grew up in the small towns of Clarinda, Iowa; Tryon, Neb.; & Grant City, Mo.",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-08_J_24.mp3"
+          ],
           "answer": "Glenn Miller",
           "value": 800,
           "order": 24,
@@ -359,6 +368,9 @@
         },
         {
           "question": "Manhattan's Lever House helped usher in the era of the building style known as a box of this material",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-08_DJ_22.jpg"
+          ],
           "answer": "glass",
           "value": 800,
           "order": 22,
@@ -415,6 +427,9 @@
         },
         {
           "question": "North-of-the-border star athlete seen here",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-08_DJ_13.jpg"
+          ],
           "answer": "Vince Carter",
           "value": 1200,
           "order": 13,
@@ -463,6 +478,9 @@
         },
         {
           "question": "(Jimmy of the Clue Crew points to three stacks of different-sized paper cups in a Starbucks in Seattle, Washington.)  At Starbucks, tall is only 12 ounces, grande is 16 ounces & this, Italian for 20, is 20 ounces",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-08_DJ_05.jpg"
+          ],
           "answer": "venti",
           "value": 1600,
           "order": 5,
@@ -487,6 +505,9 @@
         },
         {
           "question": "This establishment, seen here, isn't in Asia, but in Atlantic City",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-08_DJ_25.jpg"
+          ],
           "answer": "the Taj Mahal",
           "value": 2000,
           "order": 25,
@@ -495,6 +516,9 @@
         },
         {
           "question": "(I'm Hall of Famer Dan Hampton.)  My Hall of Fame biography mentions this beastly nickname that came from my first name & my fierce attitude",
+          "attachments": [
+            "http://www.j-archive.com/media/2004-09-08_DJ_15.jpg"
+          ],
           "answer": "\"Danimal\"",
           "value": 2000,
           "order": 15,
