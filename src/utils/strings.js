@@ -6,6 +6,7 @@ export default {
     //`Categories this round are:`,
     `Here are the categories:`,
     `Here are the categories that await you in this round:`,
+    `Let's see the categories:`,
   ],
   category(category, col = undefined) {
     switch (col) {
@@ -35,8 +36,10 @@ export default {
         ];
       case 0: // final jeopardy
         return [
+          `And what subject will we be dealing with?`,
           `Let's deal with this subject:`,
           `Today's category is:`,
+          `The final category is:`,
         ];
     }
   },

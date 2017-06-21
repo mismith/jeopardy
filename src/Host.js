@@ -14,9 +14,8 @@ import './Host.css';
 
 // @TODO:
 // play sound when new player enters
-// clues expiring before i asnwer or could answer or anyone else could answer. or answer
+// clues expiring before i asnwer or could answer or anyone else could answer. or answer: misanswerClue?
 // show video and audio and photo clues properly
-// tooltips on categories need an indicator
 
 class Host extends Component {
   state = {
@@ -32,7 +31,7 @@ class Host extends Component {
   }
 
   reloadGameData() {
-    fetch(`/games/1.json`)
+    fetch(`/games/8.json`)
       .then(res => res.json())
       .then(gameData => {
         this.firebaseRefs.game.child('rounds').remove();
@@ -61,7 +60,7 @@ class Host extends Component {
     firebase.sync(this, 'game', `games/${this.props.params.gameId}`);
     firebase.sync(this, 'players', `games:players/${this.props.params.gameId}`);
 
-    this.reloadGameData();
+    //this.reloadGameData();
   }
   componentWillUnmount() {
     firebase.unsync(this, 'game', 'players');
@@ -337,9 +336,10 @@ class Host extends Component {
             // accept response
             .then(() => this.clue(true).child('startedAt').set(firebase.database.ServerValue.TIMESTAMP))
             .then(() => this.awaitResponse())
-            .then(() => this.checkResponse())
+            .then(() => this.checkResponse()
               .then(() => this.answerClue())
-              .catch(() => this.misanswerClue());
+              .catch(() => this.misanswerClue())
+            );
         } else {
           // regular clue
           return this.startAllowingBuzzes()
@@ -361,23 +361,24 @@ class Host extends Component {
       };
 
       const clue = this.clue();
-      if (clue && !clue.finishedAt && !clue.pickedBuzzId) {
+      if (clue && !clue.pickedBuzzId) {
         // no-one is currently buzzed in
         const penalizedUsers = Object.keys(clue.penalties || {});
-        if (clue.buzzesAt && buzz.buzzedAt >= clue.buzzesAt && !penalizedUsers.includes(buzz.playerId)) {
+        if (clue.buzzesAt && buzz.buzzedAt >= clue.buzzesAt && (!clue.finishedAt || buzz.buzzedAt <= clue.finishedAt) && !penalizedUsers.includes(buzz.playerId)) {
           // legit buzz, begin response
           this.stopIntervalTimer('clue')
             .then(() => this.showResponse(buzz))
             .then(() => this.awaitResponse())
-            .then(() => this.checkResponse())
+            .then(() => this.checkResponse()
               .then(() => this.answerClue())
-              .catch(() => this.misanswerClue());
+              .catch(() => this.misanswerClue())
+            );
         } else {
           // buzz was too early
           // @TODO: penalize the player
         }
       } else {
-        // someone is already responding (or clue is expired), so ignore this buzz
+        // someone is already responding, so ignore this buzz
       }
     });
     return Promise.resolve();
@@ -486,10 +487,10 @@ class Host extends Component {
       ]);
       const matches = set.get(givenAnswer);
       if (matches && matches.length) {
-        matches.forEach(([likelihood, match]) => {
-          console.info(match, '~=', givenAnswer, '@', likelihood);
+        matches.some(([likelihood, match]) => {
           if (likelihood > this.props.answerThreshold) {
-            return resolve();
+            resolve();
+            return true;
           }
         });
       }
