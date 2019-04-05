@@ -1,0 +1,80 @@
+
+[SHOW_LOBBY] show game lobby
+[LOAD_ROUNDS] await selecting show/data (load from j-archive by date/id?)
+[ADD_PLAYER] await players to join (min: 1; max: 16? no max? teams?)
+[START_GAME] await explicit game start
+[ADVANCE_ROUND] advance round
+determine whether it is the final round (categories.length === 1)
+if YES:
+  [SHOW_FINAL_CATEGORY] reveal/read category
+  [ACCEPT_PLAYER_WAGERS] determine which players can wager (only positive scores)
+  await countdown (30 seconds?)
+  await player wagers
+  [SHOW_FINAL_PROMPT] reveal/read prompt
+  await countdown (30 seconds?)
+  reveal player responses (lowest score first) and adjust player scores accordingly
+  goto (6)
+if NO:
+  [SHOW_BOARD] reveal/read categories + board
+  (1) determine whether there should be a break (half clues picked)
+  if YES:
+    pause game
+    show scores
+    await explicit continue
+    goto (4)
+  if NO:
+    resume game
+    (4) determine player to pick first (first: random? reputation? subsequent: lowest score)
+    determine whether there are clues left to pick
+    if YES:
+      determine whether there is time left to play (15 minute rounds? configurable?)
+      if YES:
+        [PICK_CLUE] await player to pick category + value
+        determine whether clue is daily double (value === undefined)
+        if YES:
+          determine how much player can wager
+          await player wager
+          reveal/read prompt
+          await countdown (10 seconds?)
+          await player to say/input response
+          check whether response is acceptable (fuzzy match > 90%?)
+          if YES:
+            add wagered value to player score
+            repeat (1)
+          if NO:
+            deduct wagered value from player score
+            repeat (1)
+        if NO:
+          (2) enable buzzers
+          reveal/read prompt
+          accept buzzers
+          await countdown (5 seconds?)
+          determine first player to buzz
+          disable buzzers
+          await countdown (10 seconds?)
+          await player to say/input response
+          check whether response is acceptable (fuzzy match > 90%?)
+          if YES:
+            add clue value to player score
+            repeat (1)
+          if NO:
+            deduct clue value from player score
+            determine whether there players remaining who can respond
+            if YES:
+              repeat (2)
+            if NO:
+              repeat (1)
+      if NO:
+        alerts players that time has elapsed
+        goto [END_ROUND]
+    if NO:
+      [END_ROUND] end round
+      determine whether there is a next round (categories.length !== 1)
+      if YES:
+        repeat [ADVANCE_ROUND]
+      if NO:
+        end game
+        show scores
+        await expicit continue
+        repeat [SHOW_LOBBY]
+

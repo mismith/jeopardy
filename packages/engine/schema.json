@@ -1,0 +1,80 @@
+{
+  "rounds": [{
+    "categories": [{
+      "name": {
+        "type": "string"
+      },
+      "clues": [{
+        "prompt": {
+          "type": "string"
+        },
+        "response": {
+          "type": "string"
+        },
+        "value": {
+          "type": "number",
+          "required": false
+        },
+        "wagers": {
+          "type": "array"
+        }
+      }]
+    }]
+  }],
+  "players": [{
+    "name": {
+      "type": "string"
+    },
+    "score": {
+      "type": "number"
+    },
+    "wager": {
+      "type": "number",
+      "required": false
+    }
+  }],
+
+  "started": {
+    "type": "timestamp",
+    "required": false
+  },
+  "paused": {
+    "type": "object",
+    "required": false
+  },
+  "finished": {
+    "type": "timestamp",
+    "required": false
+  },
+
+  "currentPlayerIndex": {
+    "type": "number"
+  },
+  "currentRoundIndex": {
+    "type": "number"
+  },
+  // "currentCategoryIndex": {
+  //   "type": "number"
+  // },
+  // "currentClueIndex": {
+  //   "type": "number"
+  // }
+
+  "currentView": {
+    "type": "string"
+  },
+  "nextActions": [{
+    "type": "string"
+  }],
+
+  "timers": {
+    "round": {
+      "interval": {
+        "type": "number"
+      },
+      "seconds": {
+        "type": "number"
+      }
+    },
+  }
+}
