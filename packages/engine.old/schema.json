@@ -1,0 +1,125 @@
+{
+  "view": {
+    "type": "string"
+  },
+  "actions": {
+    "type": "object"
+  },
+
+  "started": {
+    "type": "timestamp",
+    "required": false
+  },
+  "paused": {
+    "type": "object",
+    "required": false
+  },
+  "finished": {
+    "type": "timestamp",
+    "required": false
+  },
+
+  "rounds": [{
+    "categories": [{
+      "name": {
+        "type": "string",
+        "readonly": true
+      },
+      "clues": [{
+        "prompt": {
+          "type": "string",
+          "readonly": true
+        },
+        "response": {
+          "type": "string",
+          "readonly": true
+        },
+        "value": {
+          "type": "number",
+          "readonly": true,
+          "required": false
+        },
+
+        "orderPicked": {
+          "type": "number"
+        },
+        "buzzes": [{
+          "playerIndex": {
+            "type": "number"
+          },
+          "timestamp": {
+            "type": "timestamp"
+          }
+        }],
+        "wagers": [{
+          "playerIndex": {
+            "type": "number"
+          },
+          "value": {
+            "type": "number"
+          }
+        }],
+        "responses": [{
+          "playerIndex": {
+            "type": "number"
+          },
+          "response": {
+            "type": "string"
+          },
+          "correct": {
+            "type": "boolean"
+          }
+        }]
+      }]
+    }],
+    "cluesPicked": {
+      "type": "number"
+    }
+  }],
+  "players": [{
+    "name": {
+      "type": "string"
+    },
+    "score": {
+      "type": "number"
+    }
+  }],
+
+
+  "playerIndex": {
+    "type": "number",
+    "required": false
+  },
+  "roundIndex": {
+    "type": "number",
+    "required": false
+  },
+  "categoryIndex": {
+    "type": "number",
+    "required": false
+  },
+  "clueIndex": {
+    "type": "number",
+    "required": false
+  },
+
+
+  "timers": {
+    "round": {
+      "interval": {
+        "type": "number"
+      },
+      "seconds": {
+        "type": "number"
+      }
+    },
+    "clue": {
+      "interval": {
+        "type": "number"
+      },
+      "seconds": {
+        "type": "number"
+      }
+    }
+  }
+}

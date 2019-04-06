@@ -16,7 +16,7 @@ if YES:
   goto (6)
 if NO:
   [SHOW_BOARD] reveal/read categories + board
-  (1) determine whether there should be a break (half clues picked)
+  (1) determine whether there should be a break (first round and half clues picked)
   if YES:
     pause game
     show scores
