@@ -44,123 +44,123 @@ const reducer = createReducer({
   },
 }, {
   // lobby
-  [SHOW_LOBBY]: (state, { payload }) => {
-    state.rounds = [];
-    state.players = [];
-    state.view = SHOW_LOBBY;
-    state.timers = {
-      round: {},
-      clue: {},
-    };
+  // [SHOW_LOBBY]: (state, { payload }) => {
+  //   state.rounds = [];
+  //   state.players = [];
+  //   state.view = SHOW_LOBBY;
+  //   state.timers = {
+  //     round: {},
+  //     clue: {},
+  //   };
 
-    dispatch(REFRESH_LOBBY);
-  },
-  [REFRESH_LOBBY]: (state, { payload }) => {
-    state.actions = {
-      // wait for game data to be selected/loaded
-      LOAD_ROUNDS: !state.rounds.length,
-      // limit to 16 players
-      ADD_PLAYER: state.players.length < 16,
-      // wait for both game data and players to be present
-      START_GAME: state.rounds.length && state.players.length,
-    };
-  },
-  [LOAD_ROUNDS]: (state, { payload }) => {
-    state.rounds = payload.rounds;
-    dispatch(REFRESH_LOBBY);
-  },
-  [ADD_PLAYER]: (state, { payload }) => {
-    state.players.push({
-      name: payload.name,
-      score: 0,
-    });
-    dispatch(REFRESH_LOBBY);
-  },
+  //   dispatch(REFRESH_LOBBY);
+  // },
+  // [REFRESH_LOBBY]: (state, { payload }) => {
+  //   state.actions = {
+  //     // wait for game data to be selected/loaded
+  //     LOAD_ROUNDS: !state.rounds.length,
+  //     // limit to 16 players
+  //     ADD_PLAYER: state.players.length < 16,
+  //     // wait for both game data and players to be present
+  //     START_GAME: state.rounds.length && state.players.length,
+  //   };
+  // },
+  // [LOAD_ROUNDS]: (state, { payload }) => {
+  //   state.rounds = payload.rounds;
+  //   dispatch(REFRESH_LOBBY);
+  // },
+  // [ADD_PLAYER]: (state, { payload }) => {
+  //   state.players.push({
+  //     name: payload.name,
+  //     score: 0,
+  //   });
+  //   dispatch(REFRESH_LOBBY);
+  // },
 
   // game
-  [START_GAME]: (state, { payload }) => {
-    state.started = +new Date();
-    state.actions = {
-      PAUSE_GAME,
-    };
+  // [START_GAME]: (state, { payload }) => {
+  //   state.started = +new Date();
+  //   state.actions = {
+  //     PAUSE_GAME,
+  //   };
 
-    dispatch(ADVANCE_ROUND);
-  },
-  [PAUSE_GAME]: (state, { payload }) => {
-    state.view = PAUSE_GAME;
-    state.paused = {
-      view: state.view,
-      actions: state.actions,
-    };
+  //   dispatch(ADVANCE_ROUND);
+  // },
+  // [PAUSE_GAME]: (state, { payload }) => {
+  //   state.view = PAUSE_GAME;
+  //   state.paused = {
+  //     view: state.view,
+  //     actions: state.actions,
+  //   };
 
-    dispatch(STOP_TIMERS);
+  //   dispatch(STOP_TIMERS);
 
-    state.actions = {
-      RESUME_GAME,
-      QUIT_GAME,
-    };
-  },
-  [RESUME_GAME]: (state, { payload }) => {
-    state.view = state.paused.view;
-    state.actions = state.paused.actions;
-    state.paused = null;
+  //   state.actions = {
+  //     RESUME_GAME,
+  //     QUIT_GAME,
+  //   };
+  // },
+  // [RESUME_GAME]: (state, { payload }) => {
+  //   state.view = state.paused.view;
+  //   state.actions = state.paused.actions;
+  //   state.paused = null;
 
-    dispatch(START_TIMERS);
-  },
-  [FINISH_GAME]: (state, { payload }) => {
-    state.finished = +new Date();
-    state.view = FINISH_GAME;
-    state.actions = {
-      QUIT_GAME,
-    };
-  },
-  [QUIT_GAME]: (state, { payload }) => {
-    dispatch(STOP_TIMERS);
+  //   dispatch(START_TIMERS);
+  // },
+  // [FINISH_GAME]: (state, { payload }) => {
+  //   state.finished = +new Date();
+  //   state.view = FINISH_GAME;
+  //   state.actions = {
+  //     QUIT_GAME,
+  //   };
+  // },
+  // [QUIT_GAME]: (state, { payload }) => {
+  //   dispatch(STOP_TIMERS);
 
-    dispatch(SHOW_LOBBY);
-  },
+  //   dispatch(SHOW_LOBBY);
+  // },
 
   // timers
-  [TIMER_TICK]: (state, { payload }) => {
-    state.timers[payload.name].seconds -= 1;
+  // [TIMER_TICK]: (state, { payload }) => {
+  //   state.timers[payload.name].seconds -= 1;
 
-    // auto-stop once elapsed
-    if (state.timers[payload.name].seconds <= 0) {
-      dispatch(STOP_TIMER, { name: payload.name });
+  //   // auto-stop once elapsed
+  //   if (state.timers[payload.name].seconds <= 0) {
+  //     dispatch(STOP_TIMER, { name: payload.name });
 
-      state.timers[payload.name].seconds = 0;
-    }
-  },
-  [START_TIMER]: (state, { payload }) => {
-    // if seconds is specified, start anew from there,
-    // otherwise, resume timer from existing seconds count
-    const running = state.timers[payload.name] || {};
-    const interval = running.interval || setInterval(() => {
-      dispatch(TIMER_TICK, { name: payload.name });
-    }, 1000);
-    const seconds = payload.seconds || running.seconds;
+  //     state.timers[payload.name].seconds = 0;
+  //   }
+  // },
+  // [START_TIMER]: (state, { payload }) => {
+  //   // if seconds is specified, start anew from there,
+  //   // otherwise, resume timer from existing seconds count
+  //   const running = state.timers[payload.name] || {};
+  //   const interval = running.interval || setInterval(() => {
+  //     dispatch(TIMER_TICK, { name: payload.name });
+  //   }, 1000);
+  //   const seconds = payload.seconds || running.seconds;
 
-    state.timers[payload.name] = {
-      interval,
-      seconds,
-    };
-  },
-  [STOP_TIMER]: (state, { payload }) => {
-    if (state.timers[payload.name] && state.timers[payload.name].interval) {
-      clearInterval(state.timers[payload.name].interval);
-      state.timers[payload.name].interval = null;
-    }
-  },
-  [START_TIMERS]: (state, { payload }) => {
-    Object.keys(state.timers || {}).forEach((name) => {
-      dispatch(START_TIMER, { name });
-    });
-  },
-  [STOP_TIMERS]: (state, { payload }) => {
-    Object.keys(state.timers || {}).forEach((name) => {
-      dispatch(STOP_TIMER, { name });
-    });
-  },
+  //   state.timers[payload.name] = {
+  //     interval,
+  //     seconds,
+  //   };
+  // },
+  // [STOP_TIMER]: (state, { payload }) => {
+  //   if (state.timers[payload.name] && state.timers[payload.name].interval) {
+  //     clearInterval(state.timers[payload.name].interval);
+  //     state.timers[payload.name].interval = null;
+  //   }
+  // },
+  // [START_TIMERS]: (state, { payload }) => {
+  //   Object.keys(state.timers || {}).forEach((name) => {
+  //     dispatch(START_TIMER, { name });
+  //   });
+  // },
+  // [STOP_TIMERS]: (state, { payload }) => {
+  //   Object.keys(state.timers || {}).forEach((name) => {
+  //     dispatch(STOP_TIMER, { name });
+  //   });
+  // },
 
   // rounds
   [ADVANCE_ROUND]: (state, { payload }) => {
@@ -215,18 +215,18 @@ const reducer = createReducer({
       }
     }
   },
-  [ROUND_TIMED_OUT]: (state, { payload }) => {
-    state.view = ROUND_TIMED_OUT;
-    state.actions = {
-      ADVANCE_ROUND,
-    };
-  },
-  [END_ROUND]: (state, { payload }) => {
-    state.view = END_ROUND;
-    state.actions = {
-      ADVANCE_ROUND,
-    };
-  },
+  // [ROUND_TIMED_OUT]: (state, { payload }) => {
+  //   state.view = ROUND_TIMED_OUT;
+  //   state.actions = {
+  //     ADVANCE_ROUND,
+  //   };
+  // },
+  // [END_ROUND]: (state, { payload }) => {
+  //   state.view = END_ROUND;
+  //   state.actions = {
+  //     ADVANCE_ROUND,
+  //   };
+  // },
 
   // clues
   [PICK_CLUE]: (state, { payload }) => {

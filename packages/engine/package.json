@@ -3,16 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "@material-ui/lab": "^3.0.0-alpha.30",
     "boardgame.io": "^0.31.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "timestore": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
+    "serve": "node ./src/server.js",
+    "dev": "parcel ./src/server.js --target=node & nodemon ./dist/server.js & npm run start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": ">=10.0"
   },
   "eslintConfig": {
     "extends": "react-app"
